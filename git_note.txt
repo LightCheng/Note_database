@@ -1,0 +1,98 @@
+https://backlogtool.com/git-guide/tw/intro/intro4_1.html
+0. 建立遠端數據庫的方法 ：
+   - 在 GitHub建立新的Git remote respoitory then push local database to remote.
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/LightCheng/GPSPerformance.git
+	git push -u origin master
+     
+1. 建立本地端數據庫的方法有兩種：
+   一種是重新建數據庫 : 
+   - git init
+     git add <file>...  #使用 'git add .'表示可以把當前目錄下所有的檔案加入到索引
+     git commit -m "<提交訊息>"
+
+   另一種是複製遠端數據庫 : git folk ?
+     git clone
+     - git clone https://github.com/LightCheng/GPSPerformance.git cloned_project_path
+
+
+2. "git commit" generates "revision"
+
+3. Working Tree & index ?
+
+4. 可以為Git的命令設定別名，例如：「checkout」可以省略為「co」來執行。
+   $ git config --global alias.co checkout
+
+5. git conflict ?
+   - git pull origin master # 從遠端數據庫取得最新的修改歷史
+   - # if 系統出現合併時發生衝突的警告訊息
+       將衝突的地方進行修改，導入兩方的修改，刪除多餘的標示行
+       git add file
+       git commit -m "fix conflict code"
+       git push origin master
+
+6. HEAD
+   在Git，HEAD代表"當前"分支的最新提交名稱。在建立新的數據庫時，Git會預設HEAD指向master分支。您可以藉著移動HEAD的指向，更新正在使用的分支。
+
+
+7. 分支的合併
+   - git merge :
+     a. 合併 bugfix 分支到 master 分支時， 如果master 分支的狀態是沒有更改過的話，那麼這個合併是非常簡單的。 
+        bugfix 分支的歷史記錄包含了 master 分支的歷史記錄，所以只要把bugfix 移動到 master 分支就可以導入 bugfix 分支的內容。
+        這樣的合併被稱為 fast-forward（快轉）合併 , 不會產生一個名為「合併提交」的commit。
+        ==> 執行合併時，使用 non fast-forward 參數選項，即使是可以 fast-forward 的合併也會建立新的提交並合併喔。
+            執行 non fast-forward 的合併後，分支會維持原狀，要調查在這個分支裡的操作就容易多了。
+
+     b. master 分支的歷史記錄有可能在 bugfix 分支分開後有新的修改。
+        這時候，要把 master 分支的修改內容和 bugfix 分支的修改內容匯合起來。
+        匯合兩個修改時會產生一個名為「合併提交」的commit。
+        Master的位置會被更新到新建立的合併提交上。
+     修改內容的歷史記錄會維持原狀，但是合併後的歷史紀錄會變得更複雜。
+
+   - git rebase:
+     rebase bugfix 分支到 master 分支。bugfix 分支的歷史記錄會增加在 master 分支的後面。因此，"歷史記錄會被統一，形成簡單的一條線".
+     移動commit 有可能會發生衝突，所以需要修改各自commit時發生衝突的部分。
+     執行Rebase 時， master 的位置不變，因此，待 master 分支合併 bugfix 分支後，master 的HEAD會移動到 bugfix 的HEAD這裡。
+     修改內容的歷史記錄會接在要合併的分支後面，合併後的歷史記錄會比較清楚簡單，但是，會比使用 merge 更容易發生衝突。
+
+8. Stash ?
+
+
+9. Tag :
+   Git中，標籤有兩種類型：輕量標籤(lightweight tag)和標示標籤(annotated tag)。
+   lightweight tag : 
+   	不可變更的暫時標籤 , 可以添加名稱 :
+  	通常使用在本地端作為暫時性的使用或一次性的使用。
+   annotated tag :
+   	可以添加打標簽者的名稱、email及日期 , 可以添加名稱/註解/簽名.
+	用在較重要的提交上，如發布提交上可以使用標示標籤來增加註解或簽名。
+
+   添加標示標籤 :
+	git tag -a <tagname> ==> edit 
+	OR
+	git tag -am "連猴子都能懂的Git" banana
+   顯示標籤的列表和註解
+	git tag -n
+   刪除標籤
+	git tag -d <tagname>
+
+10. 修改最近的commit :	
+   欲修改同一個分支最近的提交內容或註解，您可以在提交命令時加上 --amend 參數
+   主要使用的場合
+     增加最近提交時漏掉的檔案
+     修改最近的提交的內容或註解
+
+11. 取消過去的commit :
+   使用 revert 命令，可以取消指定的提交內容。
+
+12. 匯合分支上的commit 一同合併 : Squash
+    使用 "--squash"指定欲合併的分支，就可以在分支上新建一個匯合所有commits的commit。
+
+
+
+Tips :
+  - git log --graph --oneline
+    用log命令來確認數據庫的修改歷史。若加入 --graph 參數可以圖表方式顯示分支歷史。加入--oneline 簡化輸出訊息，以簡潔方式呈現。
+
