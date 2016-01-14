@@ -1,0 +1,29 @@
+1. To execute external commands from Perl :
+   - by system() : executes the command specified. It doesn't capture the output of the command.
+     proto type : system("command", "arg1", "arg2", "arg3");
+     e.g. 
+	system("mkdir temp_dir");
+	if ( $? == -1 ) {
+	  print "command failed: $!\n";
+	} else {
+	  printf "command exited with value %d", $? >> 8;
+	}
+   - by exec() : 
+     executes the command specified and never returns to the calling program, 
+     except in the case of failure because the specified command does not exist AND the exec argument is an array. 
+
+
+2. =~ 
+   =~可用來將右邊的樣式比對左邊的字串純量，成功傳回1，失敗傳回0。
+   表否定則可改用!~。
+   通常搭配判斷式使用(if, while,...)，若左邊為預設變數$_，則可省略為 if (/......../) 
+
+3. 字元取代 : 把變數 $var 內的 ... 字元都逐一代換成 ... 字元 兩串 ... 通常長度一樣.
+   $var =~ tr/.../.../
+
+4. 字串取代 : 把變數 $var 內的第一個 ... 子字串整個代換成 ... 子字串。特別注意第一部份為RE, 但第二部分僅為字串。
+   $var =~ s/.../.../
+
+
+   
+   
