@@ -1,0 +1,15 @@
+1. How to fix missing GPG keys?
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com EB563F93142986CE
+
+2. jenkins with github
+#copy your github key to Jenkins .ssh folder
+cp ~/.ssh/id_rsa_github* /var/lib/jenkins/.ssh/
+sudo su jenkins
+
+3. JAVA_HOME
+   /usr/lib/jvm/java-7-openjdk-amd64
+
+4. Update jenkins secuiry police:
+vim /var/lib/jenkins/config.xml
+useSecurity
+sudo service jenkins restart

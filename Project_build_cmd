@@ -1,0 +1,49 @@
+LT32
+[MSM8909 LA1.1 Pre-CS4 (Android L MR1)]
+MSM8909.LA.1.1-01130-STD.PROD-1 (QTI/SR)
+repo command:
+1.
+$ ./repo init -u git://10.113.8.198/LTx2/manifests.git -b  LTx2_LABR12306610 ==> both modem & android
+$ ./repo init -u git://10.113.8.198/LTx2/manifests.git -m non_android.xml -b LTx2_LABR12306610 ==> modem only
+$ ./repo init -u git://10.113.8.198/LTx2/manifests.git -m android.xml -b LTx2_LABR12306610  ==> android only
+2.
+$ ./reop sync
+ 
+Build commands for HLOS images:
+$ . ccienv/msm8909_env [<eng|user|userdebug> <LT32|LT12> <SingleSim|DualSim>]
+$ m -jX
+ 
+project config (for makefile):
+CEI_BUILD_PROJECT=LT12|LT32
+CEI_BUILD_SIMCFG=1|2 ==>  1 for SingleSim , 2 for DualSim
+
+
+UR30
+客戶要求把MTK工模號碼 *#*#3646633#*#*(Engmode) 改成 *#*#2237332846633#*#* (acerdebugmode)
+ 
+現在codebase中已經支援build單、雙卡了，差異會在下環境變數時決定，預設是build單卡。
+. ./ur30_eng　　　這樣是build單卡
+. ./ur30_eng_ds　　這樣是build雙卡
+ 
+在UR30上cid是在build-time時決定的，範例如下：
+make -j4 CID=TMO_D_PL
+ 
+git server
+repo init -u git://10.113.8.215/ur30/manifest.git -b UR30.W1444V16
+repo init時，請注意大小寫
+ 
+如以下：
+[user]
+        name = simonkh_yu
+        email = SimonKH_Yu@compal.com
+[bugzilla]
+        project = UR30T
+        loginname = SimonKH_Yu@compal.com
+ 
+gerrit網址：
+http://10.113.8.215:8081/
+帳密同你公司的帳密
+ 
+Build command for cci6735_65u_tw_l1
+# . ccienv/ur30_eng
+# make -j4

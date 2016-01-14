@@ -1,0 +1,2 @@
+1.run "make idegen && development/tools/idegen/idegen.sh" to generate android.ipr which be used for Android Studio.
+

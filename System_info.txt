@@ -1,0 +1,91 @@
+1. Query system memory status :
+   adb shell cat /proc/meminfo
+   
+   adb shell procrank -u   /*to find which process consume most memory*/
+    
+   adb shell ps system_server
+   adb shell showmap 268    /* 268 ==> system_server's PID */ 
+   出现系统memory不足导致高优先级进程被kill等异常时，需要抓取一段时间内的memory使用情况.
+
+	@echo off
+	set logpath1=D:\MemLog\procrank.txt
+	set logpath4=D:\MemLog\meminfo.txt
+	set logdir= D:\MemLog
+	del %logdir%
+	:loop
+	 echo %date%  %time%
+	 echo %date%  %time% >> %logpath1% 
+	 adb shell procrank -u >> %logpath1%  
+	 echo %date%  %time% >> %logpath4%
+	 adb shell cat proc/meminfo  >> %logpath4% 
+	 echo "wait 5s to next catch"
+	 ping -n 5 127.0.0.1>nul 
+	 
+	 goto loop   
+
+
+   当确认是某个AP进程占用memory多时，需要再监控对应进程时 , 使用如下脚本。 
+     双击后输入对应进程的PID后开始抓取 
+	@echo "please input the target pid :"
+	@echo off
+	adb shell ps
+	set processid=
+	set /p processid=Please Input process id to catch:
+	@echo off
+	set logpath1=D:\MemLog\procrank.txt
+	set logpath3=D:\MemLog\Mem-%processid%.txt
+	set logpath4=D:\MemLog\meminfo.txt
+	set logdir= D:\MemLog
+	del %logdir%
+	:loop
+	 echo %date%  %time%
+	 echo %date%  %time% >> %logpath1% 
+	 adb shell procrank -u >> %logpath1%  
+	 echo %date%  %time% >> %logpath3%
+	 adb shell dumpsys meminfo %processid% >> %logpath3% 
+	 echo %date%  %time% >> %logpath4%
+	 adb shell cat proc/meminfo  >> %logpath4%
+	 echo "wait 5s to next catch"
+	 ping -n 5 127.0.0.1>nul 
+	 
+	 goto loop
+
+
+2. 64bit系统上，如何判断运行的进程是32bit还是64bit
+   - run 'adb shell ps --abi' then check field 'ABI' , 32/64
+
+3. system property after Android L :
+   system property 是存在在init 进程中的关键系统属性，如系统安全，系统稳定性，系统的版本信息等，一般情况下，都不建议使用system property 来进行信息共享，
+   一来容量有限，二来可能导致系统安全等其他问题。
+
+	Google 删除了permission table, 而是直接通过SELinux 来限制SELinux 的添加与修改.
+	对于"ro." 开头的系统属性，如果原本已经存在，则无法修改，所谓"read only", 即最多写一次。
+	对于一个 "xxx.yyy.zzz" 的系统属性("ro.xxx.yyy.zzz" 当作 "xxx.yyy.zzz" 看待),
+
+	(a.0) 首先到external/sepolicy/property_contexts , device/mediatek/common/sepolicy/property_contexts 查看是否有绑定它或者它的前缀
+              (如 xxx.yyy.zzz, xxx.yyy, xxx.yyy., xxx.,xxx 等) 的SELinux Context, 如果有, 则忽略掉(a.1), (a.2) 这两步.
+
+	(a.1) 在device/mediatek/common/sepolicy/property.te 中 定义这个系统属性 "xxx.yyy.zzz" 的SELinux Context.
+	 type xxx_yyy_zzz_prop, property_type;
+	 
+	(a.2) 在device/mediatek/common/sepolicy/property_contexts 中 绑定这个系统属性所对应的SELinux Context.
+	 xxx.yyy.zzz xxx_yyy_zzz_prop;
+
+	(a.3) 在对应的Process(假设为demo)在device/mediatek/common/sepolicy/demo.te 中新增
+	   unix_socket_connect(demo,property,init);
+	   allow demo xxx_yyy_zzz_prop:property_service set;
+	   
+	同样Google 严禁普通的app (untrusted app)增加和修改system property.
+   
+3. systrace :
+   cd /home/lightcheng/Android/Sdk/platform-tools/systrace/
+   ./systrace.py -t 10 -o out_put.html
+   ./systrace.py -l
+   ./systrace.py -t 10 -o test.html gfx view wm am app power sync -a com.android.incallui
+
+4. device CPU status 
+   /sys/devices/system/cpu/
+
+
+
+

@@ -1,0 +1,111 @@
+croot: Changes directory to the top of the tree.
+m: Makes from the top of the tree.
+mm: Builds all of the modules in the current directory, but not their dependencies.
+mmm: Builds all of the modules in the supplied directories, but not their dependencies.
+mma: Builds all of the modules in the current directory, and their dependencies.
+mmma: Builds all of the modules in the supplied directories, and their dependencies.
+cgrep: Greps on all local C/C++ files.
+jgrep: Greps on all local Java files.
+resgrep: Greps on all local res/*.xml files.
+godir: Go to the directory containing a file.
+
+if the module hasn’t changed - nothing will be done. But we do have the option to rebuild, using the -B switch.
+
+adb reboot bootloader
+fastboot flashall -w
+
+flashall - This fastboot command flashes all the images that were created. It looks for them in the path stored in the $OUT environment variable, which is initialized by the lunch command.
+-w - resets the device’s _/data _partition, with all the user’s date, so backup your stuff first. Not mandatory after the first time you flash this ROM.
+
+
+Updating the device
+1. make -j4 < make snod < adb sync
+
+"make snod" 
+Re-creating the system image file from the modules that are already built. This command won’t build anything, just create the image file. 
+After that, we can flash using the regular fastboot flashall command.
+
+"adb sync"
+Check what are the modules that were changed, in compare to what’s already on the device, and copies them.
+If you’re not working on any of the framework modules, you don’t need to do anything after running the adb sync command, and the device should run your code without a problem.
+
+If you did make some changes to the framework modules, you need to reload them because they are in use. 
+You can restart the device, but you can simply just restart the Shell, which restarts the framework and other operation system components. 
+e.g.
+$ mmm frameworks/base/packages/SystemUI        // build the SystemUI module
+$ adb sync              // Sync the updated module to the device
+$ adb shell stop     // Stopping the shell
+$ adb shell start    // Starting the shell again
+
+
+
+Add below code to  envsetup.sh
++alias mmp='dopush mm'
++alias mmmp='dopush mmm'
++alias mfwk='mmm frameworks/base/core/res frameworks/base frameworks/base/services/java frameworks/base/packages/SystemUI'
++alias mfwkp='dopush mmm frameworks/base/core/res frameworks/base frameworks/base/services/java frameworks/base/packages/SystemUI'
+
++# Credit for color strip sed: http://goo.gl/BoIcm
++# Original implementation was taken from CyanogenMod's envsetup.sh
++function dopush()
++{
++    local func=$1
++    shift
++
++    adb start-server # Prevent unexpected starting server message from adb get-state in the next line
++    if [ "$(adb get-state)" != device -a "$(adb shell busybox test -e /sbin/recovery 2> /dev/null; echo $?)" != 0 ] ; then
++        echo "No device is online. Waiting for one..."
++        echo "Please connect USB and/or enable USB debugging"
++        until [ "$(adb get-state)" = device -o "$(adb shell busybox test -e /sbin/recovery 2> /dev/null; echo $?)" = 0 ];do
++            sleep 1
++        done
++        echo "Device Found."
++    fi
++
++    # retrieve IP and PORT info if we're using a TCP connection
++    TCPIPPORT=$(adb devices | egrep '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+[^0-9]+' \
++        | head -1 | awk '{print $1}')
++    adb root &> /dev/null
++    sleep 0.3
++    if [ -n "$TCPIPPORT" ]
++    then
++        # adb root just killed our connection
++        # so reconnect...
++        adb connect "$TCPIPPORT"
++    fi
++    adb wait-for-device &> /dev/null
++    sleep 0.3
++    adb remount &> /dev/null
++
++    # Running the function we planned on running
++    $func $*
++
++    # Running adb sync, to sync all the changed modules to the device.
++    # Since ADB writes to stderr, we'll redirect it to stdout and also to the .log file
++    adb sync 2>&1 | tee $OUT/.log
++
++    # Looking for rows with this structure: "push: <local file> -> <remote file>"
++    LOC=$(cat $OUT/.log | sed -r 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g' | grep 'push:' | cut -d ' ' -f 4)
++
++    if [ ! -z "$LOC" -a "$LOC" != " " ]; then
++        echo -e "\n ** Number of files synced - $(echo $LOC | wc -l) **\n"
++    else
++        echo -e "\n ** No files were synced to the device **\n"
++    fi
++
++    # If one of the synced files require restarting the shell - do that
++    while read -r file; do
++        case $file in 
++        */SystemUI.apk|/system/framework/*)
++                echo -e " ** Restarting the shell **\n"
++                adb shell stop
++                adb shell start
++                break
++        ;;
++        esac
++    done <<< "$LOC"
++
++    rm -f $OUT/.log
++    return 0
++}
++
