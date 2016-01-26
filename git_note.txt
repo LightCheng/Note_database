@@ -90,7 +90,13 @@ https://backlogtool.com/git-guide/tw/intro/intro4_1.html
 12. 匯合分支上的commit 一同合併 : Squash
     使用 "--squash"指定欲合併的分支，就可以在分支上新建一個匯合所有commits的commit。
 
+13.變更git user email: 
+   git config --global user.email Light_Cheng@compal.com
 
+14.Patch created by git-format : git am <patch>
+   Git created patches are meant to be applied with Git tools => git apply <patch>
+   If the patch is not created with Git, then just use a patch program 'behind the back' of Git. Often this is the program 'patch': patch <patch>
+  
 
 Tips :
   - git log --graph --oneline

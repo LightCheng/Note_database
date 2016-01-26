@@ -1,4 +1,24 @@
-LT32
+[BV06]
+./repo init -u git://10.113.8.174/BV06_MP/manifests.git -b BV06_CCI6755_65_MP
+
+android only
+./repo init -u git://10.113.8.174/BV06_MP/manifests.git -b BV06_CCI6755_65_MP -m android.xml
+ 
+modem only
+./repo init -u git://10.113.8.174/BV06_MP/manifests.git -b BV06_CCI6755_65_MP -m non_android.xml
+
+[BT52]
+curl --noproxy '*' -sS http://10.113.8.94/files/repo > repo
+ 
+BT52 PCS/CS
+repo command
+All (Android + modem)
+./repo init -u git://10.113.8.152/BT52_PCS/manifests.git -b BT52_LABR13301120
+./repo init -u git://10.113.8.152/BT52_PCS/manifests.git -m android.xml -b BT52_LABR13301120
+./repo init -u git://10.113.8.152/BT52_PCS/manifests.git -m non_android.xml -b BT52_LABR13301120
+
+
+[LT32]
 [MSM8909 LA1.1 Pre-CS4 (Android L MR1)]
 MSM8909.LA.1.1-01130-STD.PROD-1 (QTI/SR)
 repo command:
@@ -18,7 +38,7 @@ CEI_BUILD_PROJECT=LT12|LT32
 CEI_BUILD_SIMCFG=1|2 ==>  1 for SingleSim , 2 for DualSim
 
 
-UR30
+[UR30]
 客戶要求把MTK工模號碼 *#*#3646633#*#*(Engmode) 改成 *#*#2237332846633#*#* (acerdebugmode)
  
 現在codebase中已經支援build單、雙卡了，差異會在下環境變數時決定，預設是build單卡。
