@@ -373,9 +373,6 @@ find . -iregex ".*\.mk\|.*Makefile" -exec grep -iHn "keyword" {} \;
 find . -iregex ".*\.mk\|.*Makefile\|.*Kconfig" -exec grep -iHn "keyword" {} \; 
 
 
-
-
-
 - 在指令下達的過程中，反單引號( ` )這個符號代表的意義為何？ 
 	在一串指令中，在 ` 之內的指令將會被先執行，而其執行出來的結果將做為外部的輸入資訊！
 	舉例來說，我想要知道每個 crontab 相關檔名的權限：
@@ -436,7 +433,10 @@ vim:
    "%s/oldword/newword/g"
    replace oldword by newword from head to end with prompt
    "%s/oldword/newword/gc"
-   
+    %s/\<foo\>/bar/gcI
+    Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation and case sentense
+
+
    Ctrl+E : previous page
    Ctrl+Y : next page
 
