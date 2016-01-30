@@ -471,8 +471,8 @@ root   pts/1    192.168.201.254  Thu Feb  5 22:37 - 23:53  (01:16)
     2. 將該檔案解開！語法與實際作法如下：
        tar -jxv -f /root/etc.tar.bz2 etc/shadow
 
-    
-
-
+1.send mail from command line :
+    sendEmail -o tls=yes -f lighttpe0222@gmail.com -t light_cheng@compal.com -s smtp.gmail.com:587 -xu lighttpe0222@gmail.com -xp Aa12345678aA -u "Hello from sendEmail" -m "How are you? I'm testing sendEmail from the command line." -a sendEmail_cmdNote.txt
+==> some specail characters in password field may cause the command failed.
 
 
