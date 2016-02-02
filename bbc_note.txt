@@ -102,6 +102,7 @@
    - Would you like to be able to sing ?
 
 16. Unit 16 / 17
+  - rugby / ice-skating / roller-skating / skiing / rowing / gymnastics / memorial / veteran 
   - So far, so good.
   - At the moment: Right now.
     I'm working for Compal.
@@ -109,8 +110,16 @@
     I'm still working for Compal.
   - Usually and today.
     I usually have coffee for breakfast, but today I'm having tea.
+  - Where do you go ?
+  - right now / right here : right 此時並不代表任何意義 , 只做強調語氣用.
+   
+  - the gerund-participle ("-ing" form) is used when the pleasure is derived from the action itself, 
+    whereas the infinitive ("to" form) is used when the preference is being expressed for choosing to perform the action, 
+    or the idea of the action, as distinct from the action itself.
+		(OK:) Would you like to see my stamp collection?
+		(Very odd:) Would you like ?*seeing my stamp collection?
+		(Questionable:) Brian loathed ?to live in the country.
+		(OK:) Brian loathed living in the country.
 
-
-
-
-
+17. Unit 18 
+   - What's the weather like ?
