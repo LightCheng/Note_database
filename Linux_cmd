@@ -162,7 +162,10 @@ source ：讀入環境設定檔的指令
   選項與參數：
 -A ：後面可加數字，為 after 的意思，除了列出該行外，後續的 n 行也列出來；
 -B ：後面可加數字，為 befer 的意思，除了列出該行外，前面的 n 行也列出來；
-
+  
+   
+   $ grep -r --include='*.java' localhost .
+     從目前目錄 , 針對附檔名為 java 檔查看內容是否有 localhost 的字串
 
 
 - sort
@@ -359,6 +362,18 @@ awk：好用的資料處理工具
              {} 代表的是『由 find 找到的內容』  
              -exec 一直到 \; 是關鍵字，代表 find 額外動作的開始 (-exec) 到結束 (\;)
           e.g.  find / -name "*passwd*" -exec ls -l {} \;
+
+常用找程式內資料
+copy 去用避免常要重打(依需求) 
+find . -iregex ".*\.php\|.*\.htm\|.*\.html\|.*\.js\|.*\.java\|.*\.css\|.*txt\|.*\.xml" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.cpp\|.*\.cc\|.*\.c\|.*\.h\|.*\.hh\|.*\.mk\|.*Makefile\|.*\.java" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.cpp\|.*\.cc\|.*\.c\|.*\.h\|.*\.hh\|.*\.mk\|.*Makefile" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.cpp\|.*\.cc\|.*\.c\|.*\.h\|.*\.hh" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.mk\|.*Makefile" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.mk\|.*Makefile\|.*Kconfig" -exec grep -iHn "keyword" {} \; 
+
+
+
 
 
 - 在指令下達的過程中，反單引號( ` )這個符號代表的意義為何？ 
