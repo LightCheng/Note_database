@@ -123,6 +123,7 @@
 
 17. Unit 18 
    - Temperate / Tropical / thunder / storm / mist / fog / gale / hurricane 
+   - Temporary
    - cliff / jungle / valley
    - What's the weather like ?
    - It's a awful weather.
@@ -139,11 +140,12 @@
    - at /in / on
      Do you live at the end of a street ?
      Do you live in the center of a city ?
-     Do you live one the 2nd floor ?
+     Do you live on the 2nd floor ?
    
    Unit 20 Travel
+   - In a town / around the country
    - cable-car / tram (street car) / trolley bus / boot & trunk / steering wheel / bumper / gas tank / fill it up / elevated
-   - turnpike
+   - turnpike / luggage
    - How can I get to ...? / How long does it take ?
    - coach / luggage / briefcase
    - on behalf of ...
@@ -152,5 +154,7 @@
    - drive car / ride bike , motobike
    - in the departure lounge
      on the plane / on the train / on the bus
-      
+   - by / on 
+   - in / at / on   
+   - go to work / get to taipei
    
