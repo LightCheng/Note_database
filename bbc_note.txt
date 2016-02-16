@@ -156,5 +156,7 @@
      on the plane / on the train / on the bus
    - by / on 
    - in / at / on   
-   - go to work / get to taipei
+   - go to work / get to taipei <== by bus , by tube ...
+     For normal use, we go into or out of a place , 
+     However, if there is some sort of "complication", "process" or "difficulty", we get into or out of a place.
    
