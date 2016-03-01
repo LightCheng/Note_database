@@ -231,6 +231,7 @@
       Did you enjoy your stay ?
        
     Unit 28 Sizes and shapes 
+      How tall are you ?
     - thin / slim
     - weigh / weight
       How much do you weigh ?
@@ -238,4 +239,7 @@
     - round / square / rectangular / triangular / oval / -shaped
     - What's shape is ... ?
     - a bit bigger / a lot bigger / a little bigger / slightly bigger / much bigger
-    
+    - quite / very
+      quite big , quite a big country
+    - typeface / cross out , e.g. it can also cross out mistakes.
+    - Diamond
