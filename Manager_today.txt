@@ -307,4 +307,16 @@
     主動，是不用別人講就做「對」的事。
     courier (n.) 快遞員
     
+32. 師徒制 (apprenticeship)
+    由apprentice 加上代表「狀態」的名詞字尾 -ship 組合而成。apprentice是通常是指工藝、工程、手作相關技術的「學徒」，
+    會跟著一位非常有經驗的前輩學習，並且有支薪；和無給薪的intern（實習生）不同。apprentice當動詞用則是「當學徒」的意思。
+
+		novice (n.) 初學者，新手
+		trade (n.) 手藝，職業
+		master (v.) 精通
+		e.g.
+		Gary became a plumber after a four-year apprenticeship.
+    蓋瑞經過四年的師徒制訓練後，成為一名水管工人。
     
+    An electrician’s apprenticeship takes five years to complete.
+    電工的師徒制訓練需要五年時間。
