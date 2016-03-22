@@ -1,0 +1,2 @@
+Ctrl+P : open file from project.
+Ctrl+O : open file from external.	
