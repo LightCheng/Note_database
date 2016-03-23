@@ -1,0 +1,37 @@
+scp - 藉由 ssh 的遠端檔案傳輸指令
+主要的功用是用來複製兩主機間的檔案，用法就與 cp 類似，只不過多了個使用者名稱 (username) 與遠端位置 (remote address)。
+ 
+1. 安裝 ssh
+在使用 scp 指令之前先在本地端以及遠端安裝對應的套件方可運作，畢竟 scp 是靠 ssh 在運作的。
+ 
+1.1. 本地端需安裝 openssh-client 套件。
+$ sudo apt-get install openssh-client [Enter]
+ 
+1.2. 遠端需安裝 openssh-server 套件。
+$ sudo apt-get install openssh-server [Enter]
+ 
+2. 指令說明
+2.1. 將檔案由本機複製到遠端主機。
+$ scp FileName jonny@remote:/home/jonny/ [Enter]
+jonny@remote's password: # 此為遠端使用者密碼。
+FileName         100%   0   0.0KB/s   00:00
+FileName: 預複製的檔案名稱。
+jonny: 遠端使用者。
+remote: 遠端伺服器的位址，可以是 IP 也可以是網域名稱(Domain name)。
+/home/jonny/: 遠端伺服器內的檔案位置。
+ 
+2.2. 由遠端主機複製檔案至本機。
+$ scp jonny@remote-server.net:/home/jonny/.bashrc .
+jonny@remote's password: # 此為遠端使用者密碼。
+.bashrc         100%   0   0.0KB/s   00:00
+jonny: 遠端使用者。
+remote: 遠端伺服器的位址，可以是 IP 也可以是網域名稱(Domain name)。
+/home/jonny/.bashrc: 遠端伺服器內的檔案位置。
+.: 當前目錄。
+ 
+2.3. ssh 預設走的 Port 為 22，如果有自訂其他 Port 可加上 -P 參數。
+$ scp -P 2222 FileName jonny@remote:/home/jonny/ [Enter]
+ 
+2.4. 若有多個檔案，則可以使用 -r 參數來進行。
+$ scp -r FileName* jonny@remote:/home/jonny/ [Enter]
+ 
