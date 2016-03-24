@@ -29,4 +29,11 @@
 
 	arg1="${1:-}"
 
+8. 
+	find out/target/common -name classes-full-debug.jar
+
+	date -r ${MY_FILE_VARIABLE}
+
+	stat -c %Y ${MY_FILE_VARIABLE}
+	   e.g. stat -c %Y ccienv/findbugs/output.csv
 

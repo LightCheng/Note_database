@@ -1,0 +1,11 @@
+1. grep -n --color=auto 'qxl'  #將捉到的關鍵字顯色，且加上行號來表示
+
+2. ^ 符號，在字元集合符號(括號[])之內與之外是不同的！ 在 [] 內代表『反向選擇』，在 [] 之外則代表定位在行首的意義
+
+3. matacharacter ==>  . * + ? [] {} - \ ^ $ | () : ! =
+   . : wildchar , only except for new line.
+   
+4. Basic Regular Expressions : BRE (grep)
+   Extended Regular Expressions : ERE (egrep)
+   Back tracking
+   Leftmost (earlier) match VS Global match
