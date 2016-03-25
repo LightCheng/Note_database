@@ -9,3 +9,21 @@
    Extended Regular Expressions : ERE (egrep)
    Back tracking
    Leftmost (earlier) match VS Global match
+
+5. \d \w \s VS \D \W \S
+
+6. Repetition matacharacters
+   * : 0 or more times (supported in all regex engines)
+   + : 1 or more times (not supported in BREs , i.e., old UNIX programs)
+       \w+s
+   ? : 0 or 1 (not supported in BREs , i.e., old UNIX programs)
+       colou?r
+       
+7. Quantified repetitions
+   {min,max}
+   \d{0} , \d{0,} , \d{0,10}
+   
+8. greedy expressions => try to match longest possible string.
+      repetition-quantified expression
+  
+   greedy strategy VS lazy strategy
