@@ -27,3 +27,13 @@
       repetition-quantified expression
   
    greedy strategy VS lazy strategy
+   
+9. Grouping Metacharacters ()
+   	e.g. in?dependent VS (in)dependent
+   
+   Alternation | 
+     Matching previous or next expression , called OR operator.
+     
+   
+
+   
