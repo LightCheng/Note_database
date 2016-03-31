@@ -372,3 +372,15 @@
 
 		Division of labor at factories increases production efficiency.
 			工廠實施分工能提高生產效率。
+			
+37. 土壤液化 (soil liquefaction)
+    相關字彙：
+		quicksand (n.) 流沙
+		landslide (n.) 土石流，山崩
+		saturated soil (phr.) 飽水土壤，飽和土壤
+		e.g.
+		There are many soil liquefaction zones in Taipei.
+		臺北有許多液化土壤區域。
+
+		Much of the damage from the earthquake was caused by soil liquefaction.
+		那場地震的災情，主要是土壤液化導致。			
