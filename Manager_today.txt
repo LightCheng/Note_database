@@ -359,3 +359,16 @@
 		敝公司用獎金來激勵員工。
 		The key to teaching is motivating students to learn.
 		教學的關鍵在於激勵學生學習。
+		
+36. 分工 (division of labor)
+    division of labor的意思即「勞力的分配」，division來自動詞divide「劃分，分配」。分工能讓個體或部門發揮其所長，讓生產過程個別化、獨立化、專門化，以促進整體的效率、品質與產量。
+
+		efficiency (n.) 效率
+		specialization (n.) 專門化
+		allocation (n.) 分派，分配，配置
+		e.g. 
+		In traditional families, division of labor is based on gender.
+			在傳統家庭中，勞務是依照性別分工。
+
+		Division of labor at factories increases production efficiency.
+			工廠實施分工能提高生產效率。
