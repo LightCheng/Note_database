@@ -36,4 +36,10 @@
 
 	stat -c %Y ${MY_FILE_VARIABLE}
 	   e.g. stat -c %Y ccienv/findbugs/output.csv
+9. Learn less, do more: 做中學 , 更有感覺
+   Try at the command prompt: 簡單點 , 避免干擾.
+   Keep big files in mind: 想多點 , 不要頭痛醫頭.
+   Try different ways always: 
 
+
+10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 只要你編輯完 /etc/crontab 這個檔案，並且將他儲存之後，那麼 cron 的設定就自動的會來執行了！

@@ -8,9 +8,17 @@ set -e
 script_path="$(readlink -f "${BASH_SOURCE[0]}")" # Absolute path to this script
 script_dir="$(dirname "${script_path}")"         # Absolute path this script is in
 script_file="$(basename "${script_path}")"       # Filename of this script
-echo "Set cci env 1st then run the sh from project root as below :"
-echo "findbug_with_dir.sh target_class_path aux_class_path"
-echo "example: ./ccienv/findbugs/findbug_with_dir.sh \`pwd\`/out/target/common/obj/APPS/Stk_intermediates/ \`pwd\`/out" 
+
+while getopts "h:" opt; do
+  case $opt in
+    h)
+	echo "Set cci env 1st then run the sh from project root as below :"
+	echo "findbug_with_dir.sh target_class_path aux_class_path"
+	echo "example: ./ccienv/findbugs/findbug_with_dir.sh \`pwd\`/out/target/common/obj/APPS/Stk_intermediates/ \`pwd\`/out" 
+      ;;
+  esac
+done
+
 OUTBASE=${2}
 OUTBASE=${OUTBASE:-"`pwd`/out"}
 echo "Out base : ${OUTBASE}"

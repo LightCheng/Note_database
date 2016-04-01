@@ -436,6 +436,9 @@ vim:
     %s/\<foo\>/bar/gcI
     Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation and case sentense
 
+    .,$s/foo/bar/g
+    Change each 'foo' to 'bar' for all lines from the current line (.) to the last line ($) inclusive. 
+
 
    Ctrl+E : previous page
    Ctrl+Y : next page
