@@ -383,4 +383,28 @@
 		臺北有許多液化土壤區域。
 
 		Much of the damage from the earthquake was caused by soil liquefaction.
-		那場地震的災情，主要是土壤液化導致。			
+		那場地震的災情，主要是土壤液化導致。
+		
+38. cost down ==> cost reduction
+    any question? ==> any questions?
+	    在問有沒有問題時，通常預設會有許多問題 ; 
+	    同樣的，在徵詢大家意見的時候也必須說 any ideas? 
+	    但是假如想要表達的是概念 / 理解 / 知道的話就必須要使用 any idea，
+	      e.g.「Do you have any idea how crazy you are? 」「Any idea who did this shit? 」
+	    和 question 一樣，在徵詢意見時我們期待會收到很多不同的想法，但在說你知不知道這是誰弄的、你知不知道 ____ 的時候，我們指的是一個特定事件，所以就要使用單數。
+    Home 只限定用在自己的家。所以當我們要說去某人家續攤時，要說 Let's go to Tony house / place。
+
+    home :
+    	當要表示任何人在（他自己）的家時，就可以使用神聖的 home，比如說「Hey, Tony. Are you at home? 」
+    The sun rises in the west :
+      從窗戶近來，應該要說 He came through the wondow 而不是 from the window。
+      英文的 from 比較具有指向性，像是From page 6 to 9、from the beginning to the end，需要提供一個特定路徑才會使用 from。
+      假如要說「我們從第六頁開始吧」一個特定的點，就要用 Let's start at page 6。
+      
+    final VS. last
+      一般來說 last 會用在能夠量化表示的東西上，例如 The last page, the last hour, you are the last one, the last picture show 等。
+      而 final 則是會用在抽象或不能量化的概念上，像電影絕命終結站的英文名子就是 The Final Destination，目的地就是個不能量化的概念。
+      
+    look up something in the dictionary
+		
+		
