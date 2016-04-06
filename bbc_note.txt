@@ -480,7 +480,8 @@
       
 35. Warnings and advice
     - wet paint / corrosive / flammable = inflammable VS. non-flammable , non-inflammable
-    - toxic
+    - toxic / bathing /pickpocket / nail / match / stairs
+    - whistle / comb / spill
     - Mind your head / Watch your head.
     - If you need further information or assistance please revert.
     - Cheers,
@@ -491,6 +492,8 @@
     - You should get some exercise.
     - If I were you , I'd visit ...
     - What would you recommend ?
-    
-     
-      
+    - Must VS. Should
+    - advice 與 information 一樣是不可數名詞 ,
+      a piece of advice
+      I'd like to ask your advice.
+      That's very good advice.
