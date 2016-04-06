@@ -500,3 +500,5 @@
       a piece of advice
       I'd like to ask your advice.
       That's very good advice.
+    - snail mail 指「通過郵局寄的信」。為傳統郵件的別稱(緩慢的傳統郵件)，並不是指電子郵件。
+    - beverage 
