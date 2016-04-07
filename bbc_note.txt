@@ -481,7 +481,7 @@
 		  說明公用事業或表演節目的時刻, 用現在簡單式.
       - I've work out ...
       
-35. Warnings and advice
+35. Unit 42 Warnings and advice
     - wet paint / corrosive / flammable = inflammable VS. non-flammable , non-inflammable
     - toxic / bathing /pickpocket / nail / match / stairs
     - whistle / comb / spill
@@ -502,3 +502,6 @@
       That's very good advice.
     - snail mail 指「通過郵局寄的信」。為傳統郵件的別稱(緩慢的傳統郵件)，並不是指電子郵件。
     - beverage 
+
+36. Unit 43 Certainty and uncertainty
+    - quotation / mailman 
