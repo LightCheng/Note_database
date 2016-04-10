@@ -1,0 +1,6 @@
+1. beta testing / performance testing / stress testing / integration testing
+
+TDD : Unit test at programmer level , not for tester
+
+JUnit for Java. NUnit for .NET. unittest for Python.
+CppUnit
