@@ -337,7 +337,7 @@
 
 30. Unit 37 Describing people
     - Physical appearance 
-      What does he look like ? / What do you look like ? VS What is he like ? VS What does he like ?
+      What does he look like ?  VS What is he like ? VS What does he like ?
       blonde / fair hair / of medium height / blad / stolid / obscure / 
       She's blonde. / She's got fair hair.
       moustache（長在鼻子和嘴唇間的）鬍子 / beard （長在下巴或臉頰的）鬍子 , 絡腮鬍是 full beard
@@ -353,7 +353,7 @@
     - a man with red hair VS a red-haired man
     - a girl with blue eyes VS a blue-eyed girl
     - He's thirty. VS He's thirtyish.
-    - Profession VS Occupation
+    - Profession VS. Occupation
       A profession needs extensive training and specialized knowledge. 
       On the other hand, an occupation does not need any extensive training. 
       A person with an occupation need not have specialized knowledge of his trade.
@@ -399,9 +399,10 @@
 
       since : with present finished sentence
           自從 .... 以來 , 一般會加上過去的某點時間副詞 (e.g. three o'clock , October 21st , 1982 ..)
+          I've worked for CCI since 2008.
 
       ago : only with past present sentence.
-          I came here 7 years ago.
+          I joined CCI 7 years ago.
 
     - How long have we known each other ?  / You've been away half the time.
 
@@ -479,6 +480,9 @@
 		    I'm playing tennis at 2:00, and I'm meeting my parents at 4:00.
 		    
 		  說明公用事業或表演節目的時刻, 用現在簡單式.
+		    It starts at 8:30.
+		    The plane leaves at 10:00.
+
       - I've work out ...
       
 35. Unit 42 Warnings and advice
@@ -516,5 +520,4 @@
     - Hands-on : 實際的
       Hands-on experience is not needed for the job.
     - jot down : 草草記下; 匆匆記下
-      rip off : 撕掉, 迅速脫掉
-      
+      rip off : 撕掉, 迅速脫掉     
