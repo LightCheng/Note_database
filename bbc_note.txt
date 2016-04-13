@@ -501,7 +501,8 @@
     - Must VS. Should
     - advice 與 information 一樣是不可數名詞 ,
       a piece of advice
-@     I'd like to ask your advice.
+      I'd like to ask for your advice.
+      ask question , ask for help or something
 @     That's very good advice.
     - snail mail 指「通過郵局寄的信」。為傳統郵件的別稱(緩慢的傳統郵件)，並不是指電子郵件。
     - beverage 
