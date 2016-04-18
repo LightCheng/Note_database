@@ -1,0 +1,2 @@
+This directory doesn't contain any pre-built exercise files.
+Start each exercise with a new app built with the Empty Activity template.

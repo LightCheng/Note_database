@@ -543,7 +543,8 @@
     - Delete as applicable
     - I'll bump your nose.
     - equivalent /officialese
-    
+    - bank statement    
+
 38. Unit 45 Superlatives
     - 形容詞最高級 : -est / most , 之前得用定冠詞 the
       The most boring person I've ever met.	
@@ -574,3 +575,9 @@
          
       c. 表示未來的習慣性或重複性的動作或行為
          I'll be getting up early every day next year.
+
+    - ebbs and flows : to decrease and then increase, as with tides; a decrease followed by an increase, as with tides.
+      e.g.
+       The fortunes of the major political parties tend to ebb and flow over time. The ebb and flow of democracy through history is a fascinating subject.
+
+
