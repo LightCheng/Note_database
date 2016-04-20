@@ -1,4 +1,4 @@
-https://backlogtool.com/git-guide/tw/intro/intro4_1.html
+	https://backlogtool.com/git-guide/tw/intro/intro4_1.html
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init
@@ -6,7 +6,9 @@ https://backlogtool.com/git-guide/tw/intro/intro4_1.html
 	git commit -m "first commit"
 	git remote add origin https://github.com/LightCheng/GPSPerformance.git
 	git push -u origin master
-     
+        git remote #list all remote that it knows about
+        git remote -v 
+        git remote rm alias_name
 1. 建立本地端數據庫的方法有兩種：
    一種是重新建數據庫 : 
    - git init

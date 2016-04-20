@@ -138,7 +138,7 @@
 19. Unit 19 Position / Movement
    - near / next to 
    - out of : come out of the lift 
-   - I'm calling about ... When do you get back ?
+@  - I'm calling about ... When do you get back ?
    - at /in / on
      Do you live at the end of a street ?
      Do you live in the center of a city ?
@@ -155,7 +155,7 @@
    - How do you get to work ?
    - drive car / ride bike , motobike
    - in the departure lounge
-     on the plane / on the train / on the bus
+     on the plane / on the train / on the bus / in the car
    - by / on 
    - in / at / on   
    - go to work / get to taipei <== by bus , by tube ...
