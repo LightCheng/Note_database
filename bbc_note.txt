@@ -468,7 +468,7 @@
 		- 表未來式的句法結構 :
 		  以 will 表示 :
 		    @ 純指未來的事實 :
-		      I'll be 43 in next Faburary.
+		      I'll be 43 in Faburary next year.
 		    @ 表示預測的狀況
 		      There will be rain everywhere.
 		    @ 表示假設的狀況
@@ -489,7 +489,7 @@
       
 35. Unit 42 Warnings and advice
     - wet paint / corrosive / flammable = inflammable VS. non-flammable , non-inflammable
-    - toxic / bathing /pickpocket / nail / match / stairs
+@   - toxic / bathing /pickpocket / nail / match / stairs
     - whistle / comb / spill
     - Mind your head / Watch your head.
     - If you need further information or assistance please revert.
@@ -593,7 +593,7 @@
        The fortunes of the major political parties tend to ebb and flow over time. The ebb and flow of democracy through history is a fascinating subject.
 
 40. Unit 47 Invitations
-    - occasion : 	場合，時刻；重大活動，盛典
+    - occasion : 	a special or important time, event, ceremony, celebration, etc.
       Children are very happy on this occasion.
     - take a look at ...
     - That's very kind of you.
@@ -603,13 +603,24 @@
     - It was nice of you to ask me.
     - I've got to revise for my exams.
       I'll be working late.
-    - Some / Something 若用在疑問句時, 表示說話者希望對方作肯定的答覆.
+    - Some / Something 若用在疑問句時, 表示說話者希望對方作 positive response.
       e.g.
       Could we have some bread, please ?
       Would you like something to drink ?
+      
+    - Anything means a thing of any kind. Use it in questions and negative sentences.
       
     - but regret that they will be unable to attend
     - Owing to : because of 
     - crouton : a small piece of toasted or fried bread; served in soup or salads
       jelly / earthly / tragic / window-bay
     - I'll leave it to you.
+    
+41. Unit 48 Revision Unit
+    - ... would like to say a few words.
+      What a shame!
+    - definitely not.
+    - Will you be at home next weekend ?
+      Will you be at home tomorrow evening ?
+      
+    - Who's that at the door ?
