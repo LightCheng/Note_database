@@ -506,7 +506,7 @@
       a piece of advice
       I'd like to ask for your advice.
       ask question , ask for help or something
-@     That's very good advice.
+      That's very good advice.
     - snail mail 指「通過郵局寄的信」。為傳統郵件的別稱(緩慢的傳統郵件)，並不是指電子郵件。
     - beverage 
 
@@ -522,7 +522,7 @@
       
     - Hands-on : 實際的
       Hands-on experience is not needed for the job.
-    - jot down : 草草記下; 匆匆記下
+@   - jot down : 草草記下; 匆匆記下
       rip off : 撕掉, 迅速脫掉
       
     - in shades of gray
@@ -569,7 +569,8 @@
     
     - I will drink to that.
       I'm looking forward to it.
-    
+@     I'll look forward to it.
+
     - will be ...ing : 
       a. Future Events : 已經決定或安排妥當的事情      
          Will you be meeting us ?
@@ -599,9 +600,9 @@
     - That's very kind of you.
     - Can you come to dinner on Friday evening ?
     - I'd like to very much. / I'd love to.
-    - We're meeting there at 7:30. / I would like you to meet Mr. Eric.
+    - We're meeting there at 7:30. / I'd like you to meet Mr. Eric.
     - It was nice of you to ask me.
-    - I've got to revise for my exams.
+@   - I've got to revise for my exams.
       I'll be working late.
     - Some / Something 若用在疑問句時, 表示說話者希望對方作 positive response.
       e.g.
@@ -610,7 +611,7 @@
       
     - Anything means a thing of any kind. Use it in questions and negative sentences.
       
-    - but regret that they will be unable to attend
+@   - but regret that they will be unable to attend
     - Owing to : because of 
     - crouton : a small piece of toasted or fried bread; served in soup or salads
       jelly / earthly / tragic / window-bay
