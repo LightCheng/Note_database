@@ -647,8 +647,11 @@
     - viewing platform
     
 43. Unit 50 Imaginary situations 
-    - miracle / outsider
+    - miracle / outsider / slang / Jail / punt / repertoire 
+    - a bit before your time / I wonder why
     - If you don't make mistakes, you don't make anything.
+      If at first you don't succeed, try try again.
+      
     - It's the 2-1 favourite.
     
     - Imaginary future situations 
@@ -667,5 +670,37 @@
     - Suggestions 
       對建議所作的各種回答, 往往是指沙及未來的假設情況 , 所以不用will 而用would.
       How about a trip to U.S ? It would be interesting.
+      
+    - ain't : 視前後文, 相當於 am not, aren't , isn't , hasn't 及 haven't
     
+    - 敘述一般事實可用 :
+      If + 現在式 , 命令句 
+        If you can't stand the heat, get out of the kitchen.
+      If + 現在式 , 現在式
+        If you play with fire , you get burnt.
+      If + 現在式 , ... will
+        If anything can go wrong, it will.
+        
+    - 未來假設情況 : 十分可能發生 :
+      If + 現在式 , 命令句 
+        If you need my help next week , Phone me.
+      If + 現在式 , ... will
+        If it's sunny tomorrow, will you go to the beach ?
+        If he wins, nobody will be very surprised.
+      If + 現在式 , ... can...          
+        If you need a car tomorrow, you can borrow mine.
+      If + 現在式 , ... may...      
+        If you ask me nicely , I may go.
+        
+    - 未來假設情況 : 不太可能發生 :
+      現在假設情況 : 與現實相反者 :      
+      If + 過去式 , ... would...
+      If + 過去式 , ... could...
+      If + 過去式 , ... might...   
+      
+    - if 之後的be 動詞可以用were , 而不用was.
+      If the meeting were at 12:30 , I could come.
     
+    - 列與時若都是由幾個字組成的片語 , and 之前還是要加上逗點.
+      
+       
