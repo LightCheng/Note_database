@@ -713,7 +713,7 @@
     - come out , emerge
       get off , alight
       go on , continue
-    - a take-off / a lift-off / a hold-up / a go-between
+@   - a take-off / a lift-off / a hold-up / a go-between
     - closet / water closet
     - establish / flame
     
@@ -776,3 +776,12 @@
     - considerate / taken aback / irritated / absorbed
       Will you love me when I'm old and gray ?
     
+    - dumb down : to lower the level of difficulty and the intellectual content of
+    - tune you out : 不聽你的話，或者不重視你
+    - Can I get you anything else ? No, thanks. VS. Thanks. I'm good.
+      因為別人先前己經回答過你的問題，幫過忙了，這時說no太直接了，用一句"I am good."表示你剛剛給資訊已經夠了，也有感激之意。
+      "I am good."和"I am fine."相通，但如果只用fine或是good，意思就完全相反。
+    - You are telling me. 意思是「我早就知道，不用你告訴我。這還用你說嗎？」, 別錯解成「你正在告訴我」，就會愣在那兒以為別人話還沒說完。
+    - Speak the same language. 我們想得一樣
+      e.g. When we got down to planning where to go on our trip, I was glad we spoke the same language.（我很高興當我們決定行程的時候己經有共識。）
+     
