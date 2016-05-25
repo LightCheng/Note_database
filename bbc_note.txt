@@ -579,7 +579,7 @@
          Will you be meeting us ?
          The train will not be arriving at platform 9.
          
-      b. Future activities : 在未來持續一段時間的動作行為. 
+      b. Future activities (未來進行式): 在未來持續一段時間的動作行為. 
          How long will you be staying ?
          What will you be doing ?
          What will you be doing this time next year ?
@@ -786,7 +786,7 @@
       e.g. When we got down to planning where to go on our trip, I was glad we spoke the same language.（我很高興當我們決定行程的時候己經有共識。）
      
 48. Unit 55 Recent activities
-    - burglar / exaggerate / willy-nilly
+    - burglar / exaggerate / willy-nilly / curious
     - I've been thinking.
       I haven't been feeling very well.
     - How long have you been waiting ?
@@ -797,7 +797,7 @@
     - perseverance / grit
     - I'm copying you here so you can ...
     What questions do you have for me ?    
-    - 現在完成進行式可用來指 :
+    - 現在完成進行式(have/has been + V-ing)可用來指 :
       1. 從過去某時間點開始 , 到現在仍在進行的動作或行為.
          He's been writting the report for 2 hours.
       2. 從過去某時間點開始 , 到現在曾重複數次的行為.
@@ -807,3 +807,6 @@
          I've been working on it for 20 years.
     - What's it called ? / What's it about ?     
     - Where have you been ?
+    - curly-haired / resemble / peninsula
+    - all morning / every day for two weeks / every week for three months ..
+    
