@@ -128,7 +128,7 @@
      "fog" & "mist" they are two distinct terms for a similar phenomenon. 
      Visibility less than 1,000 metres we call 'fog' and obscurity with visibility greater than 1,000 metres we call 'mist'.
    - Temporary
-   - cliff / jungle / valley
+   - cliff / jungle / valley / village
    - What's the weather like ?
    - It's a awful weather.
    - The wind is blowing and it's raining too.
@@ -900,4 +900,10 @@
    - eschew : to abstain or keep away from; shun; avoid:
    - back-to-back :
      To minimize disruptive calls, bundle them together and schedule them back-to-back ¡X on Tuesday and Thursday afternoons, for instance.
-   - personal leave / annual leave /         
+   - personal leave / annual leave   
+   - diminish : to make or cause to seem smaller, less, less important, etc.; lessen; reduce.
+   - stopgap : something that fills the place of something else that is lacking; temporary substitute; makeshift:
+   - aftershock : An aftershock is a smaller earthquake that occurs after a previous large earthquake, in the same area of the main shock.
+   - prestige :
+     e.g. Your self-worth should not revolve around your status, paycheck, and prestige;   
+   
