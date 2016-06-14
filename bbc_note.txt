@@ -333,7 +333,7 @@
     - cough 
     - I think / I'm thinking 
     - dosage / dose / shiver / symptoms / subside / surgeon
-    - cheek / chin / lip / neck / tongue / elbow / knee / toe / wrist
+    - cheek / chin / lip / neck / tongue / elbow / knee / toe / wrist / ankle
     - elephant / kiwi    
     - He's got a temperature.
 
@@ -995,3 +995,8 @@
     - 肯定敘述句 : So + 助動詞 + 主詞. e.g. So am I.
       否定敘述句 : Nor + 助動詞 + 主詞. e.g. Nor am I. 
     - Just a note to say that ... / This is just to comfirm that ...
+    - flooding : 淹水
+      e.g. The typhoon caused heavy flooding in rural areas. (颱風造成農村地區嚴重淹水。)
+    - elaborate on : to give additional details about someone or something. 
+      e.g. Would you care to elaborate on that? 
+           I want to know more about Kelly. Could you elaborate on her?
