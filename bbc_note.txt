@@ -995,3 +995,21 @@
     - 肯定敘述句 : So + 助動詞 + 主詞. e.g. So am I.
       否定敘述句 : Nor + 助動詞 + 主詞. e.g. Nor am I. 
     - Just a note to say that ... / This is just to comfirm that ...
+
+52. Unit 61 Languages
+    - pronunciation / philosophy / toddler
+    - proverbs :
+      Bad news travels fast.
+      Walls have ears.
+      The best thing in life are free.
+    - Do you speak Japanese ?
+    - Terminology :
+      article : a, an, the.
+      preposition
+      To be exact, I'm planning a new network log parser tool.
+    - Where is the stress in this word ? 
+      What does this word mean ?
+      Do you find it easy ? - It's not too bad.
+    - speak / talk
+      say / tell
+      
