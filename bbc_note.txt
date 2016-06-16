@@ -1019,3 +1019,10 @@
       say / tell
     
     - footnote / ballpark of micro amps.      
+    - actuate :
+      It will be used not only to turn on/off but also to navigate apps. This means the button has to be durable and easy to actuate.
+    - escalate :
+      I have escalated to our BT team!
+    - tax ID number : ²Î¤@½s¸¹
+      Do you need a tax ID number on your receipt?  
+    
