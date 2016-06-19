@@ -965,7 +965,7 @@
 
 51. Unit 59 Talking about the past.
     - I did a degree in E.E.
-    - bartender / robbery / sergent / straw / holler / broomstick / spinster
+    - bartender / robbery / sergeant / straw / holler / broomstick / spinster
     - wonder / wander / witty / beast / doll / freight train / horror / landlady / pale / symphony
     - hand-to-hand : What happens if I get in close hand-to-hand combat ?
     - 簡單過去式 / 過去進行式.
@@ -1002,7 +1002,8 @@
            I want to know more about Kelly. Could you elaborate on her?
 
 52. Unit 61 Languages
-    - pronunciation / philosophy / toddler
+    - pronunciation / philosophy / toddler / tactful / artificial / invent
+    - barbecue
     - proverbs :
       Bad news travels fast.
       Walls have ears.
@@ -1015,9 +1016,15 @@
     - Where is the stress in this word ? 
       What does this word mean ?
       Do you find it easy ? - It's not too bad.
+    - happen to :
+      We just happen to have an empty house for renting.
     - speak / talk
       say / tell
-    
+    - I look forward to hearing from you.
+    - correspond with 
+    - I'm confident about ...
+      I have problems with ...
+      How are you getting on ... ?
     - footnote / ballpark of micro amps.      
     - actuate :
       It will be used not only to turn on/off but also to navigate apps. This means the button has to be durable and easy to actuate.
@@ -1025,4 +1032,27 @@
       I have escalated to our BT team!
     - tax ID number : 統一編號
       Do you need a tax ID number on your receipt?  
+    
+53. Unit 62 Identifying and qualifying (辨析或修飾名詞的關係子句) :
+    - 關係代名詞 :
+      人 : 
+         1. 為關係子句之主詞 :who , that 
+            People who live in glass houses shouldn't throw stones.
+         2. 為關係子句動詞的受詞 : whom , who , that or 省略不用
+            He is the man whom we met yesterday.
+      物 :
+         1. 為關係子句之主詞 :which , that 
+            A submarine is a ship which can travel under water.
+         2. 為關係子句動詞的受詞 : which , that or 省略不用            
+    - brochure / converse with / genius , talent / temptation / despair 
+    - in thousands of songs that ... / the sounds that I'm hearing ...
+    - in whcih / where 
+    - Emphasis :
+      Here ; Right here. / Yes ; Definitely. / I don't like .. / I really don't like 
+      absolutely / quite / totally / certainly / huge / tiny
+    - I would like details of .....
+      Please find enclosed our brochure, ....
+    - The greatest mistake you can make in life is to be continually fearing you will make one.
+    - That's exactly what I said.
+      
     
