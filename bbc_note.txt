@@ -1053,6 +1053,12 @@
     - I would like details of .....
       Please find enclosed our brochure, ....
     - The greatest mistake you can make in life is to be continually fearing you will make one.
-    - That's exactly what I said.
-      
-    
+    - That's exactly what I said.      
+    - retention : The condition of retaining (keeping) something. 
+                  "You may be able to memorize facts in the short-term, but how well is your retention of those facts over the long-term?" 
+                  "Successful companies need to foster a good working environment so that employee retention remains at a high level." 
+    - early bird discount : 
+      You can save 10% by taking advantage of the early bird discount.
+    - versatile :
+      He's a very versatile young actor who's as happy in highbrow dramas as he is in TV comedies.
+		  A leather jacket is a timeless and versatile garment that can be worn in all seasons.	    
