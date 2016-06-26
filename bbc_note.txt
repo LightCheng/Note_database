@@ -267,7 +267,7 @@
 25. Unit 30 Possession
     - (所有格代名詞)mine / yours / his / hers / its / ours /theirs / Whose ... ?    
       Whose is this key ?
-@   - hangman / wizard / terms / forms 
+    - hangman (絞刑吏 , 劊子手) / wizard (奇才) / terms (英制學期) / forms (英制年級)
     - Primary school / Comprehensive school
     - What's special about today ?
       
@@ -275,7 +275,7 @@
 		- Why don't you ...? You could ....
     - How does this ... work ?
     - could : 表示請求或要求某人做某事 / 請問對方是否可取得某物或做某事 / 提議做某些活動
-@   - grades / forms
+@   - grades (美制年級) / forms
     - I see what you mean. / Coud I make a suggestion ?
     - buy .. for / send .. to
     - tell me what you think.
@@ -317,7 +317,7 @@
       名詞之前 , e.g. enough water
     - Where to ? / Who for ?
 @   - propose a toast / because we are no good.
-@   - deliverance / emerald / jaws
+@   - deliverance (求助) / emerald / jaws
     
     Unit 36 Health
     - I've got a stomachache.
@@ -773,7 +773,7 @@
     - I worked as a teacher from 1981 till I got married
     - 若在表未來事件的句子中 , 
       由表 時間連接詞(e.g. when,after,before,until,till ) 開頭的子句, 一定要用現在式(簡單式 or 進行式 or 完成式).
-    - considerate / taken aback / irritated / absorbed
+    - considerate / taken aback(吃驚，出乎意料) / irritated / absorbed
       Will you love me when I'm old and gray ?
     
     - dumb down : to lower the level of difficulty and the intellectual content of
@@ -1021,12 +1021,12 @@
     - speak / talk
       say / tell
     - I look forward to hearing from you.
-    - correspond with 
+    - correspond with (與...通信)
     - I'm confident about ...
       I have problems with ...
       How are you getting on ... ?
     - footnote / ballpark of micro amps.      
-    - actuate :
+    - actuate (開動 , 激勵 , 促使)::
       It will be used not only to turn on/off but also to navigate apps. This means the button has to be durable and easy to actuate.
     - escalate :
       I have escalated to our BT team!
@@ -1090,7 +1090,8 @@
     - 不定詞 / 完成式不定詞 ?
     - Please reserve in my name a double room with bath/shower for the night of Friday April 14th.
       I look forward to receiving your confirmation.
-    - It makes me think of ...
-      
-     
-          
+    - It makes me think of ...      
+    - steely       
+
+55. Unit 64 Revision unit
+    -      
