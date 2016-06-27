@@ -969,11 +969,14 @@
     - wonder / wander / witty / beast / doll / freight train / horror / landlady / pale / symphony
     - hand-to-hand : What happens if I get in close hand-to-hand combat ?
     - 簡單過去式 / 過去進行式.
-    - 簡單過去完成式 (had + P.P): 表示過去"某時之前"發生的事, 即更早的過去 (earlier in the past).
+    - 簡單過去完成式 (had + P.P): 
+      表示過去"某時之前"發生的事, 即更早的過去 (earlier in the past).
+      或一前一後的兩個動作中 , 比較先發生或完成的動作或行為.
       e.g. We left home late(in the past). I had lost the car keys(Earlier in the past).
            He thought it was a marvellous film. He'd seen it before.
       若要用一個句子來表示一前一後的兩件事 , 通常會用到"表達時間"的連接詞(如when等)與"表達完成概念"的副詞just 和 already.
       e.g. When we arrived at the cinema, the film had already started.
+    
     - 過去完成進行式 ( had been + Ving) : 持續進行到過去稍後的某一個時間點.
       He finished it on last month. He'd been working on it for 10 years.
       
@@ -1087,11 +1090,24 @@
       If ..., then ...
       So / Therefore
       In that case, ...
-    - 不定詞 / 完成式不定詞 ?
+    - 不定詞 = > 完成式不定詞 (have + Vp.p) :      
+      be => have been
+      rain => have rained
+      write => have written
+      完成式不定詞通常接在狀態助動詞後面 , 用以表示過去可能或已經發生的事情.
+      You must have been a beautiful girl.
+      It must have rained during the night.
+      
     - Please reserve in my name a double room with bath/shower for the night of Friday April 14th.
       I look forward to receiving your confirmation.
     - It makes me think of ...      
     - steely       
 
 55. Unit 64 Revision unit
-    -      
+    - appointment / miserable / tie sb down
+    - accost / futile / plum / life slips by / the truth of the matter
+    - stalking / neglect / suspect / buoy / cigarette butt / fish out / subtle / rampage / tub / incubation / swivel / swab / flashback
+    - predator / slay / rigor / errant / nomadic / encompass / premise / interpretation
+    - What were you doing yesterday evening at eight o'clock ?
+    - What do you think it means ?
+    
