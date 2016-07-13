@@ -1185,7 +1185,11 @@
     
 57. Unit 66 Passive forms :
     - scandal 醜聞 : The scandal ruined the politician’s reputation.
-    - trespasser / prosecuted / aid
+    - trespasser / prosecuted / aid / daze / bemused / distressed / depressed 
+      Trespassers will be prosecuted.
+      I was rocked.
+    - blast / blaze / clash / drama / back / bid / plea / probe / riddle
+    - bear bore born
     - 需要離開一下，跟面前的客人說「馬上回來」 : 
       I'll be right with you.
       e.g. This shirt is not your size. Let me check on the back shelf. I'll be right with you.
@@ -1198,4 +1202,30 @@
       Have you got any jeans ? If "Yes", where were they made ?
     - I'm delighted to welcome Professor Light. He's going to talk about ....
     - English is spoken ... / English was spoken ... /English has been spoken ...
+    - 新聞標題的文法構造 :
+      Present simple : 指發生於過去的動作或行為 , 包括過去開始進行, 到目前剛剛完成者.
+      e.g. 
+      EXPLORER DISAPPEARS ==> had disappeared.
       
+      若出現動詞的被動式時 , 通常會把助動 be (is, are, was, were, had been 等)省略.
+      e.g.
+      MISSING CHILDREN FOUND ==> have been found
+      Alex and Jason Cooper , the missing Manchester children, have been found.
+      
+      通常用不同詞 (to + 動詞原形) 來去示未來將發生的事.
+      e.g.
+      QUEEN TO VISIT CANADA
+      The Queen will visit Canada next month.
+      
+    - 英語被動語態的構造 :
+      適當的 be 動詞形式 , 接相關動詞的過去分詞.
+      am / was + third form
+      have been / had been + third form
+      will be + third form
+      am being / is being / are being + third form
+      was being / were being + third form
+    
+    - like / hate / enjoy 這類的動詞之後, 接被動語態時 , 其構造是 :
+      being + P.P
+      e.g.
+      Most film stars enjoy being interviewed.
