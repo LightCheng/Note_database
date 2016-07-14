@@ -1192,8 +1192,11 @@
     - trespasser / prosecuted / aid / daze / bemused / distressed / depressed 
       Trespassers will be prosecuted.
       I was rocked.
-    - blast / blaze / clash / drama / back / bid / plea / probe / riddle
+    - blast / blaze / clash / drama / back / bid / plea / probe / riddle / row / zap
     - bear bore born
+    - column / recount / compartment / blanket / shark
+    - I've got an eye for ...
+    - 被動句中，若要提到"作該動作的行為者"時, 應使用介詞 "by"
     - 需要離開一下，跟面前的客人說「馬上回來」 : 
       I'll be right with you.
       e.g. This shirt is not your size. Let me check on the back shelf. I'll be right with you.
@@ -1233,6 +1236,12 @@
       being + P.P
       e.g.
       Most film stars enjoy being interviewed.
+    - 分號可以取代句號, 以顯示兩個句子間的密切關係 ,
+      也可以取代逗號 , 以表示有好幾個逗號的長句應如何斷句為宜.
+    - reeling from : 眼花撩亂 ; 昏頭轉向
+    - mistook ... for ... : 把 ...誤以為是 ...
+      e.g. She mistook Oakland for Auckland.
+    - intercom : 對講機或廣播裝置.
     - leisurely : 
       Characterized by leisure; taking abundant time; not hurried;
       as, a leisurely manner; a leisurely walk.
@@ -1250,3 +1259,12 @@
     - You've got to find what you love.
     - sexual discrimination : 性別歧視
       The law prohibits sexual discrimination in the workplace
+    - vast : extremely big.
+      e.g. The amount of detail the book contains is vast.
+    - erect : 直立的，垂直的，豎起的 / 樹立；建立，設立
+    - fishing rights : 漁撈權
+    
+58 Unit 67 Word formation : Compounds:
+    - 複合名詞 : 當修飾的名詞 + 被修飾的名詞 ; 且複合名詞的關鍵字都是最後一個字.
+      e.g. lunchtime , lunchtime music.
+    - lemonade / hyphen / prawn / rocking chair
