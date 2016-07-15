@@ -1279,4 +1279,4 @@
     - 複合名詞 : 當修飾的名詞 + 被修飾的名詞 ; 且複合名詞的關鍵字都是最後一個字.
       e.g. lunchtime , lunchtime music.
     - lemonade / hyphen / prawn / rocking chair
-    
+    - Genius is 1% talent and 99% hard work ~ Thomas Edison
