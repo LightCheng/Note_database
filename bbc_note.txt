@@ -239,7 +239,7 @@
        
     Unit 28 Sizes and shapes 
       How tall are you ?
-    - thin / slim
+    - thin / slim / skinny / Slender
     - weigh / weight
       How much do you weigh ?
     - foot / stone : 表高度和重量的單位 , 通常用單數.
@@ -1224,7 +1224,11 @@
     - like / hate / enjoy 這類的動詞之後, 接被動語態時 , 其構造是 :
       being + P.P
       e.g.
-      Most film stars enjoy being interviewed.
+      Most film stars enjoy being interviewed.      
+    - 被動式是讓受詞升級為主詞的方法，
+      e.g. 原主詞 "I" 可以省略，不省略的話，會變為介系詞片語的受詞 （prepositional object："by me"）。
+      因為被動式是個較拐彎抹角、推卸責任、又缺乏活力的表達方式，一般會建議儘量少用，不過，被動式還是有它適用的範圍。
+      
     - 分號可以取代句號, 以顯示兩個句子間的密切關係 ,
       也可以取代逗號 , 以表示有好幾個逗號的長句應如何斷句為宜.
     - reeling from : 眼花撩亂 ; 昏頭轉向
@@ -1288,5 +1292,18 @@
 	    
 	    若你是個人闡述自己意見的話，就用to me。若是有人和你在爭論或不同意見時，你要表達自己的看法時，就用for me。
     
-    - Genius is 1% talent and 99% hard work ~ Thomas Edison
-    
+    - Genius is 1% talent and 99% hard work ~ Thomas Edison    
+    - labor insurance : e.g. How much is deducted from our paychecks for labor insurance?
+    - slack off : 打混
+      You need to stop slacking off and finish your report.
+    - management trainee : Does your company have a management trainee program?
+    - stamina : 精力；耐力；韌勁
+    - Attractive vs Charming
+      Attractive強調的是外表很吸引人，而Charming則主要形容一個人整體上很討人喜歡。
+      Attractive主要形容的是外在魅力，說一個人attractive，容易讓人覺得你對那人有意思。
+    - Clever vs Smart
+      Clever通常指的是反應敏捷，善於思辨。有時，耍小聰明的人也常被用Clever或Witty來形容。
+      但是若要稱讚一個人在學術上或智力上的成就，通常就不會使用Clever，而是用Smart。
+    - Fragile vs Delicate
+      Fragile和Delicate這兩個字都有「脆弱」的意思，但Fragile強調的重點卻是「容易損壞的」。如果用Fragile作為形容，通常會讓人聯想到的是過於脆弱的形象，多為負面的意思。
+      Delicate的意思偏向為「精細的」或是「纖細的」。雖然也同樣有脆弱的意思，但是偏向正面。
