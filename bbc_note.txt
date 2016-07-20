@@ -1216,11 +1216,17 @@
     - 英語被動語態的構造 :
       適當的 be 動詞形式 , 接相關動詞的過去分詞.
       am / was + third form
-      have been / had been + third form
+      	Credit cards are accepted here.
+      have been / has been + third form
+        This has been discussed in the highest government circles.
+      had been + third form
+        In 1900 , English had been spoken in New Zealand for sixty years.
       will be + third form
+        A statement will be made tomorrow.
       am being / is being / are being + third form
+        A new hospital is being built in our school.
       was being / were being + third form
-    
+        I couldn't use my office last week because it was being painted.
     - like / hate / enjoy 這類的動詞之後, 接被動語態時 , 其構造是 :
       being + P.P
       e.g.
@@ -1275,13 +1281,14 @@
       e.g. lunchtime , lunchtime music.
       若關鍵字為動名詞 , 則大多須以連字號"-"連接.
     - 複合形容詞 :
-      red-haired / good-looking / hard-working / world famous
+      red-haired / good-looking / hard-working / world famous / middle-aged / air-conditioned
     - 含有數目字的複合詞 :
       the 31-year-old singer
       The singer was 31 years old.
     - lemonade / hyphen / prawn / rocking chair / mushroom / railway station / railroad station    
     - sizzling / villain / snooker / grandstand / borough / casualty / settler / skyscraper / liberty / parliament / barrier
-    - leap in : suddenly enter 突然闖進 A great idea just leaped into my mind．我突然想到一個絕妙的主意。
+    - stick up : 搶劫 ; 突出 / hocky / the drinking fountain / waste-paper basket
+    - leap into : suddenly enter 突然闖進 A great idea just leaped into my mind．我突然想到一個絕妙的主意。
     - crutch : 拐杖,支撐,幫助(vt.)支撐
     - To & For    
 	    當有移轉物品的情形或是某人將東西交給某人時，就會產生recepient(接收者)，這時會用到to跟for，而用法也有不同：
