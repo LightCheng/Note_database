@@ -21,7 +21,7 @@
    Like & dislike
    i.e. = that is ; e.g. = for example 
    vs. / vs / v.
-@  aka (also known as)
+   aka (also known as)
    I was born in 1974 in Taipei.
 
 8. Unit 7
@@ -284,7 +284,7 @@
     - tell me what you think.
 
 27. Unit 33 Recent events and past experiences
-@   - chilled / squeezed / grilled / boiled
+    - chilled / squeezed / grilled / boiled
     - sing / sang / sung
     - 現在完成式 : have/has + P.P : 
       過去某時開始做的動作或狀態 , 持續到目前才完成或將繼續下去.
@@ -320,7 +320,7 @@
       名詞之前 , e.g. enough water
     - Where to ? / Who for ?
     - propose a toast / because we are no good.
-@   - deliverance (求助) / emerald / jaws
+    - deliverance (求助) / emerald / jaws
     
     Unit 36 Health
     - I've got a stomachache.
@@ -353,7 +353,7 @@
       Which sign are you ?
       Do you believe in astrology ?      
     - in his teens / in her mid-20s
-@     happily ever after    
+      happily ever after    
     - tropical / artistic / conservative / enjoyable / healthy / confident    
     - a man with red hair VS a red-haired man
     - a girl with blue eyes VS a blue-eyed girl
@@ -412,9 +412,9 @@
     - How long have we known each other ?  / You've been away half the time.
 
 33. Unit 40 Revision unit
-@   - alibis , after all 
+    - alibis , after all 
     
-@   - tag along (after someone)
+    - tag along (after someone)
       to follow along after someone; to go along with someone. 
       e.g. 
       The family dog tagged along after the children wherever they went. 
@@ -461,7 +461,7 @@
     - politics / physicist / century / horoscope / palmist
 		- in 2050 / on Oct.12th, 2050.
 		- Predictions :
-@		  It will be fine. / It will be cold.
+		  It will be fine. / It will be cold.
 		  There will be rain everywhere.
 		  I won't be long. / I'll be right back.
 		  Where will you be tomorrow morning at 11.30 ?
@@ -977,7 +977,7 @@
       
     - already / just
     - hope / intend 的過去完成式 , 常可用來表示沒能實現的希望、計劃或心願.
-      I'd hoped to ... / I'd intend to ....
+      I'd hoped to ... / I'd intended to ....
     - I'd been on the trail. 
     - guy , man / go , say , you can just go : 'Stab,stab!'
     - I think I've left it too late.
@@ -1307,3 +1307,8 @@
     - Fragile vs Delicate
       Fragile和Delicate這兩個字都有「脆弱」的意思，但Fragile強調的重點卻是「容易損壞的」。如果用Fragile作為形容，通常會讓人聯想到的是過於脆弱的形象，多為負面的意思。
       Delicate的意思偏向為「精細的」或是「纖細的」。雖然也同樣有脆弱的意思，但是偏向正面。
+    - thriving : 欣欣向榮
+      The domestic Chinese satellite navigation industry is thriving, based on the growing availability of Beidou signals combined with the baseline GPS constellation. 
+      embody : 具體表達,使具體化
+    - holacracy : A specific social technology or system of organizational governance developed by HolacracyOne, 
+                  LLC in which authority and decision-making are distributed throughout a holarchy of self-organizing teams rather than being vested in a management hierarchy.      
