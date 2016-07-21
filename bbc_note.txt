@@ -343,7 +343,7 @@
 30. Unit 37 Describing people
     - Physical appearance 
       What does he look like ? VS What is he like ? VS What does he like ?
-      blonde / fair hair / of medium height / blad / stolid / obscure / 
+      blonde / fair hair / of medium height / bald / stolid / obscure / 
       She's blonde. / She's got fair hair.
       moustache（長在鼻子和嘴唇間的）鬍子 / beard （長在下巴或臉頰的）鬍子 , 絡腮鬍是 full beard
       
@@ -1345,4 +1345,4 @@
     - endeavor : 努力，盡力
     - stymie : 使陷困境；妨礙
     - panacea : 萬能藥；補救之道
-      
+    - pre-order : 預購 If you pre-order online, you’ll receive a 20% discount on the album.
