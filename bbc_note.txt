@@ -1200,7 +1200,7 @@
     - English is spoken ... / English was spoken ... /English has been spoken ...
     - 新聞標題的文法構造 :
       Present simple : 指發生於過去的動作或行為 , 包括過去開始進行, 到目前剛剛完成者.
-      e.g. 
+      e.g.
       EXPLORER DISAPPEARS ==> had disappeared.
       
       若出現動詞的被動式時 , 通常會把助動 be (is, are, was, were, had been 等)省略.
@@ -1208,7 +1208,7 @@
       MISSING CHILDREN FOUND ==> have been found
       Alex and Jason Cooper , the missing Manchester children, have been found.
       
-      通常用不同詞 (to + 動詞原形) 來去示未來將發生的事.
+      通常用不定詞 (to + 動詞原形) 來表示未來將發生的事.
       e.g.
       QUEEN TO VISIT CANADA
       The Queen will visit Canada next month.
@@ -1374,3 +1374,12 @@
     - hay / nimble / agonizing / tenacious / egoless / stunning / grand / adequate / akin  
     - shed light on : Could I ask you to shed light on this case ?
     - Analysis paralysis : The state of over-analyzing (or over-thinking) a situation so that a decision or action is never taken    
+    - rounding : 四捨五入
+    - ripe : 熟的,成熟的,時機成熟的;成年的,年高的
+    - a pain in the neck : 引申芒刺在背燙手山竽、如鯁在喉、難搞的人或是事情。
+      e.g. Negotiating with customers is a pain in the neck for Betty.（對 Betty 來說，要跟客戶協商是一件難搞的事情。）
+    - a shot in the dark : 形容一個人盲目臆測、瞎猜。
+      e.g. Guessing what the customers need without a proper market survey is like a shot in the dark.
+          （在不做正確的市場調查的情況下就盲目臆測顧客的需求，簡直猶如亂槍打鳥。）
+    - onus / augment / teardown / apparatus / unwieldy / stipulate / annotation
+    
