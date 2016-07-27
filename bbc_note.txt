@@ -1382,4 +1382,6 @@
       e.g. Guessing what the customers need without a proper market survey is like a shot in the dark.
           （在不做正確的市場調查的情況下就盲目臆測顧客的需求，簡直猶如亂槍打鳥。）
     - onus / augment / teardown / apparatus / unwieldy / stipulate / annotation
-    
+    - underestimate
+    - set up (a) stall : 擺攤
+      e.g. Do I need a license if I want to set up a stall here? / Vendors set up stalls selling snacks on the weekend.   
