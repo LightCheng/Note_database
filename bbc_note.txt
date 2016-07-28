@@ -1384,4 +1384,6 @@
     - onus / augment / teardown / apparatus / unwieldy / stipulate / annotation
     - underestimate
     - set up (a) stall : 擺攤
-      e.g. Do I need a license if I want to set up a stall here? / Vendors set up stalls selling snacks on the weekend.   
+      e.g. Do I need a license if I want to set up a stall here? / Vendors set up stalls selling snacks on the weekend.      
+    - intern 實習生 : Experience as an intern will look good on your college application.
+                      擔任實習生的經驗會讓你的大學申請文件看起來比較亮眼。
