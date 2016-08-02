@@ -400,14 +400,14 @@
 32. Unit 39 Duration
     - How long ?
       for : with present finished sentence , 表示到目前為止共持續了多久的時間.
-          I've worked for CCI for 7 years.
+          I've worked for CCI for 8 years.
 
       since : with present finished sentence
           自從 .... 以來 , 一般會加上過去的某點時間副詞 (e.g. three o'clock , October 21st , 1982 ..)
           I've worked for CCI since 2008.
 
       ago : only with past present sentence.
-          I joined CCI 7 years ago.
+          I joined CCI 8 years ago.
 
     - How long have we known each other ?  / You've been away half the time.
 
@@ -496,15 +496,12 @@
     - whistle / comb / spill
     - Mind your head / Watch your head.
     - If you need further information or assistance please revert.
-    - Cheers,
-      Many thanks.
-      To your success. / Keep up the good work.
+    - Cheers / Many thanks / To your success. / Keep up the good work.
     - You practice and you get better.
     - on the subject of this unit.
     - You should get some exercise.
     - If I were you , I'd visit ...
     - What would you recommend ?
-    - Must VS. Should
     - advice 與 information 一樣是不可數名詞 ,
       a piece of advice
       I'd like to ask for your advice.
@@ -642,7 +639,7 @@
       That's one small step for a man , one giant leap for mankind.
       astronaut
     - admiral / supreme / pyramid
-    - in 1974 / in February 1974 / on February 2nd, 1974.
+    - in 1974 / in February 1974 / on February 22nd, 1974.
     - What was happening ?
       What were you doing ?
       What happened next ?
@@ -754,8 +751,7 @@
       sort of / kind of / a small packet / abandon
     - He has no doubts about this question.
     - agree with / disagree with / no comment on that / ... is the opposite of ...
-    - minister
-    - egalitarian / lots of varying ideas
+    - minister / egalitarian / lots of varying ideas
     - affront / disgrace
     
 47. Unit 54 Conjunctions
@@ -929,14 +925,11 @@
 	2. Keeping lists
 		 Richard believes in always keeping track and organizing your tasks and ideas in lists.
 
-		 I have always lived my life by making lists: lists of people to call, lists of ideas, lists of companies to set up, lists of people who can make things happen. 
-		 Each day I work through these lists, and that sequence of calls propels me forward.
-
 	3. To be productive you should love what you do
      Focus on activities that you enjoy and are a really good at. 
      Try to delegate or outsource everything else.
-
 		 I don’t think of work as work and play as play. It’s all living.
+		 
 	4. Don’t get the lawyers or accountants involved too early
 
 	5. Hands off delegation
@@ -944,13 +937,10 @@
 	   Running 400 companies it would be absolutely impossible for him to handle the details himself. 
 	   Although not to the same degree, the same principles do apply for smaller businesses.
 
-	   You must understand the art of delegation. 
-	   I have to be good at helping people run the individual businesses, and I have to be willing to step back. 
-	   The company must be set up so it can continue without me.
 	6. Set big audacious goals
 		 So you accomplished all your tasks for the day, were you productive? Possibly not. 
-		 Productivity is not about accomplishing a list of tasks. I
-		 t’s about achieving the big important tasks that make the biggest difference in your life. 
+		 Productivity is not about accomplishing a list of tasks. 
+		 It’s about achieving the big important tasks that make the biggest difference in your life. 
 		 The concept of trying to keep control of everything in your life and to get everything finished is potentially LIMITING to your productivity.
 
 		 Instead aim high and focus on the few things that make the biggest difference in your life. 
@@ -1000,8 +990,7 @@
            I want to know more about Kelly. Could you elaborate on her?
 
 52. Unit 61 Languages
-    - pronunciation / philosophy / toddler / tactful / artificial / invent
-    - barbecue
+    - pronunciation / philosophy / toddler / tactful / artificial / invent / barbecue
     - proverbs :
       Bad news travels fast.
       Walls have ears.
@@ -1407,3 +1396,10 @@
     - resonable / reasonableness (講理的 / 理性)
       "Patience is a virtue" is an old saying .   "忍耐是美德"是句古老的諺語。
       endangered species : 瀕臨絕種的動植物
+    - 無人機 : drone / unmanned aerial vehicle（UAV）
+      e.g. Amazon will soon begin using drones to deliver products.
+           亞馬遜網站不久就要開始使用無人機來運送產品。
+    - groundwork : 基礎；底子，根基
+      e.g. A bolder change will require additional groundwork.
+    - 派遣人員 : temp worker 
+      e.g. Temp workers who perform well will be given permanent positions.      
