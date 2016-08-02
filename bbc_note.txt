@@ -1402,4 +1402,18 @@
     - groundwork : 基礎；底子，根基
       e.g. A bolder change will require additional groundwork.
     - 派遣人員 : temp worker 
-      e.g. Temp workers who perform well will be given permanent positions.      
+      e.g. Temp workers who perform well will be given permanent positions.
+    - skew (adj) / lease 
+      e.g.  I hope to minimize the data skew from this so that the activation stats are still usable for making decisions.
+    - conjure up : 使呈現於腦際（或眼簾）；想起
+      e.g. The term "middleman" usually conjures up a negative image — someone who creates costs and slows things down.
+    - cultivate : 耕種，耕作,栽培（作物等）；養殖（魚等）；培育,建立，加強（友誼）；結交（朋友等）
+      e.g. You should think carefully about how to cultivate a location-independent second act, such as a seasonal or internet-enabled job.
+    - Rolodex : 個人所有朋友，同事的名單
+      rolodex : 名片盒
+      remunerative : 酬報的，報償性的
+      e.g. He is prepared to make a living by accepting any remunerative chore .   為了生計，他準備接受任何有酬報的雜活。
+      accrued : 累積的
+      e.g. you’ll get paid more for the seniority and experience you’ve accrued. 
+    - compromise / course (v) / psychopath / remorse / concoct / forge / paper clip / rung
+      
