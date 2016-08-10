@@ -270,7 +270,7 @@
 25. Unit 30 Possession
     - (所有格代名詞)mine / yours / his / hers / its / ours /theirs / Whose ... ?    
       Whose is this key ?
-    - hangman (絞刑吏 , 劊子手) / wizard (奇才) / terms (英制學期) / forms (英制年級)
+    - hangman (絞刑吏 , 劊子手) / wizard (奇才) / terms (英制學期) / forms (英制年級) / grades (美制年級)
     - Primary school / Comprehensive school
     - What's special about today ?
       
@@ -278,7 +278,6 @@
 		- Why don't you ...? You could ....
     - How does this ... work ?
     - could : 表示請求或要求某人做某事 / 請問對方是否可取得某物或做某事 / 提議做某些活動
-    - grades (美制年級) / forms
     - I see what you mean. / Coud I make a suggestion ?
     - buy .. for / send .. to
     - tell me what you think.
@@ -348,8 +347,7 @@
       moustache（長在鼻子和嘴唇間的）鬍子 / beard （長在下巴或臉頰的）鬍子 , 絡腮鬍是 full beard
       
     - Personality
-      determined / quiet / sensitive / astrology
-      conservative / intelligent / thoughtful
+      determined / quiet / sensitive / astrology / conservative / intelligent / thoughtful
       Which sign are you ?
       Do you believe in astrology ?      
     - in his teens / in her mid-20s
@@ -361,11 +359,6 @@
     - Profession VS. Occupation
       A profession needs extensive training and specialized knowledge. 
       On the other hand, an occupation does not need any extensive training. 
-      A person with an occupation need not have specialized knowledge of his trade.
-      A profession can be called an occupation when a person is paid for his particular skills, 
-      and his deep knowledge. Doctors, engineers, advocates, journalists, scientists, and many others, fall under the professional category. 
-      On the other hand, persons engaged in an occupation are not paid for their knowledge, 
-      but only for what they produce. Drivers, clerks and technicians fall under the category of occupation.
     - I'd like you to meet Mr Brown.
 
 31. Unit 38 Permission and obligation
@@ -425,10 +418,8 @@
       to completely change the direction of something
       to change a situation or people's opinions to the opposite of what they were before
       
-    - When they got married , it was just like ...
-    
-    - Somethimes I don't know why I like you.
-    
+    - When they got married , it was just like ...    
+    - Somethimes I don't know why I like you.    
     - On fifteen dollars a day.
     
     - 現在簡單式 :
@@ -459,7 +450,7 @@
 
 34. Unit 41 Future events
     - politics / physicist / century / horoscope / palmist
-		- in 2050 / on Oct.12th, 2050.
+		- in 2050 / on Oct. 12th, 2050.
 		- Predictions :
 		  It will be fine. / It will be cold.
 		  There will be rain everywhere.
@@ -528,8 +519,6 @@
     - in shades of gray
     - maxim / rarely pure / fellow
     - Will it be fine tomorrow ?
-      Will it rain tomorrow ?
-      Will it snow tomorrow ?
     - Are you going to make that trip to U.K ?
     - We might part. Nothing lasts for ever.
     
@@ -559,7 +548,7 @@
       That's most kind of you.
     
       early -> earlier / earliest
-      careful -> more careful -> most careful
+      careful -> more careful -> the most careful
       
     - look up / guess at
     - marinated / charcoal / clay / underneath / tone down / the majority / holy / giraffe
@@ -581,7 +570,6 @@
          
       b. Future activities (未來進行式): 在未來持續一段時間的動作行為. 
          How long will you be staying ?
-         What will you be doing ?
          What will you be doing this time next year ?
          
       c. 表示未來的習慣性或重複性的動作或行為
@@ -647,7 +635,7 @@
     - viewing platform
     
 43. Unit 50 Imaginary situations 
-    - miracle / outsider / slang / Jail / punt / repertoire 
+    - miracle / outsider / slang / jail / punt / repertoire 
     - a bit before your time / I wonder why
     - If you don't make mistakes, you don't make anything.
       If at first you don't succeed, try try again.
@@ -794,7 +782,7 @@
     - Let me get this right.
     - perseverance / grit
     - I'm copying you here so you can ...
-    What questions do you have for me ?    
+      What questions do you have for me ?    
     - 現在完成進行式(have/has been + V-ing)可用來指 :
       1. 從過去某時間點開始 , 到現在仍在進行的動作或行為.
          He's been writting the report for 2 hours.
@@ -836,30 +824,30 @@
         Integration within a team always depends on trust. 
         Transparent and honest communication will not only benefit the team's efficiency but also the corporate culture.
 
-		  3. 解決導向
+		 3. 解決導向
          Solution is the point.
  				When encountering a problem, or when team members make mistakes, remember not to focus on the problem itself but the solution to the issue. This is how employees learn to solve things themselves.
 
-			4. 創造部屬的自信心
+		 4. 創造部屬的自信心
 				Build (A) self-esteem in (B) underlings.
         Pay attention to how you make others feel. 
         An MVP in your team will never be just obedient, but will be confident and understand his or her own value.
 
-      5. 好的領導人不獨裁
+     5. 好的領導人不獨裁
         A good leader is not an autocrat.
         Being a competent leader doesn't mean you are going to throw your weight around. Finding a balance between being firm and being reasonable is a lesson that every leader should learn.
         做一個能幹的領導者並不代表要對他人頤指氣使。在立場堅定以及合乎情理間找到平衡點是優質領導人必學的一道課題。
 
-       6. 懂得賞識很重要
+     6. 懂得賞識很重要
          Appreciation is important.
          Direct and plain feedback is necessary. So is appreciation. Encourage the positive cycle by telling the employee exactly what he did well.
 
-       7. 領導人也須「服務他人」
+     7. 領導人也須「服務他人」
          Leaders need to serve others.
          There is a fallacy that the leader's job is to command. 
          Actually, a leader's main mission is to "serve." Offer the necessary information and give your team a hand when they are needed; that's how you make the team willing to support you in the same way.
  
-       片語教學
+     片語教學
        1. Under promise and over deliver
        不過度承諾，表現超乎期待 , Promise是承諾，Deliver是履行。
 
@@ -935,7 +923,6 @@
 	5. Hands off delegation
 	   This is an obvious one for Richard. 
 	   Running 400 companies it would be absolutely impossible for him to handle the details himself. 
-	   Although not to the same degree, the same principles do apply for smaller businesses.
 
 	6. Set big audacious goals
 		 So you accomplished all your tasks for the day, were you productive? Possibly not. 
@@ -1218,8 +1205,7 @@
         I couldn't use my office last week because it was being painted.
     - like / hate / enjoy 這類的動詞之後, 接被動語態時 , 其構造是 :
       being + P.P
-      e.g.
-      Most film stars enjoy being interviewed.      
+      e.g. Most film stars enjoy being interviewed.      
     - 被動式是讓受詞升級為主詞的方法，
       e.g. 原主詞 "I" 可以省略，不省略的話，會變為介系詞片語的受詞 （prepositional object："by me"）。
       因為被動式是個較拐彎抹角、推卸責任、又缺乏活力的表達方式，一般會建議儘量少用，不過，被動式還是有它適用的範圍。
@@ -1454,4 +1440,5 @@
 	    He can't have written the book.
 	    There could have been a accident.
 	    You needn't have worried.
-    - hospitality / intrigue / tenderness / eternity / ape / alien
+    - hospitality / intrigue / tenderness / eternity / ape / alien / dune
+    - Acclaimed throughout the world / take advantage of 
