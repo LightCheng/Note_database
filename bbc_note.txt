@@ -479,7 +479,7 @@
 		    It starts at 8:30.
 		    The plane leaves at 10:00.
 
-      - I've work out ...
+      - I've worked out ...
       
 35. Unit 42 Warnings and advice
     - wet paint / corrosive / flammable = inflammable VS. non-flammable , non-inflammable
@@ -1460,3 +1460,21 @@
     - Have you got it in small,please？（這有沒有小號／杯的？）
     - deposit : Will I get my deposit back if I cancel my reservation?
     
+61. Unit 71 Past habits
+    - hush / flock / nourish / alcoholic
+    - May I take up your invitation to ... / find out
+    - How many times ?
+      對過去一再重複的動作行為要明白指明幾次時(six times , ten times) , 一定要使用簡單過去式.
+      You ate in the same restaurant 21 times.
+    - How long did you work for them ? / I worked for them for 10 years.
+      要明白指出過去的某動作行延續了多久時間(six monthes , four years) , 一定要使用簡單過去式.
+    - When I was young ...
+      used to + 原形動詞 :
+      1. 用以表示發生在過去的習慣或狀態 , 為簡單過去式的一種代用式.
+         但於上述兩種情形下時 , 不可使用.
+      2. 用來強調當年的習慣或狀態、行為如今已不復存在或持續.
+         The sequare used to be beautiful
+         Do you think people used to be friendlier than they are today ?
+         I used to smoke, but I don't smoke any more. / I've reformed.
+    - onto : Looking onto the square ?
+    - Not any more.
