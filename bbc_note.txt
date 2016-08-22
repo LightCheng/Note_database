@@ -1461,7 +1461,8 @@
     - deposit : Will I get my deposit back if I cancel my reservation?
     
 61. Unit 71 Past habits
-    - hush / flock / nourish / alcoholic
+    - hush / flock / nourish / alcoholic / procurement
+    - supplier : If quality doesn’t improve, we may have to switch suppliers.
     - May I take up your invitation to ... / find out
     - How many times ?
       對過去一再重複的動作行為要明白指明幾次時(six times , ten times) , 一定要使用簡單過去式.
@@ -1478,3 +1479,4 @@
          I used to smoke, but I don't smoke any more. / I've reformed.
     - onto : Looking onto the square ?
     - Not any more.
+        
