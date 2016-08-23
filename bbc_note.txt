@@ -1461,8 +1461,8 @@
     - deposit : Will I get my deposit back if I cancel my reservation?
     
 61. Unit 71 Past habits
-    - hush / flock / nourish / alcoholic / procurement / apathetic
-    - weep / imprison / custume / raven / yeoman warder / beefeater
+    - hush / flock / nourish / alcoholic / procurement / apathetic / nugget
+    - weep / imprison / custume / raven / yeoman warder / beefeater / spoiler / distribute
     - supplier : If quality doesn¡¦t improve, we may have to switch suppliers.
     - May I take up your invitation to ... / find out
     - How many times ?
@@ -1483,3 +1483,9 @@
     - onto : Looking onto the square ?
     - Not any more.
     - My curriculum vitae is enclosed.
+    - blend : I'm going to share a blend of science and real-world experiences that share a better strategy for making long-term changes in your life.
+    - distract / hype / squat / fluffy / mend / floss / blossom / lasting / in a row / paragraph / coax
+    - wade into : - To walk into something, such as water, that impedes normal movement:
+                    The new approach is to wade into the shallow water, slowly going deeper until you reach the point where you can swim whether you¡¦re motivated or not.
+                  - To join or intervene in some ongoing conflict, debate, or controversy:
+                    The government waded into the dispute and forced a resolution.
