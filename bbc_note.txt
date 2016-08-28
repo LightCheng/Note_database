@@ -1155,7 +1155,7 @@
     
 57. Unit 66 Passive forms :
     - scandal 醜聞 : The scandal ruined the politician’s reputation.
-    - trespasser / prosecuted / aid / daze / bemused / distressed / depressed 
+    - trespasser / prosecuted / aid / daze / bemused / distressed(悲痛，苦惱，憂傷) / depressed (沮喪的，消沉的，憂鬱的)
       Trespassers will be prosecuted.
     - blast / blaze / clash / drama / back / bid / plea / probe / riddle / row / zap
     - bear bore born
@@ -1346,7 +1346,7 @@
       French -> the French -> a Frenchman
     - How mush is this vase worth ?
     - You should always address envelopes clearly.      
-    - hay / nimble / agonizing / tenacious / egoless / stunning / grand / adequate / akin  
+    - hay / nimble / agonizing(令人苦悶的；令人煩惱的；令人痛苦難忍的) / tenacious / egoless / stunning / grand / adequate / akin  
     - shed light on : Could I ask you to shed light on this case ?
     - Analysis paralysis : The state of over-analyzing (or over-thinking) a situation so that a decision or action is never taken    
     - rounding : 四捨五入
@@ -1489,3 +1489,4 @@
                     The new approach is to wade into the shallow water, slowly going deeper until you reach the point where you can swim whether you’re motivated or not.
                   - To join or intervene in some ongoing conflict, debate, or controversy:
                     The government waded into the dispute and forced a resolution.
+    - Nothing would induce me ... (我無論怎樣都不會去...)
