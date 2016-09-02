@@ -1,4 +1,33 @@
-	https://backlogtool.com/git-guide/tw/intro/intro4_1.html
+[git config]
+	System : /etc/gitconfig
+		git config --system
+	User : ~/.gitconfig
+		git config --global	user.name "Light_Cheng"		
+	Project : my_project/.git/config
+		git config
+  
+  git config --list
+  core.editor / color.ui
+
+[commit message best practices]
+  - short single-line summary (less than 50 chars)
+  - optionally followed by a blank line and more complete description
+  - keep each line to less than 72 chars
+  - in presenttense , not past tense.
+
+[commit log]
+  - git log -n 3
+    git log --since=2016-08-01
+    git log --author="light_cheng"
+    git log --grep="Init"
+    git log HEAD
+    
+[three-trees architecture]
+   	repository <= (commit) staging index <= (add) working
+   	SHA-1
+   	HEAD pointer / repository
+    .git/HEAD
+  
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init
