@@ -13,21 +13,117 @@
   - short single-line summary (less than 50 chars)
   - optionally followed by a blank line and more complete description
   - keep each line to less than 72 chars
-  - in presenttense , not past tense.
+  - in present sentense , not past tense.
 
 [commit log]
   - git log -n 3
     git log --since=2016-08-01
+            --since="2 weeks ago"
+            --since="3 days ago"
+            --since=3.days            
     git log --author="light_cheng"
     git log --grep="Init"
     git log HEAD
-    
+    git log --oneline
+    git log Start_SHA_number..end_SHA_number checked-file.txt [ignore end_SHA_number means till the latest]
+    git log -p Start_SHA_number..end_SHA_number checked-file.txt [show the change of the file]
+    git log --graph --oneline --all --decorate
 [three-trees architecture]
    	repository <= (commit) staging index <= (add) working
    	SHA-1
    	HEAD pointer / repository
     .git/HEAD
   
+[basic]
+    status / add / commit / rm
+    git diff [repository vs working directory]
+    git diff --staged (or --cached) [repository vs staging index]
+    git diff file_name
+    git diff SHA_num file_name
+    git diff -b -w SHA_num1..SHA_num2
+    git diff SHA_num1..HEAD --stat --summary
+    
+    [rename]git mv old_name_file.txt new_name_file.txt
+    
+[checkout]
+    git checkout : allows you to discard file changes in the working directory.
+    
+[undo change]
+   (working directory)
+       git checkout -- restore_file.txt  ["--" means current branch]
+   (staging index)
+       git reset HEAD restore_file.txt [reset the index]
+       git checkout SHA_num -- restore_file.txt  [set restore_file.txt to SHA_num status with staged status]
+   (repository)
+       Only the most recent commit that HEAD points to , we do have the ability to edit ... by "amend" option.
+       you can change your contents or even just your commit message for the most recent commit.
+       git commit --amend -m "Message"
+       
+       (revert a commit completely and totally)       
+       git revert SHA_num
+       
+   (using reset to undo many commits) control HEAD pointer
+   git reset 
+      --soft : only move HEAD pointer and not going to change staging index or the working directory at the same time.
+      --mixed(default) : move HEAD pointer , changes staging index to match repository but not change working directory.
+      --hard : move HEAD pointer , changes staging index and working directory to match repository.
+
+[remove untracked files]    
+   git clean -n
+   git clean -f
+   
+[ignoring files]
+   (untracked file)
+   project/.gitignore
+     * ? [aeiou] [0-9] 
+     !
+     comment lines begin with #
+   (tracked files)
+   1. git rm --cached file_name (remove the file from staging index)
+   2. add the file name into .gitignore
+   
+[tracking empty directory]
+   project/.gitkeep
+   touch assets/pdfs/.gitkeep
+   
+[tree-ish]
+   git ls-tree HEAD
+   
+[branch]
+   step1 : git branch new_branch_name
+   step2 : git checkout new_branch_name
+   or just 
+   git checkout -b new_branch_name
+   
+   git diff branch1_name..branch2_name
+   
+   (check which branch be included)
+      git branch --merged
+   
+   (rename branch)
+      git branch -m old_branch_name new_branch_name
+      
+   (delete branch)
+      git branch -d branch_name 'care merged items'
+      git branch -D branch_name 'don't care any merged items'
+      
+   (merge other branch)
+      git merge be_merged_branch_name
+      
+   (fast_forward merges vs. real merges)   
+       fast_forward merges : receiving branch no need to make a new commit.
+       merges
+   
+   (merge conflict) abort / manual resolve / tool resolve
+       git merge --abort
+       manual resolve all conflicts
+       git mergetool 
+       
+     * merge often 
+    ** track changes to master
+
+[stash]
+
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init
@@ -38,6 +134,8 @@
         git remote #list all remote that it knows about
         git remote -v 
         git remote rm alias_name
+        
+   
 1. 建立本地端數據庫的方法有兩種：
    一種是重新建數據庫 : 
    - git init
