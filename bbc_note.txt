@@ -1438,7 +1438,7 @@
 	  - 表過去之動作行為的助動詞及其構造 :
 	    表語氣或狀態的助動詞 或 助動詞 need + have + P.P , 表示過去假定、可能或不確定會發生的事.
 	    You should have taken a different road.
-	    You must have beeen a beautiful baby.
+	    You must have been a beautiful baby.
 	    He can't have written the book.
 	    There could have been a accident.
 	    You needn't have worried.
@@ -1529,3 +1529,22 @@
       Do you want me to bring you a doggy bag from the restaurant?
       Could I please have a doggy bag for this?
     - round out / caveat / peculiar / contraction / obliterate / rewind
+    
+63. Unit 73 Modal auxiliary verbs : Some special uses.
+    - extract / revelation / abrupt / squeaking
+    - Is that so ?
+    - Advice and opinions :
+      ought to <==> should
+      ought not to <==> should not
+    - Refusals :
+      will/would
+      She wouldn't even open the door.
+    - possibilities :
+      條件句中的 should 通常表示未來可能發生的情形 , 但可能性非常低 :
+      ...if you call to me. 假如你叫我的話.
+      ...if you should call to me. 萬一你叫我的話.
+    - Would you like to ... ?
+      I'd rather not.
+      I might as well - I've got nothing else to do.
+    - I ... all the time. I can't help it.
+    - I'm at ease in every situation.
