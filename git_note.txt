@@ -123,7 +123,18 @@
     ** track changes to master
 
 [stash]
-
+   git stash save "item Message"
+   git stash list
+   git stash show -p stash@{N}
+   git stash pop stash@{N}
+   git stash apply stash@{N}
+   git stash drop stash@{N}
+   git stash clear
+   
+[remotes]
+   fetch : remote -> origin/master
+   merge : origin/master -> master
+   
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init

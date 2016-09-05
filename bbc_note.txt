@@ -1532,8 +1532,12 @@
     - more often than not / distill  
     
 63. Unit 73 Modal auxiliary verbs : Some special uses.
-    - extract / revelation / abrupt / squeaking
-    - Is that so ?
+    - extract / revelation / abrupt / squeaking / shove
+    - Is that so ? / I nearly forgot:... / I was going to say:...
+    - Could be. & Perhaps. : 
+      限於答覆對方句子中有be動詞的情形.
+    - Between you and me,...
+    - jurisdiction / constable
     - Advice and opinions :
       ought to <==> should
       ought not to <==> should not
@@ -1553,3 +1557,27 @@
       Are her eyes blue, or is she wearing colored contact lenses?
     - Get Shit Done 
       Slow donwn and fix your shit.
+    - 語助詞 :
+      can : 
+        表能力 : I can swim.
+        表請求 : Can I come in ?
+        表推論 : It can't be as late as that.
+        表可能性 : And take some warm clothes: the nights can be very cold.
+      may :
+        表請求 : May I use your phone ?
+        表可能性 : I may come to the party, but I'm not sure.
+        用於正式的說法, 向對方表達祝福之意 : May you stay forever young.
+      should :
+        提出建議或意見 : I think you should stop smoking.
+        表未來不太可能實現的事情 : If you should change your mind, phone me.
+        用於詢問句, 表示說話者覺得難以理解 : Why should it take so long to make a tomato omelette ?
+        可用於帶有怒氣的簡短問句 :
+        Where's Jack ? - How should I know ?
+        Give me your cell phone. - Why should I ?
+      will :
+        表未來將會發生 : I will be 43 next year.
+        表心意已決 : OK, I'll take it.
+        表願意或不願意 : The bank will lend you $5000.
+        表示你有充份的把握, 某事必定會發生 :
+        We can't disturb him now. He'll be having breakfast.
+      would :
