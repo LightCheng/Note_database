@@ -225,15 +225,12 @@
     - Who did you want to speak to ? 
     - You and I are through.
     - How came ...  通俗用語..為什麼.
-    - can / could / did / will
     - This is a very bad line.
     
 23. Unit 27 Hotels
     - checking in
       How long will you be staying ? / Could you have my bill ready ? 
-      Hotel maid
-      Switchboard / Reception / soap / towel / cornflakes / soft-boiled
-      coat hanger
+      Hotel maid / Switchboard / Reception / soap / towel / cornflakes / soft-boiled / coat hanger
       isn't working V.S doesn't work
       Did you enjoy your stay ?
        
@@ -258,8 +255,7 @@
     - Asking and deciding
       Do you have ...? / Have you got ...? / Do you sell ...?
       a packet of ...
-    - Paying
-      receipt
+    - Paying 
       I'd like to "pay cash". / I'd like to "pay by cheque".
       pay cash or pay in cash.
     - any 的用法及省略
@@ -1534,12 +1530,13 @@
 63. Unit 73 Modal auxiliary verbs : Some special uses.
     - extract / revelation / abrupt / squeaking / shove
     - Is that so ? / I nearly forgot:... / I was going to say:...
+    - bells and whistles / 
     - Could be. & Perhaps. : 
       限於答覆對方句子中有be動詞的情形.
     - Between you and me,...
     - jurisdiction / constable
     - Advice and opinions :
-      ought to <==> should
+      ought to (用於非正式或私人的文稿)<==> should      
       ought not to <==> should not
     - Refusals :
       will/would
@@ -1581,3 +1578,9 @@
         表示你有充份的把握, 某事必定會發生 :
         We can't disturb him now. He'll be having breakfast.
       would :
+        表 過去 願意或拒絕做某事 : I offered them 200$ because they had worked so hard, but they would only accept 100$.
+                                   I went to her flat, but she would not let me in.
+        單純為will 的過去式 : In 1564, a boy who would become a greatest dramatist.
+        用於 I wish 假設句的子句裡 , 以表 現在或未來 的願望.
+             It's so hot and dry! I wish it would rain!
+    - initials stand for ... / As the name implies , .... / emblem / pipe / intercontinental / dehydrate

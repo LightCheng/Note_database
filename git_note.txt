@@ -135,6 +135,18 @@
    fetch : remote -> origin/master
    merge : origin/master -> master
    
+   git remote [list all known remote , just like git branch]
+   git remote add <alias> <url>
+   git remote rm <alias>
+   git remote -v 
+   git push -u <remote alias> <local branch name>  # -u : tracking branch
+   git branch --set-upstream non_tracking_branch_name origin/remote_branch_name
+   git log --oneline origin/master
+   git diff master..origin/master
+   
+   git clone remote_respository_path local_name
+   
+   git push origin master #if it's tracking branch , you can just "git push"
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init
