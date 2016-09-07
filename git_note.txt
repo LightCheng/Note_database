@@ -133,7 +133,13 @@
    
 [remotes]
    fetch : remote -> origin/master
+      No harms of our working directory.
+      So :
+      - always fetch before you work.
+      - fetch before you push.
+      - fetch often.      
    merge : origin/master -> master
+   git pull = git fetch + git merge
    
    git remote [list all known remote , just like git branch]
    git remote add <alias> <url>
@@ -147,6 +153,10 @@
    git clone remote_respository_path local_name
    
    git push origin master #if it's tracking branch , you can just "git push"
+   git push origin local_master:remote_master
+   git push origin :non_tracking  #remove remote branch
+   git push origin --delete non_tracking
+   
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init

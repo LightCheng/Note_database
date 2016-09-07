@@ -1584,3 +1584,6 @@
         用於 I wish 假設句的子句裡 , 以表 現在或未來 的願望.
              It's so hot and dry! I wish it would rain!
     - initials stand for ... / As the name implies , .... / emblem / pipe / intercontinental / dehydrate
+    - hang 【口】做法；用法；訣竅[the S]
+      Try and use git fetch and git merge for a while, until you feel like you've got the hang of it and then if you know that what you really want is just git fetch and pull down the changes, then you can try using git pull.
+    - pressurization / yawning / pinch / swell / wreck / rooster / lullaby / premises / dismal / fowl / a violent headache
