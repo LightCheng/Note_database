@@ -147,6 +147,7 @@
    git clone remote_respository_path local_name
    
    git push origin master #if it's tracking branch , you can just "git push"
+   
 0. 建立遠端數據庫的方法 ：
    - 在 GitHub建立新的Git remote respoitory then push local database to remote.
 	git init

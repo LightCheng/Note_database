@@ -1584,3 +1584,6 @@
         用於 I wish 假設句的子句裡 , 以表 現在或未來 的願望.
              It's so hot and dry! I wish it would rain!
     - initials stand for ... / As the name implies , .... / emblem / pipe / intercontinental / dehydrate
+    - accountable / backfire / more than just / consensus
+      Tiebreaker. This person doesn’t have the absolute authority of an issue owner, but she’s more than just a coordinator. 
+                  She’s responsible for helping the team reach a decision: In the absence of consensus, she makes the final call.    
