@@ -1587,3 +1587,8 @@
     - accountable / backfire / more than just / consensus
       Tiebreaker. This person doesn’t have the absolute authority of an issue owner, but she’s more than just a coordinator. 
                   She’s responsible for helping the team reach a decision: In the absence of consensus, she makes the final call.    
+    - hang 【口】做法；用法；訣竅[the S]
+      Try and use git fetch and git merge for a while, until you feel like you've got the hang of it and then if you know that what you really want is just git fetch and pull down the changes, then you can try using git pull.
+    - pressurization / yawning / pinch / swell / wreck / rooster / lullaby / premises / dismal / fowl / a violent headache
+    - sway : 5 Common Mental Errors That Sway You From Making Good Decisions
+      aversion /
