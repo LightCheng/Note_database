@@ -86,7 +86,6 @@
    - Banks 
      cash : I'd like to cash these travller's cheques, please.
      change : I'd like to change this into dollars, please.
-   - There is/are ...
    - would like + to + V
 
 14. Unit 14
@@ -184,8 +183,7 @@
     - till / until
     
 21. Unit 22 Clothes
-    - What for ? / Take on / 
-    - Dress / skirt / blouse / pants / trousers / socks / coat /jacket / a pair of trousers.
+    - What for ? / Dress / skirt / blouse / pants / trousers / socks / coat /jacket / a pair of trousers.
       pressing / pyjamas / suede (麂皮 , 鹿部  注音： ㄐㄧˇ) / leather / denim / nylon / wool / Stockings / polyester (聚酯纖維)
     - What size are you ?
     - Can I try it on ?
@@ -813,7 +811,6 @@
         Before setting a goal for your team, imagine what it'd be like if you're going to do it all by yourself. 
         Is it going to be hard or is it going to be easy? 
         After understanding your goals thoroughly, you can have a more practical expectation. 
-        Remember that under promising and over delivering always lead to better results.
 
      2. 建立團隊互信
         Build trust within your team.
