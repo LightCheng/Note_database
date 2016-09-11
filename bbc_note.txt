@@ -32,8 +32,6 @@
      [Compare]
      I like going to the cinema. / I'd like to go to the cinema this evening.
 
-   - have / has 
-   - Before you asking "where is ..." , you don't need to call the person "sir" or "madam" , just say "Excuse me".
    - Chemist / Drugstore
    - price : Fifty-five pounds, sixty pence / Fifty-five , sixty.
    - me / you / him / her / it / us / you / them.
@@ -118,7 +116,6 @@
     whereas the infinitive ("to" form) is used when the preference is being expressed for choosing to perform the action, 
     or the idea of the action, as distinct from the action itself.
 		(OK:) Would you like to see my stamp collection?
-		(Very odd:) Would you like ?*seeing my stamp collection?
 		(Questionable:) Brian loathed ?to live in the country.
 		(OK:) Brian loathed living in the country.
 
@@ -183,7 +180,7 @@
     - till / until
     
 21. Unit 22 Clothes
-    - What for ? / Dress / skirt / blouse / pants / trousers / socks / coat /jacket / a pair of trousers.
+    - Dress / skirt / blouse / pants / trousers / socks / coat /jacket / a pair of trousers.
       pressing / pyjamas / suede (麂皮 , 鹿部  注音： ㄐㄧˇ) / leather / denim / nylon / wool / Stockings / polyester (聚酯纖維)
     - What size are you ?
     - Can I try it on ?
@@ -228,7 +225,7 @@
 23. Unit 27 Hotels
     - checking in
       How long will you be staying ? / Could you have my bill ready ? 
-      Hotel maid / Switchboard / Reception / soap / towel / cornflakes / soft-boiled / coat hanger
+      Hotel maid / Switchboard / Reception / soap / towel / tower / cornflakes / soft-boiled / coat hanger
       isn't working V.S doesn't work
       Did you enjoy your stay ?
        
@@ -496,7 +493,7 @@
     - beverage 
 
 36. Unit 43 Certainty and uncertainty
-    - quotation / mailman / doubts / prairie 
+    - quotation / mailman / d oubts / prairie 
     - Present uncertainty 
       Who's that ? It could be ...
       You could be right.
@@ -589,14 +586,12 @@
     - It was nice of you to ask me.
     - I've got to revise for my exams.
       I'll be working late.
+    - but regret that they will be unable to attend      
     - Some / Something 若用在疑問句時, 表示說話者希望對方作 positive response.
       e.g.
       Could we have some bread, please ?
-      Would you like something to drink ?
-      
-    - Anything means a thing of any kind. Use it in questions and negative sentences.
-      
-    - but regret that they will be unable to attend
+      Would you like something to drink ?      
+    - Anything means a thing of any kind. Use it in questions and negative sentences.      
     - Owing to : because of 
     - crouton : a small piece of toasted or fried bread; served in soup or salads
       jelly / earthly / tragic / window-bay
@@ -791,7 +786,7 @@
     - all morning / every day for two weeks / every week for three months ..
 49. Unit 56 Revision 56
     - I've been doing my best. / get tired 
-    - a little over seven years.
+    - a little over eight years.
     - hold out : 抗拒 / turn up : 出現
     - wheat / knuckle (指（根）關節,（四足獸的）膝關節,（供食用的）肘；蹄)
     - trotter (小跑步的馬；快步走的人,（食用的）the feet of pigs.)
@@ -846,7 +841,6 @@
 
        Remember the principle of under promise and over deliver, and never make a promise that you cannot fulfill.
        謹記凡事要留有餘地，別做出自己無法履行的承諾。
-       和這句話相反的是Over promise and under deliver，承諾過高卻又無法實際做到。
 
        2. Throw one's weight around 逞威風
           指對人濫用自己的權威，表現跋扈或盛氣凌人。
@@ -1123,8 +1117,7 @@
       era : 時代；年代；歷史時期
             Some say the computer has ushered in a new era. 有人說電腦引入了一個新時代。 
       lance : a pole weapon or spear designed to be used by a mounted warrior or cavalry soldier (lancer).
-      tower : 
-      
+     
 56. Unit 65 Imaginary situations in the past :
     - prim : (a.)規規矩矩的,呆板的,拘謹的(vt.)弄整齊,把嘴閉緊(vi.)一本正經
     - vivid / penicillin / phonograph / hovercraft
@@ -1199,7 +1192,7 @@
       was being / were being + third form
         I couldn't use my office last week because it was being painted.
     - like / hate / enjoy 這類的動詞之後, 接被動語態時 , 其構造是 :
-      being + P.P
+      (like / hate / enjoy) + being + P.P
       e.g. Most film stars enjoy being interviewed.      
     - 被動式是讓受詞升級為主詞的方法，
       e.g. 原主詞 "I" 可以省略，不省略的話，會變為介系詞片語的受詞 （prepositional object："by me"）。
@@ -1578,7 +1571,7 @@
         表 過去 願意或拒絕做某事 : I offered them 200$ because they had worked so hard, but they would only accept 100$.
                                    I went to her flat, but she would not let me in.
         單純為will 的過去式 : In 1564, a boy who would become a greatest dramatist.
-        用於 I wish 假設句的子句裡 , 以表 現在或未來 的願望.
+        用於 I wish 假設句的子句裡 , 以表 現在 或 未來 的願望.
              It's so hot and dry! I wish it would rain!
     - initials stand for ... / As the name implies , .... / emblem / pipe / intercontinental / dehydrate
     - accountable / backfire / more than just / consensus
@@ -1595,3 +1588,12 @@
     - hem and haw : to be uncertain about something; to be evasive; to say "ah" and "eh" when speaking—avoiding saying something meaningful.
       e.g.  Stop hemming and hawing around. I want an answer. 
             Don't just hem and haw around. Speak up. We want to hear what you think.
+    - stimulus / bulk / turtle / addicted to / disc-jockey
+    - You might as well face it: you're addicted to love.
+    
+64. Unit 74
+    - continual : He still smokes despite the continual warnings of his doctor.
+    - understand / gather ; hear / say / tell
+      I understand/gather (that) you know everything about pop music.
+      I hear that you got your diploma.
+      Angela says/tells me (that) you're an expert.

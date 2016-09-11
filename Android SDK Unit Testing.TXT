@@ -1,0 +1,33 @@
+﻿1. Why Unit Test ?
+   - Reduce bugs.
+   - Good documentation
+   - Improve code quality
+   - Reduce code to change
+
+2. understand how much and what to test.
+   
+   Unit testing / Integration Unit test 
+   Functional Unit test (Tester) / System testing (Q&A)
+   Stress testing / Load testing / Usability testing
+   
+   
+3. Ensure clear & focused : what the test is about , clear test name.
+
+   Test any public method : 
+      They should not fail
+      There are many tests for many parameters.
+      Separate test methods are used for many "conditions" and "expections".
+      
+   Group Tests according behavior
+     Group unit tests into classes - test cases.
+     Typically , one test case per application class.
+     
+   Validate one thing at a time.
+   
+4. LocalTest (not coupled with Android dependencies)
+     - JUnit API  @Test
+     
+     
+     
+   Instrumented Tests
+   
