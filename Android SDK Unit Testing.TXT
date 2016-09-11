@@ -25,9 +25,23 @@
    Validate one thing at a time.
    
 4. LocalTest (not coupled with Android dependencies)
-     - JUnit API  @Test
+   - JUnit API  @Test 
+          
+     Test methods :   
+     Annotated with @Test
+                    @Before / @After
+                    @BeforeClass / AfterClass
+                    @Ignore
+     Public / Take no arguments / Return void
+        
+   - build.gradle
      
+   - run unit test from command line :
+     project_root\gradlew test
+   
+   - Failures tests vs Errors tests
      
+   - Hamcrest Library
      
-   Instrumented Tests
+5. Instrumented Tests
    
