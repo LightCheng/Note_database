@@ -784,7 +784,7 @@
     - round out / caveat / peculiar / contraction / obliterate / rewind
     - more often than not / distill  
     
-63. Unit 73 Modal auxiliary verbs : Some special uses.
+63. Unit 73 Modal auxiliary verbs (語氣助動詞) : Some special uses.
     - extract / revelation / abrupt / squeaking / shove
     - Is that so ? / I nearly forgot:... / I was going to say:...
     - bells and whistles / 
@@ -810,7 +810,7 @@
     - 隱形眼鏡 : contact lens / contacts
       Are her eyes blue, or is she wearing colored contact lenses?
     - Get Shit Done 
-      Slow donwn and fix your shit.
+      Slow down and fix your shit.
     - 語助詞 :
       can : 
         表能力 : I can swim.
@@ -858,10 +858,16 @@
     - stimulus / bulk / turtle / addicted to / disc-jockey
     - You might as well face it: you're addicted to love.
     
-64. Unit 74    
-    - continual : He still smokes despite the continual warnings of his doctor.
-    - condense / arithmetic 
-    - understand / gather ; hear / say / tell 這種溝通類動詞, 往往對剛剛得知的訊息 , 都用現在式代替過去式.
+64. Unit 74 : English tenses (英語動詞時式): Some special uses.
+    - continuous / continual : He still smokes despite the continual warnings of his doctor.
+    - condense / arithmetic / dupe
+    - understand / gather ; hear / say / tell 這種溝通類動詞, 往往對剛剛得知聽到的訊息 , 都用現在式代替過去式.
       I understand/gather (that) you know everything about pop music.
       I hear that you got your diploma.
       Angela says/tells me (that) you're an expert.
+    - Yes, that's right. / No, that's not true, actually.
+    - 有些慣用語 , 本身就說明某些動作的進行 , 在表示說話當時的動作時用 present simple 而不用 present continuous.
+      promise / congratulate / forbid
+      e.g. Are you unhappy about my success ? Not at all. I congratulate you.
+      
+      

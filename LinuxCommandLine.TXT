@@ -1,0 +1,62 @@
+﻿1.  "Control + Shift + = " make the font a little bit bigger
+    man "command"
+    ls -R # recursive list all files 
+    cd - # go to previous folder.
+    mkdir -p departments/newfolder1/newfilder2
+    .. vs .
+    
+2. Wildcards :
+   * : any numbers of characters.
+      rm *.txt
+   ? : one of any character.
+      rm poems?.txt
+      rm -r target_path # recursive remove files under target_path
+      
+      find . -name "poe*"
+      
+3. sudo -k
+   su root  # enter root's password , not users
+   
+   chmod +rwx file
+   chmod u+rwx file
+   chmod g=r file
+   chmod o-rwx file
+  
+   "chmod 755 file" same as "chmod u+rwx,g=rx,o=rx file"
+   
+   chown / chgrp
+   
+4. cat -n / head / tail
+   grep -n "searched_string" file_name # show number
+        -i                             # case insensitive
+        -v                             # omit lines
+   grep -E "regex" file_name
+   
+5. awk & sed : extra or modify text from a file or stream
+   awk '{print $2 "\t" $1}' file_name | sort -n
+   (awk essential training , awk is useful for extracting particular data)
+   
+   sed (is useful for change data)
+   sed s/original/new file_name
+   
+6. sort -k2n file_name :  
+        -u             : unique
+        
+7. tar -cvf file.tar target_files
+   tar -caf file.tar.gz target_files
+   tar -caf file.tar.bz2 target_files
+   tar -xf file.tar.gz
+   tar -xf file.tar.bz2 -C specify_folder_path
+   
+   1> 2>
+   
+8. cat /etc/*-release
+   uname -a
+   
+   free -h
+   cat /proc/cpuinfo
+   df -h
+   sudo du / -hd1 #human , detail of level 1
+   sudo apt-get install tree
+   sudo apt-get upgrade
+   
