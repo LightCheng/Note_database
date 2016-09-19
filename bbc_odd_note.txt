@@ -231,7 +231,7 @@
        
     Unit 28 Sizes and shapes 
       How tall are you ?
-    - thin / slim / skinny / Slender
+    - thin / slim / skinny / slender
     - weigh / weight
       How much do you weigh ?
     - foot / stone : 表高度和重量的單位 , 通常用單數.
@@ -730,3 +730,118 @@
     - agree with / disagree with / no comment on that / ... is the opposite of ...
     - minister / egalitarian / lots of varying ideas
     - affront / disgrace
+    
+47. Unit 54 Conjunctions
+    - voyage 
+    - I'm sure / positive that ...
+    - either ... or ...
+      Things are either good or bad. Those are the alternatives.
+    - neither ... nor ...
+      Some things are neither good nor bad. They're sometimes good and they're sometimes bad.
+    - both .... and ...
+      You think that marriage is both a good thing and a bad thing.
+    - either / neither / both
+    - too , as well / either
+      He wrote it, and he directed it as well.
+      He didn't write it and he didn't direct it either.
+    - Extra-Terrestrial
+    - when / while
+    - I worked as a teacher from 1981 till I got married
+    - considerate / taken aback(吃驚，出乎意料) / irritated / absorbed    
+    - 若在表未來事件的句子中 , 
+      由表 時間連接詞(e.g. when,after,before,until,till ) 開頭的子句, 一定要用現在式(簡單式 or 進行式 or 完成式).
+      Will you love me when I'm old and gray ?    
+    - dumb down : to lower the level of difficulty and the intellectual content of
+    - Can I get you anything else ? No, thanks. VS. Thanks. I'm good.
+      因為別人先前己經回答過你的問題，幫過忙了，這時說no太直接了，用一句"I am good."表示你剛剛給資訊已經夠了，也有感激之意。
+      "I am good."和"I am fine."相通，但如果只用fine或是good，意思就完全相反。
+    - You are telling me. 意思是「我早就知道，不用你告訴我。這還用你說嗎？」, 別錯解成「你正在告訴我」，就會愣在那兒以為別人話還沒說完。
+    - Speak the same language. 我們想得一樣
+      e.g. When we got down to planning where to go on our trip, I was glad we spoke the same language.（我很高興當我們決定行程的時候己經有共識。）
+    
+48. Unit 55 Recent activities
+    - burglar / exaggerate / willy-nilly / curious
+    - I've been thinking.
+      I haven't been feeling very well.
+    - How long have you been waiting ?
+      I've been waiting since six o'clock.
+      I've been waiting for forty-five minutes.      
+    - Let me get this right.
+    - perseverance / grit
+    - I'm copying you here so you can ...
+      What questions do you have for me ?    
+    - 現在完成進行式(have/has been + V-ing)可用來指 :
+      1. 從過去某時間點開始 , 到現在仍在進行的動作或行為.
+         He's been writting the report for 2 hours.
+      2. 從過去某時間點開始 , 到現在曾重複數次的行為.
+         I've been phoning you everyday for two weeks.
+         I've been visiting publishers. / I've been showing them my novel.                   
+      3. 從過去開始的動作或行為, 幾乎到說話當時 , 在不久前剛剛到一個段落.
+         I've been working on it for 20 years.
+    - What's it called ? / What's it about ?     
+    - Where have you been ?
+    - curly-haired / resemble / peninsula
+    - all morning / every day for two weeks / every week for three months ..
+
+49. Unit 56 Revision 56
+    - I've been doing my best. / get tired 
+    - a little over eight years.
+    - hold out : 抗拒 / turn up : 出現
+    - wheat / knuckle (指（根）關節,（四足獸的）膝關節,（供食用的）肘；蹄)
+    - trotter (小跑步的馬；快步走的人,（食用的）the feet of pigs.)
+    - barn : an agricultural building usually located on farms and used for various purposes.
+    - tar(red) : a black mixture of hydrocarbons and free carbon obtained from a wide variety of organic materials through destructive distillation.
+    - take on : To hire; engage: We're going to take on a new computer assistant.
+    - 有些 adj 可當狀態副詞使用 :
+      direct , early , fast , hard , late
+      This is a direct flight. It goes direct to London.
+    - expatriate : 外派人員，常縮寫為expat，而expat package指的則是公司提供一定的福利給外派人員的一種計畫。
+      e.g. Are you here on an expat package, or are you a local hire?
+           你是外派到這裡，還是本地的員工？
+    - iron out :　
+
+    -1. 目標要可靠，期望要實際
+				Solid goal, practical expectation.
+        Before setting a goal for your team, imagine what it'd be like if you're going to do it all by yourself. 
+        Is it going to be hard or is it going to be easy? 
+        After understanding your goals thoroughly, you can have a more practical expectation. 
+
+     2. 建立團隊互信
+        Build trust within your team.
+        Integration within a team always depends on trust. 
+        Transparent and honest communication will not only benefit the team's efficiency but also the corporate culture.
+
+		 3. 解決導向
+         Solution is the point.
+ 				When encountering a problem, or when team members make mistakes, remember not to focus on the problem itself but the solution to the issue. This is how employees learn to solve things themselves.
+
+		 4. 創造部屬的自信心
+				Build (A) self-esteem in (B) underlings.
+        Pay attention to how you make others feel. 
+        An MVP in your team will never be just obedient, but will be confident and understand his or her own value.
+
+     5. 好的領導人不獨裁
+        A good leader is not an autocrat.
+        Being a competent leader doesn't mean you are going to throw your weight around. Finding a balance between being firm and being reasonable is a lesson that every leader should learn.
+        做一個能幹的領導者並不代表要對他人頤指氣使。在立場堅定以及合乎情理間找到平衡點是優質領導人必學的一道課題。
+
+     6. 懂得賞識很重要
+         Appreciation is important.
+         Direct and plain feedback is necessary. So is appreciation. Encourage the positive cycle by telling the employee exactly what he did well.
+
+     7. 領導人也須「服務他人」
+         Leaders need to serve others.
+         There is a fallacy that the leader's job is to command. 
+         Actually, a leader's main mission is to "serve." Offer the necessary information and give your team a hand when they are needed; that's how you make the team willing to support you in the same way.
+ 
+     片語教學
+       1. Under promise and over deliver
+       不過度承諾，表現超乎期待 , Promise是承諾，Deliver是履行。
+
+       Remember the principle of under promise and over deliver, and never make a promise that you cannot fulfill.
+       謹記凡事要留有餘地，別做出自己無法履行的承諾。
+
+       2. Throw one's weight around 逞威風
+          指對人濫用自己的權威，表現跋扈或盛氣凌人。
+          He is a bossy person who's always throwing his weight around.
+          他是一個老愛對人頤指氣使的霸道傢伙。
