@@ -48,9 +48,12 @@
    tar -xf file.tar.gz
    tar -xf file.tar.bz2 -C specify_folder_path
    
-   1> 2>
+   1> ../success_log.txt 
+   2> ../error_log.txt
+   &> ../success_and_error_log.txt
    
 8. cat /etc/*-release
+   more /etc/*-release
    uname -a
    
    free -h
@@ -59,4 +62,25 @@
    sudo du / -hd1 #human , detail of level 1
    sudo apt-get install tree
    sudo apt-get upgrade
+   
+   man bash | wc -l
+   
+   #! #called hashbang or shebang
+   
+   #!/bin/bash
+   
+   myvar="this is some chars; * $\" )"   #assign 變數時 = 前後無空格.
+   echo $myvar
+   
+   unset
+   
+   ~ ~-
+   touch {file1,fil2,file3 ...}
+   touch file_{01..1000}
+   echo {1..10..2}
+   
+   ping -c 10 example.com  # ping example.com 10 times
+   
+   grep , awk , sed , cut
+   
    

@@ -772,3 +772,18 @@
       bankrupt : 破產
       Thousands of investors lost money when the company went bankrupt.
       Many businesses are facing bankruptcy.
+      
+      stay positive : 把 No 拿掉！/ 重點二：善用If
+      
+      Could I have a blanket？ vs Could I take a blanket 
+      像是在問「能否免費索取一條毛毯帶回家」把動詞take改成have或get才不會產生誤會。
+      
+      Be careful with this bag. vs Be careful of this bag.
+      "be careful of"這個片語，聽起來像是在說「這個袋子本身很危險，要小心」，這恐怕讓空服人員不敢去拿！請把介系詞改成with，才能準確傳達請對方「小心拿取」的意圖
+      
+      Please show me how to use this phone. vs Please teach me how to use this phone.
+      中文說「教」，但英文可別用teach，因為它意味「花一段時間仔細教導」，空服人員恐怕沒有那麼多時間！只是要對方指點一下操作步驟，用show即可。
+      
+    - paginate
+    - registered mail : 掛號信 
+      The check will be sent to you by registered mail.
