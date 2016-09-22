@@ -28,6 +28,8 @@
     git log Start_SHA_number..end_SHA_number checked-file.txt [ignore end_SHA_number means till the latest]
     git log -p Start_SHA_number..end_SHA_number checked-file.txt [show the change of the file]
     git log --graph --oneline --all --decorate
+    git log --stat --summary # 查每個版本間的更動檔案和行數 
+    
 [three-trees architecture]
    	repository <= (commit) staging index <= (add) working
    	SHA-1
@@ -175,6 +177,7 @@
 	git init
 	git add README.md
 	git commit -m "first commit"
+	git commit -v # 可看到檔案那些內容有被變更.
 	git remote add origin https://github.com/LightCheng/GPSPerformance.git
 	git push -u origin master
         git remote #list all remote that it knows about
@@ -186,6 +189,8 @@
    一種是重新建數據庫 : 
    - git init
      git add <file>...  #使用 'git add .'表示可以把當前目錄下所有的檔案加入到索引
+     git add -i # 進入互動模式 ?
+     
      git commit -m "<提交訊息>"
 
    另一種是複製遠端數據庫 : git folk ?

@@ -83,4 +83,46 @@
    
    grep , awk , sed , cut
    
+   /usr/bin
+   
+9. var=Hello
+   echo statement
+   echo '$var , statement'
+   echo "$var , statement"
+   
+   declare -i d=123 # d is an integer
+   declare -r e=456 # e is read-only
+   
+   $HOME / $PWD / $MACHTYPE / $HOSTNAME 
+   $SECONDS # account duration from script starts.
+   $0 # the name of the script.
+   
+10. arithmetic operations
+   (( expression ))
+   var=$(( expression ))
+   
+   ((e*3))
+   bash math only works with integers , not floating point number. you can by bc
+   $(echo 1/3 | bl -l)
+   
+   
+11. Comparison 
+   [[ expression ]]  1: FALSE , 0: TRUE
+   
+   String   : < > <= >= == !=
+           [[ $a <= $b ]]      
+   interger : -lt -gt -le -ge -eq -ne
+           [[ $a -t $b ]]   
+   logical && || ! 
+           [[ $a && $b ]]
+           
+   String null or not null vale -z -n
+           [[ -z $a ]]
+   $?  
+   
+12. working with string 
+   a="hello"
+   ${#a}  #return the length of a , 5
+   b=${a:2}  
+   
    
