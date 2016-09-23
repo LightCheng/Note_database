@@ -121,8 +121,33 @@
    $?  
    
 12. working with string 
-   a="hello"
+   a="hello world"
    ${#a}  #return the length of a , 5
    b=${a:2}  
+   c=${a: -2}
+   d=${a:2:3}
+   d=${a: -2:3}   
    
+13. Coloring & styling text
+   echo -r '\033[F;F;Bm TEXT \033[0m'
    
+   tput setaf [0-7]
+   tput setab [0-7]
+   tput bold
+   tput blink
+   
+14. date +"%d %m %Y"
+    
+    printf "Name:\t%s\nID:\t%04d\n" "Scott" "12"
+   
+15. Array
+
+ 網路的連線狀態，可以下  netstat -a 
+    將資料同步寫入硬碟中的指令： sync 
+    慣用的關機指令： shutdown 
+    Shutdown –h now , 
+    Shutdown –h 20:25
+    Shutdown –h +10  (10分鐘後自動關機)
+    Shutdown –r +30 ‘The system will reboot’
+    Shutdown –k now ‘This system will reboot’ (only issue warning message)
+    重新開機，關機： reboot, halt, poweroff 
