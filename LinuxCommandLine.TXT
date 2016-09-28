@@ -1,4 +1,6 @@
 ﻿1.  "Control + Shift + = " make the font a little bit bigger
+    "Control + a" : Move cursor to start of line.
+    "Control + e" : Move cursor to end of line.
     man "command"
     ls -R # recursive list all files 
     cd - # go to previous folder.
@@ -125,4 +127,4 @@
    ${#a}  #return the length of a , 5
    b=${a:2}  
    
-   
+13. banner -w50 "Hello World"
