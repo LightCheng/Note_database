@@ -155,3 +155,6 @@
     重新開機，關機： reboot, halt, poweroff 
 
 16. banner -w50 "Hello World"
+    man -k banner 
+    apropos banner
+    
