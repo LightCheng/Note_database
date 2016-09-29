@@ -1,25 +1,4 @@
-﻿56. Unit 65 Imaginary situations in the past :
-    - prim : (a.)規規矩矩的,呆板的,拘謹的(vt.)弄整齊,把嘴閉緊(vi.)一本正經
-    - vivid / penicillin / phonograph / hovercraft
-      boldest / pebble / scuffled / boasted / chauffeur / 
-      flap / stout / chimney / dockyard / python / slither 
-      cape / curse / revenge / 
-    - Isle of Man : a self-governing Crown dependency in the Irish Sea between Great Britain and Ireland.
-    - Well, Let me put it this way.
-    - 與過去事實不符時 , 現在可能會有什麼不同的結果
-      If + past perfect simple (had + P.P) ... , ... would + 原形動詞
-      If that apple hadn't fallen from that tree , would we know about gravity today ?
-    - What would have happened ?
-      與過去事實不符時 , 推測過去當時可能會有什麼不同的結果 , 而不是現在會怎樣.
-      If + past perfect simple (had + P.P) ... , ... would + 現在完成式
-      If that apple hadn't fallen from that tree , Newton wouldn't have thought: "Ah. Gravity."
-    - Regrets :
-      I wish 後接一過去完成簡單式的子句 , 是英語中表達遺憾的一種常見方式 , 表示無法達成或事與願違的句子.
-      I wish I had worked hard at school.
-    - Che sara', sara' : What will be, will be.
-    - euphemism / sloth / lust / wrath / gluttony
-    
-57. Unit 66 Passive forms :
+﻿57. Unit 66 Passive forms :
     - scandal 醜聞 : The scandal ruined the politician’s reputation.
     - trespasser / prosecuted / aid / daze / bemused / distressed(悲痛，苦惱，憂傷) / depressed (沮喪的，消沉的，憂鬱的)
       Trespassers will be prosecuted.
@@ -486,8 +465,8 @@
       Juliet, you must never speak to him again. I forbid it.
       surround / surrender
       
-    - I hope / I beg .. 等開頭的句子 , 若是表示未來的動作 , 可用現在式代替未來式 :
-      e.g. I be thousands of people come to see it. = I be thousands of people will come to see it.
+    - I hope / I bet .. 等開頭的句子 , 若是表示未來的動作 , 可用現在式代替未來式 :
+      e.g. I bet thousands of people come to see it. = I bet thousands of people will come to see it.
            I hope the film is a huge success.
 
       現在式也可用於小說書籍的內容或電影情節.
@@ -509,6 +488,10 @@
       always / constantly / continually 可與進行式連用 , 表示十分頻繁或一再重複.
       He used to be happy. He was always laughing and joking.
       
+    - earnest / cellophane / tribe / moped / attache / spare parts / bride and groom
+    - cater for ... / viable / very enterprising / applaud / venue / tournament / preoccupied
+    
+    - 一般曆史事略, 都是用現在式代替過去式.
       
     - throw the book at someone 嚴厲懲罰某人
       I heard the judge threw the book at the serial rapist.（我聽說法官要重判那個強姦慣犯。）
@@ -552,3 +535,19 @@
     - ward / governess / pram / for your sake / stiffly / refreshment / What on earth ... ? 
       the cloakroom / the left luggage office
     - renegade / funnel
+      the cloakroom / the left luggage office / after music had ceased ...
+    - adjoin / slight / disposition / immaterial : The line is immaterial, Mr. Worthig.
+    - locality
+
+65. Unit 75 : Talking about the future
+    - stand sb. up : 放鴿子 / eye drops : 眼藥水
+      e.g. I had a dinner date with Jane, but she stood me up.
+           If you stand me up again, I’m going to break up with you.
+    - egular sugar > less sugar > half sugar > quarter sugar > sugar-free
+      Regular ice > easy ice > ice-free
+      tapioca pearl 珍珠 / grass jelly 仙草 / flan 布丁 / rat noodle 粉條
+      for here 內用 / to go 外帶 / tray 用托盤 / bag 裝袋
+      
+    - Predictions : 
+      By the end of the next century, we will have used up all the Earth's natural resources.
+    

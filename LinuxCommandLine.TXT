@@ -1,4 +1,6 @@
 ﻿1.  "Control + Shift + = " make the font a little bit bigger
+    "Control + a" : Move cursor to start of line.
+    "Control + e" : Move cursor to end of line.
     man "command"
     ls -R # recursive list all files 
     cd - # go to previous folder.
@@ -151,3 +153,5 @@
     Shutdown –r +30 ‘The system will reboot’
     Shutdown –k now ‘This system will reboot’ (only issue warning message)
     重新開機，關機： reboot, halt, poweroff 
+
+16. banner -w50 "Hello World"
