@@ -3,7 +3,10 @@
     - trespasser / prosecuted / aid / daze / bemused / distressed(悲痛，苦惱，憂傷) / depressed (沮喪的，消沉的，憂鬱的)
       Trespassers will be prosecuted.
     - blast / blaze / clash / drama / back / bid / plea / probe / riddle / row / zap
-    - bear bore born
+    - bear bore born   出生（用被動式但不可接 by）；born（adj）天生的
+      I was born in Taiwan in 1974.
+      bear bore borne　生產（生孩子）；結果；忍耐；牢記；負擔
+      My wife has borne three children.
     - column / recount / compartment / blanket / shark
     - I've got an eye for ...
     - 需要離開一下，跟面前的客人說「馬上回來」 : 
@@ -59,7 +62,7 @@
       
     - 分號可以取代句號, 以顯示兩個句子間的密切關係 ,
       也可以取代逗號 , 以表示有好幾個逗號的長句應如何斷句為宜.
-    - reeling from : 眼花撩亂 ; 昏頭轉向
+    - reeling from : to feel very shocked, upset, or confused , 眼花撩亂 ; 昏頭轉向
     - mistook ... for ... : 把 ...誤以為是 ...
       e.g. She mistook Oakland for Auckland.
     - intercom : 對講機或廣播裝置.
@@ -540,6 +543,7 @@
     - locality
 
 65. Unit 75 : Talking about the future
+    - colony / 
     - stand sb. up : 放鴿子 / eye drops : 眼藥水
       e.g. I had a dinner date with Jane, but she stood me up.
            If you stand me up again, I’m going to break up with you.
@@ -547,7 +551,19 @@
       Regular ice > easy ice > ice-free
       tapioca pearl 珍珠 / grass jelly 仙草 / flan 布丁 / rat noodle 粉條
       for here 內用 / to go 外帶 / tray 用托盤 / bag 裝袋
-      
-    - Predictions : 
-      By the end of the next century, we will have used up all the Earth's natural resources.
+    - This might be a good time for a change.
     
+    - Predictions : 
+      未來完成式 , 表在未來某一特定的時間 , 可能會發生或完成的動作或行為.
+      By the end of the next century, we will have used up all the Earth's natural resources.
+     
+      未來完成進行式 , 表示預想到了未來某一特定的時間 ,某進行中的行為或動作可能延續多久時間,或是完成,達到某個階段.
+      Next February, I'll have been working as a engineer for 17 years.
+     
+    - Promises :
+      除 If 開頭的附屬子句裡的動詞通常用現在式代替未來式外, when / while / before / until / till / after / as soon as 等時間連接詞同樣適用.
+      Phone us when you get back.
+      I probably won't phone you until I get back.
+      I'll phone you as soon as I get back.
+      I'll think of you, whatever I do.
+      I'll be thinking of you, whoever I'm with.
