@@ -543,7 +543,7 @@
     - locality
 
 65. Unit 75 : Talking about the future
-    - colony / 
+    - colony / parasol / summer tune
     - stand sb. up : 放鴿子 / eye drops : 眼藥水
       e.g. I had a dinner date with Jane, but she stood me up.
            If you stand me up again, I’m going to break up with you.
@@ -567,3 +567,29 @@
       I'll phone you as soon as I get back.
       I'll think of you, whatever I do.
       I'll be thinking of you, whoever I'm with.
+      
+      如果整個句子是表示未來的事情, 句中只有一處使用未來式就夠了.
+      We'll soon be living in a world in which all oceans have been polluted and all forests are dying.
+      
+    - The summer will soon be over.
+      ... when the tourists have gone home,
+      ... and the parasols have been put away.
+      
+      You'll be gone beyond my reach. / I won't have forgotten you.
+      
+    - Making things clear.
+      I'm not sure what you mean.
+      To put it another way, ... : 換個方式來說明吧, ...
+      To be precise, ...
+      This is to say, ... 那也就是說...
+      
+      In fact, ... / As a matter of fact, ...
+      
+      ... is that good news or bad news ?
+      
+    - 未來簡單完成式 : will have + P.P
+      未來完成進行式 : will have + been + Ving
+         How long had you been working on it ?
+         How long have you been working on it ?
+         How long will have you been working on it ?
+         
