@@ -30,14 +30,11 @@
       EXPLORER DISAPPEARS ==> had disappeared.
       
       若出現動詞的被動式時 , 通常會把助動 be (is, are, was, were, had been 等)省略.
-      e.g.
       MISSING CHILDREN FOUND ==> have been found
       Alex and Jason Cooper , the missing Manchester children, have been found.
       
       通常用不定詞 (to + 動詞原形) 來表示未來將發生的事.
-      e.g.
-      QUEEN TO VISIT CANADA
-      The Queen will visit Canada next month.
+      QUEEN TO VISIT CANADA ==> The Queen will visit Canada next month.
       
     - 英語被動語態的構造 :
       適當的 be 動詞形式 , 接相關動詞的過去分詞.
@@ -59,10 +56,11 @@
     - 被動式是讓受詞升級為主詞的方法，
       e.g. 原主詞 "I" 可以省略，不省略的話，會變為介系詞片語的受詞 （prepositional object："by me"）。
       因為被動式是個較拐彎抹角、推卸責任、又缺乏活力的表達方式，一般會建議儘量少用，不過，被動式還是有它適用的範圍。
-      
+
     - 分號可以取代句號, 以顯示兩個句子間的密切關係 ,
       也可以取代逗號 , 以表示有好幾個逗號的長句應如何斷句為宜.
     - reeling from : to feel very shocked, upset, or confused , 眼花撩亂 ; 昏頭轉向
+      The banks were reeling from the unexpectedly large losses.
     - mistook ... for ... : 把 ...誤以為是 ...
       e.g. She mistook Oakland for Auckland.
     - intercom : 對講機或廣播裝置.
@@ -75,10 +73,10 @@
       To counteract decision fatigue, try to tackle your most complicated emails first thing in the morning. 
       Set aside 20–25 minutes when your mind is clearest.       
     - subordinate 部屬
-      e.g. The manager held a meeting with his subordinates.
+      The manager held a meeting with his subordinates.
     - ticket stub 票根
-      e.g. Did the usher ask to see your ticket stub after intermission?
-           接待人員在中場休息之後有要求看你的票根嗎？
+      Did the usher ask to see your ticket stub after intermission?
+         接待人員在中場休息之後有要求看你的票根嗎？
     - You've got to find what you love.
     - sexual discrimination : 性別歧視
       The law prohibits sexual discrimination in the workplace
@@ -97,7 +95,7 @@
       Since candor and feedback involve other people, you’ll likely encounter misunderstandings, hurt feelings, or other conflict. 
       Don’t expect feedback to always feel natural or easy. 
       A little discomfort and a few mistakes means you’re on the right path.
-
+      
     - poke around : To search for something by moving things around, usually not in a very careful or organized way:
       e.g. I was poking around in the drawer, looking for the key, when I found this!    
     
@@ -233,24 +231,26 @@
       "Patience is a virtue" is an old saying .   "忍耐是美德"是句古老的諺語。
       endangered species : 瀕臨絕種的動植物
     - 無人機 : drone / unmanned aerial vehicle（UAV）
-      e.g. Amazon will soon begin using drones to deliver products.
+      Amazon will soon begin using drones to deliver products.
            亞馬遜網站不久就要開始使用無人機來運送產品。
     - groundwork : 基礎；底子，根基
-      e.g. A bolder change will require additional groundwork.
+      A bolder change will require additional groundwork.
     - 派遣人員 : temp worker 
-      e.g. Temp workers who perform well will be given permanent positions.
+      Temp workers who perform well will be given permanent positions.
     - skew (adj) / lease 
-      e.g.  I hope to minimize the data skew from this so that the activation stats are still usable for making decisions.
+      I hope to minimize the data skew from this so that the activation stats are still usable for making decisions.
     - conjure up : 使呈現於腦際（或眼簾）；想起
-      e.g. The term "middleman" usually conjures up a negative image — someone who creates costs and slows things down.
+      The term "middleman" usually conjures up a negative image — someone who creates costs and slows things down.
     - cultivate : 耕種，耕作,栽培（作物等）；養殖（魚等）；培育,建立，加強（友誼）；結交（朋友等）
-      e.g. You should think carefully about how to cultivate a location-independent second act, such as a seasonal or internet-enabled job.
+      You should think carefully about how to cultivate a location-independent second act, such as a seasonal or internet-enabled job.
     - Rolodex : 個人所有朋友，同事的名單
       rolodex : 名片盒
       remunerative : 酬報的，報償性的
-      e.g. He is prepared to make a living by accepting any remunerative chore .   為了生計，他準備接受任何有酬報的雜活。
+      He is prepared to make a living by accepting any remunerative chore .   為了生計，他準備接受任何有酬報的雜活。
+      
       accrued : 累積的
-      e.g. you’ll get paid more for the seniority and experience you’ve accrued. 
+      you’ll get paid more for the seniority and experience you’ve accrued. 
+    
     - compromise / course (v) / psychopath / remorse / concoct / forge / paper clip / rung
       
 60. Unit 70 Things could have been different ...   
@@ -535,27 +535,27 @@
     
     - incognito / doodle / gratification      
     - tint / rapport / breed / boredom
-    - ward / governess / pram / for your sake / stiffly / refreshment / What on earth ... ? 
-      the cloakroom / the left luggage office
+    - ward / governess / pram / for your sake / stiffly / refreshment
+    - What on earth ... ? (到底, 究竟怎樣) 
+      What on earth are you doing ?   你到底在幹什麼呢?
     - renegade / funnel
       the cloakroom / the left luggage office / after music had ceased ...
     - adjoin / slight / disposition / immaterial : The line is immaterial, Mr. Worthig.
     - locality
 
 65. Unit 75 : Talking about the future
-    - colony / parasol / summer tune / foretell / sore / fleash / spirit / mourning / bough / wintry / creep
+    - colony / parasol / summer tune / foretell / sore / flesh / spirit / mourning / bough / wintry / creep
     - irretrievable / associated / civilization / boot stamping / assert / defeated proposal / crabby
-    - porce / lawn / 
+    - porce / lawn / a takeover / a fortune / a tycoon / a magnate / 
     - privatiztion : Do you know about the privatization of Chunghwa Telecom ?
     - mean : Her husband is very mean about money . 
     - founded (adj) : based on, built on, rooted in, grounded on, established on.
       His game is founded on power and determination.
-    - a takeover / a fortune / a tycoon / a magnate / 
     - a world-wide circulation / 
     - stand sb. up : 放鴿子 / eye drops : 眼藥水
       e.g. I had a dinner date with Jane, but she stood me up.
            If you stand me up again, I’m going to break up with you.
-    - egular sugar > less sugar > half sugar > quarter sugar > sugar-free
+    - Rgular sugar > less sugar > half sugar > quarter sugar > sugar-free
       Regular ice > easy ice > ice-free
       tapioca pearl 珍珠 / grass jelly 仙草 / flan 布丁 / rat noodle 粉條
       for here 內用 / to go 外帶 / tray 用托盤 / bag 裝袋
@@ -604,5 +604,14 @@
     - Yet..., placed at the beginning of a sentence, means But or However ..
       Yet the light of a whole life dies when love is gone.
     - as far as I'm concerned : 就我來說 
-    
-    
+    - as far as I'm concerned : 就我來說 
+    - debut : Samsung Pay makes debut in Russia.
+    - expand / downsize
+      The store is expanding its staff in preparation for the holiday season.
+      The company announced plans to downsize its sales team in India.
+    - foster / inadvertently
+      Foster a culture in which both men and women are encouraged to "call it out" when they see someone being inadvertently silenced in a discussion.
+    - reimburse / ritual
+    - no matter what : 
+      Don't trust her , no matter what she says.
+      Doing what you said you would no matter what.
