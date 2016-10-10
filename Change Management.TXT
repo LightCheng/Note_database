@@ -1,0 +1,16 @@
+﻿ project management or business analysis concepts
+ 
+1. Focus on what individuals need to stop doing :
+   If you need of loosing weight by exercise an hour day , you need to stop something else for an hour a day.
+   
+2. Simple or traumatic for you is probably not the same for others.
+
+3. Understand what motivates you, but don't assume that same thing motivates others.
+   Talk to your stakeholders and understand what motivates them before you take action relative to making change easier for them.
+   
+4. Tailor your change messages to accommodate individual needs.
+   Some are auditory and want to hear about your change plans. 
+   Others are better off experiencing a change. 
+   They wanna touch and feel what it'll be like once the change is finished, so prototypes are ideal for them. 
+   Others will want to see things presented visually. 
+   Create your change message in various forms and you're more likely to get buy-in from a greater percentage of your stakeholders.
