@@ -630,7 +630,7 @@
     - Destiny :
       語氣助動詞would , 稱為過去的未來式
       A boy who would become England's greatest dramatist.
-      也可用 be動詞的過去式接 to+動詞原型來表達相同的意思.
+      也可用 "be動詞的過去式接 to + 動詞原型" 來表達相同的意思.
       A boy who was to become  England's greatest dramatist.      
       
     - Instructions :
@@ -640,28 +640,46 @@
       If anyone asks to see me, you are to say that I am out.
       
     - Subjunctive forms :
-      If I were to say ...
-      Suppose I were to say ...
-      Don't look at me as if I were mad!
+      1. Be 動詞用were 的假設語氣句型 :
+        If I were to say ...
+        Suppose I were to say ...
+        The weather is terrible. I wish it were not so cold.
+        If Shakespeare were alive today , what would he write about ?        
+        Don't look at me as if I were mad!
+      
       Best regards from Taipei. Wish you were here.
       
+      假設語氣句型唯一看出與直述句不同的地方就是第三人稱單數, 因動詞字尾沒有加 s .
       下列這類句型中 , that 後面的子句都用動詞原型 , 不管人稱也不管單複數.
       It is vital that ...
         It is vital that no-one be allowed in, and that no-one be allowed out.
       It is desirable that ...
       
-      I demand that ...
-        He demands that he be allowed through the gate.
-      I insist that ...
-        I insist that he reconsider.
-      I request that ...
-      I suggest that ...
-        You suggest that he speak to me.
+      2. 表示規定, 強求, 建議, 要求等的假設語法 :
+      	I demand that ...
+        	He demands that he be allowed through the gate.
+      	I insist that ...
+        	I insist that he reconsider.
+      	I request that ...
+        	You request that he reconsider and that he not try to enter the building.
+      	I suggest that ...
+        	You suggest that he speak to me.
+        	I suggest that he leave at 8:00.
+        	
+        但在日常會話裡 , 常用兩種替代型來表達假設語氣 :
+        - 直述語法
+        - 在原型動詞前 + 助動詞 Should
+          I suggest that he should leave at 8:00.
+          
+      3. 慣用片語 :  
       
-    - 祈願式的用法 , 動詞一律用原型 , 不隨主詞人稱單複數或時式而變化.
-      God save the Queen!
-      Long live the King!
-      
+    	- 祈願式的用法 , 動詞一律用原型 , 不隨主詞人稱單複數或時式而變化.
+      	God save the Queen!
+      	Long live the King!
+      	Be that as it may, ... 總之;即使如此
+      	Heaven help us! 老天保祐.
+      	So be it. 但原如此.
+        
       ...,if need be. 假如有必要的話.
          You are to wait - all day, if need be.
       ...,come what may. ...不論結果如何.
@@ -674,7 +692,8 @@
       
     - apprehension / distraught / devastating / accommodate / trivial or traumatic
       paradox / ambiguity / ponder / reminisce / endorsement / astonished / disgust / sorrow
-      Misery / 
+      Misery / gracious / noble / breadth / acquaintance / rejoice / side up
+    
     - anchor : 主播
       電視新聞的主播，英文稱為anchor，或者news anchor，與其相關的字彙，還有co-anchor，也就是共同播報新聞的主播，
       而news reporter指的是一般新聞的播報員。另外，一般常聽到的host，則是指電視節目的主持人。
@@ -763,3 +782,6 @@
     - life raft (n)「救生筏」/ life vest（救生衣）、life guard（救生員）      
     - carbonated / flaky / good follow through / presumably / pill / swallow / cognizant
     
+    - doctorate / dissertation / let me clue you in beforehand about what it is I'll need.
+      vouch / upbeat / Are you good fit for us ? / conduit / profound / janitor / dedication / attire
+      cliche
