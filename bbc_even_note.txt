@@ -650,7 +650,8 @@
       Best regards from Taipei. Wish you were here.
       
       假設語氣句型唯一看出與直述句不同的地方就是第三人稱單數, 因動詞字尾沒有加 s .
-      下列這類句型中 , that 後面的子句都用動詞原型 , 不管人稱也不管單複數.
+      下列這類句型中 , that 後面的子句中 , 其動詞所代表的行為都是某人認為應該做必須做 , 建議或要求做的事 ,
+      且都用動詞原型 , 不管人稱也不管單複數.
       It is vital that ...
         It is vital that no-one be allowed in, and that no-one be allowed out.
       It is desirable that ...
@@ -694,6 +695,11 @@
       paradox / ambiguity / ponder / reminisce / endorsement / astonished / disgust / sorrow
       Misery / gracious / noble / breadth / acquaintance / rejoice / side up
     
+    - packet-ship / state-room / cart / wharf / pine / In the charge of ... / To be handled with care.
+      accordion / solo career / obstinate      
+    - mechanic / just in case
+    - We will work all night, if need be.
+      Nothing is too good for our customers.
     - anchor : 主播
       電視新聞的主播，英文稱為anchor，或者news anchor，與其相關的字彙，還有co-anchor，也就是共同播報新聞的主播，
       而news reporter指的是一般新聞的播報員。另外，一般常聽到的host，則是指電視節目的主持人。
@@ -793,3 +799,6 @@
     - weight training : 重量訓練
       槓鈴（barbell）、啞鈴（dumbbell）、重量訓練機（weight machine）
       Kelly does weight training at the gym three days a week. 凱莉每週有3天都會到健身房做重量訓練。
+    - churn out : 【口】大量生產某物(通常質量惡劣); 粗製濫造
+    - crap / morph / quirk / carving
+    
