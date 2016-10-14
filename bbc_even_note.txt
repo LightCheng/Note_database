@@ -291,12 +291,11 @@
 	    There could have been a accident.
 	    You needn't have worried.
     - hospitality / intrigue / tenderness / eternity / ape / alien / dune
-    - Acclaimed throughout the world / take advantage of 
+    - Acclaimed throughout the world / take advantage of / chime in
 
     - Did you mean..?、Did you just say..?、My understanding is..
       溝通上怕有誤會，也可以依據理解程度自己換句話說，再請對方確認
     - business ethics : 「企業倫理」指的是在工作場合中所應遵守的道德規範     
-    - chime in
     - non-profit organization : The World Wildlife Fund is a non-profit organization.
     - Cupping therapy : 拔罐
       e.g. Olympic athlete, Michael Phelps uses Cupping therapy to heal the inflammation area and break up scar tissue.
@@ -499,11 +498,9 @@
     - throw the book at someone 嚴厲懲罰某人
       I heard the judge threw the book at the serial rapist.（我聽說法官要重判那個強姦慣犯。）
       
-      what’s cooking 怎麼了
-      跟 what’s up 還有 what’s going on 意思差不多，都是打招呼的方式。
+      what’s cooking : 怎麼了 ,跟 what’s up 還有 what’s going on 意思差不多，都是打招呼的方式。
       
-      knock it off 別鬧了
-      Knock it off! I’m trying to get some sleep.（別鬧了！我想要睡覺。）
+      knock it off : 別鬧了, Knock it off! I’m trying to get some sleep.（別鬧了！我想要睡覺。）
       
       get a life 找點正經事做吧
       Get a life! Stop wasting your time!（找點正經事做吧！不要再浪費時間了。）
@@ -514,7 +511,7 @@
       bankrupt : 破產
       Thousands of investors lost money when the company went bankrupt.
       Many businesses are facing bankruptcy.
-      
+
       stay positive : 把 No 拿掉！/ 重點二：善用If
       
       Could I have a blanket？ vs Could I take a blanket 
@@ -526,14 +523,13 @@
       Please show me how to use this phone. vs Please teach me how to use this phone.
       中文說「教」，但英文可別用teach，因為它意味「花一段時間仔細教導」，空服人員恐怕沒有那麼多時間！只是要對方指點一下操作步驟，用show即可。
       
-    - paginate
     - registered mail : 掛號信 
       The check will be sent to you by registered mail.
     - fence-sitter : 牆頭草 , 或騎牆派/
       It’s time to quit being a fence-sitter and choose sides.
       如果單純要表示「猶䂊不決」的行為，可以用sit on the fence或者on the fence等動詞片語來表示，名詞則可用fence-sitting。
     
-    - incognito / doodle / gratification      
+    - incognito / doodle / gratification / paginate
     - tint / rapport / breed / boredom
     - ward / governess / pram / for your sake / stiffly / refreshment
     - What on earth ... ? (到底, 究竟怎樣) 
@@ -679,10 +675,11 @@
       	Long live the King!
       	Be that as it may, ... 總之;即使如此
       	Heaven help us! 老天保祐.
-      	So be it. 但原如此.
+      	So be it. 但願如此.
         
       ...,if need be. 假如有必要的話.
          You are to wait - all day, if need be.
+         We will work all night, if need be.
       ...,come what may. ...不論結果如何.
       
     - If ..., what would your reaction be ?
@@ -698,8 +695,7 @@
     - packet-ship / state-room / cart / wharf / pine / In the charge of ... / To be handled with care.
       accordion / solo career / obstinate      
     - mechanic / just in case
-    - We will work all night, if need be.
-      Nothing is too good for our customers.
+    - Nothing is too good for our customers.
     - anchor : 主播
       電視新聞的主播，英文稱為anchor，或者news anchor，與其相關的字彙，還有co-anchor，也就是共同播報新聞的主播，
       而news reporter指的是一般新聞的播報員。另外，一般常聽到的host，則是指電視節目的主持人。
@@ -801,4 +797,7 @@
       Kelly does weight training at the gym three days a week. 凱莉每週有3天都會到健身房做重量訓練。
     - churn out : 【口】大量生產某物(通常質量惡劣); 粗製濫造
     - crap / morph / quirk / carving
-    
+    - I'm currently a little over-committed and won't be able to make the time right now.
+      I'll be sure to fit this in as soon as possible.
+      The terms you are offering will not work for us.
+      That's not my area of expertise.
