@@ -1,4 +1,4 @@
-﻿57. Unit 66 Passive forms :
+﻿54. Unit 66 Passive forms :
     - scandal 醜聞 : The scandal ruined the politician’s reputation.
     - trespasser / prosecuted / aid / daze / bemused / distressed(悲痛，苦惱，憂傷) / depressed (沮喪的，消沉的，憂鬱的)
       Trespassers will be prosecuted.
@@ -9,13 +9,6 @@
       My wife has borne three children.
     - column / recount / compartment / blanket / shark
     - I've got an eye for ...
-    - 需要離開一下，跟面前的客人說「馬上回來」 : 
-      I'll be right with you.
-      e.g. This shirt is not your size. Let me check on the back shelf. I'll be right with you.
-      赴約路上，想告知對方再等一下「我快到了」 : don't say "I'm coming！" => I will be right there soon！
-    	e.g. Sorry！A car accident delayed the bus. I will be right there soon！
-    	電話有插撥，想請正在通話的人「稍候一下」: I've got another call coming in.
-     	e.g. I've got another call coming in. Is it alright if I give you a call later？
      	
     - 被動句中，若要提到"作該動作的行為者"時, 應使用介詞 "by"     	
       Have you got a watch ? If "Yes", where was it made ?
@@ -72,34 +65,17 @@
     - counteract / fatigue :
       To counteract decision fatigue, try to tackle your most complicated emails first thing in the morning. 
       Set aside 20–25 minutes when your mind is clearest.       
-    - subordinate 部屬
-      The manager held a meeting with his subordinates.
-    - ticket stub 票根
-      Did the usher ask to see your ticket stub after intermission?
-         接待人員在中場休息之後有要求看你的票根嗎？
-    - You've got to find what you love.
-    - sexual discrimination : 性別歧視
-      The law prohibits sexual discrimination in the workplace
     - vast : extremely big.
       e.g. The amount of detail the book contains is vast.
     - erect : 直立的，垂直的，豎起的 / 樹立；建立，設立
-    - fishing rights : 漁撈權    
-    - signature line : 簽名檔
-      Please sign your name on the signature line at the bottom of the form.
     - candor : the state or quality of being frank, open, and sincere in speech or expression; candidness.
       The candor of the speech impressed the audience.
       candidness : frank; outspoken; open and sincere:
-    - poised : 平衡的 , 猶豫不決的  
 
-    - Remember the acronym HALT—don’t give feedback if you are Hungry, Angry, Lonely, or Tired. 
-      Since candor and feedback involve other people, you’ll likely encounter misunderstandings, hurt feelings, or other conflict. 
-      Don’t expect feedback to always feel natural or easy. 
-      A little discomfort and a few mistakes means you’re on the right path.
-      
     - poke around : To search for something by moving things around, usually not in a very careful or organized way:
       e.g. I was poking around in the drawer, looking for the key, when I found this!    
     
-58 Unit 67 Word formation : Compounds:
+55 Unit 67 Word formation : Compounds:
     - 複合名詞 : 當修飾的名詞 + 被修飾的名詞 ; 且複合名詞的關鍵字都是最後一個字.
       e.g. lunchtime , lunchtime music.
       若關鍵字為動名詞 , 則大多須以連字號"-"連接.
@@ -113,36 +89,6 @@
     - stick up : 搶劫 ; 突出 / hocky / the drinking fountain / waste-paper basket
     - leap into : suddenly enter 突然闖進 A great idea just leaped into my mind．我突然想到一個絕妙的主意。
     - crutch : 拐杖,支撐,幫助(vt.)支撐
-    - To & For    
-	    當有移轉物品的情形或是某人將東西交給某人時，就會產生recepient(接收者)，這時會用到to跟for，而用法也有不同：
-	    當句子中有 motion(動作)出現，包括：give、pass、throw…等等，就要使用to，
-	    例如：I give the pen to her. (我把原子筆給她)，句子當中出現了 “give"(給)這個motion(動作)，所以用 to。
-	    與motion(動作)相對的，當你沒有 move(移動)任何東西，沒有東西經過交換或轉手的時後，這是就是一個situation(情況)，要使用for，
-	    例如：It is for her. (這是給她的)，句子當中沒有出現 motion(動作)，只有 be動詞 “is"，這時就把它看作一個 situation(情況)，用 for。
-	    
-	    若你是個人闡述自己意見的話，就用to me。若是有人和你在爭論或不同意見時，你要表達自己的看法時，就用for me。
-    
-    - Genius is 1% talent and 99% hard work ~ Thomas Edison    
-    - labor insurance : e.g. How much is deducted from our paychecks for labor insurance?
-    - slack off : 打混
-      You need to stop slacking off and finish your report.
-    - management trainee : Does your company have a management trainee program?
-    - stamina : 精力；耐力；韌勁
-    - Attractive vs Charming
-      Attractive強調的是外表很吸引人，而Charming則主要形容一個人整體上很討人喜歡。
-      Attractive主要形容的是外在魅力，說一個人attractive，容易讓人覺得你對那人有意思。
-    - Clever vs Smart
-      Clever通常指的是反應敏捷，善於思辨。有時，耍小聰明的人也常被用Clever或Witty來形容。
-      但是若要稱讚一個人在學術上或智力上的成就，通常就不會使用Clever，而是用Smart。
-    - Fragile vs Delicate
-      Fragile和Delicate這兩個字都有「脆弱」的意思，但Fragile強調的重點卻是「容易損壞的」。如果用Fragile作為形容，通常會讓人聯想到的是過於脆弱的形象，多為負面的意思。
-      Delicate的意思偏向為「精細的」或是「纖細的」。雖然也同樣有脆弱的意思，但是偏向正面。
-    - thriving : 欣欣向榮
-      The domestic Chinese satellite navigation industry is thriving, based on the growing availability of Beidou signals combined with the baseline GPS constellation. 
-      embody : 具體表達,使具體化
-    - holacracy : A specific social technology or system of organizational governance developed by HolacracyOne, 
-                  LLC in which authority and decision-making are distributed throughout a holarchy of self-organizing teams rather than being vested in a management hierarchy.      
-    - assassinations 暗殺 ,行刺 ; They attempted the assassination of the President. 他們企圖暗殺總統。
     - psychologist : 心理學家 ; He fancies himself a bit of a psychologist. 他自以為有一點心理學家的天分。
     - vulnerability : 易受傷 , 易受責難 , 弱點
     - contrary : 相反的，對立的 / （天氣）不利的；（風）逆向的
@@ -170,7 +116,7 @@
     - panacea : 萬能藥；補救之道
     - pre-order : 預購 If you pre-order online, you’ll receive a 20% discount on the album.
     
-59 Unit 68 Word formation: Conversion.
+56 Unit 68 Word formation: Conversion.
     - kettle / ski / skate / handicap / tins & cans / cease / spin / disguise / vase
     - stature : He was short of stature. / landscape / portrait / anatomy / satirical / bronze
     - slope / lawyer , attorney , barrister , solicitor / desperate
@@ -195,24 +141,10 @@
     - How mush is this vase worth ?
     - You should always address envelopes clearly.      
     - hay / nimble / agonizing(令人苦悶的；令人煩惱的；令人痛苦難忍的) / tenacious / egoless / stunning / grand / adequate / akin  
-    - shed light on : Could I ask you to shed light on this case ?
-    - Analysis paralysis : The state of over-analyzing (or over-thinking) a situation so that a decision or action is never taken    
-    - rounding : 四捨五入
-    - ripe : 熟的,成熟的,時機成熟的;成年的,年高的
-    - a pain in the neck : 引申芒刺在背燙手山竽、如鯁在喉、難搞的人或是事情。
-      e.g. Negotiating with customers is a pain in the neck for Betty.（對 Betty 來說，要跟客戶協商是一件難搞的事情。）
-    - a shot in the dark : 形容一個人盲目臆測、瞎猜。
-      e.g. Guessing what the customers need without a proper market survey is like a shot in the dark.
-          （在不做正確的市場調查的情況下就盲目臆測顧客的需求，簡直猶如亂槍打鳥。）
     - onus / augment / teardown / apparatus / unwieldy / stipulate / annotation
     - underestimate
-    - set up (a) stall : 擺攤
-      e.g. Do I need a license if I want to set up a stall here? / Vendors set up stalls selling snacks on the weekend.      
-    - intern 實習生 : Experience as an intern will look good on your college application.
-                      擔任實習生的經驗會讓你的大學申請文件看起來比較亮眼。
-    - emotional quotient : 情感商數，情商（縮寫為 EQ，與 intelligence quotient 即智商相對，主要指許多無形的東西如自我意識、同情、持之以恆和在社交場合應付自如的能力
     
-59. Unit 69 Word formation: Affixes
+57. Unit 69 Word formation: Affixes
     - irresistible / a wild guess / overhead / species / glamorous / compulsory / impersonal
     - rustproof / inspire / inspiration / academy / etcher / figure / hypermarket / practicality
     - Prefixes :
@@ -229,31 +161,10 @@
     - bumps into him
     - resonable / reasonableness (講理的 / 理性)
       "Patience is a virtue" is an old saying .   "忍耐是美德"是句古老的諺語。
-      endangered species : 瀕臨絕種的動植物
-    - 無人機 : drone / unmanned aerial vehicle（UAV）
-      Amazon will soon begin using drones to deliver products.
-           亞馬遜網站不久就要開始使用無人機來運送產品。
-    - groundwork : 基礎；底子，根基
-      A bolder change will require additional groundwork.
-    - 派遣人員 : temp worker 
-      Temp workers who perform well will be given permanent positions.
-    - skew (adj) / lease 
-      I hope to minimize the data skew from this so that the activation stats are still usable for making decisions.
-    - conjure up : 使呈現於腦際（或眼簾）；想起
-      The term "middleman" usually conjures up a negative image — someone who creates costs and slows things down.
-    - cultivate : 耕種，耕作,栽培（作物等）；養殖（魚等）；培育,建立，加強（友誼）；結交（朋友等）
-      You should think carefully about how to cultivate a location-independent second act, such as a seasonal or internet-enabled job.
-    - Rolodex : 個人所有朋友，同事的名單
-      rolodex : 名片盒
-      remunerative : 酬報的，報償性的
-      He is prepared to make a living by accepting any remunerative chore .   為了生計，他準備接受任何有酬報的雜活。
-      
-      accrued : 累積的
-      you’ll get paid more for the seniority and experience you’ve accrued. 
-    
+      endangered species : 瀕臨絕種的動植物    
     - compromise / course (v) / psychopath / remorse / concoct / forge / paper clip / rung
       
-60. Unit 70 Things could have been different ...   
+58. Unit 70 Things could have been different ...   
 		- I know exactly how they were feeling.
 		- You didn't mean it. / Now you see what lies can do.
 		- There might have + P.P 
@@ -293,23 +204,8 @@
     - hospitality / intrigue / tenderness / eternity / ape / alien / dune
     - Acclaimed throughout the world / take advantage of / chime in
 
-    - Did you mean..?、Did you just say..?、My understanding is..
-      溝通上怕有誤會，也可以依據理解程度自己換句話說，再請對方確認
-    - business ethics : 「企業倫理」指的是在工作場合中所應遵守的道德規範     
-    - non-profit organization : The World Wildlife Fund is a non-profit organization.
-    - Cupping therapy : 拔罐
-      e.g. Olympic athlete, Michael Phelps uses Cupping therapy to heal the inflammation area and break up scar tissue.
-    - touch base with : 和……聯繫
-      e.g. I just wanted to quickly touch base with you: did you get an email from my secretary about the meeting?    
-    - I am busy at work.  / We don't have enough time. / I have a problem with grammar. / I have a problem with my phone／computer.
-    - What size shoes do you wear？ / What size feet do you have？    
-    - Do you have it in any other sizes？（有其他尺寸嗎？）  
-      What other sizes are available？（還有哪些尺寸呢？）
-      Could I have the next size up／down？ （可以給我大／小一號的尺寸嗎？）
-    - Have you got it in small,please？（這有沒有小號／杯的？）
-    - deposit : Will I get my deposit back if I cancel my reservation?
     
-61. Unit 71 Past habits
+59. Unit 71 Past habits
     - hush / flock / nourish / alcoholic / procurement / apathetic / nugget / spoiler / mimick
     - weep / imprison / custume / raven / yeoman warder / beefeater / distribute
     - supplier : If quality doesn’t improve, we may have to switch suppliers.
@@ -343,29 +239,8 @@
       The team will face its toughest opponent in the next game.
       抄襲 plagiarize , crib , imitate
       The singer was sued for plagiarizing another artist’s song.
-    - 你生病了嗎？ How are you feeling? / Are you feeling ill?
-    - 降低成本 cut down on the cost / lower the cost / cost reduction
-      cost down isn't correct usage.
-    - 小吃 : local dishes / street food
-    - 一球冰淇淋 : a scoop of ice cream
-    - appreciate 並不等於 thank，thank 後面接人，appreciate 後面不接人，而是接一件事。
-      I appreciate the opportunity.
-      Thank you for the opportunity.
-    - Regards — 較沒有表示文字的溫度，可能會給人冷淡無情的感覺
-      Sincerely — 有些人可能會認為有點做作
-      Regards 前面也可以加上 kind, warm, best，這會使千篇一律的 Regards 更有溫度喔！
-      
-      應改用 Looking forward to 期待您……
-      Looking forward to your reply/feedback. 靜候佳音。
-            
-      Thank you for your time. 感謝撥冗。
-      在中文裡聽起來很有禮貌的一句話，在外籍商業人士看起來卻是非常不舒服，是聽起來自以為是、冒昧的說法。
-      Thank you for considering my request. 謝謝你考慮我的要求。
-      Thank you for any help you can provide. 謝謝你提供協助。
-      I will appreciate your help with this situation. 很感謝你願意幫忙。
-    - I am really stupid and naive. Just tell me so I can write it on this napkin what it is you do.”    
 
-62. Unit 72 Revision Unit 
+60. Unit 72 Revision Unit 
     - alligator / erstwhile / attainment / apprenticeship / synergize / renewal
     - perpetually / preponderance 
     - Word formation
@@ -378,7 +253,7 @@
     - round out / caveat / peculiar / contraction / obliterate / rewind
     - more often than not / distill  
     
-63. Unit 73 Modal auxiliary verbs (語氣助動詞) : Some special uses.
+61. Unit 73 Modal auxiliary verbs (語氣助動詞) : Some special uses.
     - extract / revelation / abrupt / squeaking / shove
     - Is that so ? / I nearly forgot:... / I was going to say:...
     - bells and whistles / 
@@ -452,7 +327,7 @@
     - stimulus / bulk / turtle / addicted to / disc-jockey
     - You might as well face it: you're addicted to love.
     
-64. Unit 74 : English tenses (英語動詞時式): Some special uses.
+62. Unit 74 : English tenses (英語動詞時式): Some special uses.
     - continuous / continual : He still smokes despite the continual warnings of his doctor.
     - condense / arithmetic / dupe
     - understand / gather ; hear / say / tell 這種溝通類動詞, 往往對剛剛得知聽到的訊息 , 都用現在式代替過去式.
@@ -495,51 +370,8 @@
     
     - 一般曆史事略, 都是用現在式代替過去式.
       
-    - throw the book at someone 嚴厲懲罰某人
-      I heard the judge threw the book at the serial rapist.（我聽說法官要重判那個強姦慣犯。）
-      
-      what’s cooking : 怎麼了 ,跟 what’s up 還有 what’s going on 意思差不多，都是打招呼的方式。
-      
-      knock it off : 別鬧了, Knock it off! I’m trying to get some sleep.（別鬧了！我想要睡覺。）
-      
-      get a life 找點正經事做吧
-      Get a life! Stop wasting your time!（找點正經事做吧！不要再浪費時間了。）
-      
-      in good hands 被可靠的人照料
-      Dr. Lin is the best in town. You are in good hands with her.（林醫生是城裡最棒的醫生，你會被照料得很好的。）
-      
-      bankrupt : 破產
-      Thousands of investors lost money when the company went bankrupt.
-      Many businesses are facing bankruptcy.
 
-      stay positive : 把 No 拿掉！/ 重點二：善用If
-      
-      Could I have a blanket？ vs Could I take a blanket 
-      像是在問「能否免費索取一條毛毯帶回家」把動詞take改成have或get才不會產生誤會。
-      
-      Be careful with this bag. vs Be careful of this bag.
-      "be careful of"這個片語，聽起來像是在說「這個袋子本身很危險，要小心」，這恐怕讓空服人員不敢去拿！請把介系詞改成with，才能準確傳達請對方「小心拿取」的意圖
-      
-      Please show me how to use this phone. vs Please teach me how to use this phone.
-      中文說「教」，但英文可別用teach，因為它意味「花一段時間仔細教導」，空服人員恐怕沒有那麼多時間！只是要對方指點一下操作步驟，用show即可。
-      
-    - registered mail : 掛號信 
-      The check will be sent to you by registered mail.
-    - fence-sitter : 牆頭草 , 或騎牆派/
-      It’s time to quit being a fence-sitter and choose sides.
-      如果單純要表示「猶䂊不決」的行為，可以用sit on the fence或者on the fence等動詞片語來表示，名詞則可用fence-sitting。
-    
-    - incognito / doodle / gratification / paginate
-    - tint / rapport / breed / boredom
-    - ward / governess / pram / for your sake / stiffly / refreshment
-    - What on earth ... ? (到底, 究竟怎樣) 
-      What on earth are you doing ?   你到底在幹什麼呢?
-    - renegade / funnel
-      the cloakroom / the left luggage office / after music had ceased ...
-    - adjoin / slight / disposition / immaterial : The line is immaterial, Mr. Worthig.
-    - locality
-
-65. Unit 75 : Talking about the future
+63. Unit 75 : Talking about the future
     - colony / parasol / summer tune / foretell / sore / flesh / spirit / mourning / bough / wintry / creep
     - irretrievable / associated / civilization / boot stamping / assert / defeated proposal / crabby
     - porce / lawn / a takeover / a fortune / a millionaire / a tycoon / a magnate / real estate
@@ -548,13 +380,6 @@
     - founded (adj) : based on, built on, rooted in, grounded on, established on.
       His game is founded on power and determination.
     - a world-wide circulation / 
-    - stand sb. up : 放鴿子 / eye drops : 眼藥水
-      e.g. I had a dinner date with Jane, but she stood me up.
-           If you stand me up again, I’m going to break up with you.
-    - Rgular sugar > less sugar > half sugar > quarter sugar > sugar-free
-      Regular ice > easy ice > ice-free
-      tapioca pearl 珍珠 / grass jelly 仙草 / flan 布丁 / rat noodle 粉條
-      for here 內用 / to go 外帶 / tray 用托盤 / bag 裝袋
     - This might be a good time for a change.
     
     - Predictions : 
@@ -617,7 +442,7 @@
     - dampen (feeling): to make feelings, especially of excitement or enjoyment, less strong:
       Unrealistic goals not only dampen sales but also cause top-performing salespeople to get frustrated and leave. 
       
-66. Unit 76 : Subjunctive forms
+64. Unit 76 : Subjunctive forms
     - ask for vs demand
       carry vs wear
       leave vs live ; live (adj)
@@ -683,10 +508,16 @@
       ...,come what may. ...不論結果如何.
       
     - If ..., what would your reaction be ?
+          If I were to say "The Prime Minister is here", what would your reaction be ?
+          I'd be astonished!
       If ..., how would you react/feel ?
+          If I said "Your mother is here", how would you react ?
+          I'd be very pleased.
       
     - I'd be ... 若是用動詞的過去分詞當形容詞 , 則只能使用這個句型)
       It would make me ... 
+      If I were to say "I stole some money from your jacket", how would you feel ?
+      It would make me very sad.      
       
     - apprehension / distraught / devastating / accommodate / trivial or traumatic
       paradox / ambiguity / ponder / reminisce / endorsement / astonished / disgust / sorrow
@@ -696,217 +527,6 @@
       accordion / solo career / obstinate      
     - mechanic / just in case
     - Nothing is too good for our customers.
-    - anchor : 主播
-      電視新聞的主播，英文稱為anchor，或者news anchor，與其相關的字彙，還有co-anchor，也就是共同播報新聞的主播，
-      而news reporter指的是一般新聞的播報員。另外，一般常聽到的host，則是指電視節目的主持人。
-      Dan is studying journalism and hopes to become a news anchor. 丹正在念新聞系，他希望日後能成為一位新聞主播。
-    - internship / stint / stand out / punctual / mundane / aesthetically 
-      An internship is a great way to gain experience. But a short stint in a company may not be enough time to learn what you need to know, 
-      impress those you work for, and secure a job recommendation or full-time offer. Here are ways to stand out:
-      •	Be relentlessly punctual.
-      •	Complete each task with excellence.
-      •	Ask questions — good ones.
-        Think of thoughtful questions you can ask that show you’re prepared for the meeting and that you respect their time.
-    - as good as gold 很乖、表現很好 
-      Daddy bought me a new toy for being as good as gold today.
-      
-      a heart of gold 好心腸、很善良
-      Amy, who is always nice to everyone, has a heart of gold.
-      
-      worth its weight in gold 很有用的
-      Professor Yeh’s lessons are worth their weight in gold.
-      
-    - born with a silver spoon in your mouth. 出生在有錢的家庭
-      I was not born with a silver spoon in my mouth; I make my own money.
-      
-    - blue movie 色情電影
-      There are some sex scenes in this movie, but it is not really a blue movie.
-      
-      blue blood 貴族血統
-      The newly-wed princess is a blue-blooded member of the royalty.
-      
-      blue-ribbon 最高級的、最一流的 (第一名的獎項會綁上藍絲帶，故藍絲帶因而有最高級、最棒的意思。)
-      Emirates Airlines provides blue-ribbon services.
-      
-    - be green with envy 眼紅、嫉妒
-      When I heard about his new job, I was green with envy.
-      
-      give the green light to 准許
-      
-      be green 沒經驗的、新手、菜鳥
-      Mark is green for this job. He still has a lot of things to learn.
-      
-      be green around the gills臉色蒼白
-      gill (n.) 鰓，注意英文裡的「臉色蒼白」不用 “white”，要說 be green around the gills，或者可以用 pale (adj.) 蒼白的、淡的。
-      Mary was green around the gills because a car almost hit her.
-      
-    - be yellow 膽小的、懦弱的
-      Paul is yellow. You can’t count on him
-      
-    - in the pink 氣色很好、健康的
-      
-      pink slip 解雇通知
-      Nick got a pink slip this morning and is packing his stuff now.
-      
-    - in the red 虧損、有赤字 , 赤字表虧損，相反的 in the black 則表示有盈餘
-      Due to poor management, the company is currently in the red.
-      
-    - black and blue 遍體鱗傷、青一塊紫一塊
-      Tony’s arm is black and blue after the fight.
-      
-      black look 怒視、瞪
-      That blackguard gave the police officer who arrested him a black look.
-      
-      black sheep 害群之馬
-      Stephanie is the black sheep of the family.
-      
-    - white lie 善意的謊言、無傷大雅的謊言
-      Emily told a white lie at the party that she had a headache and must leave early.
-      
-    - select vs choose
-      select=carefully choose，是經慎重考慮選出，choose是在有限的選擇裡挑選，隱含隨便挑一個看起來還OK的人出來的態度
-      I didn't expect that I would be selected to lead this team.
-      
-    - fix vs repair
-      都是表示「修理」，但前者多用在簡單的修補，後者則需要專業的技術能力，等級較高。
-      If the television you purchased is within the warranty period, you may have it repaired directly in our shop.
-      
-    - I have to call in sick today.（我今天要請病假。）
-      We ate cheeseburgers because my friend had a craving for it.
-      
-    - stow (v) 為「收好，放好」
-      Please stow your carry-on luggage underneath the seat in front of you or in an overhead bin.
-      機艙上方放置隨身行李的置物箱可用overhead compartment或overhead bin表示
-      
-    - evacuate (v) 疏散，名詞為evacuation
-      字首e-為「out」，vac-則是「empty」的意思，所以這個字有empty out（空出）之意。
-      
-    - life raft (n)「救生筏」/ life vest（救生衣）、life guard（救生員）      
-    - carbonated / flaky / good follow through / presumably / pill / swallow / cognizant
-    - critical thinking : 批判性思考
-      The exam is designed to test students’ critical thinking skills. 這項考試就是設計用來測驗學生的批判性思考能力。
-      Teachers should encourage critical thinking among their students. 老師應該鼓勵學生們進行批判性思考。
-    - doctorate / dissertation / let me clue you in beforehand about what it is I'll need.
-      vouch / upbeat / Are you good fit for us ? / conduit / profound / janitor / dedication / attire
-      cliche
-    - civil servant / government employee : 公務員
-      Most civil servants receive generous benefits. 多數的公務員享有豐厚的福利
-    - procrastination / Bureaucratic / logjam / recurring / traits
-    - weight training : 重量訓練
-      槓鈴（barbell）、啞鈴（dumbbell）、重量訓練機（weight machine）
-      Kelly does weight training at the gym three days a week. 凱莉每週有3天都會到健身房做重量訓練。
-    - churn out : 【口】大量生產某物(通常質量惡劣); 粗製濫造
-    - crap / morph / quirk / carving
-    - I'm currently a little over-committed and won't be able to make the time right now.
-      I'll be sure to fit this in as soon as possible.
-      The terms you are offering will not work for us.
-      That's not my area of expertise.
-    - plummet / euphoric / disastrous / faux pas
-    - blunder / stumble / skittish / exert / schmooz / rehearsed answer / debilitating 
-    - eagerness : She shows great eagerness for success 
-    - have the upper hand :
-      Truly confident people always have the upper hand over the doubtful and the skittish because "they inspire others and they make things happen".
-      
-    - Affect vs. Effect - 
-      To make these words even more confusing than they already are, both can be used as either a noun or a verb.
-      Let’s start with the verbs. 
-      Affect means to influence something or someone; 
-      effect means to accomplish something. 
-      "Your job was affected by the organizational restructuring" but "These changes will be effected on Monday."
-      
-      As a noun, 
-      an effect is the result of something: "The sunny weather had a huge effect on sales." 
-      It’s almost always the right choice because the noun affect refers to an emotional state and is rarely used outside of psychological circles: "The patient’s affect was flat."
-      
-    - Lie vs. Lay - 
-      We’re all pretty clear on the lie that means an untruth. 
-      It’s the other usage that trips us up. 
-      Lie also means to recline: "Why don’t you lie down and rest?" 
-      Lay requires an object: "Lay the book on the table." 
-      Lie is something you can do by yourself, but you need an object to lay.
-      
-      It’s more confusing in the past tense. 
-      The past tense of lie is—you guessed it—lay: "I lay down for an hour last night." 
-      And the past tense of lay is laid: “I laid the book on the table.”
-      
-    - Bring vs. Take - 
-      Bring and take both describe transporting something or someone from one place to another, 
-      but the correct usage depends on the speaker’s point of view. 
-      
-      Somebody brings something to you, but you take it to somewhere else: 
-      "Bring me the mail, then take your shoes to your room."
-      
-      Just remember, if the movement is toward you, use bring; 
-      if the movement is away from you, use take.
-      
-    - What Genuinely Confident People Do Differently :       
-			Truly confident people always have the upper hand over the doubtful and the skittish because they inspire others and they make things happen.
 
-      Your mentality has a powerful effect on your ability to succeed is seen in the results of a recent study that confident people earn higher wages and get promoted more quickly than anyone else.
-
-      Indeed, confident people have a profound impact on everyone they encounter. 
-      Yet, they achieve this only because they exert so much influence inside, on themselves.
-
-			It's a labor of love that they pursue behind the scenes, every single day.
-      And while what people are influenced by changes with the season, the unique habits of truly confident people remain constant. 
-      Their focused pursuit is driven by these habits that you can emulate and absorb:
-
-      They speak with certainty. 
-      	It’s rare to hear the truly confident utter phrases such as “Um,” “I’m not sure,” and “I think.” Confident people speak assertively because they know that it’s difficult to get people to listen to you if you can’t deliver your ideas with conviction.
-
-			They seek out small victories. 
-			  Confident people like to challenge themselves and compete, even when their efforts yield small victories. 
-			  Small victories build new androgen receptors in the areas of the brain responsible for reward and motivation. 
-			  The increase in androgen receptors increases the influence of testosterone, 
-			  which further increases their confidence and eagerness to tackle future challenges. 
-			  When you have a series of small victories, the boost in your confidence can last for months.
-
-      They exercise. 
-        A study conducted at the Eastern Ontario Research Institute found that people who exercised twice a week for 10 weeks felt more competent socially, academically, and athletically. 
-        They also rated their body image and self-esteem higher. 
-        Best of all, rather than the physical changes in their bodies being responsible for the uptick in confidence, it was the immediate, endorphin-fueled positivity from exercise that made all the difference.
-
-      They don't seek attention. 
-        People are turned off by those who are desperate for attention. 
-        Confident people know that being yourself is much more effective than trying to prove that you’re important. 
-        People catch on to your attitude quickly and are more attracted to the right attitude than what, or how many, people you know. 
-        Confident people always seem to bring the right attitude.
-
-      Confident people are masters of attention diffusion. 
-        When they’re receiving attention for an accomplishment, they quickly shift the focus to all the people who worked hard to help get them there. 
-        They don’t crave approval or praise because they draw their self-worth from within.
-
-      They don't pass judgment. 
-        Confident people don’t pass judgment on others because they know that everyone has something to offer, 
-        and they don’t need to take other people down a notch in order to feel good about themselves. 
-        Comparing yourself to other people is limiting. 
-        Confident people don’t waste time sizing people up and worrying about whether or not they measure up to everyone they meet.
-
-      They get their happiness from within. 
-        Happiness is a critical element of confidence, because in order to be confident in what you do, 
-        you have to be happy with who you are. 
-        People who brim with confidence derive their sense of pleasure and satisfaction from their own accomplishments, 
-        as opposed to what other people think of their accomplishments.
-
-      They listen more than they speak. 
-        People with confidence listen more than they speak because they don’t feel as though they have anything to prove. 
-        Confident people know that by actively listening and paying attention to others, they are much more likely to learn and grow. 
-        Instead of seeing interactions as opportunities to prove themselves to others, they focus on the interaction itself, because they know that this is a far more enjoyable and productive approach to people.
-
-		  They take risks. 
-		    When confident people see an opportunity, they take it. 
-		    Instead of worrying about what could go wrong, they ask themselves, "What’s stopping me? Why can’t I do that?" and they go for it. 
-		    Fear doesn’t hold them back because they know that if they never try, they will never succeed.
-
-      They aren't afraid to be wrong. 
-        Confident people aren’t afraid to be proven wrong. 
-        They like putting their opinions out there to see if they hold up because they learn a lot from the times they are wrong and other people learn from them when they’re right. 
-        Self-assured people know what they are capable of and don’t treat being wrong as a personal slight.
-
-      They celebrate other people's successes. 
-        Insecure people constantly doubt their relevance, and because of this, 
-        they try to steal the spotlight and criticize others in order to prove their worth. 
-        
-        Confident people, on the other hand, aren’t worried about their relevance because they draw their self-worth from within. 
-        Instead of insecurely focusing inward, confident people focus outward, which allows them to see all the wonderful things that other people bring to the table. 
-        Praising people for their contributions is a natural result of this.
+65. Unit 77 : The past, the present and the future
+		- 
