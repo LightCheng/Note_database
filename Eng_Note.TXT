@@ -13,8 +13,7 @@
 6. I'm copying you here so you can ...
    What questions do you have for me ?    
 
-7.   
-     - 目標要可靠，期望要實際
+7.   - 目標要可靠，期望要實際
 				Solid goal, practical expectation.
         Before setting a goal for your team, imagine what it'd be like if you're going to do it all by yourself. 
         Is it going to be hard or is it going to be easy? 
@@ -93,6 +92,7 @@
 9. union : 工會
       The union is demanding higher pay for workers.
       The labor union is planning to organize a strike.
+
 10.business etiquette 商業禮儀 : 
       According to Japanese business etiquette, you should accept a business card with both hands.
 
@@ -608,4 +608,26 @@
       
       if something or someone is here today, gone tomorrow, they only exist or stay in one place for a short time.
        He had a string of girlfriends, but they were always here today, gone tomorrow.
+25. lose one’s temper : 發飆
+    get angry僅能用來表示「某人生氣了」的意思，
+    如果要描述更強烈的生氣程度，像是「動怒、發飆」，可以用lose one’s temper來表示，
+    而lose it是更為口語化的說法，
+    如果想要用英文表示「暴跳如雷」的意思，可以說fly off the handle。
+    其它與生氣相關的英文說法，還有表示「抓狂」的flip out，
+    「勃然大怒」的blow up、blow one’s top，
+    「氣到發火」的hit the ceiling，以及
+    「怒氣衝天、大發雷霆」的go ballistic。    
+    The boss lost his temper when he saw the monthly sales report. 老闆在看了月銷售報表，就整個人動怒了。
+    Mike lost it when he saw his girlfriend kissing another guy. 邁克在看到自己的女友親吻了另一個男人，就發飆了。
+    
+    Some people equate good listening with sitting silently, nodding, making eye contact, 
+    and, when the speaker is done, paraphrasing what you heard. 
+    But these things are only part of what makes someone feel that you heard them. 
+    The best listeners go deeper by trying to understand the substance of what the other person is saying. 
+    Doing this requires that you ask questions to clarify your understanding and push the other person to better articulate their position, 
+    examine any assumptions they’re making, and see the issues in new light. 
+    You should also try to empathize with and validate any emotions the speaker is conveying. 
+    Once you’ve made sure the person feels supported, you can offer some thoughts and ideas about the topic that could be useful to the other person. 
+    Just be careful not to highjack the conversation so that you or your agenda becomes the subject of the discussion.
+    
     
