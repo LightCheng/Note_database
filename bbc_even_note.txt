@@ -375,7 +375,7 @@
     - colony / parasol / summer tune / foretell / sore / flesh / spirit / mourning / bough / wintry / creep
     - irretrievable / associated / civilization / boot stamping / assert / defeated proposal / crabby
     - porce / lawn / a takeover / a fortune / a millionaire / a tycoon / a magnate / real estate
-    - privatiztion : Do you know about the privatization of Chunghwa Telecom ?
+    - privatization : Do you know about the privatization of Chunghwa Telecom ?
     - mean : Her husband is very mean about money . 
     - founded (adj) : based on, built on, rooted in, grounded on, established on.
       His game is founded on power and determination.
@@ -561,3 +561,5 @@
       I'm sure the speech will be fine, however you end it.
       Here today and gone tomorrow.
     - equate / nodding / paraphrase / workhorse / blurry / wardrobe / blurb
+    - relieve stress : 紓壓
+      Listening to music is a great way to relieve stress. 聽音樂是一個很棒的紓壓方式。    
