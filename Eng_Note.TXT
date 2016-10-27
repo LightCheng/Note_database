@@ -631,3 +631,19 @@
     Just be careful not to highjack the conversation so that you or your agenda becomes the subject of the discussion.
     
 26. intimidating / mind-blowing (extremely exciting or surprising:)
+
+27. enough這個字，只要句子的主詞是代名詞，像it/there/that/this，它才能夠當作補語，例如：That’s enough. Thank you. （夠了，謝謝。）
+    只要主詞不是代名詞，enough的後面都要接一個名詞
+    There isn’t enough budget for the project. （Ｏ）
+    Our budget is not enough for the project. （Ｘ）
+    
+    BID（break it down 細分明細）
+    COB（close of business 下班時）
+    EOB（end of business 下班時）
+    EOD（end of day 今天以內）
+    DOE（depending on experience 視工作經驗而定）
+    ETA（estimated time of arrival 預計到達時間）
+    FYI（for your information 供你參考（郵件常用）
+    FYR（for your reference 供你參考）
+    OOO（out of office 不在辦公室）
+    TBA（to be announced 待公佈）
