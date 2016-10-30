@@ -676,6 +676,7 @@
      What time is it ?                       ==> Can you tell me what time it is ?
      詞序排列與敘述句的詞序完全相同.
 
+     She used to ask me where I was going and how long I was going to be away.
      Above all, she wanted to know why I was doing that kind of job.
      
    - What did you reply ?
@@ -687,7 +688,7 @@
      I just wanted to say ...
      Oh, that reminds me ...
      I know what I wanted to ask/tell you ...
-     Incidentally
+     Incidentally / by the way
      
      I'm fine at the moment. But you go ahead.
      
@@ -699,13 +700,19 @@
      "Please go away and don't come back"   ==> She asked me to go away and not to come back.
      "You should go away"                   ==> She advised me to go away.
       
-   - dug-out / trench / spit (out) / lizard / a lack of contact
-  
      但 suggest 後則不可使用不定詞結構 , 
      suggest 後要用假設語法或保留助動詞should.
      "You should go away"   ==> She suggested that I go away.
                             ==> She suggested that I should go away.
-   
+
+   - dug-out / trench / spit (out) / lizard / a lack of contact / dim / stir / coherent / build up / compact
+   - now and again == from time to time
+     far too much == much too much : This is far too much for me to handle alone. (A task for many has been assigned to just one person and he or she is overwhelmed.)  
+     run of the mill == common or garden : ordinary and not special or exciting in any way:
+     He gave a fairly run-of-the-mill speech.  / It's a common or garden washing machine, but it works perfectly well.
+     so to speak : 可以說 / 換句話說
+     
+     
    - magnate或tycoon : 巨擘、巨頭、大亨
      entrepreneur : 創業家 / industrialist : 實業家 / business person : 商人
    - barrage / Individual (Having a Directly Responsible Individual for each action item helps clarify accountability and makes follow-up easier)
@@ -714,3 +721,4 @@
      soundbite : He never gives a soundbite or a vague answer. Instead, he expounds at length, in technical but lucid detail, about the subject. 
    - impromptu / ramble / quote : I'm recording this to make sure I quote you correctly. Is that okay?
                                   I want to make sure I get your quotes right. Do you mind if I record this?
+   
