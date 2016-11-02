@@ -692,7 +692,7 @@
      
      I'm fine at the moment. But you go ahead.
      
-     It I never see him again, it'll be too soon.
+     If I never see him again, it'll be too soon.
      if this doesn't happen again, it will be too soon
      
    - (tell / ask / advise) 指示與請求的轉述句 ,通常要用不定詞
@@ -748,3 +748,7 @@
      to close the books : 來自公司會計習慣, 年底時，把公司的帳目結算好，做到收支平衡，從而結束一年的帳務。
      但是這個用語已經超越了會計的範圍，它可以用於其它各個方面，意思是「結束了一項任務、一個計劃或一個工程」，這同樣是個比較口語的用法。
      It can be difficult to close the book on something you’ve worked on for so long.
+     
+   - telecommute : 遠距工作
+     Many tech companies allow their employees to telecommute. / 許多科技公司都允許員工們遠距工作。
+     Brent sometimes telecommutes from his home office. / 布蘭特有時會待在家中遠距工作。
