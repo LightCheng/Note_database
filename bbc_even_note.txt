@@ -764,22 +764,15 @@
       
    - get a handle on : to understand something.
      We need to get a handle on what caused the fire and what can be done to prevent another one.
-   - frugal : 節儉
-     Robert lives a simple, frugal lifestyle. / 羅伯特過著簡單、節儉的生活型態。
-     There is nothing to be afraid of. / He is afraid of losing the account.
-     Be afraid to和be afraid of意思稍稍有差別，be afraid to不敢做，害怕做，怕做了會有什麼不好的後果，假如是擔心某事可能會發生，心裡很不願意這件事發生，用 be afraid of。
-     I was afraid of offending his feelings.（because I had no wish to do so） / I was afraid to offend him.（because he might hit me）
-   - embezzlement : 盜用、挪用，英文解釋為to appropriate fraudulently to one’s own use, as money or property entrusted to one’s care（在信任人所託之下，受信任者利用其職詐騙管轄下的土地資產為其個人所用，即盜用資金財產。）。
-     cook the book(s) : 口語英文「作假帳」，這裡的the book(s)指的是帳本而非書本。
-     to close the books : 來自公司會計習慣, 年底時，把公司的帳目結算好，做到收支平衡，從而結束一年的帳務。
-     但是這個用語已經超越了會計的範圍，它可以用於其它各個方面，意思是「結束了一項任務、一個計劃或一個工程」，這同樣是個比較口語的用法。
-     It can be difficult to close the book on something you’ve worked on for so long.
      
    - telecommute : 遠距工作
      Many tech companies allow their employees to telecommute. / 許多科技公司都允許員工們遠距工作。
      Brent sometimes telecommutes from his home office. / 布蘭特有時會待在家中遠距工作。
    - demeanor / palpable / bargain / lifespan / grieve / dread
-   - trepidation / morph into / take stock
+   - trepidation / morph into / take stock / Communal / bond
+     Communal experiences like these can help strengthen your group’s bonds, values, and vision.
+     maid of honor / instinct / pedigree / effusively / unsettling / trounce / aperture / stalling / upstage
+     unibody : It was the first unibody MacBook Pro with ports on both sides of the machine.
 
 69. Unit 81 Alternatives to modal auxiliary verbs. 
    - Obligation and permission :
@@ -794,3 +787,5 @@
      I've often had to wait 25 minutes.
      Yesterday I had to wait 40 minutes.
      
+   - torture / warrior / resilience / daunting / barista (A smile with the barista at my local cafe.)
+     magnify / recoil
