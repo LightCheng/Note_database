@@ -320,7 +320,7 @@
     - cough 
     - I think / I'm thinking 
     - dosage / dose / shiver / symptoms / subside / surgeon
-    - cheek / chin / lip / neck / tongue / elbow / knee / toe / wrist / ankle
+    - cheek / chin / lip / neck / tongue / elbow / knee / toe / wrist / ankle / torso
     - elephant / kiwi    
     - He's got a temperature.
 
