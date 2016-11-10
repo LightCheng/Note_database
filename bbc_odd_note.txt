@@ -938,7 +938,7 @@
     - crumb / anyhow / Bound to be. / brilliant / willow / claw
     - bewitched / entranced / whisker / grave round face / silky
     - tariff / suite / VAT (Value Added Tax)
-    - inspector / priest / tailor / falcon / recollections / velvet /wisdom
+    - inspector / detective / priest / tailor / falcon / recollections / velvet /wisdom
     - hard , hardly / late , lately (recently)
     - regard each other cautiously
     - Deductions about the present : must & can't (情況助動詞 ?) 接原形動詞
@@ -1012,3 +1012,80 @@
       I wish I had worked hard at school.
     - Che sara', sara' : What will be, will be.
     - euphemism / sloth / lust / wrath / gluttony      
+54. Unit 66 Passive forms :
+    - scandal 醜聞 : The scandal ruined the politician’s reputation.
+    - trespasser / prosecuted / aid / daze / bemused / distressed(悲痛，苦惱，憂傷) / depressed (沮喪的，消沉的，憂鬱的)
+      Trespassers will be prosecuted.
+    - blast / blaze / clash / drama / back / bid / plea / probe / riddle / row / zap
+    - bear bore born   出生（用被動式但不可接 by）；born（adj）天生的
+      I was born in Taiwan in 1974.
+      bear bore borne　生產（生孩子）；結果；忍耐；牢記；負擔
+      My wife has borne three children.
+    - column / recount / compartment / blanket / shark
+    - I've got an eye for ...
+     	
+    - 被動句中，若要提到"作該動作的行為者"時, 應使用介詞 "by"     	
+      Have you got a watch ? If "Yes", where was it made ?
+      The watch was made in Japan. / The watch was made in Japan by Casio.
+      Have you got any jeans ? If "Yes", where were they made ?
+      
+    - I'm delighted to welcome Professor Light. He's going to talk about ....
+    - English is spoken ... / English was spoken ... /English has been spoken ...
+    - 新聞標題的文法構造 :
+      Present simple : 指發生於過去的動作或行為 , 包括過去開始進行, 到目前剛剛完成者.
+      e.g.
+      EXPLORER DISAPPEARS ==> had disappeared.
+      
+      若出現動詞的被動式時 , 通常會把助動 be (is, are, was, were, had been 等)省略.
+      MISSING CHILDREN FOUND ==> have been found
+      Alex and Jason Cooper , the missing Manchester children, have been found.
+      
+      通常用不定詞 (to + 動詞原形) 來表示未來將發生的事.
+      QUEEN TO VISIT CANADA ==> The Queen will visit Canada next month.
+      
+    - 英語被動語態的構造 :
+      適當的 be 動詞形式 , 接相關動詞的過去分詞.
+      am / was + third form
+      	Credit cards are accepted here.
+      have been / has been + third form
+        This has been discussed in the highest government circles.
+      had been + third form
+        In 1900 , English had been spoken in New Zealand for sixty years.
+      will be + third form
+        A statement will be made tomorrow.
+      am being / is being / are being + third form
+        A new hospital is being built in our school.
+      was being / were being + third form
+        I couldn't use my office last week because it was being painted.
+    - like / hate / enjoy 這類的動詞之後, 接被動語態時 , 其構造是 :
+      (like / hate / enjoy) + being + P.P
+      e.g. Most film stars enjoy being interviewed.      
+    - 被動式是讓受詞升級為主詞的方法，
+      e.g. 原主詞 "I" 可以省略，不省略的話，會變為介系詞片語的受詞 （prepositional object："by me"）。
+      因為被動式是個較拐彎抹角、推卸責任、又缺乏活力的表達方式，一般會建議儘量少用，不過，被動式還是有它適用的範圍。
+
+    - 分號可以取代句號, 以顯示兩個句子間的密切關係 ,
+      也可以取代逗號 , 以表示有好幾個逗號的長句應如何斷句為宜.
+    - reeling from : to feel very shocked, upset, or confused , 眼花撩亂 ; 昏頭轉向
+      The banks were reeling from the unexpectedly large losses.
+    - mistook ... for ... : 把 ...誤以為是 ...
+      e.g. She mistook Oakland for Auckland.
+    - intercom : 對講機或廣播裝置.
+    - leisurely : 
+      Characterized by leisure; taking abundant time; not hurried;
+      as, a leisurely manner; a leisurely walk.
+      precocious : showing mental development or achievement much earlier than usual
+      chore :  日常零星活兒，例行工作 / 家庭雜務；農莊雜務
+    - counteract / fatigue :
+      To counteract decision fatigue, try to tackle your most complicated emails first thing in the morning. 
+      Set aside 20–25 minutes when your mind is clearest.       
+    - vast : extremely big.
+      e.g. The amount of detail the book contains is vast.
+    - erect : 直立的，垂直的，豎起的 / 樹立；建立，設立
+    - candor : the state or quality of being frank, open, and sincere in speech or expression; candidness.
+      The candor of the speech impressed the audience.
+      candidness : frank; outspoken; open and sincere:
+
+    - poke around : To search for something by moving things around, usually not in a very careful or organized way:
+      e.g. I was poking around in the drawer, looking for the key, when I found this!    
+    
