@@ -1,45 +1,4 @@
-﻿55 Unit 67 Word formation : Compounds:
-    - 複合名詞 : 當修飾的名詞 + 被修飾的名詞 ; 且複合名詞的關鍵字都是最後一個字.
-      e.g. lunchtime , lunchtime music.
-      若關鍵字為動名詞 , 則大多須以連字號"-"連接.
-    - 複合形容詞 :
-      red-haired / good-looking / hard-working / world famous / middle-aged / air-conditioned
-    - 含有數目字的複合詞 :
-      the 31-year-old singer
-      The singer was 31 years old.
-    - lemonade / hyphen / prawn / rocking chair / mushroom / railway station / railroad station    
-    - sizzling / villain / snooker / grandstand / borough / casualty / settler / skyscraper / liberty / parliament / barrier
-    - stick up : 搶劫 ; 突出 / hocky / the drinking fountain / waste-paper basket
-    - leap into : suddenly enter 突然闖進 A great idea just leaped into my mind．我突然想到一個絕妙的主意。
-    - crutch : 拐杖,支撐,幫助(vt.)支撐
-    - psychologist : 心理學家 ; He fancies himself a bit of a psychologist. 他自以為有一點心理學家的天分。
-    - vulnerability : 易受傷 , 易受責難 , 弱點
-    - contrary : 相反的，對立的 / （天氣）不利的；（風）逆向的
-    - reprimand : 訓斥，斥責；譴責
-      The policeman reprimanded the driver for turning without a signal. 警察訓斥司機不打信號就拐彎。
-    - imperative : 必要的；緊急的；極重要的
-      It is imperative to act now. 現在必須行動起來。
-    - gimmick : 花招；竅門 / 祕密裝置；巧妙的小玩意兒
-      This may sound like an HR gimmick (“See? Management cares how you feel!”) 
-      or an instrument of forced satisfaction (“The team with the most smiley faces wins!”). 
-    - Ubiquity : 到處存在，無所不在，普遍存在
-    - minority : 少數 / 少數派；少數群；少數民族 / 未成年；未成年身分
-    - callous : 無感覺的；麻木不仁的，冷酷無情的 / 硬結的，起老繭的
-    - flounder : 掙紮,折騰,掙紮著前進掙紮,焦躁,輾轉,比目魚
-    - compassion : 同情,憐憫
-    - suppression : 抑壓,鎮壓,抑制
-      Every organization has an emotional culture, even if it’s one of suppression.
-    - gloss over : 掩蓋,掩飾,粉飾
-      They’re glossing over a vital part of what makes people—and organizations—tick.
-    - prosaic : 普通的，乏味的，平凡的 / 散文的，散文體的
-    - "Management is doing things right. Leadership is doing the right things." — Peter Drucker
-    - ingrain : 把……深深地印在頭腦中；使根深蒂固
-    - endeavor : 努力，盡力
-    - stymie : 使陷困境；妨礙
-    - panacea : 萬能藥；補救之道
-    - pre-order : 預購 If you pre-order online, you’ll receive a 20% discount on the album.
-    
-56 Unit 68 Word formation: Conversion.
+﻿56 Unit 68 Word formation: Conversion.
     - kettle / ski / skate / handicap / tins & cans / cease / spin / disguise / vase
     - stature : He was short of stature. / landscape / portrait / anatomy / satirical / bronze
     - slope / lawyer , attorney , barrister , solicitor / desperate
@@ -775,7 +734,7 @@
 
 70. Unit 82 Omission and substitution : Verbs.
    - lenient / catalyst / coincidence / spaghetti / blush / take part (參加;參與)
-   - misty 
+   - misty / affect & effect / rebuttal / putt / rapport / inculcate
    - Take it easy! - I will.
      I believe you. Thousands wouldn't [believe you].
      in training / send in , I sent in my registration form yestereday.
@@ -835,5 +794,5 @@
    
    - English in science and technology :
      solar panel / insulation / casing (框架) / sheet of glass (一片玻璃) / steel / withstand
-     steep / eloquent 
+     steep / eloquent / arrogant / repressed / coward / cope / Jekyll and Hyde (雙重人格者)
      
