@@ -780,3 +780,45 @@
     另外，像bottleneck這個單字，雖然中文被譯作「瓶頸」，但大多數都是用來表示交通流量的瓶頸。
     There are many obstacles on the road to success. / 在通往成功的道路上，充滿了很多瓶頸。
     The Wright Brothers had a talent for overcoming technical obstacles. / 懷特兄弟具有克服技術上之障礙的能力。                 
+    
+39. Mail 主旨應清楚明確, e.g.「The next meeting will be on Monday at 9am.」（下次會議在周一早上9點舉行）。
+   一封郵件最好只寫一件事，如果有兩件事要講，可以分成兩封信寫。
+   
+   稱謂應先正式後輕鬆，第一次寄信給對方時，Mr./Ms. 後面要接全名或姓氏，
+   e.g. Ms. Susan Johnson or Mr. Smith；Mr./Ms. 
+        後面只加名字是錯誤的寫法，例如：Ms. Susan。
+        
+   書信往返兩次之後就可以直呼對方名字，
+   e.g. Dear John/Hi, Susan。
+   
+   若是要寫給某公司或機構裡不知名的對象，可以寫：「To whom it may concern」或直接寫「Dear 公司名」。
+
+  「問候對方」的寫法：
+   I hope all is well with you.（希望您一切都好。）
+   I'm Tom Chang from Managertoday in Taipei.（我是台北《經理人月刊》的張湯姆。）
+   I'd really appreciate it if you could give me details of your latest products.（希望您提供貴公司最新的產品資訊。）
+
+  「感謝幫忙」的寫法：
+   Thank you for your time the other day.（前幾天謝謝你撥冗參加會議。）
+   We believe our meeting went very well.（會議進行得非常順利。）
+   We look forward to doing business with you in the near future.（希望未來有機會合作。）
+
+   用we取代I的寫法表示：不是寫信者個人的意見，而是公司的意見。
+
+  「預約時間」的寫法：
+   We need to get together to discuss the new project.（我們該找時間談談新的專案。）
+   Do you have time tomorrow afternoon?（明天下午有空嗎？）
+   Let me know if you're available.（讓我知道你這時間是否方便。）
+   商務場合裡經常會用到available和suit，第3句也可替換為：「What time would suit you best?」(何時對你最方便？)
+   電話中要找某人可問：「Is Mr. Smith available?」（史密斯先生方便說話嗎？）
+
+ 「請對方與自己聯絡」的寫法：
+  Thank you for your inquiry.（謝謝您的詢問。）
+  Please find attached the document.（請參閱隨信附上的文件。）
+  If you have any questions, please do not hesitate to contact us.（有任何問題請，不吝與我們聯絡。）
+  第2句是商業書信常用句，第3句也可替換為：「If there is anything, please let me know.」（有任何問題，請讓我知道。）
+
+ 「表達歉意」的寫法：
+  I'd like to report on the progress.（我想報告目前專案進度。）
+  I'm afraid I have to let you know that we won’t be able to meet the deadline.（我很抱歉必須通知你，我們無法趕上截止期限。）
+  We apologize for any inconvenience this may cause you.（造成您的不便，我們致上歉意。）    
