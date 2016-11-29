@@ -854,3 +854,44 @@
       
     There’s no question that this is hard work. 
     But it’s necessary work for those trying to climb ladders — to ensure they are at the intersection of preparedness and opportunity when the time arises.
+
+41.  insomnia (失眠):
+      A study has found that smartphones can cause insomnia.
+      The doctor prescribed the patient sleeping pills for his insomnia.
+      
+     wish vs. hope :
+      Hope :凡是我們希望某事發生，即可使用hope , hope後面接that子句，但that本身可省略。
+				I hope (that) I’ll pass the test.（我希望考試及格。）
+      Wish : 
+        1. 最常見的用法，是「祝福」，句式是wish + object + (adjective) noun
+        We wish you a merry Xmas.（祝你聖誕節快樂）
+        wish 後面不接that子句，所以我們不能說I wish (that) he has a merry Xmas. 這句必須改為I wish him a merry Xmas.
+        
+        2. wish當「希望」用
+        wish當「希望」時，指「但願某事已發生或沒發生」。把wish說出口時，事情已發生且事與願違。（跟 hope 是相反的！）
+        考試前，還不知道考試結果：I hope that I’ll pass the test.（我真希望我可以通過考試。）
+        考試後，知道考試結果：I wish I had passed the test.>>But I didn’t （我真希望我可以通過考試）>>事實上我並沒有通過考試
+        注意 wish 例句，動詞的用法，要用的是假設語氣！假設語氣裡，無關人稱、時態或單複數，Be動詞一定要用were！其他也要用過去式！
+
+        I wish (that) I were Eddie Peng.（如果我是彭于晏就好了）
+        I wished I hadn’t been late.（我那時沒遲到就好了！）>>但我遲到了，被女朋友大罵一頓
+        
+        3. wish的另一意思是「想 / 要」，後面要接to + infinitive
+        Study harder if you wish to get better grades.（想學業進步，你就要更努力學習。）
+        4. wish + for + 名詞
+        I’m wishing for a new dress for my birthday.（我希望生日能收到一件新的洋裝。）
+        They are wishing for a miracle.（他們盼望著奇蹟。）
+        
+        簡單統整：
+				1. hope + that 子句
+				   後接有可能發生的事情，所以用一般時態。未來的情況就用未來式，如果已完成就用完成式。
+				   I hope everything is going well with you.（我希望你一切順利。）
+				2. wish ＋ that 子句
+				   後面陳述的事實是「不可能改變的事情」，和現在事實相反或和過去事實相反。
+				   I wish (that) we could be together.（我多希望我們能在一起。）      
+				   
+	「便當」正確的英文是boxed lunch（裝在盒裡的午餐）或packed lunch（裝好的午餐）。兩者皆可，只是前者通常指放在紙盒裡的午餐。
+	 「漢堡」的英文可以是"hamburger"或"burger"。但前者是「牛肉漢堡」，後者則亦可定義為「有著漢堡外型、用特定食材製成的菜餚」。因此，可別認為"chicken burger"裡有牛肉喔！
+	 
+42. seminar / 研討會 :
+    All employees are required to attend the training seminar. / 所有員工都需要參與這個訓練研討會。
