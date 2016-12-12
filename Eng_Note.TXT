@@ -1106,4 +1106,20 @@ Try your best This is the only real piece of advice my parents ever give me, so 
     I'd like to try out this lipstick color. Do you have a tester for it？（我想試用這口紅的顏色，你們有試用品嗎？）
     I am going to try out this skateboard. If I like it, I'll buy it.（我想試玩一下這個滑板，如果我喜歡的話我就買。）
     Gogoro offers everyone a chance to try out their smartscooter for 30 minutes.（Gogoro讓每個人都可以試騎他們的智慧電動車30分鐘。）    
+
+49. crowded是用來形容空間、地方的擁擠，不能用crowded形容traffic
+    e.g. a crowded train（擁擠的車廂）; a crowded city（熱鬧的城市）; The meeting room is crowded with people.（會議室裡擠滿了人）
+    
+    形容交通擁擠，英文用heavy、much
+    Traffic is very heavy during the rush hour./ 尖峰時間交通十分繁忙.
+    This is the most heavily trafficked road in Taiwan. / 這是台灣交通最繁忙的一條路.
+    
+    形容交通擁擠，也可以用busy，但busy更常用來形容街道：
+    The roads are busy （with traffic）（路上人來人往。）
+    There is too much traffic on the street（這條街上車太多了。）
+    相對的，不擁擠用light／little
+    When traffic is light, I can reach my apartment from the office in seven minutes. / （交通順暢時，我辦公室到住家只要7分鐘。）
+    There's little traffic at this hour.（這時候幾乎沒什麼車輛往來。）
+    
+    Convenient不用來形容交通，但它可以用在指服務：It has a very convenient bus service.（這裡搭公車很方便。）
     
