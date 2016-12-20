@@ -498,7 +498,7 @@
      "You should go away"   ==> She suggested that I go away.
                             ==> She suggested that I should go away.
 
-   - dug-out / trench / spit (out) / lizard / a lack of contact / dim / stir / coherent / build up / compact
+   - dig-out / trench / spit (out) / lizard / a lack of contact / dim / stir / coherent / build up / compact
    - now and again == from time to time
      far too much == much too much : This is far too much for me to handle alone. (A task for many has been assigned to just one person and he or she is overwhelmed.)  
      run of the mill == common or garden : ordinary and not special or exciting in any way:
@@ -730,4 +730,4 @@
         Imagine forgetting your own phone number!
       Fancy ... -ing !
         Fancy meeting you here!
-
+    - erode / portfolio / brokerage
