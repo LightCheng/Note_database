@@ -498,7 +498,7 @@
      "You should go away"   ==> She suggested that I go away.
                             ==> She suggested that I should go away.
 
-   - dug-out / trench / spit (out) / lizard / a lack of contact / dim / stir / coherent / build up / compact
+   - dig-out / trench / spit (out) / lizard / a lack of contact / dim / stir / coherent / build up / compact
    - now and again == from time to time
      far too much == much too much : This is far too much for me to handle alone. (A task for many has been assigned to just one person and he or she is overwhelmed.)  
      run of the mill == common or garden : ordinary and not special or exciting in any way:
@@ -735,6 +735,7 @@
 72. Unit 84 Verbs followed by adjectives.
     - collar / convinced / let ...down / pullover / cardigan / horizon / tornado / cyclone
       break free / run dry / sweep clean / marsh / solitude / rhyme / trophy
+    - erode / portfolio / brokerage
     - Absence makes the heart grow fonder.
       A new broom sweeps clean.
       
@@ -780,5 +781,10 @@
       under the weather (身體不舒服) : He has been under the weather for quite a few days.
       see red (生氣, 盛怒): His cruel treatment of children always makes me see red . 
                             Her criticisms were enough to make anyone see red .  
+
+73. Unit 85 Verbs followed by participles.
+    - feel like + V-ing : 很想 , 想要
+      feel like + 子句  : 感覺好像
       
+    - If you want something done well, do it yourself.
       

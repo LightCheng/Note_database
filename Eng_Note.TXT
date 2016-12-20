@@ -1106,4 +1106,34 @@ Try your best This is the only real piece of advice my parents ever give me, so 
     I'd like to try out this lipstick color. Do you have a tester for it？（我想試用這口紅的顏色，你們有試用品嗎？）
     I am going to try out this skateboard. If I like it, I'll buy it.（我想試玩一下這個滑板，如果我喜歡的話我就買。）
     Gogoro offers everyone a chance to try out their smartscooter for 30 minutes.（Gogoro讓每個人都可以試騎他們的智慧電動車30分鐘。）    
+
+49. crowded是用來形容空間、地方的擁擠，不能用crowded形容traffic
+    e.g. a crowded train（擁擠的車廂）; a crowded city（熱鬧的城市）; The meeting room is crowded with people.（會議室裡擠滿了人）
     
+    形容交通擁擠，英文用heavy、much
+    Traffic is very heavy during the rush hour./ 尖峰時間交通十分繁忙.
+    This is the most heavily trafficked road in Taiwan. / 這是台灣交通最繁忙的一條路.
+    
+    形容交通擁擠，也可以用busy，但busy更常用來形容街道：
+    The roads are busy （with traffic）（路上人來人往。）
+    There is too much traffic on the street（這條街上車太多了。）
+    相對的，不擁擠用light／little
+    When traffic is light, I can reach my apartment from the office in seven minutes. / （交通順暢時，我辦公室到住家只要7分鐘。）
+    There's little traffic at this hour.（這時候幾乎沒什麼車輛往來。）
+    
+    Convenient不用來形容交通，但它可以用在指服務：It has a very convenient bus service.（這裡搭公車很方便。）
+
+50. depreciate : （貨幣）貶值  
+    e.g. The euro has depreciated 16% against the dollar in the past six months. / 在過去半年來，歐元對美元的匯率已經下跌了16%。
+         Experts believe the yen will continue to depreciate against most major currencies. / 專家認為日元對大部分的主要貨幣會繼續走砭。
+    devalue : 「降低價值」，其名詞為devaluation。
+    值得注意的是，devalue/ devaluation也可用來表示貶值之意，但差別在於專指施行固定匯率制的國家，政府下定決策，進行貨幣的貶值。
+    
+    symptom : 用來描述疾病的徵狀，代表病人主觀的感受，
+    其它與症狀相關的字彙還有代表「症候、徵兆」的sign、代表「無症狀的」的asymptomatic，以及表示「診斷」的diagnosis。
+    需注意的是，symptom與sign的中文意思相近，使用上常會混淆；兩字的差別在於symptom是病人主觀的感受，而sign是醫生或他人觀察到的客觀描述。
+    e.g. This nasal spray will relieve your allergy symptoms. / 這個鼻用噴劑可以舒緩你的過敏症狀。
+         The symptoms of food poisoning include stomach pain and fever. / 食物中毒的症狀包括胃痛和發燒。
+
+51. spill the beans : 洩漏秘密
+    HR is not the place to spill the beans upon your exit. 
