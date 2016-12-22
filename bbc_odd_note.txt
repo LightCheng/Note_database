@@ -1209,7 +1209,7 @@
 	    語氣或狀態的助動詞 + V
 	    
 	  - 表過去之動作行為的助動詞及其構造 :
-	    表語氣或狀態的助動詞 或 助動詞 need + have + P.P , 表示過去假定、可能或不確定會發生的事.
+	    [表語氣或狀態的助動詞 或 助動詞 need] + have + P.P , 表示過去假定、可能或不確定會發生的事.
 	    You should have taken a different road.
 	    You must have been a beautiful baby.
 	    He can't have written the book.
