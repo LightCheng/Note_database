@@ -180,7 +180,7 @@
       By the end of the next century, we will have used up all the Earth's natural resources.
      
       未來完成進行式 , 表示預想到了未來某一特定的時間 ,某進行中的行為或動作可能延續多久時間,或是完成,達到某個階段.
-      Next February, I'll have been working as a engineer for 17 years.
+      Next February, I'll have been working as an engineer for 17 years.
      
     - Promises :
       除 If 開頭的附屬子句裡的動詞通常用現在式代替未來式外, when / while / before / until / till / after / as soon as 等時間連接詞同樣適用.
