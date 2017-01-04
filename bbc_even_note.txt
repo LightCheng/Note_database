@@ -119,6 +119,7 @@
 63. Unit 75 : Talking about the future
     - colony / parasol / summer tune / foretell / sore / flesh / spirit / mourning / bough / wintry / creep
     - irretrievable / associated / civilization / boot stamping / assert / defeated proposal / crabby
+    - associate(夥伴；同事；朋友；合夥人 , 有關聯的事物 , （常大寫）準學士學位獲得者；準會員)
     - porce / lawn / a takeover / a fortune / a millionaire / a tycoon / a magnate / real estate
     - privatization : Do you know about the privatization of Chunghwa Telecom ?
     - mean : Her husband is very mean about money . 
@@ -813,7 +814,8 @@
       leave no stone unturned
       
 74. Unit 86 Verbs followed by infinitives :
-   - warrant / 
+   - warrant / quid
+   - savvy / prowess / ergo 【拉】因此
    - Absence makes the heart grow fonder.
             verb + direct object + infinitive 
      I'll   have   my assistant    call        you.
@@ -825,9 +827,26 @@
    - Don't forget to write!
      begin / start / continue / like / love / hate / prefer 等動詞後可接V-ing 也可接不定詞 , 而且意思都不變.
      
-     After the verb try, it is possible to say "and" instead of "to" in informal speech :
+     在動詞 "try"之後 , 在非正式場合可以接 "and" instead of "to" :
         I'll try to remember to write everyday.
         I'll try and remember to write everyday.
         
-     下面
+     下面是只能接不定詞的動詞 :
+     decide to / seem to / agree to / expect to / hope to / offer to / promise to ...
      
+   - Can you teach me to dance ?
+     Advertisements persuade people to bug things.
+     
+   - Comparing and contrasting :
+     They're (exactly/just) the same.
+     They're (completely/totally) different.
+     
+     is the same as ... / is similar to ... / is different to ...
+     
+     In comparison with .... : 和 ... 比較起來
+     Compared to ...         : 比擬成 ... Jobs passed away. His life is compared to a movie. 
+     On the contrary.        : 反之
+     vice-versa              : 反之亦然
+     ..., whereas ...   : ... 然而...
+     Whereas...,....    : 有鑒於 ...
+     ... or rather ...  : 或更明確的說 ...
