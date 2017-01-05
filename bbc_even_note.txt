@@ -120,7 +120,7 @@
     - colony / parasol / summer tune / foretell / sore / flesh / spirit / mourning / bough / wintry / creep
     - irretrievable / associated / civilization / boot stamping / assert / defeated proposal / crabby
     - associate(夥伴；同事；朋友；合夥人 , 有關聯的事物 , （常大寫）準學士學位獲得者；準會員)
-    - porce / lawn / a takeover / a fortune / a millionaire / a tycoon / a magnate / real estate
+    - porch / lawn / a takeover / a fortune / a millionaire / a tycoon / a magnate / real estate
     - privatization : Do you know about the privatization of Chunghwa Telecom ?
     - mean : Her husband is very mean about money . 
     - founded (adj) : based on, built on, rooted in, grounded on, established on.
@@ -850,3 +850,48 @@
      ..., whereas ...   : ... 然而...
      Whereas...,....    : 有鑒於 ...
      ... or rather ...  : 或更明確的說 ...
+     
+   - 不定詞 (to + 動詞原形) 的用法 :
+     1. 可出現在副詞子句中 .
+        To be precise, the address of Holmes's flat was 221B, Baker Street.
+        
+     2. 可當句子中的主詞 (視為正式的用法) :
+        To lose one parent, Mr Worthing, may be regarded as a misfortune;
+        to lose both looks like carelessness.
+        但在日常會話中, 則通常用代名詞 it 作形式主詞, 不定詞則擺在句尾 , 或者改用V-ing形式為主詞.
+        It looks like carelessness to lose both.
+        Losing both looks like carelessness.
+        
+     3. 可以接在 any-, every-, no- 或some-等為字首的名詞之後.
+        I never had any stories to tell.
+        I had nothing to offer anybody except my confusion.
+        
+     4. 可接於形容詞之後 :
+        People say it's good to be realistic.
+        Do you find it easy to interrupt someone in a conversation ?
+        
+     5. 可用來表示目的 :
+        I'm just calling to say: "Have a good holiday."
+        
+   - 動詞 (+直接受詞) + 不定詞
+     Live and let live. 
+     Let go.
+     make do with ... : 只好代以 ... / 湊合著用
+       I’m trying to save up for my trip to Italy this summer. I can make do for now.
+     
+   - 動詞 (+直接受詞) + to + 動詞原形
+   
+     remember / forget / regret + to ... : 指未來的事
+       Remember to write!
+       Don't forget to write!
+       We regret to announce that all flights will be delayed.
+     remember / forget / regret + -ing ... : 指過去的事
+       I don't remember meeting you before.
+       I regret getting married so young.
+       
+     try to ...      嚐試 ...
+       I try to explain.
+     try + -ing ..   試驗某事
+       This door won't open. -Try turning the handle the other way.
+       
+        
