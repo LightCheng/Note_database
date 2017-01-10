@@ -1254,3 +1254,6 @@ Try your best This is the only real piece of advice my parents ever give me, so 
     I wish you’d be straightforward and tell me what you want. / 我希望你能直率一點，告訴我你想要什麼。
     Dan is straightforward and lets you know what’s on his mind. / 丹很率真，他都會讓你知道他的想法。
     
+    人員流動率 : turnover(rate)
+    Why is there such a high turnover rate at your company? / 為什麼你所任職公司的人員流動率那麼高？
+    Generous wages and benefits usually result in low employee turnover. / 豐厚的薪水和福利往往能讓人員流動率降到最低。
