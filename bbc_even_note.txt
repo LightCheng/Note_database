@@ -821,3 +821,37 @@
      Some hopes! : Used to convey that there is very little chance that something will happen:
      Well, that's just great. : That is very disappointing; I'm not very please by that news.
      
+   - 只有少數有tag的句子是問句 , 以下降語調唸出的句子, 有時句末為句點.
+     
+     1. 直述句 + tag : 期望獲得對方附合或尋求資訊.
+        tag 是由助動詞 or 適當型式的be動詞 or 適當型式的do動詞 和一個代名詞所組成.
+        It is not serious, is it?
+        
+        You can't please everybody, can you?
+        He has been staying with us for three days now, hasn't it?
+        
+        You both like steak, don't you?
+        
+        直述句與tag所接動詞詞意相反.
+        
+        tag 中的助動詞和代名詞 , 與直述句中的主詞和動詞一致.
+        
+        假如直述句為 I am/I'm , 那麼後面的tag要用aren'I?
+        I'm meeting you at 6:30, aren't I?
+        
+        假如直述句的主詞是 Something, Everything, Anything,或 Nothing, 則tag的代名詞一律用 it.
+        Nothing's wrong, is it?  (以No-開頭的句子 , 由於是否定形, 故後面的tag 用肯定形動詞)
+        
+        假如直述句的主詞是 Somebody/Someone, Everybody/Everyone, Anybody/Anyone or Nobody/No-one,
+        則tag的代名詞一律用 they.
+        Nobody's perfect, are they?
+        Everyone makes mistakes, don't they?
+        
+        假如tag的目的是在希望對方認同或附合, 則應唸成下降語調 , 
+        對方若認同 : 應以 Yes 回答肯定形直述句
+                       以 No 回答否定形直述句
+          A:You can't please everybody, can you?
+          B:No.
+
+     2. 直述句 + tag : 表達其它含意
+     
