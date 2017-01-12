@@ -1257,3 +1257,6 @@ Try your best This is the only real piece of advice my parents ever give me, so 
     人員流動率 : turnover(rate)
     Why is there such a high turnover rate at your company? / 為什麼你所任職公司的人員流動率那麼高？
     Generous wages and benefits usually result in low employee turnover. / 豐厚的薪水和福利往往能讓人員流動率降到最低。
+    
+57. PM這兩個大寫字母是particulate matter的縮寫，中文的意思是懸浮粒子
+    Exposure to PM 2.5 has been linked to increased risk of heart disease. / 曝露在PM2.5的環境下，已被證實會增加罹患心臟疾病的風險。
