@@ -787,7 +787,9 @@
 74. Unit 87 Question-tags
    - minted / amateurish / detrimental / sabbatical / pare down / hopper / fabricate / scrutinize
      embellish / exempt / cohesive / percolate / cut and dried (預先安排好的) / forgo / notorious
-     pesky / masterpiece / odds / scrutiny / sabotage / refute / articulate / overlook
+     pesky / masterpiece / odds / scrutiny / sabotage / refute / articulate / overlook / limerick
+     properly / sack / innocuous / sting / wasp / hornet / jellyfish / specimen / trunk
+     cardiogram / hypertension / heart attack / treatment / strain / stroke (病）突然發作；中風
      stellar / soak up / give sb a leg up / glitz (【美】浮華；耀眼；炫目) / fingertip
      come round / by any chance / hone / opt out / eliminate / minutia(（常複數）細節；小事) 
    - Asking for agreement :
@@ -854,4 +856,51 @@
           B:No.
 
      2. 直述句 + tag : 表達其它含意
+        在肯定直述句後附加一個肯定形的 tag (或否定+否定), 此時 tag 要唸成上揚語調 ; 
+        這種用法時常帶有惱怒或嘲諷對方的意味 , 特別是以 So... 或 You think ... 等開頭的句子.
+        e.g.
+          So you're going to keep saying "Hm!" to me, are you?
+          You think this is intelligent, do you?
+          
+     3. 祈使句 + tag 
+        Pass me that newspaper, would you?
+        Just sit down and be quiet, can't you?
+        Take it easy, won't you?
+        Don't forget my birthday, will you?
+        
+75. Unit 88 Revision unit.
+   - geronimo(人從高處跳下時發出的吶喊聲) / 
+   - Omission and substitution. Revision.
+      1. the omission of an infinitive or a phrase after an Auxiliary Verbs (be, have, do & 情態助動詞).
+         Take it easy! I will.
+         Tom isn't coming to the party, but I am.
+      2. the omission of an infinitive or a phrase after to.
+         I'd like to have a holiday, but I won't be able to.         
+      3. the substitution of do/does/did for a verb or a phrase.
+         No-one works harder than I do.
+         
+      If you have to tell people you're famous, you aren't.
+      
+   - Verbs followed by participles, adjectives and infinitives: Revison.
+        Verb (+ direct object) + -ing form.
+          My car needs servicing.
+        Verb (+ direct object) + past participle.
+          Do you want to get married?
+          Wait a minute! I'm getting dressed.
+          I'm going to have my hair cut.
+        Verb (+ direct object) + adjective
+          I hope all your dreams come true.
+        Verb (+ direct object) + infinitive
+          Live and let live.  
+        Verb (+ direct object) + to + infinitive
+          I didn't offer to go.
+   - Alternatives to modal auxiliary verbs: Revision.
+      have to:
+      manage to:
+      be able to:
+      be allowed to / be permitted to:
+      be supposed to:
+      be bound to:
+      be willing to:
+        
      
