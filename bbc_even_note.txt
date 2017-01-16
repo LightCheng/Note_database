@@ -869,7 +869,9 @@
         Don't forget my birthday, will you?
         
 75. Unit 88 Revision unit.
-   - geronimo(人從高處跳下時發出的吶喊聲) / procrastinate
+   - geronimo(人從高處跳下時發出的吶喊聲) / procrastinate / quake / worship / survive / ingredients
+   - slimy (覆有黏泥（或黏液）的；分泌黏液的；滿是黏泥的) / lithe(柔軟的) / badger (v.糾纏 , n.獾)
+   - corkscrew / sundial / gimlet (螺絲錐,雞尾酒) / flimsy / shabby / bellow
    - Omission and substitution. Revision.
       1. the omission of an infinitive or a phrase after an Auxiliary Verbs (be, have, do & 情態助動詞).
          Take it easy! I will.
@@ -890,17 +892,24 @@
           I'm going to have my hair cut.
         Verb (+ direct object) + adjective
           I hope all your dreams come true.
+          Did you get all the answers right?
         Verb (+ direct object) + infinitive
           Live and let live.  
         Verb (+ direct object) + to + infinitive
           I didn't offer to go.
    - Alternatives to modal auxiliary verbs: Revision.
       have to:
-      manage to:
+      be obliged to (表達義務)
+      manage to(表能力):
       be able to:
-      be allowed to / be permitted to:
-      be supposed to:
-      be bound to:
-      be willing to:
-        
+      be allowed to / be permitted to (表示允許):
+      be supposed to (表示預期):
+      be bound to (表示確定):
+      be willing to (表示願意) :
+   
+   - 狀態助動詞 :
+     狀態助動詞有其缺陷, 也就是本身沒有不定詞 , -ing 形式 , 以及過去分詞 , 且大多沒有過去簡單式.
+     最重要的多和義務(用 have to 來彌補 must)以及能力(be able to 來彌補 can)有關.
+     
+   - 不定詞 (to + 動詞原形)
      
