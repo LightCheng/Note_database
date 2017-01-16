@@ -1260,3 +1260,124 @@ Try your best This is the only real piece of advice my parents ever give me, so 
     
 57. PM這兩個大寫字母是particulate matter的縮寫，中文的意思是懸浮粒子
     Exposure to PM 2.5 has been linked to increased risk of heart disease. / 曝露在PM2.5的環境下，已被證實會增加罹患心臟疾病的風險。
+    
+58. Interview related：Credential Questions
+
+   進入面試階段，通常會先問所謂的「Credential Questions」，從履歷上提到的內容切入，面試官可能會說「Tell me about...」，
+   談談關於這個項目的事情經過、處理經驗、細節與內容。
+
+	 A. 工作感受與印象
+   如果面試官詢問上一家公司：「Tell me about this company that you worked for」
+   就可以回答：              「I really like it there, 
+                               it was a company that focused on its products and the people there were very professional.」
+                               簡單描述經驗、感受等等，因為在英文的使用上，常有許多需要開門見山講出答案的地方，
+                               所以像這類簡單的問題，直白地講出觀感即可。
+
+   B. 工作經驗調查
+     「Why did you choose to work at___?」
+      以下提供一個回答參考範例：「I chose to work there because I had a friend who was also working there 
+                                  and she thought I was a perfect fit.」
+      可能是朋友推薦、公司的環境好、福利好、可以學到很多東西等等，只要合情合理即可。
+
+   C. 工作細節詢問 
+     「What were you responsible for during your time there?」
+     面試官一定想知道詳細的工作細節，回答範例如下：
+		 「I was responsible for maintaining public relations as well as coming up with new plans to discover potential customers.」
+     記得試著思考在這份工作中，最重要的部分是什麼?要在一段話中講到最緊要、也是自己工作負責的區塊，才會有說服力。
+
+   D. 為何離職？「Why did you leave your last job?」
+     倘若在履歷上秀出工作經驗，面試官一定會詢問離職的原因，回答範例如下：
+    「During my time there, I’ve learned a lot but I felt like I’ve already learned everything there is to learn. 
+      I’m looking for a new challenge doing what I love, that’s why I’m here.」
+     明確地告訴面試官，上一份工作已學會該學的東西，而現階段正在尋找一個新的挑戰，所以才來應徵新工作。
+
+   E. 個性相關問題(Personality Questions)
+      除了履歷上相關的問題，面試官也想知道你究竟是怎麼樣的人。最常問的一題就是：
+      「Do you have any hobbies? What do you do in your free time?」
+			這類型的問題需要事先準備，否則臨場時很可能會不知所云，回答範例如下：
+			「I like to go jogging when I have free time. I’d like to think that by staying fit I can perform at the highest level at work.」
+			把自己喜歡做的事情、休閒的活動，跟工作綁在一起，就是一個標準的回答。
+
+	 F. 如何解決困難?
+      「Tell me how you handled a difficult situation.」
+			面試官一定很想了解這個人過去的經驗以及相對的應變能力，回答範例如下：
+		「When I was in my previous job, I had to confront a coworker about a mistake he made that had a negative impact on me. 
+		  I found it difficult but I kept everything professional and in the end we worked out the mistake together.」
+
+			在這段回答中，首先要描述困境的狀況，也許是跟同事衝突、一個兩難的決定、或是必須要打破框架等等的問題，再來描述如何克服，以及事發之後學到的東西。
+			面試官要聽的是應變的能力以及相對應的收穫，依此邏輯去整理回答內容，就能讓面試官完整接收你的能力資訊。
+
+	 G. 優缺點？ 面試官一向很喜歡問優缺點的相關問題，可能會說：
+     「What do you consider to be your strength / weakness?」
+		 「My strength lies in my interpersonal skills, my experiences in the marketing field, and my dedication the job.
+       I would say that being a little too controlling would be my weakness for not all coworkers want to hear it from me. 
+       But I believe with a little more communication and respect, things will work out.」
+
+       優點可以與先前的工作經驗結合，增加說服力；
+       描述弱點時則大大不同，並非只是客觀地描述弱點，必須增添一些面對缺失的正面態度，讓弱點呈現改善空間、甚至能襯托一些優勢。
+
+   H. 自我成就 , 最後一個常見的問題：「What is the achievement you’re most proud of?」
+			不限工作本身，從過去到現在，有什麼成就是自己很自豪、很引以為傲的?
+     「I once brought together two departments and integrated different people into one team. We then created a new product that allowed us to reach 30k new customers.」
+      跟強調履歷上的技能一樣，要用很多強而有力的動詞，帶出成就的事，並具體描述達到了什麼程度的結果。
+
+   
+   強調自己過去的重要資歷，就要用possess一字。以教育領域為例，在寫過去經驗時，可以這麼說：
+   A creative experiment planner with solid classroom management skills possesses 5-year experience as a science teacher.
+   （擁有五年教學經驗的自然老師，是個創意十足的實驗設計者，並有深厚的教室管理技巧。）
+   在此用possess代替了極為普遍的寫法：I have five years of experience in __________.
+   還有兩個非常實用的形容詞creative（具有創意的）以及solid（深厚的、紮實的），在用來描述自己於工作上或個性的優點皆非常好用
+   
+   擔任過管理職的人絕對要加強火力於管理經驗的描述，讓雇主知道你不只有專業技巧，還能同時掌握人員管理，替公司負責層面更廣闊、更多元的工作內容。
+   以製造業領域為例，我們可以用「Successfully supervised 某人（團隊）或某專案」的句型，敘述曾經管理過的人事物：
+   Successfully supervised line managers and workers in plants at different locations to achieve different manufacturing needs.
+   （曾順利地管理不同分廠的產線經理與工人以達成各式製造要求。）
+   在這邊可以帶點小心機，使用副詞Successfully強調自己很成功的管理經驗，且在後面清楚描述管理過的人員與情況，如此說明，你的管理能力便能讓雇主一目了然。
+   而supervise一字在必要時，還能用manage、oversee等字做替換，才不會一直使用重複的動詞。
+   
+   曾經執行過的特殊專案或任務絕對是加分的好機會，在寫履歷時，常會用experienced這個形容詞來強調自己在某方面「頗具經驗」，
+   但此說法其實較為空泛。舉業務的客戶分析經驗為例：experienced in developing client reports（在製作客戶報告上有相關經驗）
+
+		如此描述，其實看不出到底是做過甚麼樣的客戶報告，也不知經驗有多豐富，還不如用明確的動詞具體闡述達成過的任務，我們可以這麼說：
+		created five customized weekly reports to analyze the consumption habits of repeat clients.（每週產出五個客製化報告以分析老客戶的消費習慣）
+
+	 再舉個人資領域的例子：
+	 Designed and implemented a training program that resulted in a 45% increase in employee satisfaction.
+	 （曾開發與執行讓公司員工滿意度增加45%的訓練課程）
+
+   與其提到某方面的經驗豐富，不如用具體的動詞如create、design和implement清楚描述工作內容及效率，才能讓人輕易看出你的才能
+   
+59. What did you make in your previous position?（你前一個職位的薪水是多少？）
+    也就是「how much did you make in your previous job?」，用make這個動詞做「賺錢」的意思。
+
+    有些主管會很婉轉地詢問：
+    Do you mind me asking you what you made at your previous job, ABC Company?（介意我問一下你之前在ABC公司的薪水是多少嗎？）
+    
+    如果你仍在職，還在騎驢找馬尚有籌碼時，不妨公告自己的薪資，讓對方開出比現在更高的價碼來挖角你。可以簡單地這麼回覆：
+		My base salary is 50,000 per month plus performance bonus.（我的底薪是每個月5萬，再加上績效獎金。）
+		
+		若你想用年薪談判的話，可以這麼說：
+		Currently I make 800,000 per year with a minimum of 2-month year-end bonus.（目前我年薪80萬，每年至少有2個月的年終獎金。）
+		
+		若是你已經離職且非常想得到這份工作，而之前的薪資也沒有期望地高，又或是怕提出之後會讓對方壓低底限，
+		你大可用以下兩種說法來迴避這個隱私問題：
+
+		1. To be honest, I’m not sure if my previous salary is relevant with regard to this position. 
+		   It was in a different company with different responsibilities.
+		   （老實說，我不確定之前的薪資與這份職務會有關聯。那是在另一間公司的薪資，職務內容也所不同。）
+
+		2. I’m aiming for a job that compensates me fairly for my qualifications and experiences.
+		   （我的目標是找到一份工作可以合理依照我的資歷與經驗提供相當的報酬。）		
+		   
+		I’m sure we’ll find a number that works for both of us, but for now, I hope to make sure it’s a good fit. 
+		（我相信我們一定能找到雙方都滿意的數字，不過目前我希望先能確定這是份合適的工作。）
+		 works for both of us就是「對兩邊都行得通」，而a good fit的fit是做名詞為「適合」的意思。
+		
+		How much are you expecting to make at this job?（對於這份職務，你的期望薪資是多少？）
+		What is your salary expectation? （你的薪資期望是多少？）
+		
+		你便可清楚地用以下方式說明：
+		I’m focusing on a position in the 100K range. 
+		That would be a good starting point.（我的目標是設定在一個月10萬左右的工作，那會是一個很好的起始點。）
+		
+		
