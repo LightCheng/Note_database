@@ -923,7 +923,6 @@
      最重要的多和義務(用 have to 來彌補 must)以及能力(be able to 來彌補 can)有關.
      
    - 不定詞 (to + 動詞原形)
-<<<<<<< HEAD
 
    - self-important(自負) : 指自信過頭、自以為是的意思;
      其他同義字有：conceited、pompous、stuck up、egotistical、arrogant。     
@@ -932,14 +931,12 @@
      
    - trial and error : 
      I believe in letting children learn by trial and error. / 我認為孩子應該透過試誤法來學習。
-=======
      
 76. Unit 89 Adjectives : Various points.
    - (n. 重音第一音節 , v.重音第二音節)
      desert, object, permit, insult, rebel, record
      (adj. 重音第一音節 , v.重音第二音節)
-     frequent, perfect
-     
+     frequent, perfect     
    - The best is yet to come.
      形容詞前若加定冠詞 the, 可當名詞用, 
      1. 表示與名詞有關的抽象或籠統的概念.
@@ -953,4 +950,3 @@
         Fortune favours the bold.
         There's one law for the rich and another for the poor. (冥冥之中, 自有天數)
      
->>>>>>> refs/remotes/origin/master
