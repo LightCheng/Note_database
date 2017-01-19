@@ -875,8 +875,14 @@
 75. Unit 88 Revision unit.
    - geronimo(人從高處跳下時發出的吶喊聲) / procrastinate / quake / worship / survive / ingredients
    - slimy (覆有黏泥（或黏液）的；分泌黏液的；滿是黏泥的) / lithe(柔軟的) / badger (v.糾纏 , n.獾)
-   - corkscrew / sundial / gimlet (螺絲錐,雞尾酒) / flimsy / shabby / bellow / abide / diverse / impeccably 
-   - code of conduct (行為準則；規範)
+   - corkscrew / sundial / gimlet (螺絲錐,雞尾酒) / flimsy / shabby / bellow / abide / diverse / impeccably / farther 
+     leery : I would be leery of the legitimacy of the offer, or perhaps who's making it.
+     juncture : This can put a bad taste in the employers' mouth which can hurt you at this very critical juncture in the negotiation process.
+     incentive / code of conduct (行為準則；規範)
+     Straight down the middle.
+     I'm pulling your leg. (I'm joking).
+        What? You want to quit the job? Are you pulling my leg? 
+   
    - Omission and substitution. Revision.
       1. the omission of an infinitive or a phrase after an Auxiliary Verbs (be, have, do & 情態助動詞).
          Take it easy! I will.
@@ -917,6 +923,7 @@
      最重要的多和義務(用 have to 來彌補 must)以及能力(be able to 來彌補 can)有關.
      
    - 不定詞 (to + 動詞原形)
+<<<<<<< HEAD
 
    - self-important(自負) : 指自信過頭、自以為是的意思;
      其他同義字有：conceited、pompous、stuck up、egotistical、arrogant。     
@@ -925,3 +932,25 @@
      
    - trial and error : 
      I believe in letting children learn by trial and error. / 我認為孩子應該透過試誤法來學習。
+=======
+     
+76. Unit 89 Adjectives : Various points.
+   - (n. 重音第一音節 , v.重音第二音節)
+     desert, object, permit, insult, rebel, record
+     (adj. 重音第一音節 , v.重音第二音節)
+     frequent, perfect
+     
+   - The best is yet to come.
+     形容詞前若加定冠詞 the, 可當名詞用, 
+     1. 表示與名詞有關的抽象或籠統的概念.
+       Nothing is certain but the unforeseen.
+       Hope for the best, and prepare for the worst.
+     
+       the occult / the paranormal / the supernatural / the unthinkable
+     
+       inquire in / the accused / speciality
+     2. 也可用來表示一群人或某一類人(即有複數概念)
+        Fortune favours the bold.
+        There's one law for the rich and another for the poor. (冥冥之中, 自有天數)
+     
+>>>>>>> refs/remotes/origin/master
