@@ -933,6 +933,8 @@
      I believe in letting children learn by trial and error. / 我認為孩子應該透過試誤法來學習。
      
 76. Unit 89 Adjectives : Various points.
+   - publicity / circumstance / so vain / mercy / generalize / barley / pane / stuff / invalid / grate / smoulder / damn you.
+     wiggle room / 
    - (n. 重音第一音節 , v.重音第二音節)
      desert, object, permit, insult, rebel, record
      (adj. 重音第一音節 , v.重音第二音節)
@@ -944,9 +946,90 @@
        Hope for the best, and prepare for the worst.
      
        the occult / the paranormal / the supernatural / the unthinkable
-     
        inquire in / the accused / speciality
      2. 也可用來表示一群人或某一類人(即有複數概念)
         Fortune favours the bold.
         There's one law for the rich and another for the poor. (冥冥之中, 自有天數)
-     
+
+    - Utter nonsense!
+      一般形容詞可出現在兩個位置 : 修飾名詞 , 擺在該名詞之前 , 或做主詞補語, 接在 be 動詞或其它不及物動詞之後;
+        但有些形容詞只能用來修飾名詞 , 而不得接在動詞之後 :
+        principal : the principal difficulty
+           utter / sole (only) : the sole reason
+        但有些形容詞只能用來修飾動詞, 只能接在動後之後 :
+        afraid / alike / alive / alone / asleep / awake
+
+    - What are you afraid of ?
+      Do you ever feel afraid? / a frightened man
+      
+    - I'm so lonesome I could cry.
+      在形容詞前, 應使用 so 來修飾.
+      在形容詞接單數名詞前, 應使用 such a/an 來修飾.
+        such a good-looking woman.
+        若後面是複數或不可數名詞就不用 a/an
+        such nice people , such beautiful weather.
+        
+    - Generalizing and summarizing :
+      Generalizing ( and making exceptions)
+      
+       to some extent
+       to a certain extent    就某種程度而言
+       in some cases          在某種情況下
+      
+       to a large extent          大致說來
+       mostly                     主要;多半是       
+       generally / in general     一般而言;大抵
+       as a general rule          大概;一般說來       
+       generally/broadly speaking 概括來說;大體來說
+      
+       with the exception of      除了...之外
+       apart from                 除了...之外
+      
+      Summarizing
+       briefly/in brief       簡言之;簡單的說
+       in short               總而言之
+       in a word              一言以蔽之
+       
+       So, to summarize, ...   所以,簡要的說 ...
+       So, to sum up, ...      所以,概言之 ....
+       So, in a nutshell, ...  所以,簡言之 ....
+       
+       What basic point is ....     結論是 ...
+       That's my basic point.
+       What it comes/boils down to is ...  總結; 結論是 ...
+
+      To generalize is to be an idiot.
+      
+       To cut/make a long story short, ... 長話短說, ...
+       
+      fast asleep (熟睡的 / wide awake (完全清醒)
+       asleep & awake 這兩個以 a 開頭的形容詞均不可用 very 來修飾.
+      
+      alike : 一般使用 very mush alike , 而不用 very alike.
+      
+      一般形容詞是加於名詞之前,但極少數情況下會接於名詞之後 :
+        - available (可用的,可買到的),如果與預訂有關,通常都是接於其所修飾的名詞之後 :
+          e.g.
+          I'm sorry. There are no tickets available.
+        - free 若用來表示 "空的" 之意,也應接於所形容的名詞之後.
+          I wonder if they have any rooms free.
+        - present : 加在名詞之前, 當做 "現在(任);目前"的意思
+                    加在名詞之後, 則做 "出席;露面"的意思
+          e.g.
+          The present directors of the company are Ms V. Benson and Mr T. Steele.
+          At last month's meeting, the directors present discussed a new export project.
+          
+        形容詞也可接在 anybody, nobody, everyone, nothing, somewhere 等字的後面
+         e.g. Are you meeting somebody important ?
+              Nothing complicated.
+       
+     - Business letters.
+       clear / conccise / courteous
+       postage / invoice / satisfactory (a) / dictate (口授，口述; 命令，規定)
+       acquaint (使認識;使了解 / resemblance / emphatic (強調的)
+       The former is priced at $10.95 and the latter at $12.50.
+       
+       It occurred to me ... (I realized ...)
+       
+       up to now (so far) / business as usual
+       I've certainly enjoy it up to now.     
