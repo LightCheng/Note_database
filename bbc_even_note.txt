@@ -1130,8 +1130,25 @@
      e.g. Everyone will be working hard here tomorrow.
      
 78. Unit 91 Articles and quantifiers: Various points.
+   - 易混淆的字詞 :
+     both(二人) / all(三人或三人以上)
+     all(複數) / every(單數)
+        All good things , Every picture; 
+        若all 用來修飾單數名詞,則當"全部的;整個的"解,如 all night / every night.
+     each / every :
+       each 可用來指     二個或更多的人或事物 之一
+       every 則只能用來指三個或更多的人或事物 之一
+         He was carrying two cases - one in each hand.
+         Each/Every star in the sky has a name.
    - feverish / ladder
    - A little learning is a dangerous thing.
+     Half a loaf is better than no bread.
+     
+     有些量詞可代名詞使用, 即量詞本身可單獨存在,而不必和名詞連用, 如some, all,each,most,few,many,none ...
+       You win some, you lose some.
+       You can't win them all.
+     
+     
    - All the world's a stage. (世界是座舞台)
      the more the merrier : used to say an occasion will be more enjoyable if a lot of people are there:
                             "Do you mind if I bring a couple of friends to your party?" "Not at all - the more the merrier!"
