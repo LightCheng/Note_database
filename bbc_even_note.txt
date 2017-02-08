@@ -1133,6 +1133,7 @@
    - adjournment (休會；休會期；延期) / set to work (to start doing a job or a piece of work)
    - nudge / kidney / urine / glucose(葡萄糖) / martial(好戰的；尚武的, 戰爭的；軍事的；軍隊的)
      delicate / quest (尋找；尋求) / atrophy(萎縮；發育停止)
+   - panther / sloth
    - 易混淆的字詞 :
      both(二人) / all(三人或三人以上)
      all(複數) / every(單數)
@@ -1167,4 +1168,36 @@
      Great minds think alike.
    
    - Silence is golden
+     不可數名詞前若不加定冠詞或諸如some一類的量詞 , 也是代表該名詞的一般性意義.
+     Attack is the best form of defence.
+     In war, all suffer defeat, even the victors.
+     
+   - Sounds omitted in fluent speech.
+     (beginning)/h/; (middle)/t/, /d/; (end)/t/
+     (vowels & consonants)/t/, /d/;
+      
+   - 冠詞的用法與省略
+     單數可數名詞 :
+       - 特定的人或事物或是世上獨一無二的人或事物.
+         Every star in the sky has a name.
+       - 在名詞前面加上定冠詞, 可表示該名詞或指示的那一類人和事物的統稱, 而非單指某一特定的人或事物.
+         The customer is always right.
+       - 冠詞a/an 若是用在 once a week, twice a year 等片語, 可當every(每)解.
+         An apple a day keeps doctor away.
+         
+     複數可數名詞 : 
+       - The + 複數可數名詞, 可使該名詞特殊化, 指的是"在某種情況下的一些人或事物", 也可能是"世上某幾個這類的人或事物"
+         Find a funny quotation for the invitation cards.
+         There were fish in the seas.
+       - 複數可數名詞前若不加冠詞, 則該名詞隱含有量詞 some 的意味(有某些這樣的人或事物)。 
+         There were trees on both sides of the road.
+       - 沒有定冠詞的複數可數名詞, 也可表示一般性的人或事物
+         I love parties!
+         Actions speak louder than words.
+     不可數名詞(物質或抽象名詞) : 
+       -   
+       
+   - 量詞 :
+     
+     
    This software is causing me nothing but frustration. / 這套軟體帶給我的就只有挫折感。
