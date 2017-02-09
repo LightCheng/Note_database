@@ -1,76 +1,4 @@
-﻿63. Unit 75 : Talking about the future
-    - colony / parasol / summer tune / foretell / sore / flesh / spirit / mourning / bough / wintry / creep
-    - irretrievable / associated / civilization / boot stamping / assert / defeated proposal / crabby
-    - associate(夥伴；同事；朋友；合夥人 , 有關聯的事物 , （常大寫）準學士學位獲得者；準會員)
-    - porch / lawn / a takeover / a fortune / a millionaire / a tycoon / a magnate / real estate
-    - privatization : Do you know about the privatization of Chunghwa Telecom ?
-    - mean : Her husband is very mean about money . 
-    - founded (adj) : based on, built on, rooted in, grounded on, established on.
-      His game is founded on power and determination.
-    - a world-wide circulation / 
-    - This might be a good time for a change.
-    
-    - Predictions : 
-      未來完成式 , 表在未來某一特定的時間 , 可能會發生或完成的動作或行為.
-      By the end of the next century, we will have used up all the Earth's natural resources.
-     
-      未來完成進行式 , 表示預想到了未來某一特定的時間 ,某進行中的行為或動作可能延續多久時間,或是完成,達到某個階段.
-      Next February, I'll have been working as an engineer for 18 years.
-     
-    - Promises :
-      除 If 開頭的附屬子句裡的動詞通常用現在式代替未來式外, when / while / before / until / till / after / as soon as 等時間連接詞同樣適用.
-      Phone us when you get back.
-      I probably won't phone you until I get back.
-      I'll phone you as soon as I get back.
-      I'll think of you, whatever I do.
-      I'll be thinking of you, whoever I'm with.
-      
-      如果整個句子是表示未來的事情, 句中只有一處使用未來式就夠了.
-      We'll soon be living in a world in which all oceans have been polluted and all forests are dying.
-      
-    - The summer will soon be over.
-      ... when the tourists have gone home,
-      ... and the parasols have been put away.
-      
-      You'll be gone beyond my reach. / I won't have forgotten you.
-      
-    - Making things clear.
-      I hope you'll be happy when you remember it.
-      I'm not sure what you mean.
-      To put it another way, ... : 換個方式來說明吧, ...
-      To be precise, ...
-      This is to say, ... 那也就是說...
-      
-      In fact, ... / As a matter of fact, ...
-      
-      ... is that good news or bad news ?
-      
-    - 未來簡單完成式 : will have + P.P
-      未來完成進行式 : will have + been + Ving
-         How long had you been working on it ?
-         How long have you been working on it ?
-         How long will you have been working on it ?
-    
-    - Yet..., placed at the beginning of a sentence, means But or However ..
-      Yet the light of a whole life dies when love is gone.
-    - I've done most of it. I'll have finished it by the end of the afternoon.
-      It's quite a thought,isn't it ?
-    - as far as I'm concerned : 就我來說 
-    - debut : Samsung Pay makes debut in Russia.
-    - expand / downsize
-      The store is expanding its staff in preparation for the holiday season.
-      The company announced plans to downsize its sales team in India.
-    - foster / inadvertently
-      Foster a culture in which both men and women are encouraged to "call it out" when they see someone being inadvertently silenced in a discussion.
-    - reimburse / ritual
-    - no matter what : 
-      Don't trust her , no matter what she says.
-      Doing what you said you would no matter what.
-    - insidious / implication / verity
-    - dampen (feeling): to make feelings, especially of excitement or enjoyment, less strong:
-      Unrealistic goals not only dampen sales but also cause top-performing salespeople to get frustrated and leave. 
-      
-64. Unit 76 : Subjunctive forms
+﻿64. Unit 76 : Subjunctive forms
     - ask for vs demand
       carry vs wear
       leave vs live ; live (adj)
@@ -1133,7 +1061,7 @@
    - adjournment (休會；休會期；延期) / set to work (to start doing a job or a piece of work)
    - nudge / kidney / urine / glucose(葡萄糖) / martial(好戰的；尚武的, 戰爭的；軍事的；軍隊的)
      delicate / quest (尋找；尋求) / atrophy(萎縮；發育停止)
-   - panther / sloth
+   - panther / sloth / cub / rustle / bound / strip (連環漫畫)
    - 易混淆的字詞 :
      both(二人) / all(三人或三人以上)
      all(複數) / every(單數)
@@ -1172,7 +1100,9 @@
    - Sounds omitted in fluent speech.
      (beginning)/h/; (middle)/t/, /d/; (end)/t/
      (vowels & consonants)/t/, /d/;
-      
+       Next April. / Nex[t] May.
+       Great min[d]s think alike.
+       
    - 冠詞的用法與省略
      單數可數名詞 :
        - 特定的人或事物或是世上獨一無二的人或事物.
@@ -1194,8 +1124,14 @@
      不可數名詞(物質或抽象名詞) : 
        -   
 
-   - 量詞 :    
-
+   - 量詞 :
+     a few (可數, 有一些,但是不多) / a little (不可數, 有一點,不過不是很多) : 具有較肯定的意味;
+     few / little : 隱含"沒有"的否定意味: "不多, 少得幾乎沒有"
+        I had a few friends, so I didn't feel too lonely.
+        I had few friends, so I often felt lonely.
+   I've more or less decided. (我差不多決定了)
+   No. Nothing definite.
+   
    This software is causing me nothing but frustration. / 這套軟體帶給我的就只有挫折感。
    a very white man : 「一個人非常的忠厚老實」
    sporting house : 妓院、賭場
@@ -1213,3 +1149,5 @@
    what a shame : 真是可惜、真是遺憾
    I haven’t slept better : 	我睡得很好
    personal items / personal belongings : 隨身物品.
+   
+79. Unit 92 Nouns: Various points.
