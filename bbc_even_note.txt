@@ -15,7 +15,7 @@
       By the end of the next century, we will have used up all the Earth's natural resources.
      
       未來完成進行式 , 表示預想到了未來某一特定的時間 ,某進行中的行為或動作可能延續多久時間,或是完成,達到某個階段.
-      Next February, I'll have been working as an engineer for 17 years.
+      Next February, I'll have been working as an engineer for 18 years.
      
     - Promises :
       除 If 開頭的附屬子句裡的動詞通常用現在式代替未來式外, when / while / before / until / till / after / as soon as 等時間連接詞同樣適用.
@@ -386,7 +386,7 @@
      未來式代替現在式 : 確信正在發生的事.
        Don't disturb him now. He'll be having breakfast.
      
-   - enamor / tale / attrition / bog / gospel / edgy / bound to / affair / nurse(v) / bullfight / farewell / mine / carol / miser
+   - enamor / tale / attrition / bog / gospel / goose / edgy / bound to / affair / nurse(v) / bullfight / farewell / mine / carol / miser
    - I never mean to take it out on you.
    - just like that / "We" is me, Lily and Jeff ; Two plus two is four.
       
@@ -620,7 +620,7 @@
                             Her criticisms were enough to make anyone see red .  
 
 73. Unit 85 Verbs followed by participles.
-    - disastrous / weave into / customary contraction / gazetteer (地名索引)
+    - disastrous / weave into(weave something into something) / customary contraction / gazetteer (地名索引)
     - hemisphere / inherit
     - this account of you : 你的敘述或報告
       from all quarters : 來自各方面
@@ -956,7 +956,7 @@
         但有些形容詞只能用來修飾名詞 , 而不得接在動詞之後 :
         principal : the principal difficulty
            utter / sole (only) : the sole reason
-        但有些形容詞只能用來修飾動詞, 只能接在動後之後 :
+        但有些形容詞只能用來修飾動詞, 只能接在動詞之後 :
         afraid / alike / alive / alone / asleep / awake
 
     - What are you afraid of ?
@@ -1151,8 +1151,6 @@
      有些量詞可代名詞使用, 即量詞本身可單獨存在,而不必和名詞連用, 如some, all,each,most,few,many,none ...
        You win some, you lose some.
        You can't win them all.
-       
-     
      
      All the world's a stage. (世界是座舞台)
    - The more the merrier : used to say an occasion will be more enjoyable if a lot of people are there:
@@ -1163,8 +1161,7 @@
    - Actions speak louder than words.
      一個複數名詞前沒有定冠詞或如some的量詞 , 這個名詞就是指一般性的.
        Do you sell stamps?
-       Do you often read novels?
-     
+       Do you often read novels?     
      Great minds think alike.
    
    - Silence is golden
@@ -1196,8 +1193,23 @@
          Actions speak louder than words.
      不可數名詞(物質或抽象名詞) : 
        -   
-       
-   - 量詞 :
-     
-     
+
+   - 量詞 :    
+
    This software is causing me nothing but frustration. / 這套軟體帶給我的就只有挫折感。
+   a very white man : 「一個人非常的忠厚老實」
+   sporting house : 妓院、賭場
+   dead president : 美鈔
+   busybody : 愛管閒事的人
+   mad doctor : 精神科醫生
+   personal remark : 人身攻擊
+   confidence man : 騙子
+   service station : 加油站
+   horse sense : 常識
+   capital idea : 好主意
+   pull one’s leg : 開玩笑
+   eat one’s words : 收回前面說過的話
+   have a fit : 勃然大怒
+   what a shame : 真是可惜、真是遺憾
+   I haven’t slept better : 	我睡得很好
+   personal items / personal belongings : 隨身物品.
