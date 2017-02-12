@@ -1,0 +1,78 @@
+﻿#!/usr/bin/env bash
+OR
+#!/bin/env bash
+
+Bash Time command
+
+bash給定變數數值可用"=", 但前後不可有空格. ==> VAR=123
+可使用"unset"去移除變數 ==> unset VAR
+取得變數內空 ==> $VAR
+
+[export]
+  讓變數可在不同process 間互享 ==> export VAR
+  function 也可以export  ==> export -f myfunc
+  單下 export , 可得到目前已被 export 的變數列表
+  
+[enable]
+  Get a list of the commands that bash are builtin
+
+[compgen -k]
+  What keywords are in Bash
+  
+[.bash_profile] is read when Bash is involed as a login shell
+[.bashrc] is executed when a new shell is started <== so don't export variable, like PATH in .bashrc it.
+  but because aliases and functions are not normally exported, you would define those in your .bashrc.
+  And those aren't growing like PATH=$, PATH value would be.
+
+[source v. .]
+". " : Dot space is the same as using the command source.
+"." : will execute by a new process
+
+[alias / unalias]
+  alias ls='ls --color=auto'
+  unalias ls
+
+[echo]
+  -n / -e / -E
+
+[typeset]
+  typeset -i x
+    let x++; let y=x**2; let x=x*3; let x*=5, ...
+    
+[declare]
+  declare -l uppercase values in the variable are converted to lowercase.
+  declare -u lowercase values in the variable are converted to uppercase.  
+  declare -r variable is made read-only.
+  
+Local Variables and Typeset
+
+[read]
+While Loops
+
+For Loops
+  seq 1 5 # prints 1 2 3 4 5
+  "string" v. `command`
+  for num in `seq 1 5`  
+  generate sequences with {A..Z}, {1..10}, etc...
+  
+  for d in $(<data_file)
+  #loops over space/newline
+  #separated data in data_file
+  
+  for j in *.c
+  #making a list with file globbing
+  
+  for f in $(find . -name *.c)
+  #using a command to generate a list
+  
+[nl v. cat]
+
+find /etc 2>/dev/null
+
+Bash Functions
+function NAME {
+   function body ...
+}
+
+[exit v. return]
+echo $?
