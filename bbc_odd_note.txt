@@ -319,7 +319,7 @@
       名詞之前 , e.g. enough water
     - Where to ? / Who for ?
     - propose a toast / because we are no good.
-    - deliverance (求助) / emerald / jaws
+    - deliverance (求助) / emerald
     
     Unit 36 Health
     - I've got a stomachache.
@@ -335,7 +335,7 @@
     - cough 
     - I think / I'm thinking 
     - dosage / dose / shiver / symptoms / subside / surgeon
-    - cheek / chin / lip / neck / tongue / elbow / knee / toe / wrist / ankle / torso / waist
+    - cheek / chin / lip / jaws / neck / tongue / elbow / knee / toe / wrist / ankle / torso / waist
     - elephant / kiwi    
     - He's got a temperature.
 
@@ -462,7 +462,7 @@
 		- 表未來式的句法結構 :
 		  以 will 表示 :
 		    @ 純指未來的事實 :
-		      I'll be 43 in Faburary next year.
+		      I'll be 44 in Faburary next year.
 		    @ 表示預測的狀況
 		      There will be rain everywhere.
 		    @ 表示假設的狀況
@@ -510,6 +510,7 @@
     - Future uncertainty
       probably / possibily
       It will probably have sunshine in the morning.
+      I probably won't phone you until I get back.
       
     - Hands-on : 實際的
       Hands-on experience is not needed for the job.
@@ -1326,7 +1327,7 @@
         Where's Jack ? - How should I know ?
         Give me your cell phone. - Why should I ?
       will :
-        表未來將會發生 : I will be 43 next year.
+        表未來將會發生 : I will be 44 next year.
         表心意已決 : OK, I'll take it.
         表願意或不願意 : The bank will lend you $5000.
         表示你有充份的把握, 某事必定會發生 :
