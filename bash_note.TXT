@@ -69,10 +69,31 @@ For Loops
 
 find /etc 2>/dev/null
 
-Bash Functions
+Bash Functions , can by shell or comman line directly.
 function NAME {
    function body ...
 }
+hvar = $(NAME)
 
 [exit v. return]
-echo $?
+
+exit terminates the shell process , 
+exit in a funciton terminates the whole shell program, not just function.
+exit <VALUE> sets the exit status,
+represented by $? to <VALUE>, so you can get exit status by echo $?
+
+[file]
+0 => stdin, 1 => stdout, 2=> stderr
+
+[">" , "<" , "|"]
+
+command &> file
+# file gets stdout and stderr from command, file is created or overwritten.
+
+command 2>&1 | command2
+command |& command2
+
+command >> file
+command &>> file
+wc -l file
+
