@@ -6,7 +6,7 @@ Bash Time command
 
 bash給定變數數值可用"=", 但前後不可有空格. ==> VAR=123
 可使用"unset"去移除變數 ==> unset VAR
-取得變數內空 ==> $VAR
+取得變數內數值 ==> $VAR
 
 [export]
   讓變數可在不同process 間互享 ==> export VAR
@@ -90,10 +90,37 @@ represented by $? to <VALUE>, so you can get exit status by echo $?
 command &> file
 # file gets stdout and stderr from command, file is created or overwritten.
 
-command 2>&1 | command2
-command |& command2
+command 2>&1 | command2 == command |& command2 (bash only but not sure about other shells)
 
 command >> file
 command &>> file
 wc -l file
+
+"<<" : Here documents : A way to embed input for standard input inside of a script file.
+sort <<END
+cherry
+banana
+apple
+END
+
+exec N<> myfile
+#open file descriptor N for reading & writing with myfile
+
+exec N>&- or exec N<&-
+# closes file descriptor N
+
+[lsof] : see what file descriptors for a process are open
+  lsof -p [shell's PID]
+  
+The Case Statement :
+
+
+[test]
+test -d X  # success if X is a directory
+test -f X  # success if X is a regular file
+test -s X  # success if X exists and not empty
+test -x X  # success if you have x permission on X
+test -w X  # success if you have w permission on X
+test -r X  # success if you have r permission on X
+  
 
