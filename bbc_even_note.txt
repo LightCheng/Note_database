@@ -440,7 +440,7 @@
      e.g. We've had a fantastic response!" he said, grinning from ear to ear.
      
      go in at one ear and out of the other : 一耳進一耳出
-     e.g. Anything we told him went in at one ear and out the other. /不管我們對他說什麼，他總是當耳邊風。
+     e.g. Anything we told him went in at one ear and out of the other. /不管我們對他說什麼，他總是當耳邊風。
      
      be all ears : 【口】傾聽, 全神貫注地聽
      e.g. Tell me your news , I am all ears. / 把你的新鮮事告訴我, 我洗耳恭聽。
@@ -933,7 +933,7 @@
       fast asleep (熟睡的 / wide awake (完全清醒)
        asleep & awake 這兩個以 a 開頭的形容詞均不可用 very 來修飾.
       
-      alike : 一般使用 very mush alike , 而不用 very alike.
+      alike : 一般使用 very much alike , 而不用 very alike.
       
       一般形容詞是加於名詞之前,但極少數情況下會接於名詞之後 :
         - available (可用的,可買到的),如果與預訂有關,通常都是接於其所修飾的名詞之後 :
@@ -952,15 +952,18 @@
               Nothing complicated.
        
      - Business letters.
-       clear / conccise / courteous
+       clear / concise / courteous
        postage / invoice / satisfactory (a) / dictate (口授，口述; 命令，規定)
        acquaint (使認識;使了解 / resemblance / emphatic (強調的)
        The former is priced at $10.95 and the latter at $12.50.
        
        It occurred to me ... (I realized ...)
        
-       up to now (so far) / business as usual
-       I've certainly enjoy it up to now.     
+       up to now (so far)
+          I've certainly enjoy it up to now.     
+       business as usual : having things go along as usual. 
+          e.g. Even right after the flood, it was business as usual in all the stores. 
+               Please, everyone, business as usual. Let's get back to work.
 
     存摺 : passbook，也可以稱之為bankbook。
      可以清楚查閱到存款（deposit）、提款（withdrawal）及轉帳（transfer）等記錄。
@@ -1251,3 +1254,7 @@
         complex此處作名詞，為心理學術語，意指「情結、不正常的精神狀態」
         Donald Trump has been accused of having a superiority complex. / 唐納川普的自我優越感曾受到批評。
         
+     親戚的說法為 : relative，
+                    close relative即是我們口語上常說的近親，distant relative則是遠親。
+                    「手足」的sibling、「姻親」的in-law 及「親屬關係」的kin。
+How often do you get together with your relatives? 你多久會和親戚相聚？
