@@ -1,90 +1,4 @@
-﻿64. Unit 76 : Subjunctive forms
-    - ask for vs demand
-      carry vs wear
-      leave vs live ; live (adj)
-      look at vs regard
-    
-    - Destiny :
-      語氣助動詞would , 稱為過去的未來式
-      A boy who would become England's greatest dramatist.
-      也可用 "be動詞的過去式接 to + 動詞原型" 來表達相同的意思.
-      A boy who was to become England's greatest dramatist.      
-      
-    - Instructions :
-      be動詞接 to+動詞原型 可用來下達指示,或告訴對方該怎麼做.
-      You are to read them, memorize them, and then destory them.
-      
-      If anyone asks to see me, you are to say that I am out.
-      
-    - Subjunctive forms :
-      1. Be 動詞用were 的假設語氣句型 :
-        If I were to say ...
-        Suppose I were to say ...
-        The weather is terrible. I wish it were not so cold.
-        If Shakespeare were alive today , what would he write about ?        
-        Don't look at me as if I were mad!
-      
-      Best regards from Taipei. Wish you were here.
-      
-      假設語氣句型唯一看出與直述句不同的地方就是第三人稱單數, 因動詞字尾沒有加 s .
-      下列這類句型中 , that 後面的子句中 , 其動詞所代表的行為都是某人認為應該做必須做 , 建議或要求做的事 ,
-      且都用動詞原型 , 不管人稱也不管單複數.
-      It is vital that ...
-        It is vital that no-one be allowed in, and that no-one be allowed out.
-      It is desirable that ...
-      
-      2. 表示規定, 強求, 建議, 要求等的假設語法 :
-      	I demand that ...
-        	He demands that he be allowed through the gate.
-      	I insist that ...
-        	I insist that he reconsider.
-      	I request that ...
-        	You request that he reconsider and that he not try to enter the building.
-      	I suggest that ...
-        	You suggest that he speak to me.
-        	I suggest that he leave at 8:00.
-        	
-        但在日常會話裡 , 常用兩種替代型來表達假設語氣 :
-        - 直述語法
-        - 在原型動詞前 + 助動詞 Should
-          I suggest that he should leave at 8:00.
-          
-      3. 慣用片語 :  
-      
-    	- 祈願式的用法 , 動詞一律用原型 , 不隨主詞人稱單複數或時式而變化.
-      	God save the Queen!
-      	Long live the King!
-      	Be that as it may, ... 總之;即使如此
-      	Heaven help us! 老天保祐.
-      	So be it. 但願如此.
-        
-      ...,if need be. 假如有必要的話.
-         You are to wait - all day, if need be.
-         We will work all night, if need be.
-      ...,come what may. ...不論結果如何.
-      
-    - If ..., what would your reaction be ?
-          If I were to say "The Prime Minister is here", what would your reaction be ?
-          I'd be astonished!
-      If ..., how would you react/feel ?
-          If I said "Your mother is here", how would you react ?
-          I'd be very pleased.
-      
-    - I'd be ... 若是用動詞的過去分詞當形容詞 , 則只能使用這個句型)
-      It would make me ... 
-      If I were to say "I stole some money from your jacket", how would you feel ?
-      It would make me very sad.      
-      
-    - apprehension / distraught / devastating / accommodate / trivial or traumatic
-      paradox / ambiguity / ponder / reminisce / endorsement / astonished / disgust / sorrow
-      Misery / gracious / noble / breadth / acquaintance / rejoice / side up
-    
-    - packet-ship / state-room / cart / wharf / pine / In the charge of ... / To be handled with care.
-      accordion / solo career / obstinate      
-    - mechanic / just in case
-    - Nothing is too good for our customers.
-
-65. Unit 77 : The past, the present and the future
+﻿65. Unit 77 : The past, the present and the future
 		- make camp / grandiose / shelter / out there / scout-car / locate / plant / Emergency stations.
 		- cellar / treaty / petroleum / decide on / turn round / go around
 		
@@ -1261,3 +1175,6 @@
      How often do you get together with your relatives? 你多久會和親戚相聚？
      
 80. Unit 93 Pronouns: Various points.
+   - think tank (智囊團),另一種類似的說法為brain trust。
+     一開始brain trust多指政治候選人或現任者所擁有的一群特定領域專家，近來也泛指任何一個決策者的顧問團，不僅限於政治領域。
+     e.g. The former politician now works at a Washington think tank. / 那名前政治人物目前為華府的智庫工作。
