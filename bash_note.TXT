@@ -123,4 +123,19 @@ test -x X  # success if you have x permission on X
 test -w X  # success if you have w permission on X
 test -r X  # success if you have r permission on X
   
+Arithmetic Operators 
+  Use in (( )) or eith let command.
+  
+Defininf filters and using head, tail, and wc
+  run command in the backgroud : "&"
+  ./test.sh >output &
+  
+  tail -n2 -f output      <== ???
+  
+[sed] : stream editor
+sed `s/old/new/` myfile  #substitute the first occurence of "old" on each line for "new" in the file.
+                         # "old" is a pattern and can be a regular expression.
+sed `s/old/new/G` myfile  #substitute ALL occurence of "old" on each line for "new" in the file.
 
+[awk]
+$ps -ly | ./awk1
