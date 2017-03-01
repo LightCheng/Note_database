@@ -1136,7 +1136,9 @@
      How often do you get together with your relatives? 你多久會和親戚相聚？
      
 80. Unit 93 Pronouns: Various points.
-   - nickname / institution (制度，習俗; 公共團體，機構)
+   - nickname / institution (制度，習俗; 公共團體，機構) / the authorities / embassy / coalescence / assimilation
+     disembark / in the very same breath / sternly / aristocracy / organ / at once / anglicized / italics
+     status quo / lingua franca / Foxtrot / Lima / Quebec / Zulu
    - think tank (智囊團),另一種類似的說法為brain trust。
      一開始brain trust多指政治候選人或現任者所擁有的一群特定領域專家，近來也泛指任何一個決策者的顧問團，不僅限於政治領域。
      e.g. The former politician now works at a Washington think tank. / 那名前政治人物目前為華府的智庫工作。
@@ -1180,8 +1182,6 @@
        It struck me that ...
        It occured to me that ...
      
-   - They say travel broadens the mind.  
-    
      "concerning feelings"
        It annoys me that ...
        It annoys me how/what/etc. ...
@@ -1190,4 +1190,90 @@
        
      "A expression meaning "it's not important""
        It doesn't matter how/what/etc. ...
+
+   - They say travel broadens the mind.  
+      pronouns "you" and "one" can be used to mean "people in general".
+         If you are going to travel, you need a passport.
+         If one is going to travel, one needs a passport.
+         
+      "They" can also mean "people in general", especially in the phrase "They say ..."
+         "Third time lucky": that's what they say.
+         
+   - 代名詞的構造與用法 :
+     they/them 是複數形, 其所指的也是多數人的人或事物.
+     但在某些情況下, 代名詞也可用來表示單數的人稱 .
+     若在 不可能、 不必要或不想特別指明男女性別的情況下, 可用 they/them 表示一般人的通稱.
+     如附加在下列代名詞為主詞的附加問句裡 :
+        somebody / someone, everybody / everyone, anybody / anyone 或 nobody / no-one 
+        Everybody makes mistakes, don't they?
+        Nobody's perfect, are they?
+        
+   - she/her 的特殊用法 :
+     基本上 she/her 是專指女性, 同時可用於代替國家,船舶或汽車.
+      The last time I saw Paris, her heart was warm and gay.
+      
+   - of 之後的所有格代名詞 :
+     a friend of mine, a book of yours, some friends of ours ... : 
+     此類構造記得不可使用受格代名詞(me, you等)
+     
+     若 of 後面是接名詞, 應使用其所有格形式's.
+      He's a friend of my father's. (the same as "one of my father's friends")
+      He's a friend of Anna's.(the same as "one of Anna's friends")
     
+   - Special expressions are used in radio messages :
+     Affirm(ative) : Yes/That is correct, etc.
+     Go ahead : I can hear you. Begin your message.
+     Wilco : I've understood your instructions and will follow them.
+     Mayday : Emergency.
+     
+     3 : tree , 5 fife , 9 niner , 1000 thousand
+      
+   - Jeff and Elizabeth's wedding ; It's not necessary to say Jeff's and Elizabeth's wedding.
+     come along : How are the wedding plans coming along?
+     Here's to ...! : (to toast) Let's drink to ...!
+     
+     nom del plume : name used by a writer instead of his or her real name.
+     Skal! / Prost! / Chin! / Cheers!
+    
+81. Unit 94 Prepositions: Various points.
+   - reception(Wedding reception) / 
+   - 介詞 : time / position / movement
+     as(指擔任某種任務或職位) v. like(指互相比較的"像或類似")
+       I'm working as a travel courier at the moment.
+       I can swim like a fish.
+       
+     in time v. on time
+     in the end(最後, 終於; 通常指在歷經困難、麻煩之後)
+       She made me wait, but I knew she would marry me in the end.
+     at the end(在...的結束之時, 在...的盡頭)
+       I felt OK when the race began, but I was tired at the end.
+       I got off the bus at the end of my street.
+       
+   - Prepostitions before particular expressions.
+     in love : Mr. Jones - in love?
+     by the hand : Everybody shook him by the hand.
+     on foot : Are you going on foot?
+     For example, ... / In fact, .../ On the contrary, ...
+     In tears / In white / By the river
+     
+   - Preposition + -ing form.
+     Thank you for being with us this evening.
+     We apologize for the delay in supplying your order.
+     
+     Preposition + what ...
+     Aren't you a little afraid of what might happen next?
+     
+   - Prepositions after particular expressions.
+     Particular adjectives are followed by particular prepositions.
+       afraid of ... / angry about ... / wrong with ... / ready for ...
+       well known for ... / interested in / popular with / different from ...
+       polite to : Are you usually polite to people?
+       anxious about :Are you anxious about the future?
+       angry with (someone) / angry with (something)
+     
+     Particular adjectives are used after particular verbs.
+       Look at this! / I'm thinking about/of you.
+       Hope for the best, and prepare for the worst.
+       We understand that you specialize in books in this field.
+       I could stare at the clouds all day.
+       The titles will remind you of ...
