@@ -1326,8 +1326,10 @@
      that'll probably take a little getting used to as well.
      
 82. Unit 95 Conjunctions and word order: Various points.
-   - spectators / ray
-   - under no circumstances / no sooner ... than
+   - spectators / ray / contrast / Pygmalion / cockney / duchess
+   - under no circumstances / no sooner ... than ...
+     scarcely ... when ... / hardly ... when ... / on condition that ...
+     in case / in order that 
    - Conjunctions : that / both ... and ... / (n)either ... (n)or ... 
                     after / as soon as / before / since / till,until / while
                     
@@ -1344,6 +1346,12 @@
      'so' can refer to results, with the meaning "therefore", (We were late, so we took a taxi),
                        purpose, with the meaning "so that", (I joined a tennis club, so I could meet new people).
    
+     'since' can refer to time, reason
+     'while/whilst' can refer to time, contrast
+     'as/so long as' can refer to time, condition
+     'if' can refer to condition, reported speech.
+     'whether' can refer to condition, reported speech.
+     
    - Inversion :
      Nither did I.  ==> Showing agreement, begining Neither ...
      Nor did I.  ==> Showing agreement, begining Nor ...
@@ -1407,6 +1415,41 @@
      come off it. : used to tell someone that you do not believe what they are saying is true, or that you strongly disagree with them:
        e.g. Ask Simon to cook the meal? Come off it, he can hardly boil an egg!
        
-          
+     - Some conjunctions are also used as adverbs, 
+     e.g.
+
+     I'll photocopy the report once I've finished it.
+     I go to the cinema once or twice a month.
+
+   - Some conjunctions are also used as prepositions, 
+     e.g.
+
+     I'll phone you after I've finished work.(conjunction)
+     I'll phone you after lunch.(preposition)
+     
+   - 'since' and 'before' are also used as both prepositions and adverbs.
+     We've lived here since we got married.(conjunction)
+     We've lived here since 1981.(preposition)
+     He left on Friday, and we haven't seen him since.(adverb)
+     
+     Let have a drink vefore you leave. (conjunction)
+     Can I speak to you before the meeting?(preposition)
+     I'm sure we/ve met before.(adverb)
+     
+   - conjunctions suppose/supposing (that) usually introduce a hypothetical question.
+     Supposing (that) you won $1,000,000, what would you do with it?
+   
+   - The conjunction 'yet' is only used in formal style, it has the same meaning as 'but'.
+     He had some terrible problems, yet he never despaired.
+     
+     'yet' is used as adverb more often.
+     The boss hasn't arrived yet.
+   
+   - Be careful with 'hardly/scarcely ... when ...' and 'no sooner ... than ...',
+     if their first element begins a sentence, the subject and the verb are inverted.
+     
+     We had no sooner arrived at the park than it started to rain.
+     No sooner had we arrived at the park than it started to rain.
+     
      
      
