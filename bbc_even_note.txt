@@ -1329,7 +1329,13 @@
    - spectators / ray / contrast / Pygmalion / cockney / duchess
    - under no circumstances / no sooner ... than ...
      scarcely ... when ... / hardly ... when ... / on condition that ...
-     in case / in order that 
+     in case / in order that / human being / apostrophe / carriage / screwy
+   - lolly / loot / lousy (terrible, very bad) / mitt / natch / oldie / skint
+     slammer / smash / Straight up! (I'm telling the truth). / sucker / telly
+     wacky (amusing, alightly crazy) / ashtray / 
+     pack it in! (Stop doing that!) / pricey / Right on! / scram / 
+     screwy (crazy, foolish, stupid). / Search me!
+     daresay (expect) / chap (man)/ just so (exactly)
    - Conjunctions : that / both ... and ... / (n)either ... (n)or ... 
                     after / as soon as / before / since / till,until / while
                     
@@ -1451,5 +1457,25 @@
      We had no sooner arrived at the park than it started to rain.
      No sooner had we arrived at the park than it started to rain.
      
-     
-     
+   - What am I fit for?
+   
+   - on 的三大用法 :
+     1. 在 … 上面
+        Spider-Man is on the roof.
+        My classmates are practicing speaking on VoiceTube.
+     2. 在 xxx 街 / 路 / 樓
+        The hotel is on Xin-Yi Rd.  
+     3. 靠近、附近
+        They live on the border. 他們住在靠邊境的地方。
+   - in 在某一空間內 / at 在某一地點、某棟建築物前
+       表達在哪裡，用 at 就可以了，但如果想表達的是在某空間內，就要用 in 去強調
+       
+   - corner 的前面到底要加 in、on 還是 at ? 
+     表達一棟建築物或是馬路、街的轉角處，你可以用 at：
+        Let’s meet at the corner of x and y street. 我們約在 x 街和 y 街的轉角見面。
+     表達一個平面上的轉角處，你可以用 on：
+        3M company is on the corner of x and y street. 3M 公司坐落於 x 街和 y 街的交叉處。
+     表達在一個空間內的轉角處，你可以用 in：
+        The spider is building a web in the corner. 這隻蜘蛛正在角落搭起蜘蛛網。
+        
+    - Some more slang expressions:
