@@ -1326,7 +1326,7 @@
      that'll probably take a little getting used to as well.
      
 82. Unit 95 Conjunctions and word order: Various points.
-   - spectators / ray / contrast / Pygmalion / cockney / duchess
+   - spectators / ray / contrast / Pygmalion / cockney / duchess /consulate
    - under no circumstances / no sooner ... than ...
      scarcely ... when ... / hardly ... when ... / on condition that ...
      in case / in order that / human being / apostrophe / carriage / screwy
@@ -1479,3 +1479,39 @@
         The spider is building a web in the corner. 這隻蜘蛛正在角落搭起蜘蛛網。
         
     - Some more slang expressions:
+    
+    - beside (prep, at the side of,next to)
+       Why don't you come and site beside me?
+      
+      besides (prep, in addition to, as well as)
+       Do you have any other hobbies besides gardening?
+              (adv, also, too, as well)
+       He wrote a novel, two plays and a lot more besides.
+       
+    - as , when , while 
+      Two events at the same moment : as
+        As I said the word "Goodbye", there was a flash of lightning.
+      
+      One event, and then another event : when
+        When Jack arrived, Bob left.
+        
+      Two activities at the same time.
+        While you were waiting for us at the station, 
+          we were trying to get through a traffic jam.
+          
+      An event during an activity :
+        a. During a short activity : As/When
+          As/When I was coming out of the supermarket, I dropped my bags.
+          
+        b. During a longer activity : As/When/While
+          As/When/While I was crossing the park, it started to rain.
+          
+        c. During a long activity : When/While
+          When/While I was living in Spain, I met Salvador.
+          
+        The same meaning can be expressed by using when(but not "as" or "while") to introduce the part of the sentence in which the event is mentioned.
+          I was coming out of the supermarket when I dropped my bags.
+          I was crossing the park when it started to rain.
+          I was living in Spain when I met Salvador.
+          
+        
