@@ -1,0 +1,25 @@
+1. Improved battery life : 
+       JobSchedular API to replace "listening"
+       Location services receive less frequent updates.
+   Audio components and APIs
+       Major impeovements in BT audio.
+       LDAC(Sony)
+       AAudio : implement low-latency pro audio, 
+       Multiple improvements in the Android frameworks MediaRecorder & MediaPlayer.       
+   Reorganized Settings app
+     New suggestion section.
+   Improved keyboard support:
+     Supports for arrow and tab keys
+   Adaptive Icons :
+     Provide icons in layers (<maskable-icon>)
+   Improved audio
+   Visual adaptation for different devices
+2. Nitifications in channels
+3. Autofill EditText components
+4. Display video as picture-in-picture
+5. Font in XML
+   TextView Autosizing
+   Pinnable Launcher Shortcuts 
+   WiFi Aware(NAN, Neighbor Awareness Networking)
+     Support p2pnetworking
+     WiFi router not required
