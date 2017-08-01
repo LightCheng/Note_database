@@ -237,10 +237,7 @@
      執行Rebase 時， master 的位置不變，因此，待 master 分支合併 bugfix 分支後，master 的HEAD會移動到 bugfix 的HEAD這裡。
      修改內容的歷史記錄會接在要合併的分支後面，合併後的歷史記錄會比較清楚簡單，但是，會比使用 merge 更容易發生衝突。
 
-8. Stash ?
-
-
-9. Tag :
+8. Tag :
    Git中，標籤有兩種類型：輕量標籤(lightweight tag)和標示標籤(annotated tag)。
    lightweight tag : 
    	不可變更的暫時標籤 , 可以添加名稱 :
@@ -258,22 +255,22 @@
    刪除標籤
 	git tag -d <tagname>
 
-10. 修改最近的commit :	
+9. 修改最近的commit :	
    欲修改同一個分支最近的提交內容或註解，您可以在提交命令時加上 --amend 參數
    主要使用的場合
      增加最近提交時漏掉的檔案
      修改最近的提交的內容或註解
 
-11. 取消過去的commit :
+10. 取消過去的commit :
    使用 revert 命令，可以取消指定的提交內容。
 
-12. 匯合分支上的commit 一同合併 : Squash
+11. 匯合分支上的commit 一同合併 : Squash
     使用 "--squash"指定欲合併的分支，就可以在分支上新建一個匯合所有commits的commit。
 
-13.變更git user email: 
+12.變更git user email: 
    git config --global user.email Light_Cheng@compal.com
 
-14.Patch created by git-format : git am <patch>
+13.Patch created by git-format : git am <patch>
    Git created patches are meant to be applied with Git tools => git apply <patch>
    If the patch is not created with Git, then just use a patch program 'behind the back' of Git. Often this is the program 'patch': patch <patch>
   
@@ -282,3 +279,5 @@ Tips :
   - git log --graph --oneline
     用log命令來確認數據庫的修改歷史。若加入 --graph 參數可以圖表方式顯示分支歷史。加入--oneline 簡化輸出訊息，以簡潔方式呈現。
 
+  - git apply --whitespace=fix temp.patch
+    將patch 中, 移掉trailing whitespace.
