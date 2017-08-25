@@ -1,0 +1,420 @@
+reference :
+http://www.radio-electronics.com/info/wireless/wi-fi/ieee-802-11-standards-tutorial.php
+https://zh.wikipedia.org/wiki/WLAN%E4%BF%A1%E9%81%93%E5%88%97%E8%A1%A8
+
+MTK WiFi:
+Log type : Mobile Log & Net log (Tcpdump log)
+mtk-wpa_supplicant-overlay.conf
+wpa_supplicant: 02:1a:11:f7:28:90 freq=2427 qual=0 noise=0 level=-30 flags=0x2b age=0
+
+MTK WiFi加密算法： 
+  WIFI有支持WEP/WPA/WPA-PSK/WPA2/WPA2-PSK/TKIP/AES-CCMP/IEEE802.1X/EAP  WIFI 相關加密主要是 Authentication以及數據加解密，沒有“Digital signature”這個說法.
+  
+[FAQ20164]how to remove the EAP AKA or EAP SIM ？
+
+WiFi SDIO error:
+  kernal log search key world "msdc" ==> CRCERR or -5 / TMO or -110
+
+
+[HowTo] get RSSI of connected AP by adb
+pre-condition : root 
+adb shell wpa_cli -iwlan0 -g@android:wpa_wlan0 IFNAME=wlan0 SIGNAL_POLL
+
+[HowTo] get DUT MAC address by adb 
+adb shell wpa_cli -iwlan0 -g@android:wpa_wlan0 IFNAME=wlan0 DRIVER MACADDR
+
+
+WiFi spec :
+https://www.wi-fi.org/discover-wi-fi/specifications
+
+Check if the project shipping to specific regions, ex: JP, HK, etc, so that the
+Wi-Fi channels supported by this product is fixed.
+
+1. Pre-define country code in coding phase.
+/frameworks/opt/net/wifi/service/java/com/android/server/wifi/WifiStateMachine.java
+Set default country in initializeCountryCode().
+
+2. 802.11d (區域band限制 and 功率限制):  additional regulatory domains, must be disabled if you want to set country code manually.
+   802.11e-----QoS(Quality Of  Service)
+   802.11h = Auto DFS + Auto TPC
+     Auto DFS (Auto Dynamic Frequency Selection) : 簡單說:就是自動躲雷達掃頻追擊機能。
+        WiFi 802.11a在5GHz的頻率中，部份頻率會與軍方的雷達倍頻頻率相同，因此在軍方優先，民間次之的規範下，
+        民間的WiFi 5GHz頻率使用的無線設備，需自動避開軍方所使用的頻率，也因此才衍生出Auto DFS的認證與室外使用的機能要求。
+     Auto TPC (Auto Transmit Power Control): 簡單說:就是自動調整輸出功率機能，以避免干擾軍方雷達的使用。
+        WiFi 802.11a在5GHz的頻率中，部份頻率會與軍方的雷達倍頻頻率相同，若輸出的無線功率過大，會影響軍方雷達的運作與通訊，
+        因此在軍方優先，民間次之的規範下，民間的WiFi 5GHz無線設備的輸出功率，必需具備自動調整輸出功率的機能，
+        也因此才衍生出Auto TPC的認證與室外使用的機能要求。        
+   
+   802.11f-----AP's interoperability
+   
+   802.11i------Security('04)
+   802.11w：提升無線網路的安全性
+     802.11i雖然可以保護 data frame, 但在 management frame 上仍然是以不經加密和認證的方式進行傳送。
+     802.11w無線加密標準是建立在IEEE 802.11i的基礎上，可以保護針對無線區域網路管理封包的攻擊。
+     另外，IEEE 802.11w可以增加通訊效能，例如無線網路電話（VoIP）等應用網路管理，在確保安全的無線通訊時，同時提供穩定的通話品質與穩定性。
+     IEEE 802.11w延伸了IEEE 802.11i的臨時金鑰完整性協定（Temporal Key Integrity Protocol，TKIP）與RC4加密演算法，
+     將現有的資料加密演算擴展到單點傳播管理封包中。如此一來，可以防止攻擊者偽造的管理封包，使其被解密引擎所阻擋，進而增加保密性。
+     其次，在「廣播管理封包」（broadcast management frames）中，這類資訊通常用於調整無線電波頻率或啟動測量，並不像單點封包般需要保密，
+     而且廣播封包的加密動作比單點傳播封包更為複雜。因此，IEEE 802.11w只針對這類廣播封包提供防偽造、防竊聽的保護，並不提供加密性保護，
+     僅倚賴一組資訊完整性代碼，附加在無加密的管理封包上。最後一種方法則是用於「解除認證與解離封包」（deauthentication and disassociation frames）上，
+     透過在AP和用戶端上的一對一次金鑰（a pair of one-time keys），使用端能確定解除驗證是否奏效。
+   802.11j------Japanese(4.9 and 5GHz)
+   802.11v：優化無線區域網路的管理能力
+     802.11v是一項能提供簡化網路部署與管理的高效能機制，它能規範無線發射基地台去控制無線終端設備上的關鍵參數，
+     例如根據AP的負載情況，並在它們之間去分配要連接到哪一個網路AP，透過終端設備引導至具有頻寬與資源的AP，
+     藉以平衡負載情況，提升無線網路管理、網路選擇、網路優化與資料傳輸、監測的能力。
+     此外，IEEE 802.11v引進創新的節電功能，使無線區域網路更具環保意識與綠色節能，其節電功能包含以下特點：
+     - 無線網路管理睡眠模式：這是IEEE 802.11節電功能的進一步延伸，使802.11無線裝置擁有更長的電源關閉時間，此功能將與新的流量過濾服務合作，
+       以便使AP能傳送指定的數據類型。
+     - 無線網路喚醒功能：此功能能幫助網路的系統管理員「喚醒」電腦和其他無線裝置，結合上述的睡眠模式，將有效地節約電能。
+     - ARP代理功能：Proxy ARP將允許一個AP回應ARP的指令，使無線發射基地台能夠支持更長時間的電源中斷，藉以達到長時間節電的目的。
+     - TIM廣播：在IEEE 802.11v的模式下，TIM廣播將分配流量指示，因此無線發射基地台無需接收每一種無線電指向標，
+       透過彈性的廣播/多播服務（Flexible Broadcast / Multicast services），將資料發送成廣播/多播封包，進而減少無線終端設備的開機時間，
+       並可相容高速資料傳送速率模式，提高多播服務應用的功能。
+     基本上，IEEE802.11v的速度與IEEE 802.11n沒有區別，但它是以節能為設計目標；因此，IEEE 802.11v能在網路處於閒置的狀態下，將Wi-Fi設備置入待機狀態，
+     可以節省行動裝置的電池耗能並減少終端設備向網路傳輸的流量。
+     整體來說，IEEE 802.11v包含了節電特性、負載平衡與簡化管理等功能，不但能改善無線區域網路的可靠性、傳輸量與服務品質，有助於未來的創新市場與商業規模。
+   
+[QCT]
+In WCNSS_qcom_cfg.ini,
+set 'g11dSupportEnabled=0' to disable 802.11d
+
+Refer to : QCT SR 02606463
+
+[MTK]
+In device/mediatek/common/custom.conf
+Set the device name in 'wlan.SSID' for Wi-Fi hotspot
+
+core/res/res/values/strings.xml
+<string name="wifi_tether_configure_ssid_default" translatable="false">CAT S31</string>
+
+Android（69）
+目前主流的無線WIFI網絡設備不管是802.11b/g還是802.11b/g/n 一般都支持13個信道。
+它們的中心頻率雖然不同，但是因為都占據一定的頻率範圍，所以會有一些相互重疊的情況。
+下面是13個信道的頻率範圍列表。了解這13個信道所處的頻段，有助於我們理解人們經常說的三個不互相重疊的信道含義。
+
+信道	中心頻率	信道	中心頻率
+1	     2412MHz	 8	   2447MHz
+2	     2417MHz	 9	   2452MHz
+3	     2422MHz	10	   2457MHz
+4	     2427MHz	11	   2462MHz
+5	     2432MHz	12	   2467MHz
+6	     2437MHz	13	   2472MHz
+7	     2442MHz		
+
+信道也稱作通道(Channel)、頻段，是以無線信號（電磁波）作為傳輸載體的數據信號傳送通道。
+無線網絡（路由器、AP熱點、電腦無線網卡）可在多個信道上運行。在無線信號覆蓋範圍內的各種無線網絡設備應該儘量使用不同的信道，以避免信號之間的干擾。
+
+下表是常用的 2.4GHz（=2400MHz）頻帶的信道劃分。實際一共有14個信道（下面的圖中畫出了第14信道），
+但第14信道一般不用。表中只列出信道的中心頻率。每個信道的有效寬度是 20MHz，另外還有2MHz的強制隔離頻帶（類似於公路上的隔離帶）。
+即，對於中心頻率為 2412 MHz 的1信道，其頻率範圍為 2401~2423MHz（見文後評論）。
+
+當然，實際的電磁波譜使用規定因國家不同而有所差異，以上只是舉個例子。
+而且，20MHz的信道寬度也只是「有效帶寬」，因為實際上一個信道在其中心頻率兩側有很寬的延展，但是超過10MHz以外的部分強度很弱，基本無用。
+這個就屬於比較專業的通信原理問題了。如需了解更多，可以參考 IEEE 802.11-2007 標準（PDF）。
+
+從下圖很容易看到其中 1、6、11 這三個信道（紅色標記）之間是完全沒有交疊的，也就是人們常說的三個不互相重疊的信道。
+每個信道 20MHz 帶寬。圖中也很容易看清楚其他各信道之間頻譜重疊的情況。
+
+另外，如果設備支持，除 1、6、11 三個一組互不干擾的信道外，還有 2、7、12；3、8、13；4、9、14 三組互不干擾的信道。
+
+我曾經遇到過一台戴爾的筆記本電腦，居然不支持第13信道。當時為了與鄰居們錯開信道，給無線路由器選了個13，弄得那台筆記本怎麼都連不上網絡。
+剛開始沒注意，搗鼓了很久才發現是信道的問題。
+
+現在大家的無線設備都多了起來，樓上樓下鄰里之間，一不小心就搜出來十幾個無線路由器。要完全錯開使用信道還真是不容易。
+最擁擠的時候，我從筆記本 ping 無線路由器會經常遇到上千毫秒的延遲。不過1通道貌似是用得最多的。
+
+現在新式的無線路由器都可以自動跳轉信道了，但是巧婦難為無米之炊，設備多了，還是會遭遇干擾。
+所以很多設備開始使用 5GHz 附近（5.15~5.85GHz）的頻帶。該頻段在劃分時，每個信道與相鄰信道都不發生重疊，因而干擾較小。
+但是也有缺點：5GHz 頻率較高，在空間傳輸時衰減較為嚴重，因而如果距離稍遠，性能會嚴重降低。
+
+1, 6, 11 信道這種分法是因為美國只能用1-11信道。
+
+像中國，可以使用1-13信道的，可以使用1，5，9，13（分四個信道）或者1，7，13（分三個信道）。
+至於電腦無法支持13信道，你可以去Windows設備管理器裡面選擇無線網卡設備，在點選屬性，裡面會有高級設置可以調整網卡所支持的信道範圍。
+
+///////////////////////////////////////////////
+WiFi我們經常接觸，其實際是商業化的標識，並不是技術標準，代表無線連接網絡。
+IEEE 802.11是電器電子工程師學會[IEEE]制定的無線傳輸技術規範，實際是無線網絡的連接技術標準，它被WiFi所使用，但WiFi不僅僅包含 802.11ac技術，
+同理802.11ac也不僅僅只被WiFi使用，其也可以用於其他的無線通信領域。
+
+2.4G擁擠 5G顯優勢
+現在我們普遍使用的WiFi基本都工作在2.4G無線頻段，使用的是802.11b/g協議。
+不過隨著2.4G頻段的設備越來越多，在 2.4-2.485GHz內信道顯得十分擁擠，因為包括如無線鍵盤、無線滑鼠、藍牙等各類電子設備都工作在此頻段。
+低頻段在數據傳輸容量方面一般，同時擁 擠的信道會令設備搶占資源，通信的質量和效果都會降低。
+WiFi產品中，2.4G頻段的802.11b/g設備在2.401GHz-2.473GHz頻段中使用11個22MHz的帶寬信道，設備多造成擁擠，同時信道數量少，帶寬不足這是問題的所在。
+
+5G頻段採用
+為了解決2.4G的頻段擁擠問題，更高頻率和更高帶寬的IEEE 802.11n技術出現。
+802.11n能工作在5G頻段，高頻段擁有更高的帶寬容量，同時不容易被干擾，設備相對2.4G少很多。
+802.11n便能夠 解決信道擁擠和帶寬不足的情況，其信道帶寬能夠到達40MHz，可以通過MIMO多路輸入輸出標準，採用多條天線疊加提高傳輸速度。
+一般的家用 802.11n設備能做到300-450Mbps的峰值速度，這也是用戶經常看見銷售的路由器標識顯示速度30[工業電器網-cnelc]0Mpbs的原因。
+雖然802.11n擁有 不俗的性能，但是缺點同樣存在，高頻段衰減大，覆蓋範圍比較小，一般家庭使用還可以滿足需求，
+而大型辦公場地的覆蓋對比802.11b/g的2.4G頻段 便顯得優勢不足。
+
+802.11ac速度更快
+可以看到802.11的發展是從a開始， 經歷b/g/n到達現在的ac。
+802.11ac準確來說，在手機設備上開始配備是從2013年逐漸開始，那時候一些高端的旗艦手機陸續擁有 802.11ac的WIFi網絡連接能力。
+來到今年2014年，高端旗艦手機慢慢標配802.11ac的WiFi模塊，蘋果iPhone 6、Macbook air和airport等都已經具備，蘋果全線最新產品線不落下。
+
+802.11ac
+802.11ac都工作在5G頻段上，能夠支持最大8倍MIMO，並支持多個終端以MIMO方式連接，信道帶寬能夠最多達到160MHz，相比 802.11b/g提高了4倍。
+80MHz的帶寬下能夠實現433Mbps的傳輸速度，而160MHz更是達到866Mbps的網速。
+無線網絡仍然受環 境、干擾、距離等客觀因素所影響，真實速率要比理論速率要低不少，但對比以往802.11b/g還是有非常大的提高。
+有測試結果表明，如果用 866Mbps的無線路由器和網卡連接傳輸，實際的無線傳輸速度能夠達到20MB/S左右，這顯然能夠把無線區域網實現真正的百兆信息化。
+由於802.11ac是屬於IEEE制定，因此其 向下兼容802.11a/b/g/n產品，舊設備也可以無縫無兼容性使用。
+
+802.11ac擁有技術優勢，不過其中很多號稱千兆的802.11ac網卡只是2.4G與5G疊加起來，並不單是 5G頻段。
+5G頻段可以通過疊加天線MIMO技術來提高傳輸速率和減少衰減，不過由於頻率較高的現實，衰減仍然會存在。
+
+Wi-Fi 產品的 Wi-Fi 聯盟，於日前正式將 IEEE 802.11ah 標準命名為 Halow，
+HaLow 由 802.11ah 的 ah 變形和表示低功耗的 low 字樣結合，點出將成為藍牙低功耗的對手，運作頻段則設定為 1GHz 以下，
+約為現行運作於 2.4GHz Wi-Fi 標準連線距離的 2 倍。
+
+快速複習一下現行的 Wi-Fi 無線網路規格，
+802.11b/g/n 運作頻段為 2.4GHz，單一天線收發頻寬 40MHz 速度最高為 802.11n 的 150Mbps，802.11n 允許 4 天線同時收發，最高達 600Mbps。
+802.11a/n/ac 運作頻段則為 5GHz，802.11ac 單一天線收發 80MHz 頻寬最高為 433Mbps，8 天線同時收發則為 3466Mbps，使用 160MHz 頻寬速度再翻倍。
+
+[802.11ad] 則為原本的 WiGig 聯盟標準，之後併入 Wi-Fi 聯盟並列入 IEEE 802.11 標準之一，使用 60GHz 頻段傳輸，最高速率約可達 6756Mbps 左右。
+因為使用 60GHz 極高頻的關係，使得傳輸距離並不長，加入波束成形技術（beamforming）也僅有 10m 左右而已，且台灣目前幾乎沒有任何的應用產品，能見度低。
+
+WiGig技術規格允許裝置在不使用線纜的情況下進行數千兆的高速通訊，這將使高效能的無線資料傳輸、顯示和音訊應用成為可能，並可作為過去的無線區域網路技術的互補。
+WiGig三頻段裝置可以在2.4GHz、5GHz和60GHz頻段上工作，最高可以以8Gbit/s的速度傳輸資料，幾乎與8個頻段的802.11ac一樣快。
+這相當於802.11n最高速率的11倍——但同時與現有的Wi-Fi裝置保持相容。60GHz的訊號通常無法穿透牆壁，
+但訊號可以被牆壁、天花板、地板和其他內建WiGig系統「波束成形」特性的物體反射。
+在漫遊離開主房間時，無線協定可以自動利用更低的頻段在低速下工作，比如2.4GHz和5GHz，這兩種頻段均可穿牆。
+
+WiGig標準其實是WiFi技術延伸而來，可以看成是802.11標準的擴展，不僅向下兼容802.11n標準，還能兼容WA2信號加密技術。
+簡單來說，當用戶在比較近的距離內可以直接使用WiGig超高速傳輸，如果脫離了WiGig信號的範圍，網卡就會自動切換到2.4GHz或5GHz頻率的WiFi網絡。
+WiGig工作頻段是60GHz上，數據傳輸率可到8Gbs，傳輸速度是現有802.11n技術的10倍。
+雖然帶寬夠大，但是60GHz頻段信號最大的缺陷在於容易受到干擾，導致其使用距離非常短。
+為了解決這一問題，WiGig採用了波束形成技術，可以讓客戶端智能地選擇最優化的數據路徑，達到改善信號接收能力，提供更好數據吞吐性能的目的。
+從而實現10m~20m的使用距離，這對於家庭用戶來說非常合適。
+
+有了突破 1000Mbps 的無線網路，似乎也需要回頭照顧另一端專注於傳輸距離、低功耗市場，802.11ah 應運而生，
+Wi-Fi 聯盟日前將其正式命名為 HaLow，使用 1GHz 以下的無線頻段傳輸，目標是在 1km 傳輸距離下還能保持 100kbps 以上的傳輸效能，且盡量降低功率消耗。
+802.11ah 主要應用於物聯網（IoT、Internet of Things）與機器間的傳輸（M2M、Machine to Machine），與之相抗衡的技術分別有 ZigBee 與藍牙低功耗。
+
+802.11ah 或是稱之為 HaLow，在實體層部分繼承 802.11ac，
+因此也支援 256QAM 調變、波束成形、多使用者多輸出多輸出（MU-MIMO、Multi-User Multiple-Input and Multiple-Output）。
+不過因為使用的頻寬較少，僅為 2、4、8、16MHz，為了長距離傳輸還加入 1MHz，
+所以傳輸速率自然比不上最高可使用 160MHz 頻寬的 802.11ac，802.11ah 依據調變方式的不同，使用 2MHz 頻寬最高約可達 7.8Mbps（800ns 保護區間）。
+
+與其它 Wi-Fi 無線網路相同，802.11ah 使用不需授權的頻段進行傳輸，
+在 1GHz 頻率以下，美國可使用 902～928MHz、日本則是 916.5～927.5MHz、台灣 1GHz 以下筆者找不到任何資訊，
+且 902～928MHz 我國部分頻段作為行動電話，勢必無法通用未來的 802.11ah 產品。
+
+還好 802.11ah 規格才剛剛正式確立，預計產品開始大量出貨時間點約落在 2018 年，還有 2～3 年的緩衝期，
+且 802.11ah 本身需先面臨 ZigBee、藍牙低功耗的競爭，是否能成為 IoT 或是 M2M 主流傳輸規格還很難說。
+
+802.11 ac:
+
+WPA(Wi-Fi Protected Access)/WPA2:
+WPA & WPA2 are two security protocols and security certification programs developed by the Wi-Fi Alliance to secure wireless computer networks.
+WPA的資料是以一把128位元的鑰匙和一個48位元的初向量（IV）的RC4 stream cipher來加密。
+WPA超越WEP的主要改進就是在使用中可以動態改變金鑰的「臨時金鑰完整性協定」（Temporal Key Integrity Protocol，TKIP），加上更長的初向量，
+這可以擊敗知名的針對WEP的金鑰擷取攻擊。
+
+除了認證跟加密外，WPA對於所載資料的完整性也提供了巨大的改進。WEP所使用的CRC（迴圈冗餘校驗）先天就不安全，在不知道WEP金鑰的情況下，
+要篡改所載資料和對應的CRC是可能的，而WPA使用了名為「Michael」的更安全的訊息認證碼（在WPA中叫做訊息完整性查核，MIC）。
+進一步地，WPA使用的MIC包含了影格計數器，以避免WEP的另一個弱點——重放攻擊（Replay attack）的利用。
+
+WPA /WPA2是針對企業的，對安全性要求很高的用戶，較WPA-PSK/WPA2-PSK多了一個認證伺服器。
+WPA-PSK/WPA2-PSK主要是針對個人或家庭網絡等，對安全性要求不是很高的用戶。
+
+WPA-PSK（Wi-Fi ProtectedAccess，Wi-Fi保護訪問）是WiFi聯盟推出的標準，它是為兼容原有的WEP硬體產品，所以它採用的模式是：
+WPA-PSK = PSK + TKIP + MIC
+PSK：PreShared Key，預共享密鑰。
+TKIP：Temporal KeyIntegrity Protocol，臨時密鑰完整性協議。
+MIC：Message IntegrityCode，消息完整性校驗碼。
+TKIP的開發目的是為了提高原有的基於WEP硬體的安全性，因此它和WEP一樣都是采RC4加密算法，同時保留了WEP的基本結構和操作方式。
+TKIP是一種過渡的加密協議，現已被證明安全性不高。
+
+WPA2是在802.11i頒布之後，WIFI聯盟隨即推出的最新無線安全標準，它遵循802.11i標準，以下是它採用的模式：
+WPA2-PSK= PSK + AES + CCMP
+PSK：PreShared Key，預共享密鑰，它是一種802.11身份驗證方式，以預先設定好的靜態密鑰進行身份驗證，此密鑰必須手動進行傳遞，
+     即是我們的手機連接WIFI熱點時需要輸入的密碼。
+AES：Advanced EncryptionStandard，高級加密標準。AES是美國NIST制定的替代DES的分組加密算法。
+     AES具有優秀的密鑰擴展方案，靈活的密鑰生成算法。算法對內存要求極低，即使在限制較大的環境中也能獲得很好的性能。
+     分組和密鑰被設計成可以在三種長度中自由選擇的形式，AES具有128、192、256位的密鑰。
+     802.11規定CCMP中的AES使用的是128位密鑰，它的加密塊大小也是128位。
+
+WPA2規定了兩種類型的安全：用於小型和小型辦公室/家庭辦公室網絡的密碼授權，以及用於企業網絡的802.1X/EAP安全。
+
+WPA2強制使用一種新協議，計數器模式與密文塊連結報文認證碼協議（CCMP）。
+CCMP使用AES分組密碼；代替在WEP中所使用的RC4密碼以及臨時密鑰完整性協議。
+分組密碼在數據塊中處理數據，而數據流密碼，比如RC4則以串行數據流的形式逐位加密。這種加密方式一般稱之為CCMP/AES。
+CAES使用128位密鑰，來加密128位數據組。
+CCMP/AES進行了多項改進，包括臨時密鑰（TK）、分組編碼、一次性數據（僅使用一次的數字或位字符串）、上層加密、附加的授權數據（AAD）。
+應當明白的是：AES是一種標準而不是協議。AES標準規定了Rijndael對稱分組密碼的使用，它能使用128、192、和256位的密鑰來加密128位的數據組。
+
+CCMP是一種安全協議。它遵循精心設計的步驟，該步驟包括使用AES所規定算法來加密敏感數據。
+CCMP由可以提供特定功能的專門部件組成。它也使用一個臨時密鑰來完成所有的加密和數據完整性過程。
+
+CCMP：Counter mode with Cipher-block chaining Message authentication code Protocol，計數器模式及密碼塊鏈消息認證碼協議。
+  它是基於高級加密標準（AES）的CCM（CTR with CBC-MAC）模式。CCM是一種通用的模式，它可以使用在任何成塊的加密算法中。
+  CCM模式使用CTR（Counter Mode）提供數據保密，並採用密碼塊鏈信息認證碼（Cipher-Block Chaining with Message Authentication Code，CBC-MAC）來提供數據認證和完整性服務。
+
+CCMP加密時由以下四個輸入項組成：
+（1）明文（Plaintext MPDU）；
+（2）臨時密鑰（TK）；
+（3）封包編號（PN）；
+（4）密鑰標識符（KeyId）；
+
+
+WPA中規定了兩種應用模式：企業模式，家庭模式(包括小型辦公室)。
+根據這兩種不同的應用模式，WPA的認證也分別有兩種不同的方式。對於大型企業的應用，常採用「802.1x+ EAP」的方式，用戶提供認證所需的憑證。
+但對於一些中小型的企業網絡或者家庭用戶，WPA也提供一種簡化的模式，它不需要專門的認證伺服器。
+這種模式叫做「WPA預共享密鑰(WPA-PSK)」，它僅要求在每個WLAN節點(AP、無線路由器、網卡等)預先輸入一個密鑰即可實現。
+這個密鑰僅僅用於認證過程，而不用於傳輸數據的一種無線網絡加密技術。數據加密的密鑰是在認證成功後動態生成，系統將保證「一戶一密」，
+不存在像WEP那樣全網共享一個加密密鑰的情形，因此大大地提高了系統的安全性。
+
+無線網絡加密技術 之 WPA2-PSK(AES)
+在802.11i頒布之後，Wi-Fi聯盟推出了WPA2，它支持AES(高級加密算法)，因此它需要新的硬體支持，它使用CCMP(計數器模式密碼塊鏈消息完整碼協議)。
+在WPA/WPA2中，PTK的生成依賴PMK，而PMK獲的有兩種方式，一個是PSK的形式就是預共享密鑰，在這種方式中 PMK=PSK，
+而另一種方式中，需要認證伺服器和站點進行協商來產生PMK。
+
+TKIP雖然針對WEP的弱點作了重大的改良,但保留了RC4演算法和基本架構,言下之意,TKIP亦存在著RC4本身所隱含的弱點。
+因而802.11i再打造一個全新、安全性更強、更適合應用在無線區域網環境的加密協定-CCMP。所以在CCMP就緒之前,TKIP就已經完成了。
+
+WPA = IEEE 802.11i draft 3 = IEEE 802.1X/EAP + WEP(選擇性項目)/TKIP WPA2 = IEEE 802.11i = IEEE 802.1X/EAP + WEP(選擇性項目)/TKIP/CCMP
+還有最後一種無線網絡加密技術的模式就是WPA-PSK(TKIP)+WPA2-PSK(AES)，這是目前無線路由里最高的加密模式，目前這種加密模式因為兼容性的問題，
+還沒有被很多用戶所使用。目前最廣為使用的就是WPA-PSK(TKIP)和WPA2-PSK(AES)兩種加密模式。
+
+WEP : Wired Equivalent Privacy
+https://zh.wikipedia.org/wiki/%E6%9C%89%E7%B7%9A%E7%AD%89%E6%95%88%E5%8A%A0%E5%AF%86 
+有線等效加密（英文：Wired Equivalent Privacy，縮寫：WEP），又稱無線加密協議（英文：Wireless Encryption Protocol，縮寫：WEP），
+是個保護無線網路資料安全的體制。因為無線網路是用無線電把訊息傳播出去，它特別容易被竊聽。
+WEP的設計是要提供和傳統有線的區域網路相當的機密性，而依此命名的。不過密碼分析學家已經找出有線等效加密幾個弱點，
+因此在2003年被實現大部分IEEE 802.11i標準的Wi-Fi Protected Access淘汰，又在2004年由實現完整IEEE 802.11i標準的WPA2所取代。
+
+WEP是1999年9月通過的IEEE 802.11標準的一部分，使用RC4（Rivest Cipher）串流加密技術達到機密性，並使用CRC-32 驗和達到資料正確性。
+標準的64位元WEP使用40位元的鑰匙接上24位元隨機產生的初向量（initialization vector，IV）成為RC4用的鑰匙。
+在起草原始的WEP標準的時候，美國政府在加密技術的輸出限制中限制了鑰匙的長度，一旦這個限制放寬之後，
+所有的主要業者都用104位元的鑰匙實作了128位元的WEP延伸協定。用戶輸入128位元的WEP鑰匙的方法一般都是用含有26個十六進位數（0-9和A-F）的字串來表示，
+每個字元代表鑰匙中的4個位元，4 * 26 = 104位元，再加上24位元的IV就成了所謂的"128位元WEP鑰匙"。有些廠商還提供256位元的WEP系統，
+就像上面講的，24位元是IV，實際上剩下232位元作為保護之用，典型的作法是用58個十六進位數來輸入，（58 * 4 = 232位元）+ 24個IV位元 = 256個WEP位元。
+鑰匙長度不是WEP安全性的主要因素，破解較長的鑰匙需要攔截較多的封包，但是有某些主動式的攻擊可以激發所需的流量。
+WEP還有其他的弱點，包括IV雷同的可能性和變造的封包，這些用長一點的鑰匙根本沒有用
+
+802.11n協議已經不支持WEP加密方式了
+
+///////////////////////
+AP 會定期發出 Beacon, 此Beacon frame 中包含了一組TIM的資訊
+終端與AP連接後, AP會賦予每一個終端一個AID(Association ID)
+當終端發現自己名列TIM的招領清單, 就會傳一個POLL的訊息給AP, 表示自己已經ready, 可以領回資料了.
+此外, 
+為了消耗大量的 frame, 每隔幾個TIM後就會發一個DTIM, 當收到DTIM時, 所有連接的用戶端都必須清醒, AP會大量的將資料傳出.
+
+
+一 .Beacon Interval (信標間隔) 
+一般無線網卡都是做所謂的被動式掃描(passive scanning) 
+
+當你開啟os下的無線網路管理程式 或是xp內建管理程式 
+無線網路卡其實都在從ISM (工業、科學及醫療) 頻道一直輪番掃描 
+
+註: 工程、科學及醫療設備使用的頻譜(ISM band,2400-2500MHz)
+
+等待掃到 無線基地台的beacon 訊框 才會顯示一行行顯示現在這區域有哪些SSID.而基地台的Beacon 傳送頻繁frame 會比較佔用無線頻寬資源 
+
+Beacon Interval間隔調高 有助於無線網路效能 client 端省電 
+Beacon Interval間隔調低 可以加快wireless client 連結上去速度 
+在漫遊環境和一些wireless client 連線 
+變動比較大場合(public spot) 
+Client 端屬於移動狀態 適用於beacon調低 
+
+Beacon 單位通常以微秒 millsecond 為單位( 1/1000 秒) 
+一般預設值為100 
+
+
+二.DTIM=Delivery 或Traffic indication Map
+要討論DTIM 之前 要先講解TIM .. TIM= Traffic indication Map 
+
+當初設計無線網路 就有想到行動裝置是要考慮到省電打算 
+省電原理很奧妙,進入省電模式時,Ap 會幫 wireless clinet 暫存frame . 
+然後wireless client 會睡著 .利用時間已經跟基地台同步了.會很精準的"醒來" ,
+醒來同步去收beacon frame .醒來不是要立刻接收buffer frame.而是如果檢查到Beacon frame 裡面有含TIM 參數有指示 基地台喊話說 
+"wireless client 請注意 我有暫存資料要丟給你了" 
+
+wireless client 端就要全然"清醒"發出PS-POLL frame 給基地台說 
+我全然清醒了 快點把你buffer frame 丟給我... 
+
+OK.這是用於單點傳輸.DTIM則適用於多點,發出後會丟出廣播訊框,是有著間隔次數. 
+
+DTIM=Delivery 或Traffic idnication Map 
+Delivery Traffic Indication Message 
+
+ap 所定義的dtim 是指間隔多少becaon 才含dtim訊框 
+
+DTIM 高=因為wireless client 睡覺時間比較長一點 比較省電 缺點在於 
+效能 ( latency throughput )可能變差 
+DTIM低 =提升效能,降低基地台buffer frame負擔,對wireless clinet 比較不省電 
+
+RTS threshold（RTS界限）
+
+RTS /CTS功用跟一般有線網路的CSMA/CA 載波偵測 
+假設今天有二個wireless client 同時跟一個基地台做資料傳輸.二個wireless client 之間又有距離無法知道對方也在搶著講話,這時候會產生碰撞狀況. 
+因為大封包比較會有碰撞可能 所以基地台和wireless client 可以設定多少大小frame ,才使用rts/cts功能 
+
+1.rts/cts 如非必要 不要用 會影響到效能 .因為wlan frame 最大2304+8 wep byte=2312 所以訂2312 -到2346等於是"不啟用 "RTS/ CTS 
+
+2.用到狀況是 wireless client 端很散亂分布..rf頻譜干擾嚴重 
+
+3.RTS Length (RTS Threshold) 
+RTS 高(2312 -到2346)=不啟動 用於無干擾網路狀態下 ,client 單純 
+RTS 低 =client 之間距離長,client 處於運動模式.rf 干擾大. 
+
+其實在一般個人,soho 應用環境 這些細部影響可能感覺不出來. 
+但是在於找出問題 增加throughput, latency,隱藏點 有不少幫助. 
+
+SSID vs BSSID vs ESSID vs IBSSID 
+Service Set ID, SSID --「網路名稱」或「服務組識別碼」—識別無線網路。網路上同一SS內的所有無線裝置都必須使用相同的 SSID，否則無法進行通信 
+   SSID是一個ESS的網絡標識(如:TP_Link_1201)，BSSID是一個BSS的標識，BSSID實際上就是AP的MAC地址，用來標識AP管理的BSS，在同一個AP內BSSID和SSID一一映射。
+   在一個ESS內SSID是相同的，但對於ESS內的每個AP與之對應的BSSID是不相同的。如果一個AP可以同時支持多個SSID的話，則AP會分配不同的BSSID來對應這些SSID。
+BSS (Basic Service Set): 
+     BSS 是802.11 LAN的基本組成模塊。能互相進行無線通信的STA可以組成一個BSS（Basic Service Set）。
+     如果一個站移出BSS的覆蓋範圍，它將不能再與BSS的其它成員通信。
+Basic Service Set ID, BSSID -- 基礎服務組識別碼 —每個無線裝置的唯一識別碼。BSSID 就是該裝置的乙太網路 MAC 位址。 
+ESS (Extended Service Set):
+     多個BSS可以構成一個擴展網絡，稱為擴展服務集（ESS）網絡，一個ESS網絡內部的STA可以互相通信，是採用相同的SSID的多個BSS形成的更大規模的虛擬BSS。
+     連接BSS的組件稱為分布式系統（Distribution System，DS）。
+Extended Service Set ID, ESSID -- 延伸服務識別碼 —用來識別包括存取點之無線網路的特殊 SSID。 
+Independent BSSID, IBSSID -- 獨立基礎服務組識別碼—用來識別設定為直接與其他電腦通訊而不使用存取點的無線電腦之網路的特殊 SSID。
+
+802.11 電源管理模式 :
+Active mode :
+   終端電力來源是源源不絕的電力系統(e.g. 插座), 無省電的必要時, IEEE 802.11 允許在此情況下將資料傳輸效能儘可能的提昇.
+
+Power Save Mode :
+   為讓移動終端可撐久一點, IEEE 802.11 設計出一種機制, 讓無線網卡可定期切換至 Dozing mode.
+   當終端處於 dozing mode時, 因無法處理進來的 frame , 故需仰賴負責折衷交通的AP協助暫時保管流進來的frame ,
+   但AP不可能無限制的協助代管, 所以終端需定期清醒, 向AP取回自己的frame, 同時將AP的buffer free 出來.
+   
+   [Q]手機是否也有? 若有, 如何設定time interval?
+   
+   
+IEEE 802.11e ：無線網路的 QoS 標準
+netsh wlan show networks mode=bssid
+
+
+無線接入過程三個階段
+   STA（工作站）啟動初始化、開始正式使用AP傳送數據幀前，要經過三個階段才能夠接入
+   （802.11MAC層負責客戶端與AP之間的通訊，功能包括掃描、接入、認證、加密、漫遊和同步等功能）：
+
+1）掃描階段（SCAN）
+2）認證階段 (Authentication)
+3）關聯（Association）
+
+
+802.11定義了兩種模式：infrastructure mode & ad hoc mode
+infrastructure mode :
+  無線網絡至少有一個和有線網絡連接的無線接入點，還包括一系列無線的終端站。
+  這種配置成為一個BSS（Basic Service Set 基本服務集合）。
+  一個擴展服務集合（ESS Extended Service Set）是由兩個或者多個BSS構成的一個單一子網。
+  由於很多無線的使用者需要訪問有線網絡上的設備或服務（文件伺服器、印表機、網際網路連結），他們都會採用這種Infrastructure模式。
+  
+ad hoc mode (點對點模式 pear to pear模式 or Independent BSS, IBSS) :
+  
+
+原文網址：https://read01.com/ade5LA.html
+

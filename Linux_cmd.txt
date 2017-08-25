@@ -1,0 +1,497 @@
+~/.bash_history 記錄的是前一次登入以前所執行過的指令， 而至於這一次登入所執行的指令都被暫存在記憶體中，當你成功的登出系統後，該指令記憶才會記錄到 .bash_history 當中！
+
+
+命令別名設定功能： (alias) 
+alias lm='ls -al'
+
+"cd -" : 表示回到剛剛的那個目錄
+"cp -a" : 相當於 -dr --preserve=all 的意思，
+          -d  ：若來源檔為連結檔的屬性(link file)，則複製連結檔屬性而非檔案本身；
+          -r  ：遞迴持續複製，用於目錄的複製行為；(常用)
+          -s  ：複製成為符號連結檔 (symbolic link)，亦即『捷徑』檔案；
+          -u  : 是在目標檔案與來源檔案有差異時，才會複製的
+
+other usage : cp [options] source1 source2 source3 .... directory
+         如果來源檔有兩個以上，則最後一個目的檔一定要是『目錄』才行！
+
+basename (取得最後的檔名) / dirname(取得目錄名)
+
+"less" is better than "more"
+
+怎麼知道這個指令是來自於外部指令(指的是其他非 bash 所提供的指令) 或是內建在 bash 當中的呢？ 嘿嘿！利用 type 這個指令來觀察即可 ,
+type 主要在找出『執行檔』而不是一般檔案檔名喔
+
+變數的取用與設定：echo, 變數設定規則, unset
+	-變數在被取用時，前面必須要加上錢字號『 $ 』才行
+         變數的取用利用 echo 就能夠讀出，只是需要在變數名稱前面加上 $ ， 或者是以 ${變數} 的方式來取用都可以！
+
+- 變數與變數內容以一個等號『=』來連結 , 兩邊不能直接接空白字元 , 名稱只能是英文字母與數字，但是開頭字元不能是數字
+  變數內容若有空白字元可使用雙引號『"』或單引號『'』將變數內容結合起來，但
+
+==> 雙引號內的特殊字元如 $ 等，可以保有原本的特性，如：『var="lang is $LANG"』則『echo $var』可得『lang is zh_TW.UTF-8』
+    單引號內的特殊字元則僅為一般字元 (純文字)，如：『var='lang is $LANG'』則『echo $var』可得『lang is $LANG』
+
+==> 可用跳脫字元『 \ 』將特殊符號(如 [Enter], $, \, 空白字元, '等)變成一般字元，如：『myname=VBird\ Tsai』
+
+- 若該變數需要在其他子程序執行，則需要以 export 來使變數變成環境變數：『export PATH』
+- 取消變數的方法為使用 unset ：『unset 變數名稱』例如取消 myname 的設定：『unset myname』
+- 變數類型預設為『字串』，所以若不指定變數類型，則 1+2 為一個『字串』而不是『計算式』。
+e.g.
+[dmtsai@study ~]$ sum=100+300+50
+[dmtsai@study ~]$ echo ${sum}
+100+300+50  <==咦！怎麼沒有幫我計算加總？因為這是文字型態的變數屬性啊！
+[dmtsai@study ~]$ declare -i sum=100+300+50
+[dmtsai@study ~]$ echo ${sum}
+450         <==瞭乎？？
+
+
+反單引號( ` )這個符號代表的意義為何？
+在一串指令中，在 ` 之內的指令將會被先執行，亦可使用 $( ),而其執行出來的結果將做為外部的輸入資訊！
+e.g. 
+$ ls -ld `locate crontab`
+先以 locate 將檔名資料都列出來，再以 ls 指令來處理的意思啦！
+
+
+==>
+- 讀取來自鍵盤輸入的變數，就是用 read 這個指令了。這個指令最常被用在 shell script 的撰寫當中， 想要跟使用者對談？用這個指令就對了。
+$ read [-pt] variable
+選項與參數：
+-p  ：後面可以接提示字元！
+-t  ：後面可以接等待的『秒數！』這個比較有趣～不會一直等待使用者啦！
+e.g.
+	[dmtsai@study ~]$ read -p "Please keyin your name: " -t 30 named
+	Please keyin your name: VBird Tsai   <==注意看，會有提示字元喔！
+	[dmtsai@study ~]$ echo ${named}
+  
+
+source ：讀入環境設定檔的指令
+利用 source 或小數點 (.) 都可以將設定檔的內容讀進來目前的 shell 環境中！ 舉例來說，我修改了 ~/.bashrc ，那麼不需要登出，立即以 source ~/.bashrc 就可以將剛剛最新設定的內容讀進來目前的環境中
+
+~/.bash_logout
+記錄了『當我登出 bash 後，系統再幫我做完什麼動作後才離開』的意思。
+預設的情況下，登出時， bash 只是幫我們清掉螢幕的訊息而已。 不過，你也可以將一些備份或者是其他你認為重要的工作寫在這個檔案中 (例如清空暫存檔)， 那麼當你離開 Linux 的時候，就可以解決一些煩人的事情囉！
+
+
+- 常用的萬用字元
+*	代表『 0 個到無窮多個』任意字元
+?	代表『一定有一個』任意字元
+[ ]	同樣代表『一定有一個在括號內』的字元(非任意字元)。例如 [abcd] 代表『一定有一個字元， 可能是 a, b, c, d 這四個任何一個』
+[ - ]	若有減號在中括號內時，代表『在編碼順序內的所有字元』。例如 [0-9] 代表 0 到 9 之間的所有數字，因為數字的語系編碼是連續的！
+[^ ]	若中括號內的第一個字元為指數符號 (^) ，那表示『反向選擇』，例如 [^abc] 代表 一定有一個字元，只要是非 a, b, c 的其他字元就接受的意思。
+
+- bash 環境中的特殊符號
+\	跳脫符號：將『特殊字元或萬用字元』還原成一般字元
+|	管線 (pipe)：分隔兩個管線命令的界定(後兩節介紹)；
+;	連續指令下達分隔符號：連續性命令的界定 (注意！與管線命令並不相同)
+        不考慮指令相關性的連續指令下達
+&	工作控制 (job control)：將指令變成背景下工作
+>, >>	資料流重導向：輸出導向，分別是『取代』與『累加』
+       - 如果我想要將資料累加而不想要將舊的資料刪除，那該如何是好？利用兩個大於的符號 (>>) 就好啦！
+<, <<	資料流重導向：輸入導向 (這兩個留待下節介紹)
+' '	單引號，不具有變數置換的功能 ($ 變為純文字)
+" "	具有變數置換的功能！ ($ 可保留相關功能)
+` `	兩個『 ` 』中間為可以先執行的指令，亦可使用 $( )
+
+
+
+    標準輸入　　(stdin) ：代碼為 0 ，使用 < 或 << ；
+    標準輸出　　(stdout)：代碼為 1 ，使用 > 或 >> ；
+    標準錯誤輸出(stderr)：代碼為 2 ，使用 2> 或 2>> ；
+    e.g.
+       將 stdout 與 stderr 分存到不同的檔案去
+       $ find /home -name .bashrc > list_right 2> list_error
+    如果我要將正確與錯誤資料通通寫入同一個檔案去呢？
+       $ find /home -name .bashrc > list 2>&1
+
+不清楚 /tmp/abc 是否存在，但就是要建立 /tmp/abc/hehe 檔案
+     $ ls /tmp/abc || mkdir /tmp/abc && touch /tmp/abc/hehe
+    (1)若 /tmp/abc 不存在故回傳 $?≠0，則 (2)因為 || 遇到非為 0 的 $? 故開始 mkdir /tmp/abc，由於 mkdir /tmp/abc 會成功進行，所以回傳 $?=0 (3)因為 && 遇到 $?=0 故會執行 touch /tmp/abc/hehe，最終 hehe 就被建立了；
+    (1)若 /tmp/abc 存在故回傳 $?=0，則 (2)因為 || 遇到 0 的 $? 不會進行，此時 $?=0 繼續向後傳，故 (3)因為 && 遇到 $?=0 就開始建立 /tmp/abc/hehe 了！最終 /tmp/abc/hehe 被建立起來。
+
+    由於指令是一個接著一個去執行的，因此，如果真要使用判斷， 那麼這個 && 與 || 的順序就不能搞錯。
+
+
+擷取命令： cut, grep
+   cut 主要的用途在於將『同一行裡面的資料進行分解！』最常使用在分析一些數據或文字資料的時候！
+   $ cut -d'分隔字元' -f fields <==用於有特定分隔字元
+   $ cut -c 字元區間            <==用於排列整齊的訊息
+	選項與參數：
+	-d  ：後面接分隔字元。與 -f 一起使用；
+	-f  ：依據 -d 的分隔字元將一段訊息分割成為數段，用 -f 取出第幾段的意思；
+	-c  ：以字元 (characters) 的單位取出固定字元區間；
+   e.g.
+      將 PATH 變數取出，找出第五個路徑。
+      $ echo ${PATH}
+      /usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/dmtsai/.local/bin:/home/dmtsai/bin
+      #      1      |    2   |       3       |    4    |           5           |      6         |
+      $ echo ${PATH} | cut -d ':' -f 5
+      # 如同上面的數字顯示，我們是以『 : 』作為分隔，因此會出現 /home/dmtsai/.local/bin
+      # 那麼如果想要列出第 3 與第 5 呢？，就是這樣：
+      $ echo ${PATH} | cut -d ':' -f 3,5
+
+      將 export 輸出的訊息，取得第 12 字元以後的所有字串
+      $ export
+	declare -x HISTCONTROL="ignoredups"
+	declare -x HISTSIZE="1000"
+	declare -x HOME="/home/dmtsai"
+	declare -x HOSTNAME="study.centos.vbird"
+	.....(其他省略).....
+      # 注意看，每個資料都是排列整齊的輸出！如果我們不想要『 declare -x 』時，就得這麼做：
+
+      $ export | cut -c 12-
+	HISTCONTROL="ignoredups"
+	HISTSIZE="1000"
+	HOME="/home/dmtsai"
+	HOSTNAME="study.centos.vbird"
+	.....(其他省略).....
+      # 知道怎麼回事了吧？用 -c 可以處理比較具有格式的輸出資料！
+      # 我們還可以指定某個範圍的值，例如第 12-20 的字元，就是 cut -c 12-20 等等！
+     
+    grep [-acinv] [--color=auto] '搜尋字串' filename
+    選項與參數：
+	-a ：將 binary 檔案以 text 檔案的方式搜尋資料
+	-c ：計算找到 '搜尋字串' 的次數
+	-i ：忽略大小寫的不同，所以大小寫視為相同
+	-n ：順便輸出行號
+	-v ：反向選擇，亦即顯示出沒有 '搜尋字串' 內容的那一行！
+	--color=auto ：可以將找到的關鍵字部分加上顏色的顯示喔！
+        e.g. 
+           grep 'avahi' /lib/systemd/system/*
+
+   $ grep [-A] [-B] [--color=auto] '搜尋字串' filename
+  選項與參數：
+-A ：後面可加數字，為 after 的意思，除了列出該行外，後續的 n 行也列出來；
+-B ：後面可加數字，為 befer 的意思，除了列出該行外，前面的 n 行也列出來；
+  
+   
+   $ grep -r --include='*.java' localhost .
+     從目前目錄 , 針對附檔名為 java 檔查看內容是否有 localhost 的字串
+
+
+- sort
+可以幫我們進行排序，而且可以依據不同的資料型態來排序,例如數字與文字的排序就不一樣。此外，排序的字元與語系的編碼有關，因此， 如果您需要排序時，建議使用 LANG=C 來讓語系統一，資料排序比較好一些.
+$ sort [-fbMnrtuk] [file or stdin]
+選項與參數：
+	-f  ：忽略大小寫的差異，例如 A 與 a 視為編碼相同；
+	-b  ：忽略最前面的空白字元部分；
+	-M  ：以月份的名字來排序，例如 JAN, DEC 等等的排序方法；
+	-n  ：使用『純數字』進行排序(預設是以文字型態來排序的)；
+	-r  ：反向排序；
+	-u  ：就是 uniq ，相同的資料中，僅出現一行代表；
+	-t  ：分隔符號，預設是用 [tab] 鍵來分隔；
+	-k  ：以那個區間 (field) 來進行排序的意思
+        e.g. 
+           個人帳號都記錄在 /etc/passwd 下，請將帳號進行排序。
+	$ cat /etc/passwd | sort
+	abrt:x:173:173::/etc/abrt:/sbin/nologin
+	adm:x:3:4:adm:/var/adm:/sbin/nologin
+	alex:x:1001:1002::/home/alex:/bin/bash
+	# 由上面的資料看起來， sort 是預設『以第一個』資料來排序，
+	# 而且預設是以『文字』型態來排序的喔！所以由 a 開始排到最後囉！
+
+	範例二：/etc/passwd 內容是以 : 來分隔的，我想以第三欄來排序，該如何？
+	$ cat /etc/passwd | sort -t ':' -k 3
+	root:x:0:0:root:/root:/bin/bash
+	dmtsai:x:1000:1000:dmtsai:/home/dmtsai:/bin/bash
+	alex:x:1001:1002::/home/alex:/bin/bash
+	arod:x:1002:1003::/home/arod:/bin/bash
+	# 看到特殊字體的輸出部分了吧？怎麼會這樣排列啊？呵呵！沒錯啦～
+	# 如果是以文字型態來排序的話，原本就會是這樣，想要使用數字排序：
+	# cat /etc/passwd | sort -t ':' -k 3 -n
+	# 這樣才行啊！用那個 -n 來告知 sort 以數字來排序啊！
+
+- wc
+     如果我想要知道 /etc/man_db.conf 這個檔案裡面有多少字？多少行？多少字元的話， 可以怎麼做呢？其實可以利用 wc 這個指令來達成
+     選項與參數：
+	-l  ：僅列出行；
+	-w  ：僅列出多少字(英文單字)；
+	-m  ：多少字元；
+     e.g.
+         $ cat /etc/man_db.conf | wc 1
+         $ last | grep [a-zA-Z] | grep -v 'wtmp' | grep -v 'reboot' | \
+> grep -v 'unknown' |wc -l
+
+
+- tr
+     可以用來刪除一段訊息當中的文字，或者是進行文字訊息的替換
+     $ tr [-ds] SET1 ...
+	選項與參數：
+	-d  ：刪除訊息當中的 SET1 這個字串；
+	-s  ：取代掉重複的字元！
+      e.g.
+      範例一：將 last 輸出的訊息中，所有的小寫變成大寫字元：
+	$ last | tr '[a-z]' '[A-Z]'
+	# 事實上，沒有加上單引號也是可以執行的，如：『 last | tr [a-z] [A-Z] 』
+
+	範例二：將 /etc/passwd 輸出的訊息中，將冒號 (:) 刪除
+==>	$ cat /etc/passwd | tr -d 1. 內容與功能； 2. 版本資訊； 3. 作者與聯絡方式； 4. 建檔日期；5. 歷史紀錄 ':'
+        
+
+- 參數代換： xargs
+  e.g.
+  $ cut -d ':' -f 1 /etc/passwd | head -n 3 | xargs -n 1 id
+   
+- 什麼是正規表示法
+  簡單的說，正規表示法就是處理字串的方法，他是以行為單位來進行字串的處理行為， 正規表示法透過一些特殊符號的輔助，可以讓使用者輕易的達到『搜尋/刪除/取代』某特定字串的處理程序！
+  『正規表示法與萬用字元是完全不一樣的東西！』 這很重要喔！因為『萬用字元 (wildcard) 代表的是 bash 操作介面的一個功能』，但正規表示法則是一種字串處理的表示方式！ 這兩者要分的很清楚才行.
+
+  基礎正規表示法字符彙整
+  - ^word	意義：待搜尋的字串(word)在行首！
+     e.g. 
+        搜尋行首為 # 開始的那一行，並列出行號    
+           grep -n '^#' regular_express.txt
+
+  - word$	意義：待搜尋的字串(word)在行尾！
+     e.g.：將行尾為 ! 的那一行列印出來，並列出行號  
+           grep -n '!$' regular_express.txt
+
+  - .	意義：代表『一定有一個任意字元』的字符！
+     e.g.：搜尋的字串可以是 (eve) (eae) (eee) (e e)， 但不能僅有 (ee) ！亦即 e 與 e 中間『一定』僅有一個字元，而空白字元也是字元！
+           grep -n 'e.e' regular_express.txt
+
+  - \	意義：跳脫字符，將特殊符號的特1. 內容與功能； 2. 版本資訊； 3. 作者與聯絡方式； 4. 建檔日期；5. 歷史紀錄 殊意義去除！
+     e.g.：搜尋含有單引號 ' 的那一行！
+           grep -n \' regular_express.txt
+
+  - *	意義：重複零個到無窮多個的前一個 RE 字符
+    e.g：找出含有 (es) (ess) (esss) 等等的字串，注意，因為 * 可以是 0 個，所以 es 也是符合帶搜尋字串。另外，因為 * 為重複『前一個 RE 字符』的符號， 因此，在 * 之前必須要緊接著一個 RE 字符喔！例如任意字元則為 『.*』 ！
+           grep -n 'ess*' regular_express.txt
+
+  - [list]	意義：字元集合的 RE 字符，裡面列出想要擷取的字元！
+    e.g：搜尋含有 (gl) 或 (gd) 的那一行，需要特別留意的是，在 [] 當中『謹代表一個待搜尋的字元』， 例如『 a[afl]y 』代表搜尋的字串可以是 aay, afy, aly 即 [afl] 代表 a 或 f 或 l 的意思！
+           grep -n 'g[ld]' regular_express.txt
+
+  再次強調：『正規表示法的特殊字元』與一般在指令列輸入指令的『萬用字元』並不相同， 例如，在萬用字元當中的 * 代表的是『 0 ~ 無限多個字元』的意思，但是在正規表示法當中， * 則是『重複 0 到無窮多個的前一個 RE 字符』的意思
+
+
+- sed 工具 : 分析關鍵字的取用、統計
+  一個管線命令，可以分析 standard input 的啦！ 而且 sed 還可以將資料進行取代、刪除、新增、擷取特定行等.
+  以行為單位的取代與顯示功能
+
+  部分資料的搜尋並取代的功能
+  sed 's/要被取代的字串/新的字串/g'
+  
+  直接修改檔案內容(危險動作)
+  e.g. 
+	利用 sed 將 regular_express.txt 內每一行結尾若為 . 則換成 !
+	$ sed -i 's/\.$/\!/g' regular_express.txt
+	# 上頭的 -i 選項可以讓你的 sed 直接去修改後面接的檔案內容而不是由螢幕輸出喔！
+	# 這個範例是用在取代！請您自行 cat 該檔案去查閱結果囉！
+
+	範例七：利用 sed 直接在 regular_express.txt 最後一行加入『# This is a test』
+	[dmtsai@study ~]$ sed -i '$a # This is a test' regular_express.txt
+	# 由於 $ 代表的是最後一行，而 a 的動作是新增，因此該檔案最後新增囉！  
+  sed 的『 -i 』選項可以直接修改檔案內容，這功能非常有幫助！舉例來說，如果你有一個 100 萬行的檔案，你要在第 100 行加某些文字，此時使用 vim 可能會瘋掉！因為檔案太大了！那怎辦？就利用 sed 啊
+
+- 延伸正規表示法
+
+格式化列印： printf
+$ printf '列印格式' 實際內容
+  e.g. printf '%s\t %s\t %s\t %s\t %s\t \n' $(cat printf.txt)
+
+	選項與參數：
+	關於格式方面的幾個特殊樣式：
+	       \a    警告聲音輸出
+	       \b    倒退鍵(backspace)
+	       \f    清除螢幕 (form feed)
+	       \n    輸出新的一行
+	       \r    亦即 Enter 按鍵
+	       \t    水平的 [tab] 按鍵
+	       \v    垂直的 [tab] 按鍵
+	       \xNN  NN 為兩位數的數字，可以轉換數字成為字元。
+	關於 C 程式語言內，常見的變數格式
+	       %ns   那個 n 是數字， s 代表 string ，亦即多少個字元；
+	       %ni   那個 n 是數字， i 代表 integer ，亦即多少整數位數；
+	       %N.nf 那個 n 與 N 都是數字， f 代表 floating (浮點)，如果有小數位數，
+		     假設我共要十個位數，但小數點有兩位，即為 %10.2f 囉！
+
+	列出 16 進位數值 45 代表的字元為何？ $ printf '\x45\n'
+
+awk：好用的資料處理工具
+	awk 主要是處理『每一行的欄位內的資料』，而預設的『欄位的分隔符號為 "空白鍵" 或 "[tab]鍵" 』  
+
+
+- 關機指令： shutdown
+# /sbin/shutdown [-krhc] [時間] [警告訊息]
+	選項與參數：
+	-k     ： 不要真的關機，只是發送警告訊息出去！
+	-r     ： 在將系統的服務停掉之後就重新開機(常用)
+	-h     ： 將系統的服務停掉後，立即關機。 (常用)
+	-c     ： 取消已經在進行的 shutdown 指令內容。
+	e.g. 
+		# shutdown -h now
+		立刻關機，其中 now 相當於時間為 0 的狀態
+		# shutdown -h 20:25
+		系統在今天的 20:25 分會關機，若在21:25才下達此指令，則隔天才關機
+		# shutdown -h +10
+		系統再過十分鐘後自動關機
+		# shutdown -r now
+		系統立刻重新開機
+		# shutdown -r +30 'The system will reboot' 
+		再過三十分鐘系統會重新開機，並顯示後面的訊息給所有在線上的使用者
+
+- which (尋找『執行檔』)
+   # which [-a] command
+	選項或參數：
+	-a ：將所有由 PATH 目錄中可以找到的指令均列出，而不止第一個被找到的指令名稱
+    e.g. 
+      # which ifconfig
+      /sbin/ifconfig 
+
+- # locate [-ir] keyword / updatedb
+	選項與參數：
+	-i  ：忽略大小寫的差異；
+	-c  ：不輸出檔名，僅計算找到的檔案數量
+	-l  ：僅輸出幾行的意思，例如輸出五行則是 -l 5
+	-S  ：輸出 locate 所使用的資料庫檔案的相關資訊，包括該資料庫紀錄的檔案/目錄數量等
+	-r  ：後面可接正規表示法的顯示方式
+        更新 locate 資料庫的方法非常簡單，直接輸入『 updatedb 』就可以
+
+- find [PATH] [option] [action]
+	[option]
+	  -name filename：搜尋檔案名稱為 filename 的檔案；
+	   e.g. find / -name "*passwd*"
+		find /work /home -name "*passwd*"
+	   find 本來就會搜尋次目錄
+
+	  -size [+-]SIZE：搜尋比 SIZE 還要大(+)或小(-)的檔案。這個 SIZE 的規格有：
+		           c: 代表 byte， k: 代表 1024bytes。所以，要找比 50KB
+		           還要大的檔案，就是『 -size +50k 』
+        [action]
+          -exec {} \;  
+             {} 代表的是『由 find 找到的內容』  
+             -exec 一直到 \; 是關鍵字，代表 find 額外動作的開始 (-exec) 到結束 (\;)
+          e.g.  find / -name "*passwd*" -exec ls -l {} \;
+
+常用找程式內資料
+copy 去用避免常要重打(依需求) 
+find . -iregex ".*\.php\|.*\.htm\|.*\.html\|.*\.js\|.*\.java\|.*\.css\|.*txt\|.*\.xml" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.cpp\|.*\.cc\|.*\.c\|.*\.h\|.*\.hh\|.*\.mk\|.*Makefile\|.*\.java" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.cpp\|.*\.cc\|.*\.c\|.*\.h\|.*\.hh\|.*\.mk\|.*Makefile" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.cpp\|.*\.cc\|.*\.c\|.*\.h\|.*\.hh" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.mk\|.*Makefile" -exec grep -iHn "keyword" {} \;
+find . -iregex ".*\.mk\|.*Makefile\|.*Kconfig" -exec grep -iHn "keyword" {} \; 
+
+   find . -name file_name -exec rm {} \;
+
+- 在指令下達的過程中，反單引號( ` )這個符號代表的意義為何？ 
+	在一串指令中，在 ` 之內的指令將會被先執行，而其執行出來的結果將做為外部的輸入資訊！
+	舉例來說，我想要知道每個 crontab 相關檔名的權限：
+
+	    [dmtsai@study ~]$ ls -ld `locate crontab`
+	如此一來，先以 locate 將檔名資料都列出來，再以 ls 指令來處理的意思啦！
+
+- ?：(關於上個執行指令的回傳值)
+	這個變數是：『上一個執行的指令所回傳的值』， 上面這句話的重點是『上一個指令』與『回傳值』兩個地方。當我們執行某些指令時， 這些指令都會回傳一個執行後的代碼。一般來說，如果成功的執行該指令， 則會回傳一個 0 值，如果執行過程發生錯誤，就會回傳『錯誤代碼』才對！一般就是以非為 0 的數值來取代。
+	e.g.
+	[dmtsai@study ~]$ 12name=VBird
+	bash: 12name=VBird: command not found...   <==發生錯誤了！bash回報有問題
+	[dmtsai@study ~]$ echo $?
+	127                                        <==因為有問題，回傳錯誤代碼(非為0)
+
+
+- du : 計算檔案或者資料夾大小
+  e.g. 
+	/home #du -s      //只列 Total (單位為 K)
+	378592  .
+
+	詳細列出 /home 下每個資料夾大小含子目錄佔用空間大小 (顯示人類易懂的單位)
+	/home #du -h      
+	 4.0K    ./log/squid/cache/08/E4
+	 4.0K    ./log/squid/cache/08/91
+	 4.0K    ./log/squid/cache/08/5B
+	 1.1M    ./log/squid/cache/08
+	 19M     ./log/squid/cache
+	 20M     ./log/squid
+	 20M     ./log
+	 370M    .          //Total 佔用空間大小
+
+         /home #du -sh
+         370M    .
+
+	只想看第一層資料夾並排序佔用空間大小怎麼做？ 我們可利用其它指令搭配 du 指令來達成這個需求
+        ls -l：列出檔案及資料夾
+	grep ^d：過濾出資料夾
+	awk '{print $9}'：取第9個欄位，也就是資料夾名稱
+	xargs du -s：列出資料夾大小 (單位是 K)
+	sort -n：按數字大小排序
+        #ls -l | grep ^d | awk '{print $9}' | xargs du -s | sort -n
+
+	查詢掛載點下前 5 名佔用最多空間的資料夾 (單位為 KB)
+        #du -s /var/* | sort -rn | head -5
+
+
+- 在 login shell 的 bash 環境中，所讀取的個人偏好設定檔其實主要有三個，依序分別是：
+    ~/.bash_profile
+    ~/.bash_login
+    ~/.profile
+其實 bash 的 login shell 設定只會讀取上面三個檔案的其中一個， 而讀取的順序則是依照上面的順序。
+
+
+
+vim:
+   replace oldword by newword from head to end without prompt
+   "%s/oldword/newword/g"
+   replace oldword by newword from head to end with prompt
+   "%s/oldword/newword/gc"
+    %s/\<foo\>/bar/gcI
+    Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation and case sentense
+
+    .,$s/foo/bar/g
+    Change each 'foo' to 'bar' for all lines from the current line (.) to the last line ($) inclusive. 
+
+
+   Ctrl+E : previous page
+   Ctrl+Y : next page
+
+./repo forall -c "pwd;git log --format=%ae | grep compal"
+./repo forall -c "pwd ; git log --pretty=format:"%ae" --date=short | grep compal | uniq | grep -v compal"
+
+
+git log --pretty=format:"%ad%x09%ae" --date=short | grep compal
+
+wc -l filename | awk '{ print $1}
+
+cat UR30.W1444V16_20151022.csv | cut -d ',' -f 3-4 | grep '^P' | uniq -c
+
+
+./repo sync;./repo forall -c 'git checkout -f korg/'
+
+1. 內容與功能； 2. 版本資訊； 3. 作者與聯絡方式； 4. 建檔日期；5. 歷史紀錄 
+root   pts/1    192.168.201.254  Thu Feb  5 22:37 - 23:53  (01:16)
+# last 可以輸出『帳號/終端機/來源/日期時間』的資料，並且是排列整齊的
+
+[dmtsai@study ~]$ last | cut -d ' ' -f 1
+# 由輸出的結果我們可以發現第一個空白分隔的欄位代表帳號，所以使用如上指令：
+# 但是因為 root   pts/1 之間空格有好幾個，並非僅有一個，所以，如果要找出 
+# pts/1 其實不能以 cut -d ' ' -f 1,2 喔！輸出的結果會不是我們想要的。
+
+
+範例三：在 last 的輸出訊息中，只要有 root 就取出，並且僅取第一欄
+[dmtsai@study ~]$ last | grep 'root' |cut -d ' ' -f1
+# 在取出 root 之後，利用上個指令 cut 的處理，就能夠僅取得第一欄囉！
+
+
+- tar :
+  
+    壓　縮：tar -jcv -f filename.tar.bz2 要被壓縮的檔案或目錄名稱
+    查　詢：tar -jtv -f filename.tar.bz2
+    解壓縮：tar -jxv -f filename.tar.bz2 -C 欲解壓縮的目錄
+	-z  ：透過 gzip  的支援進行壓縮/解壓縮：此時檔名最好為 *.tar.gz
+	-j  ：透過 bzip2 的支援進行壓縮/解壓縮：此時檔名最好為 *.tar.bz2
+	-J  ：透過 xz    的支援進行壓縮/解壓縮：此時檔名最好為 *.tar.xz
+	      特別留意， -z, -j, -J 不可以同時出現在一串指令列中
+        -p(小寫) ：保留備份資料的原本權限與屬性，常用於備份(-c)重要的設定檔
+        -P(大寫) ：保留絕對路徑，亦即允許備份資料中含有根目錄存在之意；  
+
+    僅解開單一檔案的方法
+    1. 先找到我們要的檔名，假設解開 shadow 檔案好了 
+       tar -jtv -f /root/etc.tar.bz2 | grep 'shadow'
+    2. 將該檔案解開！語法與實際作法如下：
+       tar -jxv -f /root/etc.tar.bz2 etc/shadow
+
+1.send mail from command line :
+    sendEmail -o tls=yes -f lighttpe0222@gmail.com -t light_cheng@compal.com -s smtp.gmail.com:587 -xu lighttpe0222@gmail.com -xp Aa12345678aA -u "Hello from sendEmail" -m "How are you? I'm testing sendEmail from the command line." -a sendEmail_cmdNote.txt
+==> some specail characters in password field may cause the command failed.
+
+

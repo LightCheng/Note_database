@@ -1,0 +1,180 @@
+1. [802.1X]
+IEEE 802.1X是IEEE制定關於用戶接入網路的認證標準,
+全稱是「基於埠的網路接入控制」，屬於IEEE 802.1網路協定組的一部分。於2001年標準化，之後為了配合無線網路的接入進行修訂改版，於2004年完成。
+它為想要連線到LAN或WLAN的裝置提供了一種認證機制。
+
+IEEE 802.1X defines the encapsulation of the Extensible Authentication Protocol (EAP) over IEEE 802,which is known as "EAP over LAN" or EAPOL.
+EAPOL was originally designed for IEEE 802.3 Ethernet in 802.1X-2001, 
+but was clarified to suit other IEEE 802 LAN technologies such as IEEE 802.11 wireless and Fiber Distributed Data Interface (ISO 9314-2) in 802.1X-2004.
+The EAPOL protocol was also modified for use with IEEE 802.1AE (“MACsec”) and IEEE 802.1AR (Secure Device Identity, DevID) in 802.1X-2010 to support service identification and optional point to point encryption over the local LAN segment.
+
+802.1X是對於使用者身份進行確認, 且不會造成同一台機器但不同使用者權限授權的困擾.
+802.1X只是一個架構, 是IEEE 採用IETF 的可延伸身份認証協定(EAP)制定而成.
+
+EAP 是一種基礎封裝方式, 可適用於任何的Link layer 如PPP, 802.3, 802.11 及各種身份認証的方式如 TLS, AKA/SIM, Token card.
+EAP協議是IEEE 802.1x認證機制的核心，它將實現細節交由附屬的EAP Method協議完成，如何選取EAP method由認證系統特徵決定。
+這樣實現了EAP的擴展性及靈活性，EAP可以提供不同的方法分別支持PPP，乙太網、無線區域網的鏈路驗證。
+
+
+LEAP (Lightweight EAP): 為Cisco所專屬的無線身份認証方式.
+
+https://sites.google.com/site/amitsciscozone/home/switching/802-1x
+
+RADIUS (The Remote Authentication Dial-In User Service)
+  Remote Authentication Dial-In User Service (RADIUS) is a networking protocol that 
+  provides centralized Authentication, Authorization, and Accounting (AAA or Triple A) management for users who connect and use a network service. 
+  RADIUS was developed by Livingston Enterprises, Inc. in 1991 as an access server authentication and accounting protocol 
+  and later brought into the Internet Engineering Task Force (IETF) standards.
+  
+  RADIUS is a client/server protocol that runs in the application layer, and can use either TCP or UDP as transport. 
+  Network access servers, the gateways that control access to a network, usually contain a RADIUS client component that communicates with the RADIUS server.
+  RADIUS is often the back-end of choice for 802.1X authentication as well.
+
+2. [802.11K] Std IEEE 802.11k -2008 Radio Resource Measurement
+4. [802.11R] Std IEEE 802.11r Fast BSS Transition
+802.11k and 802.11r are both standards designed to create a more seamless roaming experience for wireless clients. This is particularly useful for VoIP or other applications where long roaming times can result in a very noticeable impact on performance. 
+
+Why do clients sometimes experience service interruptions when roaming?
+When a client roams to a new AP it needs to establish an association/authentication relationship with that AP. 
+In situations where the APs are acting independently of each other, this whole process must occur each time the client moves to a new AP. 
+Without the inclusion of standards like 802.11k and 802.11r, the client will disconnect from it's existing AP before connecting to the new one. 
+This results in a period of time where the client has no network access. 
+This can be manifested in the form of packet loss, dropped calls, or other negative performance.
+
+How do 802.11k and 802.11r help?
+Both standards take different measures to reduce the time required for a client to roam between APs in the same network, 
+and thus reduce the impact of roaming on performance.
+
+802.11k reduces the time required to roam by allowing the client to more quickly determine which AP it should roam to next and how. 
+The AP the client is currently connected to will provide it with information regarding neighboring APs and their channels. 
+This way when the client is ready to roam, it has a better idea of where it will be roaming to.
+
+The 802.11k allows 11k capable clients to request a neighbor report containing information about known
+neighbor APs that are candidates for roaming.
+
+802.11k 標準可協助 iOS 建立最佳化頻道列表，加速搜尋附近可用的 AP 漫遊目標。當現有的 AP 訊號強度減弱時，裝置就會掃描列表中的目標 AP。
+        主要可被終端用於發現在失去連接前應當向哪里移動。實現WLAN連接在AP之間的快速、安全、無縫的切換。 
+
+
+802.11r uses Fast Basic Service Set Transition (FT) to allow encryption keys to be stored on all of the APs in a network. 
+This way, a client doesn't need to perform the complete authentication process to a backend server every time it roams to a new AP within the network
+(Same ESS/Extended Service Set). 
+Thus avoiding a significant amount of latency that would have previously delayed network connectivity.
+
+11r introduces the concept of a “Mobility Domain”. 
+In a Mobility Domain, the initial EAP authentication generates keying material that is used to create a PMK-R0 or “top level” key, 
+from which PMK-R1 keys are derived. 
+Separate PMK-R1 keys are used by each AP in the Mobility Domain to derive Pairwise Temporal Keys (PTKs) to secure the wireless link to a given client. 
+The mechanism used to deliver the PMK-R1 keys to each of the APs in the Mobility Domain (as needed) is vendor specific. 
+Thus all APs in a Mobility Domain must be from a single vendor.
+ 
+11r also includes the "Fast Transition Resource Request Protocol", a pre-association frame exchange used to request resources. 
+Thus the transitioning client device can request resources for a voice call, essentially as part of its process of connecting to a new AP – 
+and if the resources are not granted by a given AP, abandon that AP, and begin 802.11 authentication / association with a different AP.
+
+
+當 iOS 裝置在同一個網路的 AP 之間漫遊時，802.11r 會利用一種稱為「快速基本服務設定轉換」（Fast Basic Service Set Transition，FT）的功能，進行更快速的認證。
+FT 可以同時與預先分享密鑰（PSK）和 802.1X 認證方法搭配使用。
+iOS 10 支援 Cisco 無線網路上的適應性 802.11r 標準。適應性 802.11r 無須在設定好的 Cisco 無線網路上啟用 802.11r，即可提供 FT 功能。
+
+無線電話技術的移動用戶必須能夠從一個AP迅速斷開連接，並重新連接到另一個AP。這個切換過程中的延遲時間不應該超過50毫秒，因為這是人耳能夠感覺到的時間間隔。 
+目前802.11網路在漫遊時的平均延遲是幾百毫秒，這直接導致傳輸過程中的斷續，造成連接丟失和語音品質下降。 
+802.11r改善了移動的用戶端設備在AP之間移動時的切換過程。協議允許一個無線AP在實現切換之前，就建立起與新AP之間安全且具備QoS的狀態
+
+3. [802.11V]
+802.11v Max Idle Period, Directed Multicast Service
+Amendment for wireless networks, which describes
+enhancements to wireless network management, such as:
+‧ Network assisted Power Savings—Helps clients to improve battery life by enabling them to sleep
+longer. For example, mobile devices use a certain amount of idle period to ensure that they remain
+connected to access points and therefore consume more power when performing the following tasks
+in a wireless network.
+‧ Network assisted Roaming—Enables the WLAN to send messages to associated clients, for better
+APs to associate with clients. This is useful for both load balancing and in directing poorly
+connected clients.
+
+To save the power of clients, the following features in the 802.11v standard are used:
+‧ Directed Multicast Service (DMS)
+‧ Base Station Subsystem (BSS) Maximum Idle Period
+
+iOS 支援在某些裝置上使用 802.11v 的基本服務設定（BSS）轉換管理功能。BSS 轉換管理功能可將周遭存取點的載入資訊提供給用戶端的控制層，以影響用戶端漫遊行為。iOS 在決定可能的漫遊目標時，會將此資訊列入考量。
+
+
+無線產品的多種無線加密方式及其區別
+無線網絡的安全性由認證和加密來保證。
+- 認證允許只有被許可的用戶才能連接到無線網絡；
+- 加密的目的是提供數據的保密性和完整性（數據在傳輸過程中不會被篡改）。
+
+RSN、WEP、WAPI、WPA 各種加密方式的異同
+1 有線等效保護協議(Wired Equivalent Privacy - WEP)
+有線等效保護協議。無線接入點設定有WEP密鑰(WEP Key)，無線網卡在要接入到無線網絡是必須要設定相同的WEP Key，否則無法連接到無線網絡。WEP可以用在認證或是加密，例如認證使用Open System，而加密使用WEP；或者認證和加密都使用WEP。WEP加密現在已經有軟體可以輕易破解，因此不是很安全。
+對於開放系統認證，在設置時也可以啟用WEP，此時，WEP用於在傳輸數據時加密，對認證沒有任何作用。
+WEP使用對稱加密算法（即發送方和接收方的密鑰是一致的），WEP使用40位或104位密鑰和24位初始化向量（Initialization Vector – IV，隨機數）來加密數據。
+由於WEP有一些嚴重缺陷，如初始化向量的範圍有限，而且是使用明文傳送……
+
+2. WPA及WPA2
+不同於WEP，WPA同時提供認證（基於802.1X可擴展認證協議– Extensible Authentiation Protocl - EAP的認證）和加密（臨時密鑰完整性協議– Temporal Key Integrity Protocol –TKIP）。
+EAP 是一個認證框架，而不是一種特定的認證機制，EAP提供一些公共的功能，並且允許協商認證機制（EAP方法）。
+EAP規定如何傳輸和使用由EAP方法產生的密鑰材料（如密鑰、證書等等）和參數。
+
+WPA的加密– TKIP
+臨時密鑰完整性協議（Temporal Key Integrity Protocol – TKIP）也是對稱加密方法，使用RC4算法，TKIP使用128位臨時密鑰和48位初始化向量（IV）。
+
+總結：
+WPA的優點：
+（1）WPA利用802.1X認證提供強力的訪問控制；
+（2）TKIP使用動態密鑰
+WPA缺點：
+（1）由於TKIP使用RC4算法，安全隱患
+（2）複雜的認證和加密導致性能降低
+
+
+WPA2的加密 - AES-CCMP
+WPA2顧名思義就是WPA的加強版，也就是IEEE 802.11i的最終方案。同樣有家用的PSK版本（PSK的概念後面會介紹）與企業的IEEE 802.1X版本。
+WPA2與WPA的差別在於，它使用更安全的加密技術AES (Advanced Encryption Standard)，因此比WPA更難被破解、更安全。
+802.11i定義了臨時密鑰完整性協議（TKIP）、
+計數器模式密碼塊鏈消息認證碼協議（Counter Mode withCipher Block Chaining Message Authentication Code Protocol – CCMP）、
+Wireless Robust AuthenticationProtocol – WRAP三種加密方式。
+另外還有一種AES-CCMP加密方式，AES表示Advanced encryption standard（高級加密標準），
+使用AES加密算法代替過時的DES（DataEncryption Standard – 數據加密標準）加密算法能夠提供更高的安全性，但由於AES-CCMP需要硬體，提高了成本。
+
+3 WAPI
+無線區域網認證和保密基礎結構（WLAN Authentication and Privacy Infrastructure）是我國提出的無線區域網安全標準。
+WAPI包括無線區域網認證基礎結構（WLAN AuthenticationInfrastructure - WAI）和無線區域網保密基礎結構（WLAN PrivacyInfrastructure - WPI）。
+WAI提供認證功能，WPI提供加密功能。
+
+4 MAC ACL (Access Control List)
+MACACL只是一種認證方式。在無線AP輸入允許被連入的無線網卡MAC位址，不在此清單的無線網卡無法連入無線網絡。
+
+5 常見的認證和加密方式組合
+WPA是一個中間過渡標準，最終的安全解決標準是802.11i，
+WPA的認證方式是802.1X；加密方法是WEP、TKIP；WPA2的認證方式是802.1X；加密方法是WEP、TKIP和CCMP。即：
+WPA=802.11i草案3=802.1X/EAP+WEP(可選)/TKIP
+WPA2=802.11i=802.1X/EAP+WEP（可選）/TKIP/CCMP（AES-CCMP）
+
+WAPI是中國無線區域網強制性標準中的安全機制，已獲得ISO認可，將成為國際標準。
+實際上WAPI和802.11i物理層是一樣的，只是協議和MAC層不一樣，因此很容易在一個晶片上支持兩種標準。
+
+WPA、WPA2、802.11i的802.1X/EAP認證都要使用authentication server（認證伺服器），
+對於大型企業環境來說，構建一台認證伺服器沒有問題，但對於家庭環境和小型辦公室環境來說，構建一台認證伺服器不太現實。
+
+為了解決這個問題，802.11i提供了一種簡單的認證方法：PSK。
+預共享密鑰（PSK）需要事先在無線訪問點（AP）和所有要訪問無線網絡的電腦上手動輸入一相同的passphrase（這個詞我不知道如何翻譯，有些地方翻譯為密碼/口令，我覺得不太恰當），
+使用一種算法將passphrase轉換為認證時使用的Pairwise Master Key（PMK），另外，在驗證過程中，還要產生用於加密的動態密鑰。
+
+這種進行認證(不使用認證伺服器)/加密的方法稱為WPA/WPA2-Personal或WPA/WPA2 Pre-Shared Key或WPA/WPA2-PSK；
+使用認證伺服器進行認證/加密的方法稱為WPA/WPA2-Enterprise。下面以文本圖的形式對常見的不同認證方式做個總結。
+
+方式1：
+STA（如手機） AP(事先設置密碼)
+Supplicant Authenticator
+方式2：
+STA（如手機）AP 伺服器 （由伺服器進行認證）
+Supplicant Authenticator Authentication Server
+
+RSN (Robost Security Network) : 
+RSN是接入點與移動設備之間的動態協商認證和加密算法。802.11i草案標準中建議的認證方案是基於802.1x和擴展認證協議(EAP)的，加密算法為高級加密標準(AES)。
+動態協商認證和加密算法使RSN可以不斷演進，與最新的安全水平保持同步，添加算法應付新的威脅，並不斷提供保護無線區域網傳送的信息所需要的安全性。
+由於採用動態協商、802.1x、EAP和AES, RSN比WEP和WPA可靠得多。但是，RSN不能很好地在遺留設備上運行。
+只有最新的設備才擁有加快算法在客戶機和接入點中運行速度所需的硬體，提供今天的無線區域網產品所期望的性能。
+WPA將把遺留設備的安全性提高到最低限度的可接受水平，而RSN才是802.11無線傳輸安全性的未來。
