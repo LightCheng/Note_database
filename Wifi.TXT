@@ -1,4 +1,4 @@
-reference :
+:
 http://www.radio-electronics.com/info/wireless/wi-fi/ieee-802-11-standards-tutorial.php
 https://zh.wikipedia.org/wiki/WLAN%E4%BF%A1%E9%81%93%E5%88%97%E8%A1%A8
 
@@ -26,6 +26,9 @@ adb shell wpa_cli -iwlan0 -g@android:wpa_wlan0 IFNAME=wlan0 DRIVER MACADDR
 
 WiFi spec :
 https://www.wi-fi.org/discover-wi-fi/specifications
+
+WiFi 802.1 x ·§­z»P EAP Ãþ«¬
+https://www.intel.com.tw/content/www/tw/zh/support/network-and-i-o/wireless-networking/000006999.html
 
 Check if the project shipping to specific regions, ex: JP, HK, etc, so that the
 Wi-Fi channels supported by this product is fixed.
@@ -89,6 +92,17 @@ core/res/res/values/strings.xml
 <string name="wifi_tether_configure_ssid_default" translatable="false">CAT S31</string>
 
 Android¡]69¡^
+
+
+802.11ªººt¶i¬O ­ì©l802.11->b->a->g->n (a¤ñb¦­´£¥X¦ý¸û±ß¤~¤W¥«)
+1.³Ì¤@¶}©l³Q¼sªx¨Ï¥Îªº¬O802.11b¡]¤]´N¬OWi-Fi¼Ð·Ç©Ò¨Ï¥Îªº¡^¡C¨Ï¥Îªº¬OISM 2.4GHzªºÀW¬q¡A¶Ç¿é³t«×¥i¹F11Mbps¡C
+2.«á¨Ó±À¥X¤F802.11a¡A¥L¨Ï¥Îªº¬O5GHzªºÀW¬q¡A¥Ñ©ó¨ä®iÀW»P½Õ½sªº¤è¦¡§ïÅÜ¡AÅý802.11aªº¶Ç¿é³t«×¥i¹F54Mbps(¬Æ¦Ü108Mbps)¡A¦ý¥Ñ©ó¨Ï¥ÎªºÀW¬q»P802.11b¤£¦P¡A
+  ¬G¨âºØ³W®æ¬O¤£¬Û®eªº¡C¦Ó¦b802.11b¤w³Q·~¬É¼sªx¨Ï¥Îªº«e´£¤U¡A§ï¥Î802.11a»Ý±N³]³Æ§ó·s¡A¦¨¥»¹L°ª¡A¬O¬G¨Ã¨S¦³³Q¤j¶qªº±Ä¥Î¡C
+3.«á¨Ó802.11gªº±À¥X´N¬O¬°¤F¸Ñ¨M802.11b¶Ç¿é³t«×¹L§C¥H¤Î¬Û®e©Êªº°ÝÃD©Ò´£¥X¡C¬G¨ä¨ÌÂÂ±Ä¥Î2.4GHzªºÀW¬q¡A¥B»P802.11a¤@¼Ë¡A¥LÂÇ¥Ñ®iÀW¤Î½ÕÅÜ¤è¦¡ªº§ïÅÜ¡A
+  	¨Ï±o¶Ç¿é³t«×´£ª@¦Ü54Mbps(108Mbps)¡C¦Ó¥Ñ©ó»P802.11b¨Ï¬Û¦PÀW¬q¡A¬G¨ä¤]¥i¥H»P802.11b¬Û®e¡C
+4.ªñ´Á±À¥Xªº802.11n¡A«h¬O¨Ï¥Î2.4GHz»P5GHzÂùÀW¬q¡A¬G¨ä»P802.11a¡B802.11b¡B802.11g¬Ò¥i¬Û®e¡A¥t¥~¥LÁÙÂÇ¥Ñ" ¦h­«¤Ñ½u"ªº§Þ³N¡A
+  ¨Ó¨Ï¶Ç¿é³t«×¤Î¶ZÂ÷³£¦³©Ò´£ª@¡]¾ÚºÙ³t«×¥i¹F540Mbps¡^¡C¤£¹L¨ä¥Ø«e¤´ÄÝ©ó¯ó®×¶¥¬q¡A«D¥¿¦¡©Ò±À¥Xªº¼Ð·Ç¡A©Ò¥H¥i¯à¤´¦³¦U®a²£«~¬Û®e©Êªº°ÝÃD¡C
+
 ¥Ø«e¥D¬yªºµL½uWIFIºôµ¸³]³Æ¤£ºÞ¬O802.11b/gÁÙ¬O802.11b/g/n ¤@¯ë³£¤ä«ù13­Ó«H¹D¡C
 ¥¦­Ìªº¤¤¤ßÀW²vÁöµM¤£¦P¡A¦ý¬O¦]¬°³£¥e¾Ú¤@©wªºÀW²v½d³ò¡A©Ò¥H·|¦³¤@¨Ç¬Û¤¬­«Å|ªº±¡ªp¡C
 ¤U­±¬O13­Ó«H¹DªºÀW²v½d³ò¦Cªí¡C¤F¸Ñ³o13­Ó«H¹D©Ò³BªºÀW¬q¡A¦³§U©ó§Ú­Ì²z¸Ñ¤H­Ì¸g±`»¡ªº¤T­Ó¤£¤¬¬Û­«Å|ªº«H¹D§t¸q¡C
@@ -212,12 +226,21 @@ Wi-Fi Áp·ù¤é«e±N¨ä¥¿¦¡©R¦W¬° HaLow¡A¨Ï¥Î 1GHz ¥H¤UªºµL½uÀW¬q¶Ç¿é¡A¥Ø¼Ð¬O¦b 1km ¶
 WPA(Wi-Fi Protected Access)/WPA2:
 WPA & WPA2 are two security protocols and security certification programs developed by the Wi-Fi Alliance to secure wireless computer networks.
 WPAªº¸ê®Æ¬O¥H¤@§â128¦ì¤¸ªºÆ_°Í©M¤@­Ó48¦ì¤¸ªºªì¦V¶q¡]IV¡^ªºRC4 stream cipher¨Ó¥[±K¡C
+RC4±K½XÂê¬O¤@ºØ¹ïºÙ¦ê¬y±K½XÂê, MOºÝ¨Ï¥Îª÷Æ_»P°T®§µ²¦X²£¥Í±K¤å¶Ç°e, MTºÝ¦¬¨ì«á, ¦A¨Ï¥Î¦P¤@§âª÷Æ_³B²z±K¤åÁÙ­ì¸ê®Æ.
+¦]RC4¨Ï¥ÎIV¬°©ú½X, «Ü®e©ö(¬ù1¤d7¦Ê¸U­Ópacketµo¥Í¤@¦¸)µo¥Í­«½Æªº±¡ªp.
+
 WPA¶W¶VWEPªº¥D­n§ï¶i´N¬O¦b¨Ï¥Î¤¤¥i¥H°ÊºA§ïÅÜª÷Æ_ªº¡uÁ{®Éª÷Æ_§¹¾ã©Ê¨ó©w¡v¡]Temporal Key Integrity Protocol¡ATKIP¡^¡A¥[¤W§óªøªºªì¦V¶q¡A
 ³o¥i¥HÀ»±Ñª¾¦Wªº°w¹ïWEPªºª÷Æ_Â^¨ú§ðÀ»¡C
 
 °£¤F»{ÃÒ¸ò¥[±K¥~¡AWPA¹ï©ó©Ò¸ü¸ê®Æªº§¹¾ã©Ê¤]´£¨Ñ¤F¥¨¤jªº§ï¶i¡CWEP©Ò¨Ï¥ÎªºCRC¡]°j°é¤¾¾l®ÕÅç¡^¥ý¤Ñ´N¤£¦w¥þ¡A¦b¤£ª¾¹DWEPª÷Æ_ªº±¡ªp¤U¡A
 ­n¿y§ï©Ò¸ü¸ê®Æ©M¹ïÀ³ªºCRC¬O¥i¯àªº¡A¦ÓWPA¨Ï¥Î¤F¦W¬°¡uMichael¡vªº§ó¦w¥þªº°T®§»{ÃÒ½X¡]¦bWPA¤¤¥s°µ°T®§§¹¾ã©Ê¬d®Ö¡AMIC¡^¡C
 ¶i¤@¨B¦a¡AWPA¨Ï¥ÎªºMIC¥]§t¤F¼v®æ­p¼Æ¾¹¡A¥HÁ×§KWEPªº¥t¤@­Ó®zÂI¡X¡X­«©ñ§ðÀ»¡]Replay attack¡^ªº§Q¥Î¡C
+
+Â²³æ¨Ó»¡¡AWPA µ¥©ó¬O¥H¤U¥|­Ó¦w¥þ©ÊÄ³ÃD»P¼Ð·Çªº²Õ¦X¡A¤À§O¬O¡G
+1. 802.1x¡G¨­¥÷»{ÃÒ¾÷¨î
+2. TKIP¡GTemporal Key Integrity Protocolª÷Æ_ºÞ²z¡C
+3. WEP¡GWireless Equivalent Privacy¸ê®Æ¥[±K¡C 
+4. MIC¡GMessage. Integrity Code°T®§§¹¾ã©Ê½s½X¡C
 
 WPA /WPA2¬O°w¹ï¥ø·~ªº¡A¹ï¦w¥þ©Ê­n¨D«Ü°ªªº¥Î¤á¡A¸ûWPA-PSK/WPA2-PSK¦h¤F¤@­Ó»{ÃÒ¦øªA¾¹¡C
 WPA-PSK/WPA2-PSK¥D­n¬O°w¹ï­Ó¤H©Î®a®xºôµ¸µ¥¡A¹ï¦w¥þ©Ê­n¨D¤£¬O«Ü°ªªº¥Î¤á¡C
@@ -226,7 +249,7 @@ WPA-PSK¡]Wi-Fi ProtectedAccess¡AWi-Fi«OÅ@³X°Ý¡^¬OWiFiÁp·ù±À¥Xªº¼Ð·Ç¡A¥¦¬O¬°­Ý®e­
 WPA-PSK = PSK + TKIP + MIC
 PSK¡GPreShared Key¡A¹w¦@¨É±KÆ_¡C
 TKIP¡GTemporal KeyIntegrity Protocol¡AÁ{®É±KÆ_§¹¾ã©Ê¨óÄ³¡C
-MIC¡GMessage IntegrityCode¡A®ø®§§¹¾ã©Ê®ÕÅç½X¡C
+MIC¡GMessage Integrity Code¡A®ø®§§¹¾ã©Ê®ÕÅç½X¡C
 TKIPªº¶}µo¥Øªº¬O¬°¤F´£°ª­ì¦³ªº°ò©óWEPµwÅéªº¦w¥þ©Ê¡A¦]¦¹¥¦©MWEP¤@¼Ë³£¬OªöRC4¥[±Kºâªk¡A¦P®É«O¯d¤FWEPªº°ò¥»µ²ºc©M¾Þ§@¤è¦¡¡C
 TKIP¬O¤@ºØ¹L´çªº¥[±K¨óÄ³¡A²{¤w³QÃÒ©ú¦w¥þ©Ê¤£°ª¡C
 
@@ -261,7 +284,6 @@ CCMP¥[±K®É¥Ñ¥H¤U¥|­Ó¿é¤J¶µ²Õ¦¨¡G
 ¡]3¡^«Ê¥]½s¸¹¡]PN¡^¡F
 ¡]4¡^±KÆ_¼ÐÃÑ²Å¡]KeyId¡^¡F
 
-
 WPA¤¤³W©w¤F¨âºØÀ³¥Î¼Ò¦¡¡G¥ø·~¼Ò¦¡¡A®a®x¼Ò¦¡(¥]¬A¤p«¬¿ì¤½«Ç)¡C
 ®Ú¾Ú³o¨âºØ¤£¦PªºÀ³¥Î¼Ò¦¡¡AWPAªº»{ÃÒ¤]¤À§O¦³¨âºØ¤£¦Pªº¤è¦¡¡C¹ï©ó¤j«¬¥ø·~ªºÀ³¥Î¡A±`±Ä¥Î¡u802.1x+ EAP¡vªº¤è¦¡¡A¥Î¤á´£¨Ñ»{ÃÒ©Ò»Ýªº¾ÌÃÒ¡C
 ¦ý¹ï©ó¤@¨Ç¤¤¤p«¬ªº¥ø·~ºôµ¸©ÎªÌ®a®x¥Î¤á¡AWPA¤]´£¨Ñ¤@ºØÂ²¤Æªº¼Ò¦¡¡A¥¦¤£»Ý­n±Mªùªº»{ÃÒ¦øªA¾¹¡C
@@ -281,7 +303,7 @@ WPA = IEEE 802.11i draft 3 = IEEE 802.1X/EAP + WEP(¿ï¾Ü©Ê¶µ¥Ø)/TKIP WPA2 = IEEE 
 ÁÙ¦³³Ì«á¤@ºØµL½uºôµ¸¥[±K§Þ³Nªº¼Ò¦¡´N¬OWPA-PSK(TKIP)+WPA2-PSK(AES)¡A³o¬O¥Ø«eµL½u¸ô¥Ñ¨½³Ì°ªªº¥[±K¼Ò¦¡¡A¥Ø«e³oºØ¥[±K¼Ò¦¡¦]¬°­Ý®e©Êªº°ÝÃD¡A
 ÁÙ¨S¦³³Q«Ü¦h¥Î¤á©Ò¨Ï¥Î¡C¥Ø«e³Ì¼s¬°¨Ï¥Îªº´N¬OWPA-PSK(TKIP)©MWPA2-PSK(AES)¨âºØ¥[±K¼Ò¦¡¡C
 
-WEP : Wired Equivalent Privacy
+WEP : Wired Equivalent Privacy °w¹ï¨ã¦³¥[±Kª÷Æ_ªº¾÷¾¹¶i¦æ¥[±K.
 https://zh.wikipedia.org/wiki/%E6%9C%89%E7%B7%9A%E7%AD%89%E6%95%88%E5%8A%A0%E5%AF%86 
 ¦³½uµ¥®Ä¥[±K¡]­^¤å¡GWired Equivalent Privacy¡AÁY¼g¡GWEP¡^¡A¤SºÙµL½u¥[±K¨óÄ³¡]­^¤å¡GWireless Encryption Protocol¡AÁY¼g¡GWEP¡^¡A
 ¬O­Ó«OÅ@µL½uºô¸ô¸ê®Æ¦w¥þªºÅé¨î¡C¦]¬°µL½uºô¸ô¬O¥ÎµL½u¹q§â°T®§¶Ç¼½¥X¥h¡A¥¦¯S§O®e©ö³QÅÑÅ¥¡C
@@ -392,10 +414,8 @@ Power Save Mode :
    
    [Q]¤â¾÷¬O§_¤]¦³? ­Y¦³, ¦p¦ó³]©wtime interval?
    
-   
 IEEE 802.11e ¡GµL½uºô¸ôªº QoS ¼Ð·Ç
 netsh wlan show networks mode=bssid
-
 
 µL½u±µ¤J¹Lµ{¤T­Ó¶¥¬q
    STA¡]¤u§@¯¸¡^±Ò°Êªì©l¤Æ¡B¶}©l¥¿¦¡¨Ï¥ÎAP¶Ç°e¼Æ¾Ú´V«e¡A­n¸g¹L¤T­Ó¶¥¬q¤~¯à°÷±µ¤J
@@ -405,16 +425,107 @@ netsh wlan show networks mode=bssid
 2¡^»{ÃÒ¶¥¬q (Authentication)
 3¡^ÃöÁp¡]Association¡^
 
-
 802.11©w¸q¤F¨âºØ¼Ò¦¡¡Ginfrastructure mode & ad hoc mode
 infrastructure mode :
   µL½uºôµ¸¦Ü¤Ö¦³¤@­Ó©M¦³½uºôµ¸³s±µªºµL½u±µ¤JÂI¡AÁÙ¥]¬A¤@¨t¦CµL½uªº²×ºÝ¯¸¡C
   ³oºØ°t¸m¦¨¬°¤@­ÓBSS¡]Basic Service Set °ò¥»ªA°È¶°¦X¡^¡C
+
   ¤@­ÓÂX®iªA°È¶°¦X¡]ESS Extended Service Set¡^¬O¥Ñ¨â­Ó©ÎªÌ¦h­ÓBSSºc¦¨ªº¤@­Ó³æ¤@¤lºô¡C
   ¥Ñ©ó«Ü¦hµL½uªº¨Ï¥ÎªÌ»Ý­n³X°Ý¦³½uºôµ¸¤Wªº³]³Æ©ÎªA°È¡]¤å¥ó¦øªA¾¹¡B¦Lªí¾÷¡Bºô»Úºô¸ô³sµ²¡^¡A¥L­Ì³£·|±Ä¥Î³oºØInfrastructure¼Ò¦¡¡C
+
+  ¤ä«ù¤@­Ó©Î¦h­ÓµL½u«È¤áºÝªº³æ­ÓAP ºÙ¬°¤@­ÓBSS.
+  ¤@²Õ³s¨ì¬Û¦P¦³½uºô¸ôªº¨â­Ó¥H¤WAPºÙ¬°¤@­ÓESS.
   
 ad hoc mode (ÂI¹ïÂI¼Ò¦¡ pear to pear¼Ò¦¡ or Independent BSS, IBSS) :
   
+IWLAN (Interworking LAN):
+Mobile data offloading, is the use of complementary network technologies for delivering data originally targeted for cellular networks. 
+Offloading reduces the amount of data being carried on the cellular bands, freeing bandwidth for other users. 
+It is also used in situations where local cell reception may be poor, allowing the user to connect via wired services with better connectivity.
 
-­ì¤åºô§}¡Ghttps://read01.com/ade5LA.html
+Wi-Fi Multimedia (WMM) 
 
+ voice, video, best-effort, and background traffic
+
+
+ all three are required for enterprise-grade QoS without an SVP Server.
+ WMM
+ WMM Power Save
+ WMM Admission Control 
+     it allows the AP to manage bandwidth based on traffic requirements submitted by the device. 
+     APs reject requests if insufficient resources are available, leaving the client device to find a neighboring AP with enough bandwidth. 
+     
+     
+WPA2 has two different authentication modes, Personal and Enterprise, both of which are
+supported on the Spectralink 80-Series Handsets. Authentication mechanisms verify the
+identity of the device and then allow access to the network. Personal mode uses a passwordbased
+authentication method called Pre-Shared Key (PSK). Personal mode is good for timesensitive
+applications such as voice, because the key exchange sequence is limited and does
+not affect roaming between Wi-Fi access points (APs). Enterprise mode, on the other hand,
+requires the device to mutually validate credentials with an 802.1X authentication server (using
+RADIUS) on the LAN every time the device roams to a different AP. As the device roams,
+authentication delays during handoff negatively affect time-sensitive, highly-mobile applications
+such as voice.
+
+
+Voice-Enterprise builds on the priority-based access of the Wi-Fi Multimedia (WMM) quality-of service standard. 
+In addition to the support for multiple queues to differentiate traffic, Voice-Enterprise requires support for WMM-Admission Control (WMM-AC). 
+Admission control requires that before accepting a connection request from a mobile device, 
+the network must ensure that there is sufficient capacity available to handle the new traffic.
+
+Voice devices are typically used ¡§on the move¡¨ and require a continuous connection while in motion. 
+Voice-Enterprise tests the performance of transitions between APs, and uses the protocols defined in 802.11r-2009 to accelerate those transitions.     
+
+Typical voice devices also have relatively small batteries, 
+and APs certified for Voice-Enterprise must implement the power-saving techniques in WMM-Power Save to extend battery life for mobile devices.
+
+One of the reasons that the Voice-Enterprise certification test is rigorous is that it goes beyond protocol conformance testing 
+and includes tests on performance. 
+In the presence of background traffic, voice devices must maintain low latency and jitter performance with tight constraints on acceptable packet loss. 
+
+
+Voice enterprise certificate
+1.	Voice quality
+2.	Mobility
+3.	Power saving
+4.	security
+
+
+To be eligible for certification under the Voice-Personal program, devices and access points are
+required to pass the following Wi-Fi Alliance certification tests: 
+- IEEE 802.11a, 802.11b, or 802.11g;
+- WPA2-Personal;
+- WMM;
+- WMM-Power Save (required for access points, optional for client devices based on the need to conserve battery life)8
+
+http://www.spectralink.com/blog/why-getting-enterprise-quality-voice-over-wireless-lan-challenging
+
+
+. Achieving this means that voice
+transmissions take priority over any other network traffic, handovers between access points need to be seamless and that any individual point in the system does not get overloaded.
+This specific configuration requires a combination of specialized hardware and software built into the handsets and network access points.
+
+Most smartphones do support Wi-Fi functionality but this support is optimized for data, not voice, 
+and is typically missing key features such as Quality of Service (QoS) support for prioritizing voice packets. <== Check
+
+As such, one of the greatest challenges for smartphones in an in-building work environment is delivering acceptable voice quality when using an organization¡¦s in-building Wi-Fi network. 
+
+In a work environment that relies on high quality, mobile calls, the handsets used need to incorporate specialized components to optimize all aspects of the call. 
+
+Telephone users tend to walk as they talk, while data users are usually stationary or periodically nomadic. 
+
+A tunnel is a mechanism used to ship a foreign protocol across a network that normally wouldn't support it. 
+Tunneling protocols allow you to use, for example, IP to send another protocol in the "data" portion of the IP datagram. 
+Most tunneling protocols operate at layer 4, which means they are implemented as a protocol that replaces something like TCP or UDP.
+
+Rogue APs : ¥¼¸g¥ø·~³\¥i¦Ó¨p¦Û±µ¤J¥ø·~ºô¸ô¤¤ªº WiFi APs.
+
+Data VS Voice :
+²¾°Ê¼Ò¦¡, ¨Ï¥Î°Ï°ì, ¨Ï¥Î¤è¦¡
+
+
+»{µý :
+1. Wi-Fi Sigma Test Tool³Q­«·s©R¦W¬°Wi-Fi Test Suite (WTS)¡A±q2015/11/22¥H«á¡ACERTIFIEDn´ú¸Õ¥²¶·¨Ï¥Î¦¹³nÅé´ú¸Õ¡C
+   Mobile AP»PSTAUT²£«~­Y¤£¤ä´©¦¹³nÅé¡A±N¦³¥i¯àµLªk´ú¸Õ¡C
+   
+   

@@ -1,0 +1,15 @@
+security : algorithm / key / keyspace( The larger the keyspace, the moresecure is the key since the key would be harder to guess (break))
+
+Symmetric Key Cryptography:  the sender and the receiver use the same shared key (and the same cipher) to encrypt and decrypt messages.
+
+Asymmetric Key Cryptography: the sender and the receiver use different keys (but the same cipher/algorithm) to encrypt and decrypt messages.
+
+The EAP is not really an authentication protocol. 
+It is a transport framework which runs over link layer protocols and supports multiple authentication mechanisms. 
+The availability of this framework means that once EAP has been implemented over the link layer in a given setup, 
+various authentication protocols (MD5, TLS and so on) can be plugged into it dynamically without affecting the rest of the system architecture. 
+The EAP framework is peer-to-peer and is based on requests and responses. 
+
+EAP allows any arbitrary authentication protocol to be exchanged between the supplicant and the authentication server. Second, the authenticator does not have to understand each authentication method and may act as a passthrough agent for a back-end authentication server. This separation of the authenticator from the backend authentication server allows for higher flexibility and simple, low-cost authenticators. Additionally, this separation simplifies key and credentials management by concentrating this function at a back-end server. All these features make EAP ideally suited for PPP (and also for 802.11, as we shall see later)
+
+Remote Access Dial-In User Security

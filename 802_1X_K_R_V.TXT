@@ -8,15 +8,59 @@ EAPOL was originally designed for IEEE 802.3 Ethernet in 802.1X-2001,
 but was clarified to suit other IEEE 802 LAN technologies such as IEEE 802.11 wireless and Fiber Distributed Data Interface (ISO 9314-2) in 802.1X-2004.
 The EAPOL protocol was also modified for use with IEEE 802.1AE (¡§MACsec¡¨) and IEEE 802.1AR (Secure Device Identity, DevID) in 802.1X-2010 to support service identification and optional point to point encryption over the local LAN segment.
 
+(also known as PortBased Network Access Control) is a framework originally developed
+for wired networks, providing authentication, authorisation
+and key distribution mechanisms, and implementing access control
+for users joining the network. 
+
 802.1X¬O¹ï©ó¨Ï¥ÎªÌ¨­¥÷¶i¦æ½T»{, ¥B¤£·|³y¦¨¦P¤@¥x¾÷¾¹¦ý¤£¦P¨Ï¥ÎªÌÅv­­±ÂÅvªº§xÂZ.
-802.1X¥u¬O¤@­Ó¬[ºc, ¬OIEEE ±Ä¥ÎIETF ªº¥i©µ¦ù¨­¥÷»{µý¨ó©w(EAP)¨î©w¦Ó¦¨.
+802.1X¥u¬O¤@­Ó¬[ºc, ¬OIEEE ±Ä¥ÎIETF(Internet Engineering Task Force) ªº¥i©µ¦ù¨­¥÷»{µý¨ó©w(EAP)¨î©w¦Ó¦¨.
 
 EAP ¬O¤@ºØ°òÂ¦«Ê¸Ë¤è¦¡, ¥i¾A¥Î©ó¥ô¦óªºLink layer ¦pPPP, 802.3, 802.11 ¤Î¦UºØ¨­¥÷»{µýªº¤è¦¡¦p TLS, AKA/SIM, Token card.
 EAP¨óÄ³¬OIEEE 802.1x»{ÃÒ¾÷¨îªº®Ö¤ß¡A¥¦±N¹ê²{²Ó¸`¥æ¥ÑªþÄÝªºEAP Method¨óÄ³§¹¦¨¡A¦p¦ó¿ï¨úEAP method¥Ñ»{ÃÒ¨t²Î¯S¼x¨M©w¡C
 ³o¼Ë¹ê²{¤FEAPªºÂX®i©Ê¤ÎÆF¬¡©Ê¡AEAP¥i¥H´£¨Ñ¤£¦Pªº¤èªk¤À§O¤ä«ùPPP¡A¤A¤Óºô¡BµL½u°Ï°ìºôªºÃì¸ôÅçÃÒ¡C
 
+https://www.intel.co.uk/content/www/uk/en/support/network-and-i-o/wireless-networking/000006999.html?_ga=2.189633643.1192444203.1504232312-1005389825.1504232312
+Some of the most commonly deployed EAP authentication types include 
+  EAP-MD-5, EAP-TLS, EAP-PEAP, EAP-TTLS, EAP-Fast, EAP-SIM, EAP-AKA, PEAP, and Cisco LEAP.
+  LEAP (Lightweight EAP): ¬°Cisco©Ò±MÄÝªºµL½u¨­¥÷»{µý¤è¦¡.
+  Another option¡XVPN
 
-LEAP (Lightweight EAP): ¬°Cisco©Ò±MÄÝªºµL½u¨­¥÷»{µý¤è¦¡.
+EAP ¬O¤@­Ó¦bµL½uºôµ¸©ÎÂI¹ïÂI³s½u¤¤´¶¹M¨Ï¥Îªº»{ÃÒ®Ø¬[¡C¥¦³Q©w¸q¦bRFC 3748¤¤¡A¨Ã¥B¨ú¥N¤FÂÂª©¨óÄ³RFC 2284¡A«á¨Ó³Q·sª©¨óÄ³RFC 5247¨ú¥N¡C
+EAP¤£¶È¥i¥H¥Î©óµL½u°Ï°ìºô¡AÁÙ¥i¥H¥Î©ó¦³½u°Ï°ìºô¡A¦ý¥¦¦bµL½u°Ï°ìºô¤¤¨Ï¥Îªº§óÀWÁc¡C³Ìªñ¡AWPA©MWPA2¼Ð·Ç¤w¸g¥¿¦¡±Ä¯Ç¤F5ÃþEAP§@¬°¥¿¦¡ªº»{ÃÒ¾÷¨î¡C
+EAP-TLS :
+  EAP-TLS¬OIETFªº¤@­Ó¶}©ñ¼Ð·Ç¡A¨Ã¥B¦bµL½u¼t°Ó¤§¶¡±o¨ì«Ü¦nªº¤ä«ù¡C¥¦¯à°÷´£¨Ñ«Ü¦nªº¦w¥þ«OÃÒ¡C
+  ¦]¬°TLS³Q»{¬°¬OSSLªºÄ~©ÓªÌ¡C¥¦¨Ï¥ÎPKI¨Ó«OÅ@Radius»{ÃÒ¦øªA¾¹ªº³q«H¡A³o¬O«ÜÃø§¹¦¨ªº¥ô°È¡C©Ò¥H§Y¨ÏEAP-TLS¨}¦nªº¦w¥þ¡A¥Î¤áºÝ¦b»{ÃÒ®Éªº­t¸ü¦¨¬°¥¦ªº­P©R¶Ë¡C
+  EAP-TLS¼sªx¦a³QµL½u°Ï°ìºôµwÅé©M³nÅé»s³y¼t°Ó¡A¥]¬A·L³n©Ò¤ä«ù¡C
+  ­n¨D¥Î¤á¤èµ¹¥XÃÒ®Ñ¡AÁöµM¤£¬O«Ü¬y¦æ¡A¦ý¬OEAP¡ÐTLS¦b»{ÃÒ¤è­±ªºªø³B¡A¦Ó¥B¬J¤è«K¤S¦w¥þ¡C
+EAP-TTLS
+  EAP-TTLS¬O¥ÑFunk Software©MCerticom¦X§@¶}µoªº¡C¥¦¥Ø«e¬OIETFªº¶}©ñ¼Ð·Ç¯ó®×¡C¥¦¥i¸ó¥­¥x¤ä«ù¡A´£¨Ñ«D±`Àu¨qªº¦w¥þ¡A¨Ã¥B¦b»{ÃÒ¦øªA¾¹¤W¨Ï¥ÎPKIÃÒ®Ñ¡C 
+  TTLS»PTLS³Ì¤jªº°Ï§O¬OTTLS¤£»Ý­n«È¤áºÝ»{ÃÒªº¨óÄ³¡C
+EAP-SIM
+EAP-AKA
+  EAP-AKA(EAP for UMTS Authentication and Key Agreement) ¬O¥Î¨Ó¦b¨Ï¥Î USIM ±µ¤J UMTS ²¾°Ê³q«Hºôµ¸®É¶i¦æ¥Î¤á»{ÃÒ©M±KÆ_¨ó°Óªº¤è®×¡C
+PEAP
+  PEAP¥ÑCISCO¡A·L³n©MRSA SecurityÁp¦X´£¥Xªº¶}©ñ¼Ð·Çªº«ØÄ³¡C¥¦¦­¤w³Q¹B¥Î¦b²£«~¤¤¡A¦Ó¥B´£¨Ñ«Ü¦nªº¦w¥þ¡C
+  ¥¦¦b³]­p¤W©MEAP-TTLS¬Û¦ü¡A¥u»Ý­n¤@¥÷¦øªA¾¹ºÝªºPKIÃÒ®Ñ¨Ó«Ø¥ß¤@­Ó¦w¥þªº¶Ç¿é¼h¦w¥þ³q¹D¡]TLS¡^¥H«OÅ@¥Î¤á»{ÃÒ¡C 
+LEAP
+  »´¶q¯ÅªºÂX®i»{ÃÒ¨óÄ³¡A©ÎLEAP¬O¤@­Ó¥ÑCISCO¨p¤H¾Ö¦³ªºEAP¡C
+  Cisco³q¹L¤¹³\¨ä¥L¼t®a¥Í²£°ò©óEAPªº¶µ¥Ø¨Ó«OÅ@¸Ó¨óÄ³¡C¦b¥ô¦óªºwindows§@·~¨t²Î¤¤¤£¤ä«ùLEAP¡A¦ýLEAP³Q²Ä¤T¤èªº¥Î¤á³nÅé¤ä«ù¡C
+  ¸Ó¨óÄ³¥Ñ©ó¨ä®e©ö¨ü¨ì¦r¨å§ðÀ»¯Ü®z©Ê¡A´N¹³EAP-MD5¡A¦Ó¦b¤@¶}©l«K¼s¬°¤Hª¾¡C
+  Cisco¤´µM»{¬°¦pªG¨Ï¥Î¤Q¤À½ÆÂøªº±K½X¡ALEAP¬O¦w¥þªº¡C¦ý¬O¦b²{¹ê¥@¬É¤¤¤H­Ì´X¥G¤£¨Ï¥Î¤Q¤À½ÆÂøªº±K½X¡A¦]¬°³o¹ï´¶³q¤H¨Ó±N¬O¤@¥ó«D±`§xÃøªº¨Æ±¡¡C
+  ·sªº¨óÄ³¡A½Ñ¦pEAP-TTLS©MPEAP¡A«h¨S¦³³o¨Ç°ÝÃD¡A¦]¬°¥L­Ìµ¹MSCHAPv2¥Î¤á»{ÃÒ·|¸Ü«Ø¥ß¤F¤@­Ó¦w¥þªº¶Ç¿é¼h¦w¥þ¡]TLS¡^³q¹D¡A
+  ¦Ó¥B¥i¥H¹B¦æ¦b¨Ï¥ÎCisco©M¤£¨Ï¥ÎCiscoªº±µ¤JÂI¤W¡C
+    
+EAP¬O¤@­Ó»{ÃÒ®Ø¬[¡A¤£¬O¤@­Ó¯S®íªº»{ÃÒ¾÷¨î¡CEAP´£¨Ñ¤@¨Ç¤½¦@ªº¥\¯à¡A¨Ã¥B¤¹³\¨ó°Ó©Ò§Æ±æªº»{ÃÒ¾÷¨î¡C³o¨Ç¾÷¨î³Q¥s°µEAP¤èªk¡A²{¦b¤j¬ù¦³40ºØ¤£¦Pªº¤èªk¡C
+IETFªºRFC¤¤©w¸qªº¤èªk¥]¬A¡GEAP-MD5, EAP-OTP, EAP-GTC, EAP-TLS, EAP-SIM¡A©MEAP-AKA, ÁÙ¥]¬A¤@¨Ç¼t°Ó´£¨Ñªº¤èªk©M·sªº«ØÄ³¡C
+µL½uºôµ¸¤¤±`¥Îªº¤èªk¥]¬AEAP-TLS, EAP-SIM, EAP-AKA, PEAP, LEAP¡A©MEAP-TTLS¡C
+·íEAP³Q°ò©óIEEE 802.1Xªººôµ¸±µ¤J³]³Æ¡]½Ñ¦p802.11a/b/g ¡AµL½u±µ¤JÂI¡^½Õ¥Î®É¡A
+²{¥NªºEAP¤èªk¥i¥H´£¨Ñ¤@­Ó¦w¥þ»{ÃÒ¾÷¨î¡A¨Ã¥B¦b¥Î¤á©Mºôµ¸±µ¤J¦øªA¾¹¤§¶¡¨ó°Ó¤@­Ó¦w¥þªºPMK¡C¸ÓPMK¥i¥H¥Î©ó¨Ï¥ÎTKIP©MAES¥[±KªºµL½u·|¸Ü¡C
+
+EAP¨ó©wÃþ«¬	³s½u³\¥i»{ÃÒ	                              ¸ê®Æ¶Ç¿é¥[±K
+MD5	           ±K½X¡A³æ¦V»{ÃÒ	
+LEAP	     ±K½X¡AÂù¦V»{ÃÒ	                             °ÊºA§ó·sª÷Æ_
+TLS	       ¾ÌÃÒ¡AÂù¦V»{ÃÒ	                             ¾ÌÃÒ/°ÊºA§ó·sª÷Æ_
+PEAP	±b¸¹±K½X(MSCHAPv2)¡A¥i¨Ï¥Î¤½¥ÎCA¾ÌÃÒ¡AÂù¦V»{ÃÒ	 ¾ÌÃÒ/°ÊºA§ó·sª÷Æ_
 
 https://sites.google.com/site/amitsciscozone/home/switching/802-1x
 
@@ -32,7 +76,8 @@ RADIUS (The Remote Authentication Dial-In User Service)
 
 2. [802.11K] Std IEEE 802.11k -2008 Radio Resource Measurement
 4. [802.11R] Std IEEE 802.11r Fast BSS Transition
-802.11k and 802.11r are both standards designed to create a more seamless roaming experience for wireless clients. This is particularly useful for VoIP or other applications where long roaming times can result in a very noticeable impact on performance. 
+802.11k and 802.11r are both standards designed to create a more seamless roaming experience for wireless clients. 
+This is particularly useful for VoIP or other applications where long roaming times can result in a very noticeable impact on performance. 
 
 Why do clients sometimes experience service interruptions when roaming?
 When a client roams to a new AP it needs to establish an association/authentication relationship with that AP. 
@@ -55,6 +100,8 @@ neighbor APs that are candidates for roaming.
 802.11k ¼Ð·Ç¥i¨ó§U iOS «Ø¥ß³Ì¨Î¤ÆÀW¹D¦Cªí¡A¥[³t·j´Mªþªñ¥i¥Îªº AP º©¹C¥Ø¼Ð¡C·í²{¦³ªº AP °T¸¹±j«×´î®z®É¡A¸Ë¸m´N·|±½´y¦Cªí¤¤ªº¥Ø¼Ð AP¡C
         ¥D­n¥i³Q²×ºÝ¥Î©óµo²{¦b¥¢¥h³s±µ«eÀ³·í¦V­þ¨½²¾°Ê¡C¹ê²{WLAN³s±µ¦bAP¤§¶¡ªº§Ö³t¡B¦w¥þ¡BµLÁ_ªº¤Á´«¡C 
 
+802.11k defines Radio Resource Management (RRM) mechanism that enable 802.11k capable client¡¦s radio to better understand the RF environment 
+that they exist which will help clients to have better roaming.
 
 802.11r uses Fast Basic Service Set Transition (FT) to allow encryption keys to be stored on all of the APs in a network. 
 This way, a client doesn't need to perform the complete authentication process to a backend server every time it roams to a new AP within the network
@@ -67,6 +114,9 @@ from which PMK-R1 keys are derived.
 Separate PMK-R1 keys are used by each AP in the Mobility Domain to derive Pairwise Temporal Keys (PTKs) to secure the wireless link to a given client. 
 The mechanism used to deliver the PMK-R1 keys to each of the APs in the Mobility Domain (as needed) is vendor specific. 
 Thus all APs in a Mobility Domain must be from a single vendor.
+
+A mobility domain is a collection of controllers that have all been configured with each other¡¦s MAC and IP addresses, 
+allowing clients to roam between the controllers in the mobility domain.
  
 11r also includes the "Fast Transition Resource Request Protocol", a pre-association frame exchange used to request resources. 
 Thus the transitioning client device can request resources for a voice call, essentially as part of its process of connecting to a new AP ¡V 
@@ -81,23 +131,24 @@ iOS 10 ¤ä´© Cisco µL½uºô¸ô¤Wªº¾AÀ³©Ê 802.11r ¼Ð·Ç¡C¾AÀ³©Ê 802.11r µL¶·¦b³]©w¦nªº
 ¥Ø«e802.11ºô¸ô¦bº©¹C®Éªº¥­§¡©µ¿ð¬O´X¦Ê²@¬í¡A³oª½±µ¾É­P¶Ç¿é¹Lµ{¤¤ªºÂ_Äò¡A³y¦¨³s±µ¥á¥¢©M»y­µ«~½è¤U­°¡C 
 802.11r§ïµ½¤F²¾°Êªº¥Î¤áºÝ³]³Æ¦bAP¤§¶¡²¾°Ê®Éªº¤Á´«¹Lµ{¡C¨óÄ³¤¹³\¤@­ÓµL½uAP¦b¹ê²{¤Á´«¤§«e¡A´N«Ø¥ß°_»P·sAP¤§¶¡¦w¥þ¥B¨ã³ÆQoSªºª¬ºA
 
-3. [802.11V]
+3. [802.11V] Wireless Network Management
 802.11v Max Idle Period, Directed Multicast Service
-Amendment for wireless networks, which describes
-enhancements to wireless network management, such as:
-¡E Network assisted Power Savings¡XHelps clients to improve battery life by enabling them to sleep
-longer. For example, mobile devices use a certain amount of idle period to ensure that they remain
-connected to access points and therefore consume more power when performing the following tasks
-in a wireless network.
-¡E Network assisted Roaming¡XEnables the WLAN to send messages to associated clients, for better
-APs to associate with clients. This is useful for both load balancing and in directing poorly
-connected clients.
+Amendment for wireless networks, which describes enhancements to wireless network management, such as:
+¡E Network assisted Power Savings ¡X 
+   Helps clients to improve battery life by enabling them to sleep longer. 
+   For example, mobile devices use a certain amount of idle period to ensure that they remain connected to access points 
+   and therefore consume more power when performing the following tasks in a wireless network.
+
+¡E Network assisted Roaming ¡X 
+   Enables the WLAN to send messages to associated clients, for better APs to associate with clients. 
+   This is useful for both load balancing and in directing poorly connected clients.
 
 To save the power of clients, the following features in the 802.11v standard are used:
 ¡E Directed Multicast Service (DMS)
 ¡E Base Station Subsystem (BSS) Maximum Idle Period
 
-iOS ¤ä´©¦b¬Y¨Ç¸Ë¸m¤W¨Ï¥Î 802.11v ªº°ò¥»ªA°È³]©w¡]BSS¡^Âà´«ºÞ²z¥\¯à¡CBSS Âà´«ºÞ²z¥\¯à¥i±N©P¾D¦s¨úÂIªº¸ü¤J¸ê°T´£¨Ñµ¹¥Î¤áºÝªº±±¨î¼h¡A¥H¼vÅT¥Î¤áºÝº©¹C¦æ¬°¡CiOS ¦b¨M©w¥i¯àªºº©¹C¥Ø¼Ð®É¡A·|±N¦¹¸ê°T¦C¤J¦Ò¶q¡C
+iOS ¤ä´©¦b¬Y¨Ç¸Ë¸m¤W¨Ï¥Î 802.11v ªº°ò¥»ªA°È³]©w¡]BSS¡^Âà´«ºÞ²z¥\¯à¡CBSS Âà´«ºÞ²z¥\¯à¥i±N©P¾D¦s¨úÂIªº¸ü¤J¸ê°T´£¨Ñµ¹¥Î¤áºÝªº±±¨î¼h¡A¥H¼vÅT¥Î¤áºÝº©¹C¦æ¬°¡C
+iOS ¦b¨M©w¥i¯àªºº©¹C¥Ø¼Ð®É¡A·|±N¦¹¸ê°T¦C¤J¦Ò¶q¡C
 
 
 µL½u²£«~ªº¦hºØµL½u¥[±K¤è¦¡¤Î¨ä°Ï§O
@@ -132,8 +183,7 @@ WPA¯ÊÂI¡G
 WPA2ªº¥[±K - AES-CCMP
 WPA2ÅU¦W«ä¸q´N¬OWPAªº¥[±jª©¡A¤]´N¬OIEEE 802.11iªº³Ì²×¤è®×¡C¦P¼Ë¦³®a¥ÎªºPSKª©¥»¡]PSKªº·§©À«á­±·|¤¶²Ð¡^»P¥ø·~ªºIEEE 802.1Xª©¥»¡C
 WPA2»PWPAªº®t§O¦b©ó¡A¥¦¨Ï¥Î§ó¦w¥þªº¥[±K§Þ³NAES (Advanced Encryption Standard)¡A¦]¦¹¤ñWPA§óÃø³Q¯}¸Ñ¡B§ó¦w¥þ¡C
-802.11i©w¸q¤FÁ{®É±KÆ_§¹¾ã©Ê¨óÄ³¡]TKIP¡^¡B
-­p¼Æ¾¹¼Ò¦¡±K½X¶ôÃì®ø®§»{ÃÒ½X¨óÄ³¡]Counter Mode withCipher Block Chaining Message Authentication Code Protocol ¡V CCMP¡^¡B
+802.11i©w¸q¤FÁ{®É±KÆ_§¹¾ã©Ê¨óÄ³¡]TKIP¡^¡B­p¼Æ¾¹¼Ò¦¡±K½X¶ôÃì®ø®§»{ÃÒ½X¨óÄ³¡]Counter Mode withCipher Block Chaining Message Authentication Code Protocol ¡V CCMP¡^¡B
 Wireless Robust AuthenticationProtocol ¡V WRAP¤TºØ¥[±K¤è¦¡¡C
 ¥t¥~ÁÙ¦³¤@ºØAES-CCMP¥[±K¤è¦¡¡AAESªí¥ÜAdvanced encryption standard¡]°ª¯Å¥[±K¼Ð·Ç¡^¡A
 ¨Ï¥ÎAES¥[±Kºâªk¥N´À¹L®ÉªºDES¡]DataEncryption Standard ¡V ¼Æ¾Ú¥[±K¼Ð·Ç¡^¥[±Kºâªk¯à°÷´£¨Ñ§ó°ªªº¦w¥þ©Ê¡A¦ý¥Ñ©óAES-CCMP»Ý­nµwÅé¡A´£°ª¤F¦¨¥»¡C
@@ -148,7 +198,9 @@ MACACL¥u¬O¤@ºØ»{ÃÒ¤è¦¡¡C¦bµL½uAP¿é¤J¤¹³\³Q³s¤JªºµL½uºô¥dMAC¦ì§}¡A¤£¦b¦¹²M³æªºµL½
 
 5 ±`¨£ªº»{ÃÒ©M¥[±K¤è¦¡²Õ¦X
 WPA¬O¤@­Ó¤¤¶¡¹L´ç¼Ð·Ç¡A³Ì²×ªº¦w¥þ¸Ñ¨M¼Ð·Ç¬O802.11i¡A
-WPAªº»{ÃÒ¤è¦¡¬O802.1X¡F¥[±K¤èªk¬OWEP¡BTKIP¡FWPA2ªº»{ÃÒ¤è¦¡¬O802.1X¡F¥[±K¤èªk¬OWEP¡BTKIP©MCCMP¡C§Y¡G
+WPAªº»{ÃÒ¤è¦¡¬O802.1X¡F¥[±K¤èªk¬OWEP¡BTKIP¡F
+WPA2ªº»{ÃÒ¤è¦¡¬O802.1X¡F¥[±K¤èªk¬OWEP¡BTKIP©MCCMP¡C§Y¡G
+
 WPA=802.11i¯ó®×3=802.1X/EAP+WEP(¥i¿ï)/TKIP
 WPA2=802.11i=802.1X/EAP+WEP¡]¥i¿ï¡^/TKIP/CCMP¡]AES-CCMP¡^
 
@@ -159,9 +211,9 @@ WPA¡BWPA2¡B802.11iªº802.1X/EAP»{ÃÒ³£­n¨Ï¥Îauthentication server¡]»{ÃÒ¦øªA¾¹¡^¡A
 ¹ï©ó¤j«¬¥ø·~Àô¹Ò¨Ó»¡¡Aºc«Ø¤@¥x»{ÃÒ¦øªA¾¹¨S¦³°ÝÃD¡A¦ý¹ï©ó®a®xÀô¹Ò©M¤p«¬¿ì¤½«ÇÀô¹Ò¨Ó»¡¡Aºc«Ø¤@¥x»{ÃÒ¦øªA¾¹¤£¤Ó²{¹ê¡C
 
 ¬°¤F¸Ñ¨M³o­Ó°ÝÃD¡A802.11i´£¨Ñ¤F¤@ºØÂ²³æªº»{ÃÒ¤èªk¡GPSK¡C
-¹w¦@¨É±KÆ_¡]PSK¡^»Ý­n¨Æ¥ý¦bµL½u³X°ÝÂI¡]AP¡^©M©Ò¦³­n³X°ÝµL½uºôµ¸ªº¹q¸£¤W¤â°Ê¿é¤J¤@¬Û¦Pªºpassphrase¡]³o­Óµü§Ú¤£ª¾¹D¦p¦óÂ½Ä¶¡A¦³¨Ç¦a¤èÂ½Ä¶¬°±K½X/¤f¥O¡A§ÚÄ±±o¤£¤Ó«ê·í¡^¡A
+¹w¦@¨É±KÆ_¡]PSK¡^»Ý­n¨Æ¥ý¦bµL½u³X°ÝÂI¡]AP¡^©M©Ò¦³­n³X°ÝµL½uºôµ¸ªº¹q¸£¤W¤â°Ê¿é¤J¤@¬Û¦Pªºpassphrase
+¡]³o­Óµü§Ú¤£ª¾¹D¦p¦óÂ½Ä¶¡A¦³¨Ç¦a¤èÂ½Ä¶¬°±K½X/¤f¥O¡A§ÚÄ±±o¤£¤Ó«ê·í¡^¡A
 ¨Ï¥Î¤@ºØºâªk±NpassphraseÂà´«¬°»{ÃÒ®É¨Ï¥ÎªºPairwise Master Key¡]PMK¡^¡A¥t¥~¡A¦bÅçÃÒ¹Lµ{¤¤¡AÁÙ­n²£¥Í¥Î©ó¥[±Kªº°ÊºA±KÆ_¡C
-
 ³oºØ¶i¦æ»{ÃÒ(¤£¨Ï¥Î»{ÃÒ¦øªA¾¹)/¥[±Kªº¤èªkºÙ¬°WPA/WPA2-Personal©ÎWPA/WPA2 Pre-Shared Key©ÎWPA/WPA2-PSK¡F
 ¨Ï¥Î»{ÃÒ¦øªA¾¹¶i¦æ»{ÃÒ/¥[±Kªº¤èªkºÙ¬°WPA/WPA2-Enterprise¡C¤U­±¥H¤å¥»¹Ïªº§Î¦¡¹ï±`¨£ªº¤£¦P»{ÃÒ¤è¦¡°µ­ÓÁ`µ²¡C
 
@@ -178,3 +230,28 @@ RSN¬O±µ¤JÂI»P²¾°Ê³]³Æ¤§¶¡ªº°ÊºA¨ó°Ó»{ÃÒ©M¥[±Kºâªk¡C802.11i¯ó®×¼Ð·Ç¤¤«ØÄ³ªº»{ÃÒ¤è
 ¥Ñ©ó±Ä¥Î°ÊºA¨ó°Ó¡B802.1x¡BEAP©MAES, RSN¤ñWEP©MWPA¥i¾a±o¦h¡C¦ý¬O¡ARSN¤£¯à«Ü¦n¦a¦b¿ò¯d³]³Æ¤W¹B¦æ¡C
 ¥u¦³³Ì·sªº³]³Æ¤~¾Ö¦³¥[§Öºâªk¦b«È¤á¾÷©M±µ¤JÂI¤¤¹B¦æ³t«×©Ò»ÝªºµwÅé¡A´£¨Ñ¤µ¤ÑªºµL½u°Ï°ìºô²£«~©Ò´Á±æªº©Ê¯à¡C
 WPA±N§â¿ò¯d³]³Æªº¦w¥þ©Ê´£°ª¨ì³Ì§C­­«×ªº¥i±µ¨ü¤ô¥­¡A¦ÓRSN¤~¬O802.11µL½u¶Ç¿é¦w¥þ©Êªº¥¼¨Ó¡C
+
+
+Wifi Voice enterprise certificate
+1.	Voice quality
+2.	Mobility
+3.	Power saving
+4.	security
+
+http://fanli7.net/a/shujuku/DB2/20100821/14070.html
+Client¥HWPA¼Ò¦¡»PAP«Ø¥ß³sµ²«á¡A­Yºô¸ô¤¤¦³RADIUSªA°È¾¹§@¬°»{ÃÒªA°È¾¹¡A¨º»òClient´N¨Ï¥Î802.1x¤è¦¡¶i¦æ»{ÃÒ¡F
+¦pªGºô¸ô¤¤µLRADIUS¡AClient»PAP´N±Ä¥Î¹w¦@¨É±KÆ_¡]PSK¡APre-Shared Key¡^ªº¤è¦¡¡C
+
+Client³q¹L¤F802.1x¨­¥÷ÅçÃÒ¤§¦Z¡AAP·|±o¨ì¤@­Ó»PClient¬Û¦PªºSession Key¡A AP»PClient±N¸ÓSession Key§@¬°PMK¡]Pairwise Master Key¡A
+¹ï©ó¨Ï¥Î¹w¦@¨É±KÆ_ªº¤è¦¡¨Ó»¡¡APSK´N¬OPMK¡^¡CÀH¦ZAP©MClient³q¹LEAPOL-KEY¶i¦æWPAªº 4-Way Handshake ¹Lµ{¡A
+¦b¦¹¹Lµ{¤¤¡AAP©MClient ·|½T»{¹ï¤è¬O§_«ù¦³»P¦Û¤v¤@­PªºPMK¡A­Y§_¡A4-way habdshake¹Lµ{´N«Å§i¥¢±Ñ¡C
+¬°¤F«OÃÒ¶Ç¿éªº§¹¾ã©Ê¡A¦b´¤¤â¹Lµ{¤¤¨Ï¥Î¤F¦W¬°MIC¡]Message Integrity Code¡^ªºÀËÅç½X¡C
+¦b¥|¦¸´¤¤âªº¹Lµ{¤¤¡AAP»PClient¸g¹L¨ó°Ó­pºâ¥X³ü­Ó512 byteªº PTK¡]Pairwise Transient Key¡^¡A¨Ã±N¸ÓPTK¤À¸Ñ¦¨¤­ºØ¤£¦P¥Î³~ªº±KÆ_.
+
+¨ä¤¤«e128 bytes¥Î°µ­pºâ©MÀËÅçEAPOL-KEYµo¤åªºMICªº±KÆ_¡AÀH¦Zªº128 bytes§@¬°¥[±KEAPOL-KEYªº±KÆ_;
+±µ¤U¨Óªº128 bytes §@¬°AP»P¸Óclient¤§¶¡³q«Hªº¥[±K±KÆ_ªº°òÂ¦±KÆ_¡]§Y¥Ñ¸Ó±KÆ_¦A¸g¹L³ü©wªº­pºâ¦Z±o¥Xªº±KÆ_§@¬°¤GªÌ¤§¶¡ªº±KÆ_¡^;
+³Ì¦Z­Ç­Ó64 bytesªº±KÆ_¤À§O§@¬°AP»P¸ÓClient¶¡µo¤åªºMIC­pºâ©MÀËÅç±KÆ_¡C   <== MIC ?
+
+¥ÑPTK¤À¸Ñ¥X¨Óªº¾A³ü²Õ¡]¤­­Ó¡^±KÆ_¬OAP»P¸ÓClient¤§¶¡¨Ï¥Îªº±KÆ_¡]¤]¥s¨C¥Î¤á±KÆ_¡A¥Î©óAP»Pclient¤§¶¡ªº³æÃäµo¤åªº¥[±K¡^¡A
+³o¨Ç±KÆ_¥Ã»·¤]¤£·|¥H¥ô¦ó§Î¦¡¥X²{¦bµL½uºô¸ô¤W¡C¦b½T»{Âù¤è©Ò«ùªºPMK¤@­P¦Z¡A AP·|®ÚÚ¡¦Û¨­¬O§_¤ä«ù¨C¥Î¤á±KÆ_ªº¯à¤O¨Ó«ü¥ÜClient¬O§_¦w¸Ë¨Ã¨Ï¥Î¾A­Ó¨C¥Î¤á±KÆ_¡C
+

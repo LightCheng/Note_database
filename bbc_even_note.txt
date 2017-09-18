@@ -1497,3 +1497,7 @@
       I get/have the impression that ....。一般印象叫做 general impression。
       RSVP是法文"repondez s'il vous plait" 的縮寫，意思就已經是：請回應（"please respond".），
       
+    - 電話聽筒拿起時傳來的連綿不斷「胡胡」聲，美詞英文叫dial tone，英式叫dialling tone，表示電話隨時可用；
+      電話接通了，但對方還未拿起聽筒，你會聽到悠長的鈴聲，那叫做ringing tone；
+      電話因另一方正在使用無法接通，會發出短促的「嘟嘟」聲，美式英文叫busy tone，英式則叫engaged tone。
+      Whenever I called her number, I got the busy tone. 
