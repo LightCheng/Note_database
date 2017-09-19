@@ -12,7 +12,7 @@ The EAPOL protocol was also modified for use with IEEE 802.1AE (“MACsec”) and 
 for wired networks, providing authentication, authorisation
 and key distribution mechanisms, and implementing access control
 for users joining the network. 
-
+<== add here to PPT
 802.1X是對於使用者身份進行確認, 且不會造成同一台機器但不同使用者權限授權的困擾.
 802.1X只是一個架構, 是IEEE 採用IETF(Internet Engineering Task Force) 的可延伸身份認証協定(EAP)制定而成.
 
@@ -28,6 +28,7 @@ Some of the most commonly deployed EAP authentication types include
 
 EAP 是一個在無線網絡或點對點連線中普遍使用的認證框架。它被定義在RFC 3748中，並且取代了舊版協議RFC 2284，後來被新版協議RFC 5247取代。
 EAP不僅可以用於無線區域網，還可以用於有線區域網，但它在無線區域網中使用的更頻繁。最近，WPA和WPA2標準已經正式採納了5類EAP作為正式的認證機制。
+<== Table for below EAP method.
 EAP-TLS :
   EAP-TLS是IETF的一個開放標準，並且在無線廠商之間得到很好的支持。它能夠提供很好的安全保證。
   因為TLS被認為是SSL的繼承者。它使用PKI來保護Radius認證伺服器的通信，這是很難完成的任務。所以即使EAP-TLS良好的安全，用戶端在認證時的負載成為它的致命傷。
@@ -64,7 +65,7 @@ PEAP	帳號密碼(MSCHAPv2)，可使用公用CA憑證，雙向認證	 憑證/動態更新金鑰
 
 https://sites.google.com/site/amitsciscozone/home/switching/802-1x
 
-RADIUS (The Remote Authentication Dial-In User Service)
+RADIUS (The Remote Authentication Dial-In User Service) <== 3A for RADIUS
   Remote Authentication Dial-In User Service (RADIUS) is a networking protocol that 
   provides centralized Authentication, Authorization, and Accounting (AAA or Triple A) management for users who connect and use a network service. 
   RADIUS was developed by Livingston Enterprises, Inc. in 1991 as an access server authentication and accounting protocol 
