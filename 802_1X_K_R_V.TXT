@@ -13,8 +13,10 @@ for wired networks, providing authentication, authorisation
 and key distribution mechanisms, and implementing access control
 for users joining the network. 
 <== add here to PPT
-802.1X是對於使用者身份進行確認, 且不會造成同一台機器但不同使用者權限授權的困擾.
+802.1X是對於使用者身份進行確認, 且不會造成同一台機器但不同使用者權限授權的困擾. ==> not for the device but for the person.
 802.1X只是一個架構, 是IEEE 採用IETF(Internet Engineering Task Force) 的可延伸身份認証協定(EAP)制定而成.
+https://www.youtube.com/watch?v=3obzgqslnL8
+
 
 EAP 是一種基礎封裝方式, 可適用於任何的Link layer 如PPP, 802.3, 802.11 及各種身份認証的方式如 TLS, AKA/SIM, Token card.
 EAP協議是IEEE 802.1x認證機制的核心，它將實現細節交由附屬的EAP Method協議完成，如何選取EAP method由認證系統特徵決定。
@@ -91,12 +93,24 @@ How do 802.11k and 802.11r help?
 Both standards take different measures to reduce the time required for a client to roam between APs in the same network, 
 and thus reduce the impact of roaming on performance.
 
+802.11k Assisted Roaming
 802.11k reduces the time required to roam by allowing the client to more quickly determine which AP it should roam to next and how. 
 The AP the client is currently connected to will provide it with information regarding neighboring APs and their channels. 
 This way when the client is ready to roam, it has a better idea of where it will be roaming to.
 
 The 802.11k allows 11k capable clients to request a neighbor report containing information about known
 neighbor APs that are candidates for roaming.
+The request is in the form of an 802.11 management frame known as an action packet. 
+The AP responds with a list of neighbor APs on the same WLAN with their Wi-Fi channel numbers. 
+With the neighbor list information, the 11k capable client does not need to probe all of the 2.4 GHz and 5 GHz channels to find an AP it can roam to.
+
+Not having to probe all of the channels reduces channel utilization on all channels, thereby increasing bandwidth on all channels. 
+It also reduces roam time and improves the decisions made by the client. 
+Additionally, it increases battery life of the device because it is neither changing the radio configuration for each channel nor sending probe requests on each channel. 
+It avoids the device having to process all of the probe response frames.
+
+Clients send requests for neighbor lists only after associating with the APs that advertise the RRM capability information element (IE) in the beacon. 
+The neighbor list includes information about BSSID, channel, and operation details of the neighboring radios.
 
 802.11k 標準可協助 iOS 建立最佳化頻道列表，加速搜尋附近可用的 AP 漫遊目標。當現有的 AP 訊號強度減弱時，裝置就會掃描列表中的目標 AP。
         主要可被終端用於發現在失去連接前應當向哪里移動。實現WLAN連接在AP之間的快速、安全、無縫的切換。 
@@ -104,6 +118,7 @@ neighbor APs that are candidates for roaming.
 802.11k defines Radio Resource Management (RRM) mechanism that enable 802.11k capable client’s radio to better understand the RF environment 
 that they exist which will help clients to have better roaming.
 
+802.11r Fast Transition Roaming
 802.11r uses Fast Basic Service Set Transition (FT) to allow encryption keys to be stored on all of the APs in a network. 
 This way, a client doesn't need to perform the complete authentication process to a backend server every time it roams to a new AP within the network
 (Same ESS/Extended Service Set). 

@@ -527,5 +527,15 @@ Data VS Voice :
 認証 :
 1. Wi-Fi Sigma Test Tool被重新命名為Wi-Fi Test Suite (WTS)，從2015/11/22以後，CERTIFIEDn測試必須使用此軟體測試。
    Mobile AP與STAUT產品若不支援此軟體，將有可能無法測試。
+
+
+
+Over-the-Air: The client communicates directly with the target AP using IEEE 802.11 authentication with the FT authentication algorithm.
+
+Over the DS: The client communicates with the target AP through the current AP. 
+             The communication between the client and the target AP is carried in FT action frames between the client and the current AP and is then sent through the controller. 
+             
+Over the Air Intra Controller Roam:
    
    
+Cisco Fast Secure Roaming

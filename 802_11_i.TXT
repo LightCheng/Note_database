@@ -1,0 +1,50 @@
+D:\Work\WiFi\802-11i_key_management.pdf
+802.11i Authentication and Key Management (AKM)
+   AAA (Authentication, Authorization and Accounting Key) key:  
+       Key information that is jointly negotiated between Supplicant and the Authentication Server (AS).
+       The key info is transported via a secure channel from the AS to the Authenticator.
+       The pairwise master key(PMK) may be derived from AAA key.
+   MSK (Master Session Key)(or AAA Key)
+   Pairwise Master Key(PMK): The highest order key used within 802.11i amendment.
+       PMK may be derived from an EPA method or may be obtained directly from a PreShare key(PSK).
+   
+   PMKSA (Pairwise Master Key Security Association): 
+       When PMKSA is the result of a successful IEEE 802.1X authentication, it's derived from the EAP authentiation and authorization parameters provided by AS.
+       Authenticator creats a PMKSA using the PMK.
+       
+       PMKSA is used to creat the PTKSA. PMKSAa are cached for up to their lifetimes.
+       PMKSA consists of the follow elements:
+          PMKID
+          Authenticator MAC address
+          PMK
+          lifetime
+          AKMP
+          All authorization parameters specified by the AS or local configuration.
+          
+   Preshared Key(PSK): consist of 256 bits or 64 octets when represented in hex.
+                       but most users are familiar with passwords and pass-phrases.
+                       ==> pass-phrase To PSK mapping
+                       
+   Pairwise Transient Key(PTK): Derived from PMK, Authenticator Address, Supplicant Address, "Authenticator Nonce" and "Supplication Nonce" using
+                                pseudo-random function and that is split up into five keys:
+                                   temporal encryption key, 
+                                   two temporal message int	egrity code(MIC) keys, 
+                                   EAPOL-Key encryption key, 
+                                   EAPOL-Key confirmation key.
+                                PTKs are used to encrypt unicast data between a client station and an AP.
+                                   
+   Group temporal key(GTK): be used to protect broadcast/multicast medium access control(MAC) protocol data units from that source.
+                            The GTK may be derived from a group master key(GMK).
+                            GTKs are used to encrypt broadcast/multicast data between a client station and an AP.
+                            
+   Group Master Key(GMK): An auxiliary key that may be used to derive a GTK.
+   
+   Master Session Key & AAA Key ?
+                                 
+                                 
+D:\Work\WiFi\802-11_rsn_ft.pdf
+   Robust Security Network(RSN) : A network which allows only the creation of robust security network associations (RSNAs)
+                                  A RSN can be identified by the indication in the RSN information element(IE) of beacon frames that the group cipher suite specified is not WEP.
+   
+   4-Way handshake - A pairwise key management protocol which confirms mutual possession of a pairwise master key by two parties and distributes a group temporal key (GTK).
+   
