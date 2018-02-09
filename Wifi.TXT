@@ -539,3 +539,33 @@ Over the Air Intra Controller Roam:
    
    
 Cisco Fast Secure Roaming
+
+OTT : over-the-top 
+  通常是指內容或服務建構在基礎電信服務之上從而不需要網路業者額外的支援。該概念早期特指音訊和影片內容的分發，後來逐漸包含了各種基於網際網路的內容和服務。典型的例子有Skype、Google Voice、微信、網際網路電視等。
+  https://zh.wikipedia.org/wiki/OTT%E6%9C%8D%E5%8A%A1
+
+
+Replay-detection 
+from Cisco Router and Security Device Manager 2.5 User Guide (2015)
+by Cisco Systems, Inc.
+A standard IPSec security feature that combines sequence numbers with authentication, 
+so the receiver of a communication can reject old or duplicate packets in order to prevent replay attacks.
+
+Replay Attack 
+  The interception of communications, such as an authentication communication, and subsequently impersonation of the sender by retransmitting the intercepted communication.
+
+Replay Attacks
+  An attack that involves the capture of transmitted authentication or access control information and its subsequent retransmission with the intent of producing an unauthorized effect or gaining unauthorized access.
+
+Data Integrity 
+  The presumed accuracy of transmitted data — signifying the sender's authenticity and the absence of data tampering.
+  The state that exists when computerized data is the same as that in the source documents and has not been exposed to accidental or malicious alteration or destruction.
+
+brute-force attack(暴力破解法): 
+   It consists of an attacker trying many passwords or passphrases with the hope of eventually guessing correctly. 
+
+Wi-Fi Protected Setup（簡稱WPS）標準
+  - PIN method
+  - Push button method
+  - Near-field communication method
+  - USB method

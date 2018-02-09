@@ -1,0 +1,63 @@
+因個人生涯考量, 故正式向您提出離職申請;
+我預定離職日期為 3/16 或 3/23, 主要是因為3月下旬至5月初,我私人事務較多, 
+若離職日期拉到4月或5月,這段時間會常因私人因素請假, 怕會影響您人事上的安排,
+煩請看那個時間點較為合適, 我再通知人資做後續的處理;
+感謝您這段時間的幫忙與指導, 同時麻煩幫忙安排後續工作交接事宜,
+
+目前我手上的工作:
+Ongoing Projects :
+   SM12 CAF3/CAF4,MR01, MLC and VZW:
+      1. Daily/Weekly meeting, 
+      2. SM12 文件 \\ccitperdfs1\RDC\PDD3\PDD3_SW4\Projects\SM12
+         - General_concept_AND_branch_strategy
+           Bryan 和RIL/AP 講解時的image 及目前的 branch strategy.
+         - Daily IMS issue sync
+           每日和SoMC/TS/RAT team issue sync 的excel 表.
+         - JIRA training material
+           SoMC 提供的Jira training material, 
+           CC 提供的 Jira Tips
+           個人study 的note.          
+         - SAR
+           SM12 implement SAR 機制的資料.
+           SM42 因 AS_div(Antenna switching diversity)的需求, Owner(Kuei) 需進行修改.
+         - SOP
+           Build code, FG4 download 等SOP文件.
+         - Tools
+           adb & QTI driver.
+         - VZW 
+           Proposal, Schedule 及針對部份VZW RID的說明.
+         - J68_Acronym.TXT
+           J68專案特殊用語的解釋.
+      3. Functional owner
+         SIM/STK : Melo
+         Network/SAR : Kuei
+         Message(MMS/SMS/CB) : Carrie/Jenny
+         GPS : Melo
+         Google Carrier Config: Duncan
+         NFC Payment: Duncan
+
+CQAC代理人 : Jenny
+     \\ccitperdfs1\rdc\PDD3\PDD3\CQAC\Coding and Code Review
+       PDD3 code review process_V2.0.ppt <== 說明CQAC的流程,各Phase的Owner及需完成的工作內容.
+       cppcheck_SOP_V1_2_1 ppt.ppt       <== CPP check (C/C++) 的介紹, 主Owner 為 system team.
+       Kernel_Coding_Style_V1.0.ppt      <== Check Style (C/C++)的介紹, 主Owner 為 system team.
+       PMD_SOP_V1.0.ppt                  <== PMD (Java) 的介紹, 主Owner 為RIL, 用於非J68, Android N(含)的專案, 含在Jinkins 的流程中.
+       FindBugs_Intro_V1.1.pptx          <== Findbugs (Java) 的介紹, 主Owner 為RIL, 用於 J68 專案或 Android M之前的專案.
+                                             需注J68 專案流程是獨立跑 Findbugs 出 report, 與我們處的專案流程不同.
+
+課級代理人 : Duncan
+
+
+
+//////////////////////////////////////////////////////////
+BT61/SM12
+CT31/CT41/BT52
+CTI1/LD30/High precission GNSS/ Pont-Cloud, RealSense
+VR/AR, Big Data ...
+
+手機市場需求平穩, 大陸競爭者多, 公司方向調整 
+但公司各老闆想法太多, 但做的人少
+4月中5月初, 
+
+12/E 確認
+6/1 開始
